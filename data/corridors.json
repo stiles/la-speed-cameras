@@ -1,0 +1,4177 @@
+[
+ {
+  "slug": "arlington-ave-21st-st-to-18th-st",
+  "street": "Arlington Ave",
+  "street_slug": "arlington-ave",
+  "from": "W 21st St",
+  "to": "W 18th St",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 18,
+  "percent_speeding": 1.6,
+  "length_miles": 0.6,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-9",
+  "hoods": [
+   "arlington-heights",
+   "jefferson-park"
+  ],
+  "cameras": [
+   "arlington-ave-21st-st-to-18th-st-nb",
+   "arlington-ave-21st-st-to-18th-st-sb"
+  ],
+  "center": [
+   -118.317709,
+   34.036784
+  ],
+  "bbox": [
+   -118.31799,
+   34.032595,
+   -118.317429,
+   34.040973
+  ]
+ },
+ {
+  "slug": "avalon-blvd-74th-st-to-77th-st",
+  "street": "Avalon Blvd",
+  "street_slug": "avalon-blvd",
+  "from": "E 74th St",
+  "to": "E 77th St",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 1.9,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-8",
+  "hoods": [
+   "florence"
+  ],
+  "cameras": [
+   "avalon-blvd-74th-st-to-77th-st-nb",
+   "avalon-blvd-74th-st-to-77th-st-sb"
+  ],
+  "center": [
+   -118.265193,
+   33.971178
+  ],
+  "bbox": [
+   -118.265449,
+   33.96931,
+   -118.265061,
+   33.973052
+  ]
+ },
+ {
+  "slug": "balboa-blvd-118-fwy-to-tulsa-st",
+  "street": "Balboa Blvd",
+  "street_slug": "balboa-blvd",
+  "from": "118 Fwy",
+  "to": "Tulsa St",
+  "district": 12,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 24.1,
+  "length_miles": 0.66,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-2",
+  "hoods": [
+   "granada-hills"
+  ],
+  "cameras": [
+   "balboa-blvd-118-fwy-to-tulsa-st-nb",
+   "balboa-blvd-118-fwy-to-tulsa-st-sb"
+  ],
+  "center": [
+   -118.502216,
+   34.273022
+  ],
+  "bbox": [
+   -118.50252,
+   34.268362,
+   -118.501913,
+   34.277683
+  ]
+ },
+ {
+  "slug": "balboa-blvd-lassen-st-to-plummer-st",
+  "street": "Balboa Blvd",
+  "street_slug": "balboa-blvd",
+  "from": "Lassen St",
+  "to": "Plummer St",
+  "district": 12,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 30.1,
+  "length_miles": 0.53,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-1",
+  "hoods": [
+   "north-hills",
+   "northridge"
+  ],
+  "cameras": [
+   "balboa-blvd-lassen-st-to-plummer-st-nb",
+   "balboa-blvd-lassen-st-to-plummer-st-sb"
+  ],
+  "center": [
+   -118.502461,
+   34.246643
+  ],
+  "bbox": [
+   -118.502755,
+   34.242951,
+   -118.502166,
+   34.250335
+  ]
+ },
+ {
+  "slug": "balboa-blvd-orange-line-busway-to-archwood-st",
+  "street": "Balboa Blvd",
+  "street_slug": "balboa-blvd",
+  "from": "Orange Line Busway",
+  "to": "Archwood St",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 14.9,
+  "length_miles": 0.51,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-2",
+  "hoods": [
+   "lake-balboa",
+   "sepulveda-basin"
+  ],
+  "cameras": [
+   "balboa-blvd-orange-line-busway-to-archwood-st-nb",
+   "balboa-blvd-orange-line-busway-to-archwood-st-sb"
+  ],
+  "center": [
+   -118.501149,
+   34.189531
+  ],
+  "bbox": [
+   -118.501468,
+   34.186018,
+   -118.501134,
+   34.193071
+  ]
+ },
+ {
+  "slug": "beverly-blvd-belmont-ave-to-witmer-st",
+  "street": "Beverly Blvd",
+  "street_slug": "beverly-blvd",
+  "from": "Belmont Ave",
+  "to": "Witmer St",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 11.5,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-1",
+  "hoods": [
+   "westlake"
+  ],
+  "cameras": [
+   "beverly-blvd-belmont-ave-to-witmer-st-eb",
+   "beverly-blvd-belmont-ave-to-witmer-st-wb"
+  ],
+  "center": [
+   -118.261877,
+   34.062879
+  ],
+  "bbox": [
+   -118.263361,
+   34.062326,
+   -118.260393,
+   34.063425
+  ]
+ },
+ {
+  "slug": "burbank-blvd-sepulveda-blvd-to-kester-ave",
+  "street": "Burbank Blvd",
+  "street_slug": "burbank-blvd",
+  "from": "Sepulveda Blvd",
+  "to": "Kester Ave",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 23,
+  "percent_speeding": 6.0,
+  "length_miles": 0.53,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-6",
+  "hoods": [
+   "sherman-oaks",
+   "van-nuys"
+  ],
+  "cameras": [
+   "burbank-blvd-sepulveda-blvd-to-kester-ave-eb",
+   "burbank-blvd-sepulveda-blvd-to-kester-ave-wb"
+  ],
+  "center": [
+   -118.461826,
+   34.172121
+  ],
+  "bbox": [
+   -118.466465,
+   34.172012,
+   -118.457186,
+   34.172218
+  ]
+ },
+ {
+  "slug": "coldwater-canyon-ave-vanowen-st-to-bassett-st",
+  "street": "Coldwater Canyon Ave",
+  "street_slug": "coldwater-canyon-ave",
+  "from": "Vanowen St",
+  "to": "Bassett St",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 5.1,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-1",
+  "hoods": [
+   "valley-glen"
+  ],
+  "cameras": [
+   "coldwater-canyon-ave-vanowen-st-to-bassett-st-nb",
+   "coldwater-canyon-ave-vanowen-st-to-bassett-st-sb"
+  ],
+  "center": [
+   -118.413786,
+   34.19487
+  ],
+  "bbox": [
+   -118.413903,
+   34.193884,
+   -118.413537,
+   34.1958
+  ]
+ },
+ {
+  "slug": "cypress-ave-cazador-st-to-macon-st",
+  "street": "Cypress Ave",
+  "street_slug": "cypress-ave",
+  "from": "Cazador St",
+  "to": "Macon St (midblock)",
+  "district": 1,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 13.6,
+  "length_miles": 0.24,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-2",
+  "hoods": [
+   "cypress-park",
+   "glassell-park"
+  ],
+  "cameras": [
+   "cypress-ave-cazador-st-to-macon-st-nb",
+   "cypress-ave-cazador-st-to-macon-st-sb"
+  ],
+  "center": [
+   -118.236049,
+   34.102376
+  ],
+  "bbox": [
+   -118.238156,
+   34.101138,
+   -118.234729,
+   34.1048
+  ]
+ },
+ {
+  "slug": "103rd-st-fifth-blvd-to-grandee-ave",
+  "street": "E 103rd St",
+  "street_slug": "103rd-st",
+  "from": "Fifth Blvd (midblock)",
+  "to": "Grandee Ave",
+  "district": 15,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 3.5,
+  "length_miles": 0.3,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-4",
+  "hoods": [
+   "watts"
+  ],
+  "cameras": [
+   "103rd-st-fifth-blvd-to-grandee-ave-eb",
+   "103rd-st-fifth-blvd-to-grandee-ave-wb"
+  ],
+  "center": [
+   -118.245838,
+   33.943245
+  ],
+  "bbox": [
+   -118.248439,
+   33.943117,
+   -118.243238,
+   33.943301
+  ]
+ },
+ {
+  "slug": "4th-st-mott-ave-to-evergreen-ave",
+  "street": "E 4th St",
+  "street_slug": "4th-st",
+  "from": "S Mott Ave",
+  "to": "S Evergreen Ave",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 7.4,
+  "length_miles": 0.26,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-2",
+  "hoods": [
+   "boyle-heights"
+  ],
+  "cameras": [
+   "4th-st-mott-ave-to-evergreen-ave-wb",
+   "4th-st-mott-ave-to-evergreen-ave-cam"
+  ],
+  "center": [
+   -118.206213,
+   34.03813
+  ],
+  "bbox": [
+   -118.208267,
+   34.037326,
+   -118.204159,
+   34.038924
+  ]
+ },
+ {
+  "slug": "4th-st-pecan-st-to-boyle-ave",
+  "street": "E 4th St",
+  "street_slug": "4th-st",
+  "from": "S Pecan St",
+  "to": "S Boyle Ave",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 3.8,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-1",
+  "hoods": [
+   "boyle-heights"
+  ],
+  "cameras": [
+   "4th-st-pecan-st-to-boyle-ave-eb",
+   "4th-st-pecan-st-to-boyle-ave-wb"
+  ],
+  "center": [
+   -118.220703,
+   34.043016
+  ],
+  "bbox": [
+   -118.222029,
+   34.042936,
+   -118.219378,
+   34.043073
+  ]
+ },
+ {
+  "slug": "imperial-hwy-avalon-blvd-to-stanford-ave",
+  "street": "E Imperial Hwy",
+  "street_slug": "imperial-hwy",
+  "from": "Avalon Blvd",
+  "to": "Stanford Ave",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 5.3,
+  "length_miles": 0.2,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-7",
+  "hoods": [
+   "green-meadows"
+  ],
+  "cameras": [
+   "imperial-hwy-avalon-blvd-to-stanford-ave-eb",
+   "imperial-hwy-avalon-blvd-to-stanford-ave-wb"
+  ],
+  "center": [
+   -118.263671,
+   33.931057
+  ],
+  "bbox": [
+   -118.266573,
+   33.930949,
+   -118.261888,
+   33.931162
+  ]
+ },
+ {
+  "slug": "manchester-ave-wadsworth-ave-to-central-ave",
+  "street": "E Manchester Ave",
+  "street_slug": "manchester-ave",
+  "from": "Wadsworth Ave",
+  "to": "S Central Ave",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 24,
+  "percent_speeding": 5.2,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-3",
+  "hoods": [
+   "florence",
+   "florence-firestone",
+   "green-meadows"
+  ],
+  "cameras": [
+   "manchester-ave-wadsworth-ave-to-central-ave-eb",
+   "manchester-ave-wadsworth-ave-to-central-ave-wb"
+  ],
+  "center": [
+   -118.257515,
+   33.960169
+  ],
+  "bbox": [
+   -118.258868,
+   33.960065,
+   -118.256143,
+   33.960276
+  ]
+ },
+ {
+  "slug": "vernon-ave-wadsworth-ave-to-hooper-ave",
+  "street": "E Vernon Ave",
+  "street_slug": "vernon-ave",
+  "from": "Wadsworth Ave",
+  "to": "Hooper Ave",
+  "district": 9,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 4.9,
+  "length_miles": 0.39,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-6",
+  "hoods": [
+   "central-alameda",
+   "historic-south-central",
+   "south-park"
+  ],
+  "cameras": [
+   "vernon-ave-wadsworth-ave-to-hooper-ave-eb",
+   "vernon-ave-wadsworth-ave-to-hooper-ave-wb"
+  ],
+  "center": [
+   -118.257724,
+   34.003927
+  ],
+  "bbox": [
+   -118.261154,
+   34.003825,
+   -118.254295,
+   34.003989
+  ]
+ },
+ {
+  "slug": "foothill-blvd-newhome-ave-to-sherman-grove-ave",
+  "street": "Foothill Blvd",
+  "street_slug": "foothill-blvd",
+  "from": "Newhome Ave",
+  "to": "Sherman Grove Ave",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 10,
+  "percent_speeding": 5.2,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-3",
+  "hoods": [
+   "sunland"
+  ],
+  "cameras": [
+   "foothill-blvd-newhome-ave-to-sherman-grove-ave-eb",
+   "foothill-blvd-newhome-ave-to-sherman-grove-ave-wb"
+  ],
+  "center": [
+   -118.321237,
+   34.259739
+  ],
+  "bbox": [
+   -118.32261,
+   34.259628,
+   -118.319864,
+   34.259853
+  ]
+ },
+ {
+  "slug": "fountain-ave-sunset-blvd-to-hyperion-ave",
+  "street": "Fountain Ave",
+  "street_slug": "fountain-ave",
+  "from": "Sunset Blvd",
+  "to": "Hyperion Ave",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 2.3,
+  "length_miles": 0.43,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-8",
+  "hoods": [
+   "los-feliz",
+   "silver-lake"
+  ],
+  "cameras": [
+   "fountain-ave-sunset-blvd-to-hyperion-ave-eb",
+   "fountain-ave-sunset-blvd-to-hyperion-ave-wb"
+  ],
+  "center": [
+   -118.280665,
+   34.095797
+  ],
+  "bbox": [
+   -118.284418,
+   34.095719,
+   -118.276913,
+   34.095878
+  ]
+ },
+ {
+  "slug": "franklin-ave-cheremoya-ave-to-tamarind-ave",
+  "street": "Franklin Ave",
+  "street_slug": "franklin-ave",
+  "from": "Cheremoya Ave",
+  "to": "Tamarind Ave (north)",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 1.0,
+  "length_miles": 0.1,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-7",
+  "hoods": [
+   "hollywood",
+   "hollywood-hills"
+  ],
+  "cameras": [
+   "franklin-ave-cheremoya-ave-to-tamarind-ave-eb",
+   "franklin-ave-cheremoya-ave-to-tamarind-ave-wb"
+  ],
+  "center": [
+   -118.31982,
+   34.105246
+  ],
+  "bbox": [
+   -118.32048,
+   34.105029,
+   -118.318946,
+   34.105332
+  ]
+ },
+ {
+  "slug": "grandee-ave-century-blvd-to-108th-st",
+  "street": "Grandee Ave",
+  "street_slug": "grandee-ave",
+  "from": "E Century Blvd",
+  "to": "E 108th St",
+  "district": 15,
+  "speed_limit": 25,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 51.3,
+  "length_miles": 0.54,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-3",
+  "hoods": [
+   "watts"
+  ],
+  "cameras": [
+   "grandee-ave-century-blvd-to-108th-st-nb",
+   "grandee-ave-century-blvd-to-108th-st-sb"
+  ],
+  "center": [
+   -118.243624,
+   33.941954
+  ],
+  "bbox": [
+   -118.24418,
+   33.938259,
+   -118.24344,
+   33.945678
+  ]
+ },
+ {
+  "slug": "hollywood-blvd-vista-st-to-camino-palmero-st",
+  "street": "Hollywood Blvd",
+  "street_slug": "hollywood-blvd",
+  "from": "N Vista St",
+  "to": "Camino Palmero St",
+  "district": 4,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 3.7,
+  "length_miles": 0.14,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-5",
+  "hoods": [
+   "hollywood"
+  ],
+  "cameras": [
+   "hollywood-blvd-vista-st-to-camino-palmero-st-eb",
+   "hollywood-blvd-vista-st-to-camino-palmero-st-wb"
+  ],
+  "center": [
+   -118.350954,
+   34.101657
+  ],
+  "bbox": [
+   -118.35217,
+   34.101578,
+   -118.349981,
+   34.10187
+  ]
+ },
+ {
+  "slug": "huntington-dr-topaz-st-to-monterey-rd",
+  "street": "Huntington Dr",
+  "street_slug": "huntington-dr",
+  "from": "Topaz St",
+  "to": "Monterey Rd",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 3.4,
+  "length_miles": 0.29,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-7",
+  "hoods": [
+   "el-sereno",
+   "montecito-heights"
+  ],
+  "cameras": [
+   "huntington-dr-topaz-st-to-monterey-rd-nb",
+   "huntington-dr-topaz-st-to-monterey-rd-sb"
+  ],
+  "center": [
+   -118.189138,
+   34.084609
+  ],
+  "bbox": [
+   -118.190756,
+   34.083043,
+   -118.187252,
+   34.085876
+  ]
+ },
+ {
+  "slug": "la-tijera-blvd-manchester-to-74th-st",
+  "street": "La Tijera Blvd",
+  "street_slug": "la-tijera-blvd",
+  "from": "Manchester",
+  "to": "74th St",
+  "district": 11,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 11.5,
+  "length_miles": 1.05,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-5",
+  "hoods": [
+   "westchester"
+  ],
+  "cameras": [
+   "la-tijera-blvd-manchester-to-74th-st-nb",
+   "la-tijera-blvd-manchester-to-74th-st-sb"
+  ],
+  "center": [
+   -118.385462,
+   33.965183
+  ],
+  "bbox": [
+   -118.391772,
+   33.959811,
+   -118.379153,
+   33.970551
+  ]
+ },
+ {
+  "slug": "laurel-canyon-blvd-archwood-st-to-vanowen-st",
+  "street": "Laurel Canyon Blvd",
+  "street_slug": "laurel-canyon-blvd",
+  "from": "Archwood St",
+  "to": "Vanowen St",
+  "district": 2,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 0.8,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-2",
+  "hoods": [
+   "north-hollywood"
+  ],
+  "cameras": [
+   "laurel-canyon-blvd-archwood-st-to-vanowen-st-nb",
+   "laurel-canyon-blvd-archwood-st-to-vanowen-st-sb"
+  ],
+  "center": [
+   -118.396537,
+   34.193038
+  ],
+  "bbox": [
+   -118.396807,
+   34.19182,
+   -118.396272,
+   34.193982
+  ]
+ },
+ {
+  "slug": "laurel-canyon-blvd-mercer-st-to-hoyt-st",
+  "street": "Laurel Canyon Blvd",
+  "street_slug": "laurel-canyon-blvd",
+  "from": "Mercer St",
+  "to": "Hoyt St",
+  "district": 7,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 1.8,
+  "length_miles": 0.17,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-4",
+  "hoods": [
+   "pacoima"
+  ],
+  "cameras": [
+   "laurel-canyon-blvd-mercer-st-to-hoyt-st-nb",
+   "laurel-canyon-blvd-mercer-st-to-hoyt-st-sb"
+  ],
+  "center": [
+   -118.43212,
+   34.25877
+  ],
+  "bbox": [
+   -118.433643,
+   34.258026,
+   -118.431059,
+   34.26006
+  ]
+ },
+ {
+  "slug": "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash",
+  "street": "Laurel Canyon Blvd",
+  "street_slug": "laurel-canyon-blvd",
+  "from": "Wolfskill St",
+  "to": "Pacoima Wash",
+  "district": 7,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 5.0,
+  "length_miles": 0.6,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-6",
+  "hoods": [
+   "pacoima"
+  ],
+  "cameras": [
+   "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-nb",
+   "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-sb"
+  ],
+  "center": [
+   -118.443852,
+   34.269802
+  ],
+  "bbox": [
+   -118.447422,
+   34.266711,
+   -118.440256,
+   34.272911
+  ]
+ },
+ {
+  "slug": "magnolia-blvd-tujunga-ave-to-klump-ave",
+  "street": "Magnolia Blvd",
+  "street_slug": "magnolia-blvd",
+  "from": "Tujunga Ave",
+  "to": "Klump Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 2.6,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-3",
+  "hoods": [
+   "north-hollywood"
+  ],
+  "cameras": [
+   "magnolia-blvd-tujunga-ave-to-klump-ave-eb",
+   "magnolia-blvd-tujunga-ave-to-klump-ave-wb"
+  ],
+  "center": [
+   -118.377389,
+   34.164918
+  ],
+  "bbox": [
+   -118.379275,
+   34.164822,
+   -118.375747,
+   34.165138
+  ]
+ },
+ {
+  "slug": "marengo-st-mission-rd-to-lord-st",
+  "street": "Marengo St",
+  "street_slug": "marengo-st",
+  "from": "N Mission Rd",
+  "to": "Lord St",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 5,
+  "percent_speeding": 11.9,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-8",
+  "hoods": [
+   "boyle-heights",
+   "lincoln-heights"
+  ],
+  "cameras": [
+   "marengo-st-mission-rd-to-lord-st-eb",
+   "marengo-st-mission-rd-to-lord-st-wb"
+  ],
+  "center": [
+   -118.213561,
+   34.059744
+  ],
+  "bbox": [
+   -118.214614,
+   34.058918,
+   -118.212385,
+   34.060626
+  ]
+ },
+ {
+  "slug": "melrose-ave-hayworth-ave-to-orange-grove-ave",
+  "street": "Melrose Ave",
+  "street_slug": "melrose-ave",
+  "from": "N Hayworth Ave",
+  "to": "N Orange Grove Ave",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 0.4,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-7",
+  "hoods": [
+   "beverly-grove",
+   "fairfax"
+  ],
+  "cameras": [
+   "melrose-ave-hayworth-ave-to-orange-grove-ave-eb",
+   "melrose-ave-hayworth-ave-to-orange-grove-ave-wb"
+  ],
+  "center": [
+   -118.361607,
+   34.083813
+  ],
+  "bbox": [
+   -118.362974,
+   34.083711,
+   -118.360117,
+   34.083868
+  ]
+ },
+ {
+  "slug": "mulholland-dr-calneva-to-corda",
+  "street": "Mulholland Dr",
+  "street_slug": "mulholland-dr",
+  "from": "Calneva",
+  "to": "Corda",
+  "district": 11,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 1,
+  "percent_speeding": 0.3,
+  "length_miles": 0.39,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-7",
+  "hoods": [
+   "brentwood",
+   "encino"
+  ],
+  "cameras": [
+   "mulholland-dr-calneva-to-corda-eb",
+   "mulholland-dr-calneva-to-corda-wb"
+  ],
+  "center": [
+   -118.490976,
+   34.130719
+  ],
+  "bbox": [
+   -118.493929,
+   34.129878,
+   -118.488268,
+   34.13125
+  ]
+ },
+ {
+  "slug": "avalon-blvd-sandison-st-to-n-st",
+  "street": "N Avalon Blvd",
+  "street_slug": "avalon-blvd",
+  "from": "W Sandison St",
+  "to": "E N St",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 16,
+  "percent_speeding": 8.5,
+  "length_miles": 0.26,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-1",
+  "hoods": [
+   "wilmington"
+  ],
+  "cameras": [
+   "avalon-blvd-sandison-st-to-n-st-nb",
+   "avalon-blvd-sandison-st-to-n-st-nb-2"
+  ],
+  "center": [
+   -118.263371,
+   33.791669
+  ],
+  "bbox": [
+   -118.263771,
+   33.789975,
+   -118.262975,
+   33.793345
+  ]
+ },
+ {
+  "slug": "fairfax-ave-clinton-st-to-waring-ave",
+  "street": "N Fairfax Ave",
+  "street_slug": "fairfax-ave",
+  "from": "Clinton St",
+  "to": "Waring Ave",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 1.2,
+  "length_miles": 0.3,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-5",
+  "hoods": [
+   "beverly-grove",
+   "fairfax"
+  ],
+  "cameras": [
+   "fairfax-ave-clinton-st-to-waring-ave-nb",
+   "fairfax-ave-clinton-st-to-waring-ave-sb"
+  ],
+  "center": [
+   -118.361466,
+   34.083602
+  ],
+  "bbox": [
+   -118.361751,
+   34.081591,
+   -118.361317,
+   34.085658
+  ]
+ },
+ {
+  "slug": "figueroa-st-avenue-45-to-avenue-51",
+  "street": "N Figueroa St",
+  "street_slug": "figueroa-st",
+  "from": "Avenue 45",
+  "to": "Avenue 51",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 24,
+  "percent_speeding": 5.5,
+  "length_miles": 0.83,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-3",
+  "hoods": [
+   "highland-park"
+  ],
+  "cameras": [
+   "figueroa-st-avenue-45-to-avenue-51-nb",
+   "figueroa-st-avenue-45-to-avenue-51-sb"
+  ],
+  "center": [
+   -118.203916,
+   34.100969
+  ],
+  "bbox": [
+   -118.20749,
+   34.096163,
+   -118.200582,
+   34.105775
+  ]
+ },
+ {
+  "slug": "highland-ave-franklin-pl-to-camrose-dr",
+  "street": "N Highland Ave",
+  "street_slug": "highland-ave",
+  "from": "Franklin Pl",
+  "to": "Camrose Dr",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 17,
+  "percent_speeding": 3.7,
+  "length_miles": 0.36,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-1",
+  "hoods": [
+   "hollywood",
+   "hollywood-hills"
+  ],
+  "cameras": [
+   "highland-ave-franklin-pl-to-camrose-dr-nb",
+   "highland-ave-franklin-pl-to-camrose-dr-sb"
+  ],
+  "center": [
+   -118.337543,
+   34.106201
+  ],
+  "bbox": [
+   -118.338673,
+   34.104141,
+   -118.336689,
+   34.108445
+  ]
+ },
+ {
+  "slug": "highland-ave-sunset-blvd-to-hollywood-blvd",
+  "street": "N Highland Ave",
+  "street_slug": "highland-ave",
+  "from": "W Sunset Blvd",
+  "to": "Hollywood Blvd",
+  "district": 13,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 0.8,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-1",
+  "hoods": [
+   "hollywood"
+  ],
+  "cameras": [
+   "highland-ave-sunset-blvd-to-hollywood-blvd-nb",
+   "highland-ave-sunset-blvd-to-hollywood-blvd-sb"
+  ],
+  "center": [
+   -118.338701,
+   34.099769
+  ],
+  "bbox": [
+   -118.338952,
+   34.097945,
+   -118.338455,
+   34.101614
+  ]
+ },
+ {
+  "slug": "la-brea-ave-1st-st-to-beverly-blvd",
+  "street": "N La Brea Ave",
+  "street_slug": "la-brea-ave",
+  "from": "W 1st St",
+  "to": "Beverly Blvd",
+  "district": 5,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 2.9,
+  "length_miles": 0.21,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-3",
+  "hoods": [
+   "fairfax",
+   "hancock-park"
+  ],
+  "cameras": [
+   "la-brea-ave-1st-st-to-beverly-blvd-nb",
+   "la-brea-ave-1st-st-to-beverly-blvd-sb"
+  ],
+  "center": [
+   -118.344037,
+   34.074881
+  ],
+  "bbox": [
+   -118.344158,
+   34.073543,
+   -118.343786,
+   34.076238
+  ]
+ },
+ {
+  "slug": "vermont-ave-melrose-ave-to-marathon-st",
+  "street": "N Vermont Ave",
+  "street_slug": "vermont-ave",
+  "from": "Melrose Ave",
+  "to": "Marathon St",
+  "district": 13,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 1.5,
+  "length_miles": 0.1,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-8",
+  "hoods": [
+   "east-hollywood"
+  ],
+  "cameras": [
+   "vermont-ave-melrose-ave-to-marathon-st-nb",
+   "vermont-ave-melrose-ave-to-marathon-st-sb"
+  ],
+  "center": [
+   -118.291696,
+   34.084122
+  ],
+  "bbox": [
+   -118.291852,
+   34.08354,
+   -118.29147,
+   34.084705
+  ]
+ },
+ {
+  "slug": "western-ave-franklin-ave-to-los-feliz-blvd",
+  "street": "N Western Ave",
+  "street_slug": "western-ave",
+  "from": "Franklin Ave",
+  "to": "Los Feliz Blvd",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 10,
+  "percent_speeding": 0.8,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-3",
+  "hoods": [
+   "hollywood-hills",
+   "los-feliz"
+  ],
+  "cameras": [
+   "western-ave-franklin-ave-to-los-feliz-blvd-eb",
+   "western-ave-franklin-ave-to-los-feliz-blvd-wb"
+  ],
+  "center": [
+   -118.309285,
+   34.106563
+  ],
+  "bbox": [
+   -118.30932,
+   34.105333,
+   -118.304913,
+   34.108734
+  ]
+ },
+ {
+  "slug": "national-blvd-butler-ave-to-405-fwy",
+  "street": "National Blvd",
+  "street_slug": "national-blvd",
+  "from": "Butler Ave",
+  "to": "405 Fwy",
+  "district": 11,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 5.5,
+  "length_miles": 0.17,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-2",
+  "hoods": [
+   "palms",
+   "rancho-park",
+   "sawtelle"
+  ],
+  "cameras": [
+   "national-blvd-butler-ave-to-405-fwy-wb"
+  ],
+  "center": [
+   -118.431054,
+   34.026415
+  ],
+  "bbox": [
+   -118.43242,
+   34.025926,
+   -118.429669,
+   34.026871
+  ]
+ },
+ {
+  "slug": "nordhoff-st-geyser-ave-to-yolanda-ave",
+  "street": "Nordhoff St",
+  "street_slug": "nordhoff-st",
+  "from": "Geyser Ave",
+  "to": "Yolanda Ave",
+  "district": 12,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 3.1,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-4",
+  "hoods": [
+   "northridge"
+  ],
+  "cameras": [
+   "nordhoff-st-geyser-ave-to-yolanda-ave-eb",
+   "nordhoff-st-geyser-ave-to-yolanda-ave-wb"
+  ],
+  "center": [
+   -118.541492,
+   34.235496
+  ],
+  "bbox": [
+   -118.542776,
+   34.235495,
+   -118.538309,
+   34.2356
+  ]
+ },
+ {
+  "slug": "nordhoff-st-noble-ave-to-la-river",
+  "street": "Nordhoff St",
+  "street_slug": "nordhoff-st",
+  "from": "Noble Ave",
+  "to": "LA River",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 11.3,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-7",
+  "hoods": [
+   "north-hills",
+   "panorama-city"
+  ],
+  "cameras": [
+   "nordhoff-st-noble-ave-to-la-river-eb",
+   "nordhoff-st-noble-ave-to-la-river-wb"
+  ],
+  "center": [
+   -118.459408,
+   34.235478
+  ],
+  "bbox": [
+   -118.461337,
+   34.235377,
+   -118.45748,
+   34.235584
+  ]
+ },
+ {
+  "slug": "nordhoff-st-pacoima-wash-to-cedros-ave",
+  "street": "Nordhoff St",
+  "street_slug": "nordhoff-st",
+  "from": "Pacoima Wash",
+  "to": "Cedros Ave",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 12.5,
+  "length_miles": 0.27,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-1",
+  "hoods": [
+   "north-hills",
+   "panorama-city"
+  ],
+  "cameras": [
+   "nordhoff-st-pacoima-wash-to-cedros-ave-eb",
+   "nordhoff-st-pacoima-wash-to-cedros-ave-wb"
+  ],
+  "center": [
+   -118.455664,
+   34.235457
+  ],
+  "bbox": [
+   -118.458027,
+   34.235347,
+   -118.4533,
+   34.235557
+  ]
+ },
+ {
+  "slug": "nordhoff-st-petit-ave-to-gothic-ave",
+  "street": "Nordhoff St",
+  "street_slug": "nordhoff-st",
+  "from": "Petit Ave",
+  "to": "Gothic Ave",
+  "district": 12,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 9.0,
+  "length_miles": 0.53,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-3",
+  "hoods": [
+   "north-hills",
+   "northridge"
+  ],
+  "cameras": [
+   "nordhoff-st-petit-ave-to-gothic-ave-eb",
+   "nordhoff-st-petit-ave-to-gothic-ave-wb"
+  ],
+  "center": [
+   -118.493855,
+   34.23571
+  ],
+  "bbox": [
+   -118.498463,
+   34.235606,
+   -118.489246,
+   34.235821
+  ]
+ },
+ {
+  "slug": "oxnard-st-ethel-ave-to-coldwater-canyon-ave",
+  "street": "Oxnard St",
+  "street_slug": "oxnard-st",
+  "from": "Ethel Ave",
+  "to": "Coldwater Canyon Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 6.9,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-4",
+  "hoods": [
+   "valley-glen"
+  ],
+  "cameras": [
+   "oxnard-st-ethel-ave-to-coldwater-canyon-ave-eb",
+   "oxnard-st-ethel-ave-to-coldwater-canyon-ave-wb"
+  ],
+  "center": [
+   -118.415977,
+   34.179415
+  ],
+  "bbox": [
+   -118.418418,
+   34.179327,
+   -118.413535,
+   34.179491
+  ]
+ },
+ {
+  "slug": "polk-st-glenoaks-blvd-to-borden-ave",
+  "street": "Polk St",
+  "street_slug": "polk-st",
+  "from": "Glenoaks Blvd",
+  "to": "Borden Ave",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 10.1,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-5",
+  "hoods": [
+   "sylmar"
+  ],
+  "cameras": [
+   "polk-st-glenoaks-blvd-to-borden-ave-nb",
+   "polk-st-glenoaks-blvd-to-borden-ave-sb"
+  ],
+  "center": [
+   -118.448617,
+   34.308596
+  ],
+  "bbox": [
+   -118.450011,
+   34.307592,
+   -118.446889,
+   34.310423
+  ]
+ },
+ {
+  "slug": "reseda-blvd-erwin-st-to-victory-blvd",
+  "street": "Reseda Blvd",
+  "street_slug": "reseda-blvd",
+  "from": "Erwin St",
+  "to": "Victory Blvd",
+  "district": 3,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 5.2,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-2",
+  "hoods": [
+   "reseda",
+   "tarzana"
+  ],
+  "cameras": [
+   "reseda-blvd-erwin-st-to-victory-blvd-nb",
+   "reseda-blvd-erwin-st-to-victory-blvd-sb"
+  ],
+  "center": [
+   -118.536066,
+   34.185268
+  ],
+  "bbox": [
+   -118.536317,
+   34.183872,
+   -118.53591,
+   34.186664
+  ]
+ },
+ {
+  "slug": "reseda-blvd-kinzie-st-to-superior-st",
+  "street": "Reseda Blvd",
+  "street_slug": "reseda-blvd",
+  "from": "Kinzie St",
+  "to": "Superior St",
+  "district": 12,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 7.5,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-5",
+  "hoods": [
+   "northridge"
+  ],
+  "cameras": [
+   "reseda-blvd-kinzie-st-to-superior-st-nb",
+   "reseda-blvd-kinzie-st-to-superior-st-sb"
+  ],
+  "center": [
+   -118.536115,
+   34.247298
+  ],
+  "bbox": [
+   -118.536386,
+   34.246353,
+   -118.535845,
+   34.24824
+  ]
+ },
+ {
+  "slug": "reseda-blvd-wyandotte-st-to-valerio-st",
+  "street": "Reseda Blvd",
+  "street_slug": "reseda-blvd",
+  "from": "Wyandotte St",
+  "to": "Valerio St",
+  "district": 3,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 2.7,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-6",
+  "hoods": [
+   "reseda"
+  ],
+  "cameras": [
+   "reseda-blvd-wyandotte-st-to-valerio-st-nb",
+   "reseda-blvd-wyandotte-st-to-valerio-st-sb"
+  ],
+  "center": [
+   -118.536049,
+   34.203857
+  ],
+  "bbox": [
+   -118.536187,
+   34.202482,
+   -118.535807,
+   34.204796
+  ]
+ },
+ {
+  "slug": "riverside-dr-riverside-ter-to-allesandro-st",
+  "street": "Riverside Dr",
+  "street_slug": "riverside-dr",
+  "from": "Riverside Ter",
+  "to": "Allesandro St",
+  "district": 13,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 6.8,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-6",
+  "hoods": [
+   "echo-park",
+   "elysian-valley",
+   "silver-lake"
+  ],
+  "cameras": [
+   "riverside-dr-riverside-ter-to-allesandro-st-sb"
+  ],
+  "center": [
+   -118.250455,
+   34.100366
+  ],
+  "bbox": [
+   -118.251119,
+   34.099593,
+   -118.249766,
+   34.10116
+  ]
+ },
+ {
+  "slug": "barrington-ave-ohio-ave-to-santa-monica-blvd",
+  "street": "S Barrington Ave",
+  "street_slug": "barrington-ave",
+  "from": "Ohio Ave",
+  "to": "Santa Monica Blvd",
+  "district": 11,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 0.2,
+  "length_miles": 0.09,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-3",
+  "hoods": [
+   "sawtelle"
+  ],
+  "cameras": [
+   "barrington-ave-ohio-ave-to-santa-monica-blvd-sb",
+   "barrington-ave-ohio-ave-to-santa-monica-blvd-cam"
+  ],
+  "center": [
+   -118.45636,
+   34.044101
+  ],
+  "bbox": [
+   -118.458059,
+   34.043764,
+   -118.455796,
+   34.046
+  ]
+ },
+ {
+  "slug": "central-ave-89th-st-to-92nd-ave",
+  "street": "S Central Ave",
+  "street_slug": "central-ave",
+  "from": "89th St",
+  "to": "E 92nd Ave",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 11,
+  "percent_speeding": 3.6,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-9",
+  "hoods": [
+   "green-meadows"
+  ],
+  "cameras": [
+   "central-ave-89th-st-to-92nd-ave-nb",
+   "central-ave-89th-st-to-92nd-ave-sb"
+  ],
+  "center": [
+   -118.256422,
+   33.953836
+  ],
+  "bbox": [
+   -118.256554,
+   33.952881,
+   -118.256182,
+   33.954948
+  ]
+ },
+ {
+  "slug": "central-ave-109th-st-to-114th-st",
+  "street": "S Central Ave",
+  "street_slug": "central-ave",
+  "from": "E 109th St",
+  "to": "E 114th St",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 15,
+  "percent_speeding": 5.7,
+  "length_miles": 0.43,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-2",
+  "hoods": [
+   "green-meadows",
+   "watts"
+  ],
+  "cameras": [
+   "central-ave-109th-st-to-114th-st-nb",
+   "central-ave-109th-st-to-114th-st-sb"
+  ],
+  "center": [
+   -118.254242,
+   33.933891
+  ],
+  "bbox": [
+   -118.254538,
+   33.93091,
+   -118.253947,
+   33.936872
+  ]
+ },
+ {
+  "slug": "figueroa-st-62nd-st-to-gage-ave",
+  "street": "S Figueroa St",
+  "street_slug": "figueroa-st",
+  "from": "W 62nd St",
+  "to": "W Gage Ave",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 15,
+  "percent_speeding": 1.0,
+  "length_miles": 0.09,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-4",
+  "hoods": [
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "figueroa-st-62nd-st-to-gage-ave-nb",
+   "figueroa-st-62nd-st-to-gage-ave-sb"
+  ],
+  "center": [
+   -118.282688,
+   33.982828
+  ],
+  "bbox": [
+   -118.282951,
+   33.982313,
+   -118.282424,
+   33.983338
+  ]
+ },
+ {
+  "slug": "figueroa-st-67th-st-to-68th-st",
+  "street": "S Figueroa St",
+  "street_slug": "figueroa-st",
+  "from": "W 67th St",
+  "to": "W 68th St (east)",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 31,
+  "percent_speeding": 1.1,
+  "length_miles": 0.31,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-9",
+  "hoods": [
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "figueroa-st-67th-st-to-68th-st-sb",
+   "figueroa-st-67th-st-to-68th-st-cam"
+  ],
+  "center": [
+   -118.282688,
+   33.980345
+  ],
+  "bbox": [
+   -118.282807,
+   33.978205,
+   -118.282423,
+   33.982599
+  ]
+ },
+ {
+  "slug": "figueroa-st-80th-st-to-manchester-ave",
+  "street": "S Figueroa St",
+  "street_slug": "figueroa-st",
+  "from": "W 80th St",
+  "to": "W Manchester Ave",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 18,
+  "percent_speeding": 0.9,
+  "length_miles": 0.31,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-3",
+  "hoods": [
+   "vermont-knolls"
+  ],
+  "cameras": [
+   "figueroa-st-80th-st-to-manchester-ave-nb",
+   "figueroa-st-80th-st-to-manchester-ave-sb"
+  ],
+  "center": [
+   -118.282738,
+   33.962099
+  ],
+  "bbox": [
+   -118.282963,
+   33.960038,
+   -118.282459,
+   33.964189
+  ]
+ },
+ {
+  "slug": "figueroa-st-adams-blvd-to-23rd-st",
+  "street": "S Figueroa St",
+  "street_slug": "figueroa-st",
+  "from": "W Adams Blvd",
+  "to": "W 23rd St",
+  "district": 1,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 8.7,
+  "length_miles": 0.21,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-4",
+  "hoods": [
+   "historic-south-central",
+   "university-park"
+  ],
+  "cameras": [
+   "figueroa-st-adams-blvd-to-23rd-st-nb",
+   "figueroa-st-adams-blvd-to-23rd-st-sb"
+  ],
+  "center": [
+   -118.275297,
+   34.029307
+  ],
+  "bbox": [
+   -118.2763,
+   34.028165,
+   -118.274295,
+   34.03045
+  ]
+ },
+ {
+  "slug": "gaffey-st-1st-st-to-2nd-st",
+  "street": "S Gaffey St",
+  "street_slug": "gaffey-st",
+  "from": "W 1st St",
+  "to": "W 2nd St",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 12,
+  "percent_speeding": 3.1,
+  "length_miles": 0.09,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-6",
+  "hoods": [
+   "san-pedro"
+  ],
+  "cameras": [
+   "gaffey-st-1st-st-to-2nd-st-nb",
+   "gaffey-st-1st-st-to-2nd-st-sb"
+  ],
+  "center": [
+   -118.29233,
+   33.74286
+  ],
+  "bbox": [
+   -118.292594,
+   33.741959,
+   -118.292067,
+   33.743366
+  ]
+ },
+ {
+  "slug": "la-brea-ave-veronica-st-to-coliseum-st",
+  "street": "S La Brea Ave",
+  "street_slug": "la-brea-ave",
+  "from": "Veronica St",
+  "to": "Coliseum St",
+  "district": 10,
+  "speed_limit": 40,
+  "school_nearby": false,
+  "speed_collisions": 20,
+  "percent_speeding": 10.3,
+  "length_miles": 0.41,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-8",
+  "hoods": [
+   "baldwin-hillscrenshaw"
+  ],
+  "cameras": [
+   "la-brea-ave-veronica-st-to-coliseum-st-nb",
+   "la-brea-ave-veronica-st-to-coliseum-st-sb"
+  ],
+  "center": [
+   -118.355541,
+   34.015566
+  ],
+  "bbox": [
+   -118.355753,
+   34.012616,
+   -118.355412,
+   34.018505
+  ]
+ },
+ {
+  "slug": "la-cienega-blvd-coliseum-st-to-bowesfield-st",
+  "street": "S La Cienega Blvd",
+  "street_slug": "la-cienega-blvd",
+  "from": "Coliseum St",
+  "to": "Bowesfield St",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 20.0,
+  "length_miles": 0.3,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-1",
+  "hoods": [
+   "baldwin-hillscrenshaw"
+  ],
+  "cameras": [
+   "la-cienega-blvd-coliseum-st-to-bowesfield-st-nb",
+   "la-cienega-blvd-coliseum-st-to-bowesfield-st-sb"
+  ],
+  "center": [
+   -118.372377,
+   34.021373
+  ],
+  "bbox": [
+   -118.372606,
+   34.019195,
+   -118.37201,
+   34.023416
+  ]
+ },
+ {
+  "slug": "la-cienega-blvd-sawyer-st-to-18th-st",
+  "street": "S La Cienega Blvd",
+  "street_slug": "la-cienega-blvd",
+  "from": "Sawyer St",
+  "to": "18th St",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 7,
+  "percent_speeding": 3.0,
+  "length_miles": 0.17,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-3",
+  "hoods": [
+   "mid-city",
+   "pico-robertson"
+  ],
+  "cameras": [
+   "la-cienega-blvd-sawyer-st-to-18th-st-nb",
+   "la-cienega-blvd-sawyer-st-to-18th-st-sb"
+  ],
+  "center": [
+   -118.376604,
+   34.043552
+  ],
+  "bbox": [
+   -118.376929,
+   34.042524,
+   -118.376149,
+   34.0446
+  ]
+ },
+ {
+  "slug": "la-cienega-blvd-18th-st-to-horner-st",
+  "street": "S La Cienega Blvd",
+  "street_slug": "la-cienega-blvd",
+  "from": "W 18th St",
+  "to": "Horner St",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 10,
+  "percent_speeding": 5.3,
+  "length_miles": 0.41,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-1",
+  "hoods": [
+   "mid-city",
+   "pico-robertson"
+  ],
+  "cameras": [
+   "la-cienega-blvd-18th-st-to-horner-st-nb",
+   "la-cienega-blvd-18th-st-to-horner-st-sb"
+  ],
+  "center": [
+   -118.376352,
+   34.047205
+  ],
+  "bbox": [
+   -118.377108,
+   34.044483,
+   -118.376009,
+   34.049934
+  ]
+ },
+ {
+  "slug": "la-cienega-blvd-pico-blvd-to-olympic-blvd",
+  "street": "S La Cienega Blvd",
+  "street_slug": "la-cienega-blvd",
+  "from": "W Pico Blvd",
+  "to": "W Olympic Blvd",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 26,
+  "percent_speeding": 2.3,
+  "length_miles": 0.45,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-2",
+  "hoods": [
+   "beverly-hills",
+   "carthay",
+   "pico-robertson"
+  ],
+  "cameras": [
+   "la-cienega-blvd-pico-blvd-to-olympic-blvd-nb",
+   "la-cienega-blvd-pico-blvd-to-olympic-blvd-sb"
+  ],
+  "center": [
+   -118.3762,
+   34.056401
+  ],
+  "bbox": [
+   -118.376465,
+   34.053278,
+   -118.376062,
+   34.059523
+  ]
+ },
+ {
+  "slug": "normandie-ave-62nd-st-to-64th-st",
+  "street": "S Normandie Ave",
+  "street_slug": "normandie-ave",
+  "from": "W 62nd St",
+  "to": "W 64th St",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 3.1,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-6",
+  "hoods": [
+   "harvard-park",
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "normandie-ave-62nd-st-to-64th-st-nb",
+   "normandie-ave-62nd-st-to-64th-st-sb"
+  ],
+  "center": [
+   -118.30028,
+   33.982345
+  ],
+  "bbox": [
+   -118.300542,
+   33.981373,
+   -118.300019,
+   33.98331
+  ]
+ },
+ {
+  "slug": "san-pedro-st-17th-st-to-15th-st",
+  "street": "S San Pedro St",
+  "street_slug": "san-pedro-st",
+  "from": "E 17th St",
+  "to": "E 15th St",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 1.1,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-3",
+  "hoods": [
+   "downtown"
+  ],
+  "cameras": [
+   "san-pedro-st-17th-st-to-15th-st-nb"
+  ],
+  "center": [
+   -118.256009,
+   34.029846
+  ],
+  "bbox": [
+   -118.256777,
+   34.029098,
+   -118.255241,
+   34.03064
+  ]
+ },
+ {
+  "slug": "san-pedro-st-6th-st-to-winston-st",
+  "street": "S San Pedro St",
+  "street_slug": "san-pedro-st",
+  "from": "E 6th St",
+  "to": "Winston St",
+  "district": 14,
+  "speed_limit": 40,
+  "school_nearby": false,
+  "speed_collisions": 10,
+  "percent_speeding": 0.7,
+  "length_miles": 0.24,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-4",
+  "hoods": [
+   "downtown"
+  ],
+  "cameras": [
+   "san-pedro-st-6th-st-to-winston-st-nb",
+   "san-pedro-st-6th-st-to-winston-st-sb"
+  ],
+  "center": [
+   -118.244339,
+   34.043607
+  ],
+  "bbox": [
+   -118.245537,
+   34.042271,
+   -118.243192,
+   34.044967
+  ]
+ },
+ {
+  "slug": "slauson-ave-braddock-to-culver-blvd",
+  "street": "S Slauson Ave",
+  "street_slug": "slauson-ave",
+  "from": "Braddock",
+  "to": "Culver Blvd",
+  "district": 11,
+  "speed_limit": 25,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 1.9,
+  "length_miles": 0.26,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-8",
+  "hoods": [
+   "del-rey"
+  ],
+  "cameras": [
+   "slauson-ave-braddock-to-culver-blvd-nb",
+   "slauson-ave-braddock-to-culver-blvd-sb"
+  ],
+  "center": [
+   -118.413192,
+   33.997585
+  ],
+  "bbox": [
+   -118.415283,
+   33.996428,
+   -118.411551,
+   33.998667
+  ]
+ },
+ {
+  "slug": "soto-st-6th-st-to-4th-st",
+  "street": "S Soto St",
+  "street_slug": "soto-st",
+  "from": "E 6th St",
+  "to": "E 4th St",
+  "district": 14,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 1.3,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-6",
+  "hoods": [
+   "boyle-heights"
+  ],
+  "cameras": [
+   "soto-st-6th-st-to-4th-st-nb",
+   "soto-st-6th-st-to-4th-st-sb"
+  ],
+  "center": [
+   -118.212775,
+   34.039042
+  ],
+  "bbox": [
+   -118.214042,
+   34.037464,
+   -118.211508,
+   34.040628
+  ]
+ },
+ {
+  "slug": "vermont-ave-57th-st-to-58th-pl",
+  "street": "S Vermont Ave",
+  "street_slug": "vermont-ave",
+  "from": "W 57th St",
+  "to": "W 58th Pl",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 21,
+  "percent_speeding": 0.6,
+  "length_miles": 0.18,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-2",
+  "hoods": [
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "vermont-ave-57th-st-to-58th-pl-nb",
+   "vermont-ave-57th-st-to-58th-pl-sb"
+  ],
+  "center": [
+   -118.291504,
+   33.989426
+  ],
+  "bbox": [
+   -118.291771,
+   33.988294,
+   -118.291237,
+   33.990946
+  ]
+ },
+ {
+  "slug": "vermont-ave-66st-st-to-florence-ave",
+  "street": "S Vermont Ave",
+  "street_slug": "vermont-ave",
+  "from": "W 66st St",
+  "to": "W Florence Ave",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 20,
+  "percent_speeding": 1.1,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-2",
+  "hoods": [
+   "vermont-knolls",
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "vermont-ave-66st-st-to-florence-ave-nb",
+   "vermont-ave-66st-st-to-florence-ave-sb"
+  ],
+  "center": [
+   -118.29169,
+   33.976372
+  ],
+  "bbox": [
+   -118.292041,
+   33.974414,
+   -118.291572,
+   33.978207
+  ]
+ },
+ {
+  "slug": "western-ave-24th-st-to-adams-blvd",
+  "street": "S Western Ave",
+  "street_slug": "western-ave",
+  "from": "W 24th St",
+  "to": "W Adams Blvd",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 1.8,
+  "length_miles": 0.17,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-7",
+  "hoods": [
+   "adams-normandie",
+   "jefferson-park"
+  ],
+  "cameras": [
+   "western-ave-24th-st-to-adams-blvd-nb",
+   "western-ave-24th-st-to-adams-blvd-sb"
+  ],
+  "center": [
+   -118.308961,
+   34.03372
+  ],
+  "bbox": [
+   -118.30908,
+   34.032645,
+   -118.308713,
+   34.034795
+  ]
+ },
+ {
+  "slug": "western-ave-53rd-st-to-55th-st",
+  "street": "S Western Ave",
+  "street_slug": "western-ave",
+  "from": "W 53rd St",
+  "to": "W 55th St",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 2.7,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-8",
+  "hoods": [
+   "chesterfield-square",
+   "vermont-square"
+  ],
+  "cameras": [
+   "western-ave-53rd-st-to-55th-st-nb",
+   "western-ave-53rd-st-to-55th-st-sb"
+  ],
+  "center": [
+   -118.30898,
+   33.993271
+  ],
+  "bbox": [
+   -118.309221,
+   33.992318,
+   -118.308847,
+   33.994748
+  ]
+ },
+ {
+  "slug": "santa-monica-blvd-hobart-blvd-to-normandie-ave",
+  "street": "Santa Monica Blvd",
+  "street_slug": "santa-monica-blvd",
+  "from": "N Hobart Blvd",
+  "to": "N Normandie Ave",
+  "district": 13,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 1,
+  "percent_speeding": 2.1,
+  "length_miles": 0.27,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-5",
+  "hoods": [
+   "east-hollywood"
+  ],
+  "cameras": [
+   "santa-monica-blvd-hobart-blvd-to-normandie-ave-eb",
+   "santa-monica-blvd-hobart-blvd-to-normandie-ave-wb"
+  ],
+  "center": [
+   -118.302568,
+   34.090818
+  ],
+  "bbox": [
+   -118.30513,
+   34.090735,
+   -118.300232,
+   34.090876
+  ]
+ },
+ {
+  "slug": "sepulveda-blvd-stagg-st-to-saticoy-st",
+  "street": "Sepulveda Blvd",
+  "street_slug": "sepulveda-blvd",
+  "from": "Stagg St",
+  "to": "Saticoy St",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 8.1,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-7",
+  "hoods": [
+   "van-nuys"
+  ],
+  "cameras": [
+   "sepulveda-blvd-stagg-st-to-saticoy-st-nb",
+   "sepulveda-blvd-stagg-st-to-saticoy-st-sb"
+  ],
+  "center": [
+   -118.46624,
+   34.210269
+  ],
+  "bbox": [
+   -118.466491,
+   34.20839,
+   -118.466086,
+   34.212141
+  ]
+ },
+ {
+  "slug": "sepulveda-blvd-tupper-st-to-plummer-st",
+  "street": "Sepulveda Blvd",
+  "street_slug": "sepulveda-blvd",
+  "from": "Tupper St",
+  "to": "Plummer St",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 7.7,
+  "length_miles": 0.29,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-1",
+  "hoods": [
+   "north-hills"
+  ],
+  "cameras": [
+   "sepulveda-blvd-tupper-st-to-plummer-st-nb",
+   "sepulveda-blvd-tupper-st-to-plummer-st-sb"
+  ],
+  "center": [
+   -118.467562,
+   34.240978
+  ],
+  "bbox": [
+   -118.46777,
+   34.23895,
+   -118.467327,
+   34.243007
+  ]
+ },
+ {
+  "slug": "sesnon-blvd-mason-ave-to-reseda-blvd",
+  "street": "Sesnon Blvd",
+  "street_slug": "sesnon-blvd",
+  "from": "Mason Ave",
+  "to": "Reseda Blvd",
+  "district": 12,
+  "speed_limit": 45,
+  "school_nearby": true,
+  "speed_collisions": 1,
+  "percent_speeding": 22.0,
+  "length_miles": 0.99,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-7",
+  "hoods": [
+   "porter-ranch"
+  ],
+  "cameras": [
+   "sesnon-blvd-mason-ave-to-reseda-blvd-eb",
+   "sesnon-blvd-mason-ave-to-reseda-blvd-wb"
+  ],
+  "center": [
+   -118.552016,
+   34.295894
+  ],
+  "bbox": [
+   -118.566612,
+   34.294866,
+   -118.543724,
+   34.297139
+  ]
+ },
+ {
+  "slug": "sherman-way-kester-ave-to-sherman-cir",
+  "street": "Sherman Way",
+  "street_slug": "sherman-way",
+  "from": "Kester Ave",
+  "to": "Sherman Cir (midblock)",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 9.8,
+  "length_miles": 0.38,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-6",
+  "hoods": [
+   "van-nuys"
+  ],
+  "cameras": [
+   "sherman-way-kester-ave-to-sherman-cir-wb"
+  ],
+  "center": [
+   -118.454527,
+   34.201196
+  ],
+  "bbox": [
+   -118.457723,
+   34.201079,
+   -118.451256,
+   34.201229
+  ]
+ },
+ {
+  "slug": "sherman-way-lindley-ave-to-hesperia-ave",
+  "street": "Sherman Way",
+  "street_slug": "sherman-way",
+  "from": "Lindley Ave",
+  "to": "Hesperia Ave",
+  "district": 4,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 16.6,
+  "length_miles": 0.29,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-4",
+  "hoods": [
+   "reseda"
+  ],
+  "cameras": [
+   "sherman-way-lindley-ave-to-hesperia-ave-eb",
+   "sherman-way-lindley-ave-to-hesperia-ave-wb"
+  ],
+  "center": [
+   -118.525167,
+   34.20114
+  ],
+  "bbox": [
+   -118.52757,
+   34.200979,
+   -118.522866,
+   34.201299
+  ]
+ },
+ {
+  "slug": "sherman-way-cedar-rd-to-costello-ave",
+  "street": "Sherman Way",
+  "street_slug": "sherman-way",
+  "from": "N Cedar Rd",
+  "to": "Costello Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 5.9,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-5",
+  "hoods": [
+   "van-nuys"
+  ],
+  "cameras": [
+   "sherman-way-cedar-rd-to-costello-ave-eb",
+   "sherman-way-cedar-rd-to-costello-ave-wb"
+  ],
+  "center": [
+   -118.439231,
+   34.201201
+  ],
+  "bbox": [
+   -118.440902,
+   34.2011,
+   -118.437559,
+   34.201306
+  ]
+ },
+ {
+  "slug": "sherman-way-vanalden-ave-to-calvin-ave",
+  "street": "Sherman Way",
+  "street_slug": "sherman-way",
+  "from": "Vanalden Ave",
+  "to": "Calvin Ave",
+  "district": 3,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 10,
+  "percent_speeding": 8.1,
+  "length_miles": 0.41,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-7",
+  "hoods": [
+   "reseda"
+  ],
+  "cameras": [
+   "sherman-way-vanalden-ave-to-calvin-ave-eb",
+   "sherman-way-vanalden-ave-to-calvin-ave-wb"
+  ],
+  "center": [
+   -118.552466,
+   34.201105
+  ],
+  "bbox": [
+   -118.555945,
+   34.200948,
+   -118.548897,
+   34.201254
+  ]
+ },
+ {
+  "slug": "tampa-ave-merridy-st-to-lassen-st",
+  "street": "Tampa Ave",
+  "street_slug": "tampa-ave",
+  "from": "Merridy St",
+  "to": "Lassen St",
+  "district": 12,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 4.6,
+  "length_miles": 0.18,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-6",
+  "hoods": [
+   "northridge"
+  ],
+  "cameras": [
+   "tampa-ave-merridy-st-to-lassen-st-nb",
+   "tampa-ave-merridy-st-to-lassen-st-sb"
+  ],
+  "center": [
+   -118.5536,
+   34.251076
+  ],
+  "bbox": [
+   -118.553863,
+   34.249959,
+   -118.553333,
+   34.252206
+  ]
+ },
+ {
+  "slug": "valley-circle-blvd-victory-blvd-to-lake-manor-dr",
+  "street": "Valley Circle Blvd",
+  "street_slug": "valley-circle-blvd",
+  "from": "Victory Blvd",
+  "to": "Lake Manor Dr",
+  "district": 12,
+  "speed_limit": 45,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 6.8,
+  "length_miles": 1.14,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "12-8",
+  "hoods": [
+   "west-hills",
+   "woodland-hills"
+  ],
+  "cameras": [
+   "valley-circle-blvd-victory-blvd-to-lake-manor-dr-nb",
+   "valley-circle-blvd-victory-blvd-to-lake-manor-dr-sb"
+  ],
+  "center": [
+   -118.656335,
+   34.192584
+  ],
+  "bbox": [
+   -118.657189,
+   34.18456,
+   -118.65546,
+   34.200736
+  ]
+ },
+ {
+  "slug": "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd",
+  "street": "Van Nuys Blvd",
+  "street_slug": "van-nuys-blvd",
+  "from": "5 Fwy",
+  "to": "Laurel Canyon Blvd",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 5.0,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-2",
+  "hoods": [
+   "pacoima"
+  ],
+  "cameras": [
+   "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-nb",
+   "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-sb"
+  ],
+  "center": [
+   -118.433206,
+   34.258016
+  ],
+  "bbox": [
+   -118.434543,
+   34.257235,
+   -118.431869,
+   34.258802
+  ]
+ },
+ {
+  "slug": "van-nuys-blvd-herrick-ave-to-de-haven-ave",
+  "street": "Van Nuys Blvd",
+  "street_slug": "van-nuys-blvd",
+  "from": "Herrick Ave",
+  "to": "De Haven Ave",
+  "district": 7,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 1,
+  "percent_speeding": 5.6,
+  "length_miles": 0.15,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "7-8",
+  "hoods": [
+   "pacoima"
+  ],
+  "cameras": [
+   "van-nuys-blvd-herrick-ave-to-de-haven-ave-eb",
+   "van-nuys-blvd-herrick-ave-to-de-haven-ave-wb"
+  ],
+  "center": [
+   -118.414189,
+   34.271869
+  ],
+  "bbox": [
+   -118.41527,
+   34.2713,
+   -118.413167,
+   34.272462
+  ]
+ },
+ {
+  "slug": "vanowen-st-hatillo-ave-to-corbin-ave",
+  "street": "Vanowen St",
+  "street_slug": "vanowen-st",
+  "from": "Hatillo Ave",
+  "to": "Corbin Ave",
+  "district": 3,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 6.2,
+  "length_miles": 0.18,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-5",
+  "hoods": [
+   "winnetka"
+  ],
+  "cameras": [
+   "vanowen-st-hatillo-ave-to-corbin-ave-eb",
+   "vanowen-st-hatillo-ave-to-corbin-ave-wb"
+  ],
+  "center": [
+   -118.563571,
+   34.193845
+  ],
+  "bbox": [
+   -118.5649,
+   34.193733,
+   -118.562244,
+   34.194056
+  ]
+ },
+ {
+  "slug": "vanowen-st-morse-ave-to-goodland-ave",
+  "street": "Vanowen St",
+  "street_slug": "vanowen-st",
+  "from": "Morse Ave",
+  "to": "Goodland Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 10,
+  "percent_speeding": 4.2,
+  "length_miles": 0.34,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-6",
+  "hoods": [
+   "valley-glen"
+  ],
+  "cameras": [
+   "vanowen-st-morse-ave-to-goodland-ave-eb",
+   "vanowen-st-morse-ave-to-goodland-ave-wb"
+  ],
+  "center": [
+   -118.414649,
+   34.193949
+  ],
+  "bbox": [
+   -118.417625,
+   34.193871,
+   -118.411674,
+   34.194035
+  ]
+ },
+ {
+  "slug": "vanowen-st-sepulveda-blvd-to-columbus-ave",
+  "street": "Vanowen St",
+  "street_slug": "vanowen-st",
+  "from": "Sepulveda Blvd",
+  "to": "Columbus Ave",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 13,
+  "percent_speeding": 5.6,
+  "length_miles": 0.54,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-5",
+  "hoods": [
+   "van-nuys"
+  ],
+  "cameras": [
+   "vanowen-st-sepulveda-blvd-to-columbus-ave-eb",
+   "vanowen-st-sepulveda-blvd-to-columbus-ave-wb"
+  ],
+  "center": [
+   -118.468485,
+   34.193917
+  ],
+  "bbox": [
+   -118.473195,
+   34.193696,
+   -118.462585,
+   34.194009
+  ]
+ },
+ {
+  "slug": "venice-blvd-lincoln-blvd-to-pisani-pl",
+  "street": "Venice Blvd",
+  "street_slug": "venice-blvd",
+  "from": "Lincoln Blvd",
+  "to": "Pisani Pl",
+  "district": 11,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 4.5,
+  "length_miles": 0.4,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-1",
+  "hoods": [
+   "venice"
+  ],
+  "cameras": [
+   "venice-blvd-lincoln-blvd-to-pisani-pl-eb",
+   "venice-blvd-lincoln-blvd-to-pisani-pl-wb"
+  ],
+  "center": [
+   -118.455376,
+   33.992735
+  ],
+  "bbox": [
+   -118.458159,
+   33.991264,
+   -118.452594,
+   33.994206
+  ]
+ },
+ {
+  "slug": "ventura-blvd-winnetka-ave-to-quakertown-ave",
+  "street": "Ventura Blvd",
+  "street_slug": "ventura-blvd",
+  "from": "Winnetka Ave",
+  "to": "Quakertown Ave",
+  "district": 3,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 11.6,
+  "length_miles": 0.68,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-4",
+  "hoods": [
+   "woodland-hills"
+  ],
+  "cameras": [
+   "ventura-blvd-winnetka-ave-to-quakertown-ave-eb",
+   "ventura-blvd-winnetka-ave-to-quakertown-ave-wb"
+  ],
+  "center": [
+   -118.574947,
+   34.169513
+  ],
+  "bbox": [
+   -118.580193,
+   34.167579,
+   -118.569519,
+   34.17139
+  ]
+ },
+ {
+  "slug": "vermont-ave-253rd-st-to-255th-st",
+  "street": "Vermont Ave",
+  "street_slug": "vermont-ave",
+  "from": "253rd St",
+  "to": "255th St",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 10.7,
+  "length_miles": 0.16,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-8",
+  "hoods": [
+   "harbor-city"
+  ],
+  "cameras": [
+   "vermont-ave-253rd-st-to-255th-st-nb",
+   "vermont-ave-253rd-st-to-255th-st-sb"
+  ],
+  "center": [
+   -118.290853,
+   33.793757
+  ],
+  "bbox": [
+   -118.291119,
+   33.792736,
+   -118.290586,
+   33.794772
+  ]
+ },
+ {
+  "slug": "victory-blvd-belmar-ave-to-tampa-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "Belmar Ave",
+  "to": "Tampa Ave",
+  "district": 3,
+  "speed_limit": 45,
+  "school_nearby": false,
+  "speed_collisions": 8,
+  "percent_speeding": 1.8,
+  "length_miles": 0.3,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-8",
+  "hoods": [
+   "reseda",
+   "tarzana"
+  ],
+  "cameras": [
+   "victory-blvd-belmar-ave-to-tampa-ave-eb",
+   "victory-blvd-belmar-ave-to-tampa-ave-wb"
+  ],
+  "center": [
+   -118.555863,
+   34.186579
+  ],
+  "bbox": [
+   -118.558494,
+   34.186469,
+   -118.553233,
+   34.186683
+  ]
+ },
+ {
+  "slug": "victory-blvd-ethel-ave-to-coldwater-canyon-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "Ethel Ave",
+  "to": "Coldwater Canyon Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 5.1,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-7",
+  "hoods": [
+   "valley-glen"
+  ],
+  "cameras": [
+   "victory-blvd-ethel-ave-to-coldwater-canyon-ave-eb",
+   "victory-blvd-ethel-ave-to-coldwater-canyon-ave-wb"
+  ],
+  "center": [
+   -118.415997,
+   34.186673
+  ],
+  "bbox": [
+   -118.418218,
+   34.186453,
+   -118.413832,
+   34.186688
+  ]
+ },
+ {
+  "slug": "victory-blvd-kester-ave-to-cedros-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "Kester Ave",
+  "to": "Cedros Ave",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 3.9,
+  "length_miles": 0.42,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-4",
+  "hoods": [
+   "van-nuys"
+  ],
+  "cameras": [
+   "victory-blvd-kester-ave-to-cedros-ave-eb",
+   "victory-blvd-kester-ave-to-cedros-ave-wb"
+  ],
+  "center": [
+   -118.456493,
+   34.186666
+  ],
+  "bbox": [
+   -118.460155,
+   34.186551,
+   -118.452832,
+   34.186763
+  ]
+ },
+ {
+  "slug": "victory-blvd-la-river-to-canby-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "LA River",
+  "to": "Canby Ave",
+  "district": 3,
+  "speed_limit": 45,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 3.1,
+  "length_miles": 0.36,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-1",
+  "hoods": [
+   "reseda",
+   "tarzana"
+  ],
+  "cameras": [
+   "victory-blvd-la-river-to-canby-ave-cam",
+   "victory-blvd-la-river-to-canby-ave-cam-2"
+  ],
+  "center": [
+   -118.531943,
+   34.186615
+  ],
+  "bbox": [
+   -118.53872,
+   34.186482,
+   -118.528832,
+   34.186835
+  ]
+ },
+ {
+  "slug": "victory-blvd-la-river-to-newcastle-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "LA River",
+  "to": "Newcastle Ave",
+  "district": 4,
+  "speed_limit": 45,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 1.5,
+  "length_miles": 0.24,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-2",
+  "hoods": [
+   "encino",
+   "reseda"
+  ],
+  "cameras": [
+   "victory-blvd-la-river-to-newcastle-ave-eb",
+   "victory-blvd-la-river-to-newcastle-ave-wb"
+  ],
+  "center": [
+   -118.527301,
+   34.18661
+  ],
+  "bbox": [
+   -118.529379,
+   34.186508,
+   -118.525223,
+   34.186702
+  ]
+ },
+ {
+  "slug": "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "Louise Ave",
+  "to": "High Tech Los Angeles East Driveway",
+  "district": 6,
+  "speed_limit": 45,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 3.7,
+  "length_miles": 0.37,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-3",
+  "hoods": [
+   "lake-balboa",
+   "sepulveda-basin"
+  ],
+  "cameras": [
+   "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-eb",
+   "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-wb"
+  ],
+  "center": [
+   -118.506948,
+   34.186635
+  ],
+  "bbox": [
+   -118.510136,
+   34.186508,
+   -118.503759,
+   34.186747
+  ]
+ },
+ {
+  "slug": "victory-blvd-mammoth-ave-to-ventura-canyon-ave",
+  "street": "Victory Blvd",
+  "street_slug": "victory-blvd",
+  "from": "Mammoth Ave",
+  "to": "Ventura Canyon Ave",
+  "district": 2,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 5,
+  "percent_speeding": 4.7,
+  "length_miles": 0.23,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "2-8",
+  "hoods": [
+   "valley-glen"
+  ],
+  "cameras": [
+   "victory-blvd-mammoth-ave-to-ventura-canyon-ave-eb",
+   "victory-blvd-mammoth-ave-to-ventura-canyon-ave-wb"
+  ],
+  "center": [
+   -118.430837,
+   34.186674
+  ],
+  "bbox": [
+   -118.432856,
+   34.186568,
+   -118.428817,
+   34.186775
+  ]
+ },
+ {
+  "slug": "vista-del-mar-city-limit-to-culver-blvd",
+  "street": "Vista Del Mar",
+  "street_slug": "vista-del-mar",
+  "from": "City Limit",
+  "to": "Culver Blvd",
+  "district": 11,
+  "speed_limit": 40,
+  "school_nearby": false,
+  "speed_collisions": 15,
+  "percent_speeding": 26.4,
+  "length_miles": 3.2,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-6",
+  "hoods": [
+   "playa-del-rey"
+  ],
+  "cameras": [
+   "vista-del-mar-city-limit-to-culver-blvd-nb",
+   "vista-del-mar-city-limit-to-culver-blvd-sb"
+  ],
+  "center": [
+   -118.4386,
+   33.937549
+  ],
+  "bbox": [
+   -118.448656,
+   33.916424,
+   -118.427375,
+   33.958839
+  ]
+ },
+ {
+  "slug": "3rd-st-virgil-ave-to-commonwealth-ave",
+  "street": "W 3rd St",
+  "street_slug": "3rd-st",
+  "from": "Virgil Ave",
+  "to": "Commonwealth Ave",
+  "district": 13,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 0.2,
+  "length_miles": 0.09,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-7",
+  "hoods": [
+   "koreatown",
+   "westlake"
+  ],
+  "cameras": [
+   "3rd-st-virgil-ave-to-commonwealth-ave-eb",
+   "3rd-st-virgil-ave-to-commonwealth-ave-wb"
+  ],
+  "center": [
+   -118.286276,
+   34.06899
+  ],
+  "bbox": [
+   -118.287097,
+   34.068912,
+   -118.285458,
+   34.069065
+  ]
+ },
+ {
+  "slug": "6th-st-berendo-st-to-vermont-ave",
+  "street": "W 6th St",
+  "street_slug": "6th-st",
+  "from": "S Berendo St",
+  "to": "S Vermont Ave",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 15,
+  "percent_speeding": 0.5,
+  "length_miles": 0.17,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-4",
+  "hoods": [
+   "koreatown"
+  ],
+  "cameras": [
+   "6th-st-berendo-st-to-vermont-ave-eb",
+   "6th-st-berendo-st-to-vermont-ave-wb"
+  ],
+  "center": [
+   -118.292912,
+   34.063627
+  ],
+  "bbox": [
+   -118.294433,
+   34.063537,
+   -118.291394,
+   34.063688
+  ]
+ },
+ {
+  "slug": "7th-st-flower-st-to-grand-ave",
+  "street": "W 7th St",
+  "street_slug": "7th-st",
+  "from": "S Flower St",
+  "to": "S Grand Ave",
+  "district": 14,
+  "speed_limit": 25,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 0.5,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "14-5",
+  "hoods": [
+   "downtown"
+  ],
+  "cameras": [
+   "7th-st-flower-st-to-grand-ave-eb",
+   "7th-st-flower-st-to-grand-ave-wb"
+  ],
+  "center": [
+   -118.257703,
+   34.048
+  ],
+  "bbox": [
+   -118.259063,
+   34.047297,
+   -118.256344,
+   34.048699
+  ]
+ },
+ {
+  "slug": "8th-st-westmoreland-ave-to-hoover-st",
+  "street": "W 8th St",
+  "street_slug": "8th-st",
+  "from": "S Westmoreland Ave",
+  "to": "S Hoover St",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 11,
+  "percent_speeding": 4.1,
+  "length_miles": 0.31,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-5",
+  "hoods": [
+   "koreatown",
+   "westlake"
+  ],
+  "cameras": [
+   "8th-st-westmoreland-ave-to-hoover-st-eb",
+   "8th-st-westmoreland-ave-to-hoover-st-wb"
+  ],
+  "center": [
+   -118.28667,
+   34.057738
+  ],
+  "bbox": [
+   -118.289378,
+   34.057657,
+   -118.283963,
+   34.057811
+  ]
+ },
+ {
+  "slug": "florence-ave-van-ness-ave-to-3rd-ave",
+  "street": "W Florence Ave",
+  "street_slug": "florence-ave",
+  "from": "S Van Ness Ave",
+  "to": "3rd Ave",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 15,
+  "percent_speeding": 2.7,
+  "length_miles": 0.2,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-4",
+  "hoods": [
+   "chesterfield-square",
+   "hyde-park"
+  ],
+  "cameras": [
+   "florence-ave-van-ness-ave-to-3rd-ave-eb",
+   "florence-ave-van-ness-ave-to-3rd-ave-wb"
+  ],
+  "center": [
+   -118.318288,
+   33.974593
+  ],
+  "bbox": [
+   -118.319988,
+   33.974481,
+   -118.316588,
+   33.974688
+  ]
+ },
+ {
+  "slug": "florence-ave-vermont-ave-to-hoover-st",
+  "street": "W Florence Ave",
+  "street_slug": "florence-ave",
+  "from": "S Vermont Ave",
+  "to": "S Hoover St",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 23,
+  "percent_speeding": 2.9,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-1",
+  "hoods": [
+   "vermont-knolls",
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "florence-ave-vermont-ave-to-hoover-st-eb",
+   "florence-ave-vermont-ave-to-hoover-st-wb"
+  ],
+  "center": [
+   -118.289301,
+   33.974638
+  ],
+  "bbox": [
+   -118.291775,
+   33.974531,
+   -118.286827,
+   33.974739
+  ]
+ },
+ {
+  "slug": "gage-ave-halldale-ave-to-raymond-ave",
+  "street": "W Gage Ave",
+  "street_slug": "gage-ave",
+  "from": "S Halldale Ave",
+  "to": "Raymond Ave",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 9,
+  "percent_speeding": 4.0,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-5",
+  "hoods": [
+   "harvard-park",
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "gage-ave-halldale-ave-to-raymond-ave-eb",
+   "gage-ave-halldale-ave-to-raymond-ave-wb"
+  ],
+  "center": [
+   -118.300239,
+   33.982365
+  ],
+  "bbox": [
+   -118.302427,
+   33.982273,
+   -118.297796,
+   33.982587
+  ]
+ },
+ {
+  "slug": "gage-ave-hoover-st-to-figueroa-st",
+  "street": "W Gage Ave",
+  "street_slug": "gage-ave",
+  "from": "S Hoover St",
+  "to": "S Figueroa St",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 21,
+  "percent_speeding": 0.8,
+  "length_miles": 0.29,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-5",
+  "hoods": [
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "gage-ave-hoover-st-to-figueroa-st-eb",
+   "gage-ave-hoover-st-to-figueroa-st-wb"
+  ],
+  "center": [
+   -118.28489,
+   33.982351
+  ],
+  "bbox": [
+   -118.287342,
+   33.982189,
+   -118.282411,
+   33.982448
+  ]
+ },
+ {
+  "slug": "jefferson-blvd-crenshaw-blvd-to-bronson-ave",
+  "street": "W Jefferson Blvd",
+  "street_slug": "jefferson-blvd",
+  "from": "Crenshaw Blvd",
+  "to": "S Bronson Ave",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 13,
+  "percent_speeding": 0.6,
+  "length_miles": 0.11,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-5",
+  "hoods": [
+   "jefferson-park",
+   "west-adams"
+  ],
+  "cameras": [
+   "jefferson-blvd-crenshaw-blvd-to-bronson-ave-eb",
+   "jefferson-blvd-crenshaw-blvd-to-bronson-ave-wb"
+  ],
+  "center": [
+   -118.334472,
+   34.025595
+  ],
+  "bbox": [
+   -118.335397,
+   34.025515,
+   -118.333547,
+   34.025677
+  ]
+ },
+ {
+  "slug": "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd",
+  "street": "W Martin Luther King Jr Blvd",
+  "street_slug": "martin-luther-king-jr-blvd",
+  "from": "S Saint Andrews Pl",
+  "to": "S Hobart Blvd",
+  "district": 8,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 17,
+  "percent_speeding": 5.5,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "8-7",
+  "hoods": [
+   "exposition-park",
+   "vermont-square"
+  ],
+  "cameras": [
+   "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-eb",
+   "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-wb"
+  ],
+  "center": [
+   -118.309459,
+   34.010863
+  ],
+  "bbox": [
+   -118.311757,
+   34.010758,
+   -118.307542,
+   34.010952
+  ]
+ },
+ {
+  "slug": "olympic-blvd-alvira-st-to-stearns-dr",
+  "street": "W Olympic Blvd",
+  "street_slug": "olympic-blvd",
+  "from": "Alvira St",
+  "to": "Stearns Dr",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 3.1,
+  "length_miles": 0.18,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-6",
+  "hoods": [
+   "carthay"
+  ],
+  "cameras": [
+   "olympic-blvd-alvira-st-to-stearns-dr-eb",
+   "olympic-blvd-alvira-st-to-stearns-dr-wb"
+  ],
+  "center": [
+   -118.369388,
+   34.058825
+  ],
+  "bbox": [
+   -118.370908,
+   34.058683,
+   -118.367869,
+   34.058971
+  ]
+ },
+ {
+  "slug": "olympic-blvd-elden-ave-to-hoover-st",
+  "street": "W Olympic Blvd",
+  "street_slug": "olympic-blvd",
+  "from": "Elden Ave",
+  "to": "S Hoover St",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 1.4,
+  "length_miles": 0.23,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-6",
+  "hoods": [
+   "pico-union",
+   "westlake"
+  ],
+  "cameras": [
+   "olympic-blvd-elden-ave-to-hoover-st-eb",
+   "olympic-blvd-elden-ave-to-hoover-st-wb"
+  ],
+  "center": [
+   -118.285268,
+   34.052392
+  ],
+  "bbox": [
+   -118.28926,
+   34.052156,
+   -118.283561,
+   34.052626
+  ]
+ },
+ {
+  "slug": "olympic-blvd-greenfield-ave-to-purdue-ave",
+  "street": "W Olympic Blvd",
+  "street_slug": "olympic-blvd",
+  "from": "Greenfield Ave",
+  "to": "Purdue Ave",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 5,
+  "percent_speeding": 4.7,
+  "length_miles": 0.33,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-8",
+  "hoods": [
+   "sawtelle",
+   "west-los-angeles"
+  ],
+  "cameras": [
+   "olympic-blvd-greenfield-ave-to-purdue-ave-eb",
+   "olympic-blvd-greenfield-ave-to-purdue-ave-wb"
+  ],
+  "center": [
+   -118.437825,
+   34.040264
+  ],
+  "bbox": [
+   -118.440226,
+   34.038993,
+   -118.435424,
+   34.041535
+  ]
+ },
+ {
+  "slug": "olympic-blvd-irolo-st-to-fedora-st",
+  "street": "W Olympic Blvd",
+  "street_slug": "olympic-blvd",
+  "from": "Irolo St",
+  "to": "Fedora St",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 0.8,
+  "length_miles": 0.21,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-2",
+  "hoods": [
+   "koreatown",
+   "pico-union"
+  ],
+  "cameras": [
+   "olympic-blvd-irolo-st-to-fedora-st-eb",
+   "olympic-blvd-irolo-st-to-fedora-st-wb"
+  ],
+  "center": [
+   -118.299481,
+   34.052635
+  ],
+  "bbox": [
+   -118.301324,
+   34.052536,
+   -118.297639,
+   34.052739
+  ]
+ },
+ {
+  "slug": "olympic-blvd-la-brea-ave-to-sycamore-ave",
+  "street": "W Olympic Blvd",
+  "street_slug": "olympic-blvd",
+  "from": "S La Brea Ave",
+  "to": "S Sycamore Ave",
+  "district": 5,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 2.4,
+  "length_miles": 0.1,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "5-4",
+  "hoods": [
+   "mid-wilshire"
+  ],
+  "cameras": [
+   "olympic-blvd-la-brea-ave-to-sycamore-ave-eb",
+   "olympic-blvd-la-brea-ave-to-sycamore-ave-wb"
+  ],
+  "center": [
+   -118.345342,
+   34.057173
+  ],
+  "bbox": [
+   -118.345917,
+   34.05697,
+   -118.342819,
+   34.057304
+  ]
+ },
+ {
+  "slug": "slauson-ave-brentwood-st-to-inskeep-ave",
+  "street": "W Slauson Ave",
+  "street_slug": "slauson-ave",
+  "from": "Brentwood St",
+  "to": "Inskeep Ave (midblock)",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 2.9,
+  "length_miles": 0.13,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-7",
+  "hoods": [
+   "florence",
+   "south-park"
+  ],
+  "cameras": [
+   "slauson-ave-brentwood-st-to-inskeep-ave-eb",
+   "slauson-ave-brentwood-st-to-inskeep-ave-wb"
+  ],
+  "center": [
+   -118.276388,
+   33.989201
+  ],
+  "bbox": [
+   -118.277471,
+   33.989125,
+   -118.274029,
+   33.989419
+  ]
+ },
+ {
+  "slug": "slauson-ave-budlong-ave-to-menlo-ave",
+  "street": "W Slauson Ave",
+  "street_slug": "slauson-ave",
+  "from": "S Budlong Ave",
+  "to": "Menlo Ave",
+  "district": 9,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 16,
+  "percent_speeding": 3.4,
+  "length_miles": 0.41,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "9-1",
+  "hoods": [
+   "vermont-slauson"
+  ],
+  "cameras": [
+   "slauson-ave-budlong-ave-to-menlo-ave-eb",
+   "slauson-ave-budlong-ave-to-menlo-ave-wb"
+  ],
+  "center": [
+   -118.292568,
+   33.989115
+  ],
+  "bbox": [
+   -118.296134,
+   33.989005,
+   -118.289002,
+   33.989233
+  ]
+ },
+ {
+  "slug": "sunset-blvd-bronson-ave-to-101-fwy",
+  "street": "W Sunset Blvd",
+  "street_slug": "sunset-blvd",
+  "from": "N Bronson Ave",
+  "to": "101 Fwy",
+  "district": 13,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 10,
+  "percent_speeding": 2.9,
+  "length_miles": 0.23,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-2",
+  "hoods": [
+   "hollywood"
+  ],
+  "cameras": [
+   "sunset-blvd-bronson-ave-to-101-fwy-eb",
+   "sunset-blvd-bronson-ave-to-101-fwy-wb"
+  ],
+  "center": [
+   -118.316249,
+   34.098069
+  ],
+  "bbox": [
+   -118.318256,
+   34.097954,
+   -118.314241,
+   34.098162
+  ]
+ },
+ {
+  "slug": "sunset-blvd-sycamore-ave-to-mccadden-pl",
+  "street": "W Sunset Blvd",
+  "street_slug": "sunset-blvd",
+  "from": "N Sycamore Ave",
+  "to": "N McCadden Pl",
+  "district": 13,
+  "speed_limit": 30,
+  "school_nearby": true,
+  "speed_collisions": 10,
+  "percent_speeding": 3.1,
+  "length_miles": 0.31,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-4",
+  "hoods": [
+   "hollywood"
+  ],
+  "cameras": [
+   "sunset-blvd-sycamore-ave-to-mccadden-pl-eb",
+   "sunset-blvd-sycamore-ave-to-mccadden-pl-wb"
+  ],
+  "center": [
+   -118.340061,
+   34.097985
+  ],
+  "bbox": [
+   -118.3428,
+   34.097873,
+   -118.337579,
+   34.098212
+  ]
+ },
+ {
+  "slug": "sunset-blvd-rosemont-ave-to-alvarado-st",
+  "street": "W Sunset Blvd",
+  "street_slug": "sunset-blvd",
+  "from": "Rosemont Ave",
+  "to": "N Alvarado St",
+  "district": 13,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 0.3,
+  "length_miles": 0.19,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "13-3",
+  "hoods": [
+   "echo-park"
+  ],
+  "cameras": [
+   "sunset-blvd-rosemont-ave-to-alvarado-st-eb",
+   "sunset-blvd-rosemont-ave-to-alvarado-st-wb"
+  ],
+  "center": [
+   -118.264805,
+   34.077576
+  ],
+  "bbox": [
+   -118.267126,
+   34.077415,
+   -118.263207,
+   34.078448
+  ]
+ },
+ {
+  "slug": "washington-blvd-3rd-ave-to-van-ness-ave",
+  "street": "W Washington Blvd",
+  "street_slug": "washington-blvd",
+  "from": "3rd Ave",
+  "to": "S Van Ness Ave",
+  "district": 10,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 4,
+  "percent_speeding": 1.7,
+  "length_miles": 0.24,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "10-6",
+  "hoods": [
+   "arlington-heights"
+  ],
+  "cameras": [
+   "washington-blvd-3rd-ave-to-van-ness-ave-eb",
+   "washington-blvd-3rd-ave-to-van-ness-ave-wb"
+  ],
+  "center": [
+   -118.318246,
+   34.039924
+  ],
+  "bbox": [
+   -118.320372,
+   34.039808,
+   -118.316119,
+   34.040018
+  ]
+ },
+ {
+  "slug": "washington-blvd-new-hampshire-ave-to-vermont-ave",
+  "street": "W Washington Blvd",
+  "street_slug": "washington-blvd",
+  "from": "S New Hampshire Ave",
+  "to": "S Vermont Ave",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 7,
+  "percent_speeding": 1.5,
+  "length_miles": 0.08,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-7",
+  "hoods": [
+   "pico-union"
+  ],
+  "cameras": [
+   "washington-blvd-new-hampshire-ave-to-vermont-ave-eb",
+   "washington-blvd-new-hampshire-ave-to-vermont-ave-wb"
+  ],
+  "center": [
+   -118.291996,
+   34.040009
+  ],
+  "bbox": [
+   -118.292996,
+   34.039901,
+   -118.291313,
+   34.040104
+  ]
+ },
+ {
+  "slug": "washington-blvd-marr-st-to-thatcher-ave",
+  "street": "Washington Blvd",
+  "street_slug": "washington-blvd",
+  "from": "Marr St",
+  "to": "Thatcher Ave",
+  "district": 11,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 1.6,
+  "length_miles": 0.18,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "11-4",
+  "hoods": [
+   "venice"
+  ],
+  "cameras": [
+   "washington-blvd-marr-st-to-thatcher-ave-eb",
+   "washington-blvd-marr-st-to-thatcher-ave-wb"
+  ],
+  "center": [
+   -118.451714,
+   33.988461
+  ],
+  "bbox": [
+   -118.453062,
+   33.987683,
+   -118.450345,
+   33.989066
+  ]
+ },
+ {
+  "slug": "white-oak-ave-ventura-blvd-to-margate-st",
+  "street": "White Oak Ave",
+  "street_slug": "white-oak-ave",
+  "from": "Ventura Blvd",
+  "to": "Margate St",
+  "district": 4,
+  "speed_limit": 40,
+  "school_nearby": true,
+  "speed_collisions": 2,
+  "percent_speeding": 4.6,
+  "length_miles": 0.46,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "4-9",
+  "hoods": [
+   "encino"
+  ],
+  "cameras": [
+   "white-oak-ave-ventura-blvd-to-margate-st-nb",
+   "white-oak-ave-ventura-blvd-to-margate-st-sb"
+  ],
+  "center": [
+   -118.518583,
+   34.165526
+  ],
+  "bbox": [
+   -118.518857,
+   34.162371,
+   -118.51831,
+   34.168681
+  ]
+ },
+ {
+  "slug": "wilmington-ave-110th-st-to-113th-st",
+  "street": "Wilmington Ave",
+  "street_slug": "wilmington-ave",
+  "from": "E 110th St",
+  "to": "E 113th St",
+  "district": 15,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 8,
+  "percent_speeding": 4.7,
+  "length_miles": 0.22,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "15-5",
+  "hoods": [
+   "watts"
+  ],
+  "cameras": [
+   "wilmington-ave-110th-st-to-113th-st-nb",
+   "wilmington-ave-110th-st-to-113th-st-sb"
+  ],
+  "center": [
+   -118.23904,
+   33.933807
+  ],
+  "bbox": [
+   -118.239108,
+   33.932416,
+   -118.238791,
+   33.935199
+  ]
+ },
+ {
+  "slug": "wilshire-blvd-rampart-blvd-to-park-view-st",
+  "street": "Wilshire Blvd",
+  "street_slug": "wilshire-blvd",
+  "from": "S Rampart Blvd",
+  "to": "S Park View St",
+  "district": 1,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 12,
+  "percent_speeding": 3.8,
+  "length_miles": 0.28,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "1-8",
+  "hoods": [
+   "westlake"
+  ],
+  "cameras": [
+   "wilshire-blvd-rampart-blvd-to-park-view-st-eb",
+   "wilshire-blvd-rampart-blvd-to-park-view-st-wb"
+  ],
+  "center": [
+   -118.281423,
+   34.060507
+  ],
+  "bbox": [
+   -118.285859,
+   34.059655,
+   -118.279275,
+   34.061944
+  ]
+ },
+ {
+  "slug": "winnetka-ave-arminta-st-to-strathern-st",
+  "street": "Winnetka Ave",
+  "street_slug": "winnetka-ave",
+  "from": "Arminta St",
+  "to": "Strathern St",
+  "district": 3,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 3,
+  "percent_speeding": 20.0,
+  "length_miles": 0.2,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "3-3",
+  "hoods": [
+   "winnetka"
+  ],
+  "cameras": [
+   "winnetka-ave-arminta-st-to-strathern-st-nb",
+   "winnetka-ave-arminta-st-to-strathern-st-sb"
+  ],
+  "center": [
+   -118.571046,
+   34.214401
+  ],
+  "bbox": [
+   -118.571318,
+   34.213196,
+   -118.57077,
+   34.21564
+  ]
+ },
+ {
+  "slug": "woodman-ave-roscoe-blvd-to-strathern",
+  "street": "Woodman Ave",
+  "street_slug": "woodman-ave",
+  "from": "Roscoe Blvd",
+  "to": "Strathern",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": false,
+  "speed_collisions": 18,
+  "percent_speeding": 0.1,
+  "length_miles": 0.49,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-8",
+  "hoods": [
+   "panorama-city"
+  ],
+  "cameras": [
+   "woodman-ave-roscoe-blvd-to-strathern-nb",
+   "woodman-ave-roscoe-blvd-to-strathern-sb"
+  ],
+  "center": [
+   -118.431631,
+   34.218543
+  ],
+  "bbox": [
+   -118.433023,
+   34.215273,
+   -118.430728,
+   34.221724
+  ]
+ },
+ {
+  "slug": "woodman-ave-terra-bella-st-to-nordhoff-st",
+  "street": "Woodman Ave",
+  "street_slug": "woodman-ave",
+  "from": "Terra Bella St",
+  "to": "Nordhoff St",
+  "district": 6,
+  "speed_limit": 35,
+  "school_nearby": true,
+  "speed_collisions": 6,
+  "percent_speeding": 10.9,
+  "length_miles": 0.39,
+  "status": "construction",
+  "status_label": "Under Construction",
+  "system_id": "6-9",
+  "hoods": [
+   "arleta",
+   "panorama-city"
+  ],
+  "cameras": [
+   "woodman-ave-terra-bella-st-to-nordhoff-st-nb",
+   "woodman-ave-terra-bella-st-to-nordhoff-st-sb"
+  ],
+  "center": [
+   -118.44197,
+   34.237642
+  ],
+  "bbox": [
+   -118.443683,
+   34.235351,
+   -118.440171,
+   34.240091
+  ]
+ }
+]

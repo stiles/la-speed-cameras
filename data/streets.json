@@ -1,0 +1,1176 @@
+[
+ {
+  "slug": "103rd-st",
+  "name": "103rd St",
+  "corridors": [
+   "103rd-st-fifth-blvd-to-grandee-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "watts"
+  ],
+  "districts": [
+   15
+  ]
+ },
+ {
+  "slug": "3rd-st",
+  "name": "3rd St",
+  "corridors": [
+   "3rd-st-virgil-ave-to-commonwealth-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "koreatown",
+   "westlake"
+  ],
+  "districts": [
+   13
+  ]
+ },
+ {
+  "slug": "4th-st",
+  "name": "4th St",
+  "corridors": [
+   "4th-st-mott-ave-to-evergreen-ave",
+   "4th-st-pecan-st-to-boyle-ave"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "boyle-heights"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "6th-st",
+  "name": "6th St",
+  "corridors": [
+   "6th-st-berendo-st-to-vermont-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "koreatown"
+  ],
+  "districts": [
+   10
+  ]
+ },
+ {
+  "slug": "7th-st",
+  "name": "7th St",
+  "corridors": [
+   "7th-st-flower-st-to-grand-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "downtown"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "8th-st",
+  "name": "8th St",
+  "corridors": [
+   "8th-st-westmoreland-ave-to-hoover-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "koreatown",
+   "westlake"
+  ],
+  "districts": [
+   1
+  ]
+ },
+ {
+  "slug": "arlington-ave",
+  "name": "Arlington Ave",
+  "corridors": [
+   "arlington-ave-21st-st-to-18th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "arlington-heights",
+   "jefferson-park"
+  ],
+  "districts": [
+   10
+  ]
+ },
+ {
+  "slug": "avalon-blvd",
+  "name": "Avalon Blvd",
+  "corridors": [
+   "avalon-blvd-74th-st-to-77th-st",
+   "avalon-blvd-sandison-st-to-n-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "florence",
+   "wilmington"
+  ],
+  "districts": [
+   9,
+   15
+  ]
+ },
+ {
+  "slug": "balboa-blvd",
+  "name": "Balboa Blvd",
+  "corridors": [
+   "balboa-blvd-118-fwy-to-tulsa-st",
+   "balboa-blvd-lassen-st-to-plummer-st",
+   "balboa-blvd-orange-line-busway-to-archwood-st"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "granada-hills",
+   "lake-balboa",
+   "north-hills",
+   "northridge",
+   "sepulveda-basin"
+  ],
+  "districts": [
+   6,
+   12
+  ]
+ },
+ {
+  "slug": "barrington-ave",
+  "name": "Barrington Ave",
+  "corridors": [
+   "barrington-ave-ohio-ave-to-santa-monica-blvd"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "sawtelle"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "beverly-blvd",
+  "name": "Beverly Blvd",
+  "corridors": [
+   "beverly-blvd-belmont-ave-to-witmer-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "westlake"
+  ],
+  "districts": [
+   1
+  ]
+ },
+ {
+  "slug": "burbank-blvd",
+  "name": "Burbank Blvd",
+  "corridors": [
+   "burbank-blvd-sepulveda-blvd-to-kester-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "sherman-oaks",
+   "van-nuys"
+  ],
+  "districts": [
+   4
+  ]
+ },
+ {
+  "slug": "central-ave",
+  "name": "Central Ave",
+  "corridors": [
+   "central-ave-89th-st-to-92nd-ave",
+   "central-ave-109th-st-to-114th-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "green-meadows",
+   "watts"
+  ],
+  "districts": [
+   9,
+   15
+  ]
+ },
+ {
+  "slug": "coldwater-canyon-ave",
+  "name": "Coldwater Canyon Ave",
+  "corridors": [
+   "coldwater-canyon-ave-vanowen-st-to-bassett-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "valley-glen"
+  ],
+  "districts": [
+   2
+  ]
+ },
+ {
+  "slug": "cypress-ave",
+  "name": "Cypress Ave",
+  "corridors": [
+   "cypress-ave-cazador-st-to-macon-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "cypress-park",
+   "glassell-park"
+  ],
+  "districts": [
+   1
+  ]
+ },
+ {
+  "slug": "fairfax-ave",
+  "name": "Fairfax Ave",
+  "corridors": [
+   "fairfax-ave-clinton-st-to-waring-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "beverly-grove",
+   "fairfax"
+  ],
+  "districts": [
+   5
+  ]
+ },
+ {
+  "slug": "figueroa-st",
+  "name": "Figueroa St",
+  "corridors": [
+   "figueroa-st-avenue-45-to-avenue-51",
+   "figueroa-st-62nd-st-to-gage-ave",
+   "figueroa-st-67th-st-to-68th-st",
+   "figueroa-st-80th-st-to-manchester-ave",
+   "figueroa-st-adams-blvd-to-23rd-st"
+  ],
+  "camera_count": 10,
+  "hoods": [
+   "highland-park",
+   "historic-south-central",
+   "university-park",
+   "vermont-knolls",
+   "vermont-slauson"
+  ],
+  "districts": [
+   1,
+   8,
+   9
+  ]
+ },
+ {
+  "slug": "florence-ave",
+  "name": "Florence Ave",
+  "corridors": [
+   "florence-ave-van-ness-ave-to-3rd-ave",
+   "florence-ave-vermont-ave-to-hoover-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "chesterfield-square",
+   "hyde-park",
+   "vermont-knolls",
+   "vermont-slauson"
+  ],
+  "districts": [
+   8
+  ]
+ },
+ {
+  "slug": "foothill-blvd",
+  "name": "Foothill Blvd",
+  "corridors": [
+   "foothill-blvd-newhome-ave-to-sherman-grove-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "sunland"
+  ],
+  "districts": [
+   7
+  ]
+ },
+ {
+  "slug": "fountain-ave",
+  "name": "Fountain Ave",
+  "corridors": [
+   "fountain-ave-sunset-blvd-to-hyperion-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "los-feliz",
+   "silver-lake"
+  ],
+  "districts": [
+   4
+  ]
+ },
+ {
+  "slug": "franklin-ave",
+  "name": "Franklin Ave",
+  "corridors": [
+   "franklin-ave-cheremoya-ave-to-tamarind-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "hollywood",
+   "hollywood-hills"
+  ],
+  "districts": [
+   4
+  ]
+ },
+ {
+  "slug": "gaffey-st",
+  "name": "Gaffey St",
+  "corridors": [
+   "gaffey-st-1st-st-to-2nd-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "san-pedro"
+  ],
+  "districts": [
+   15
+  ]
+ },
+ {
+  "slug": "gage-ave",
+  "name": "Gage Ave",
+  "corridors": [
+   "gage-ave-halldale-ave-to-raymond-ave",
+   "gage-ave-hoover-st-to-figueroa-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "harvard-park",
+   "vermont-slauson"
+  ],
+  "districts": [
+   8,
+   9
+  ]
+ },
+ {
+  "slug": "grandee-ave",
+  "name": "Grandee Ave",
+  "corridors": [
+   "grandee-ave-century-blvd-to-108th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "watts"
+  ],
+  "districts": [
+   15
+  ]
+ },
+ {
+  "slug": "highland-ave",
+  "name": "Highland Ave",
+  "corridors": [
+   "highland-ave-franklin-pl-to-camrose-dr",
+   "highland-ave-sunset-blvd-to-hollywood-blvd"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "hollywood",
+   "hollywood-hills"
+  ],
+  "districts": [
+   4,
+   13
+  ]
+ },
+ {
+  "slug": "hollywood-blvd",
+  "name": "Hollywood Blvd",
+  "corridors": [
+   "hollywood-blvd-vista-st-to-camino-palmero-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "hollywood"
+  ],
+  "districts": [
+   4
+  ]
+ },
+ {
+  "slug": "huntington-dr",
+  "name": "Huntington Dr",
+  "corridors": [
+   "huntington-dr-topaz-st-to-monterey-rd"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "el-sereno",
+   "montecito-heights"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "imperial-hwy",
+  "name": "Imperial Hwy",
+  "corridors": [
+   "imperial-hwy-avalon-blvd-to-stanford-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "green-meadows"
+  ],
+  "districts": [
+   15
+  ]
+ },
+ {
+  "slug": "jefferson-blvd",
+  "name": "Jefferson Blvd",
+  "corridors": [
+   "jefferson-blvd-crenshaw-blvd-to-bronson-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "jefferson-park",
+   "west-adams"
+  ],
+  "districts": [
+   10
+  ]
+ },
+ {
+  "slug": "la-brea-ave",
+  "name": "La Brea Ave",
+  "corridors": [
+   "la-brea-ave-1st-st-to-beverly-blvd",
+   "la-brea-ave-veronica-st-to-coliseum-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "baldwin-hillscrenshaw",
+   "fairfax",
+   "hancock-park"
+  ],
+  "districts": [
+   5,
+   10
+  ]
+ },
+ {
+  "slug": "la-cienega-blvd",
+  "name": "La Cienega Blvd",
+  "corridors": [
+   "la-cienega-blvd-coliseum-st-to-bowesfield-st",
+   "la-cienega-blvd-sawyer-st-to-18th-st",
+   "la-cienega-blvd-18th-st-to-horner-st",
+   "la-cienega-blvd-pico-blvd-to-olympic-blvd"
+  ],
+  "camera_count": 8,
+  "hoods": [
+   "baldwin-hillscrenshaw",
+   "beverly-hills",
+   "carthay",
+   "mid-city",
+   "pico-robertson"
+  ],
+  "districts": [
+   5,
+   10
+  ]
+ },
+ {
+  "slug": "la-tijera-blvd",
+  "name": "La Tijera Blvd",
+  "corridors": [
+   "la-tijera-blvd-manchester-to-74th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "westchester"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "laurel-canyon-blvd",
+  "name": "Laurel Canyon Blvd",
+  "corridors": [
+   "laurel-canyon-blvd-archwood-st-to-vanowen-st",
+   "laurel-canyon-blvd-mercer-st-to-hoyt-st",
+   "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "north-hollywood",
+   "pacoima"
+  ],
+  "districts": [
+   2,
+   7
+  ]
+ },
+ {
+  "slug": "magnolia-blvd",
+  "name": "Magnolia Blvd",
+  "corridors": [
+   "magnolia-blvd-tujunga-ave-to-klump-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "north-hollywood"
+  ],
+  "districts": [
+   2
+  ]
+ },
+ {
+  "slug": "manchester-ave",
+  "name": "Manchester Ave",
+  "corridors": [
+   "manchester-ave-wadsworth-ave-to-central-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "florence",
+   "florence-firestone",
+   "green-meadows"
+  ],
+  "districts": [
+   9
+  ]
+ },
+ {
+  "slug": "marengo-st",
+  "name": "Marengo St",
+  "corridors": [
+   "marengo-st-mission-rd-to-lord-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "boyle-heights",
+   "lincoln-heights"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "martin-luther-king-jr-blvd",
+  "name": "Martin Luther King Jr Blvd",
+  "corridors": [
+   "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "exposition-park",
+   "vermont-square"
+  ],
+  "districts": [
+   8
+  ]
+ },
+ {
+  "slug": "melrose-ave",
+  "name": "Melrose Ave",
+  "corridors": [
+   "melrose-ave-hayworth-ave-to-orange-grove-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "beverly-grove",
+   "fairfax"
+  ],
+  "districts": [
+   5
+  ]
+ },
+ {
+  "slug": "mulholland-dr",
+  "name": "Mulholland Dr",
+  "corridors": [
+   "mulholland-dr-calneva-to-corda"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "brentwood",
+   "encino"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "national-blvd",
+  "name": "National Blvd",
+  "corridors": [
+   "national-blvd-butler-ave-to-405-fwy"
+  ],
+  "camera_count": 1,
+  "hoods": [
+   "palms",
+   "rancho-park",
+   "sawtelle"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "nordhoff-st",
+  "name": "Nordhoff St",
+  "corridors": [
+   "nordhoff-st-geyser-ave-to-yolanda-ave",
+   "nordhoff-st-noble-ave-to-la-river",
+   "nordhoff-st-pacoima-wash-to-cedros-ave",
+   "nordhoff-st-petit-ave-to-gothic-ave"
+  ],
+  "camera_count": 8,
+  "hoods": [
+   "north-hills",
+   "northridge",
+   "panorama-city"
+  ],
+  "districts": [
+   6,
+   7,
+   12
+  ]
+ },
+ {
+  "slug": "normandie-ave",
+  "name": "Normandie Ave",
+  "corridors": [
+   "normandie-ave-62nd-st-to-64th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "harvard-park",
+   "vermont-slauson"
+  ],
+  "districts": [
+   8
+  ]
+ },
+ {
+  "slug": "olympic-blvd",
+  "name": "Olympic Blvd",
+  "corridors": [
+   "olympic-blvd-alvira-st-to-stearns-dr",
+   "olympic-blvd-elden-ave-to-hoover-st",
+   "olympic-blvd-greenfield-ave-to-purdue-ave",
+   "olympic-blvd-irolo-st-to-fedora-st",
+   "olympic-blvd-la-brea-ave-to-sycamore-ave"
+  ],
+  "camera_count": 10,
+  "hoods": [
+   "carthay",
+   "koreatown",
+   "mid-wilshire",
+   "pico-union",
+   "sawtelle",
+   "west-los-angeles",
+   "westlake"
+  ],
+  "districts": [
+   1,
+   5,
+   10
+  ]
+ },
+ {
+  "slug": "oxnard-st",
+  "name": "Oxnard St",
+  "corridors": [
+   "oxnard-st-ethel-ave-to-coldwater-canyon-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "valley-glen"
+  ],
+  "districts": [
+   2
+  ]
+ },
+ {
+  "slug": "polk-st",
+  "name": "Polk St",
+  "corridors": [
+   "polk-st-glenoaks-blvd-to-borden-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "sylmar"
+  ],
+  "districts": [
+   7
+  ]
+ },
+ {
+  "slug": "reseda-blvd",
+  "name": "Reseda Blvd",
+  "corridors": [
+   "reseda-blvd-erwin-st-to-victory-blvd",
+   "reseda-blvd-kinzie-st-to-superior-st",
+   "reseda-blvd-wyandotte-st-to-valerio-st"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "northridge",
+   "reseda",
+   "tarzana"
+  ],
+  "districts": [
+   3,
+   12
+  ]
+ },
+ {
+  "slug": "riverside-dr",
+  "name": "Riverside Dr",
+  "corridors": [
+   "riverside-dr-riverside-ter-to-allesandro-st"
+  ],
+  "camera_count": 1,
+  "hoods": [
+   "echo-park",
+   "elysian-valley",
+   "silver-lake"
+  ],
+  "districts": [
+   13
+  ]
+ },
+ {
+  "slug": "san-pedro-st",
+  "name": "San Pedro St",
+  "corridors": [
+   "san-pedro-st-17th-st-to-15th-st",
+   "san-pedro-st-6th-st-to-winston-st"
+  ],
+  "camera_count": 3,
+  "hoods": [
+   "downtown"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "santa-monica-blvd",
+  "name": "Santa Monica Blvd",
+  "corridors": [
+   "santa-monica-blvd-hobart-blvd-to-normandie-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "east-hollywood"
+  ],
+  "districts": [
+   13
+  ]
+ },
+ {
+  "slug": "sepulveda-blvd",
+  "name": "Sepulveda Blvd",
+  "corridors": [
+   "sepulveda-blvd-stagg-st-to-saticoy-st",
+   "sepulveda-blvd-tupper-st-to-plummer-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "north-hills",
+   "van-nuys"
+  ],
+  "districts": [
+   6,
+   7
+  ]
+ },
+ {
+  "slug": "sesnon-blvd",
+  "name": "Sesnon Blvd",
+  "corridors": [
+   "sesnon-blvd-mason-ave-to-reseda-blvd"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "porter-ranch"
+  ],
+  "districts": [
+   12
+  ]
+ },
+ {
+  "slug": "sherman-way",
+  "name": "Sherman Way",
+  "corridors": [
+   "sherman-way-kester-ave-to-sherman-cir",
+   "sherman-way-lindley-ave-to-hesperia-ave",
+   "sherman-way-cedar-rd-to-costello-ave",
+   "sherman-way-vanalden-ave-to-calvin-ave"
+  ],
+  "camera_count": 7,
+  "hoods": [
+   "reseda",
+   "van-nuys"
+  ],
+  "districts": [
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ {
+  "slug": "slauson-ave",
+  "name": "Slauson Ave",
+  "corridors": [
+   "slauson-ave-braddock-to-culver-blvd",
+   "slauson-ave-brentwood-st-to-inskeep-ave",
+   "slauson-ave-budlong-ave-to-menlo-ave"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "del-rey",
+   "florence",
+   "south-park",
+   "vermont-slauson"
+  ],
+  "districts": [
+   9,
+   11
+  ]
+ },
+ {
+  "slug": "soto-st",
+  "name": "Soto St",
+  "corridors": [
+   "soto-st-6th-st-to-4th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "boyle-heights"
+  ],
+  "districts": [
+   14
+  ]
+ },
+ {
+  "slug": "sunset-blvd",
+  "name": "Sunset Blvd",
+  "corridors": [
+   "sunset-blvd-bronson-ave-to-101-fwy",
+   "sunset-blvd-sycamore-ave-to-mccadden-pl",
+   "sunset-blvd-rosemont-ave-to-alvarado-st"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "echo-park",
+   "hollywood"
+  ],
+  "districts": [
+   13
+  ]
+ },
+ {
+  "slug": "tampa-ave",
+  "name": "Tampa Ave",
+  "corridors": [
+   "tampa-ave-merridy-st-to-lassen-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "northridge"
+  ],
+  "districts": [
+   12
+  ]
+ },
+ {
+  "slug": "valley-circle-blvd",
+  "name": "Valley Circle Blvd",
+  "corridors": [
+   "valley-circle-blvd-victory-blvd-to-lake-manor-dr"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "west-hills",
+   "woodland-hills"
+  ],
+  "districts": [
+   12
+  ]
+ },
+ {
+  "slug": "van-nuys-blvd",
+  "name": "Van Nuys Blvd",
+  "corridors": [
+   "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd",
+   "van-nuys-blvd-herrick-ave-to-de-haven-ave"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "pacoima"
+  ],
+  "districts": [
+   7
+  ]
+ },
+ {
+  "slug": "vanowen-st",
+  "name": "Vanowen St",
+  "corridors": [
+   "vanowen-st-hatillo-ave-to-corbin-ave",
+   "vanowen-st-morse-ave-to-goodland-ave",
+   "vanowen-st-sepulveda-blvd-to-columbus-ave"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "valley-glen",
+   "van-nuys",
+   "winnetka"
+  ],
+  "districts": [
+   2,
+   3,
+   6
+  ]
+ },
+ {
+  "slug": "venice-blvd",
+  "name": "Venice Blvd",
+  "corridors": [
+   "venice-blvd-lincoln-blvd-to-pisani-pl"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "venice"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "ventura-blvd",
+  "name": "Ventura Blvd",
+  "corridors": [
+   "ventura-blvd-winnetka-ave-to-quakertown-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "woodland-hills"
+  ],
+  "districts": [
+   3
+  ]
+ },
+ {
+  "slug": "vermont-ave",
+  "name": "Vermont Ave",
+  "corridors": [
+   "vermont-ave-melrose-ave-to-marathon-st",
+   "vermont-ave-57th-st-to-58th-pl",
+   "vermont-ave-66st-st-to-florence-ave",
+   "vermont-ave-253rd-st-to-255th-st"
+  ],
+  "camera_count": 8,
+  "hoods": [
+   "east-hollywood",
+   "harbor-city",
+   "vermont-knolls",
+   "vermont-slauson"
+  ],
+  "districts": [
+   8,
+   9,
+   13,
+   15
+  ]
+ },
+ {
+  "slug": "vernon-ave",
+  "name": "Vernon Ave",
+  "corridors": [
+   "vernon-ave-wadsworth-ave-to-hooper-ave"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "central-alameda",
+   "historic-south-central",
+   "south-park"
+  ],
+  "districts": [
+   9
+  ]
+ },
+ {
+  "slug": "victory-blvd",
+  "name": "Victory Blvd",
+  "corridors": [
+   "victory-blvd-belmar-ave-to-tampa-ave",
+   "victory-blvd-ethel-ave-to-coldwater-canyon-ave",
+   "victory-blvd-kester-ave-to-cedros-ave",
+   "victory-blvd-la-river-to-canby-ave",
+   "victory-blvd-la-river-to-newcastle-ave",
+   "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway",
+   "victory-blvd-mammoth-ave-to-ventura-canyon-ave"
+  ],
+  "camera_count": 14,
+  "hoods": [
+   "encino",
+   "lake-balboa",
+   "reseda",
+   "sepulveda-basin",
+   "tarzana",
+   "valley-glen",
+   "van-nuys"
+  ],
+  "districts": [
+   2,
+   3,
+   4,
+   6
+  ]
+ },
+ {
+  "slug": "vista-del-mar",
+  "name": "Vista Del Mar",
+  "corridors": [
+   "vista-del-mar-city-limit-to-culver-blvd"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "playa-del-rey"
+  ],
+  "districts": [
+   11
+  ]
+ },
+ {
+  "slug": "washington-blvd",
+  "name": "Washington Blvd",
+  "corridors": [
+   "washington-blvd-3rd-ave-to-van-ness-ave",
+   "washington-blvd-new-hampshire-ave-to-vermont-ave",
+   "washington-blvd-marr-st-to-thatcher-ave"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "arlington-heights",
+   "pico-union",
+   "venice"
+  ],
+  "districts": [
+   1,
+   10,
+   11
+  ]
+ },
+ {
+  "slug": "western-ave",
+  "name": "Western Ave",
+  "corridors": [
+   "western-ave-franklin-ave-to-los-feliz-blvd",
+   "western-ave-24th-st-to-adams-blvd",
+   "western-ave-53rd-st-to-55th-st"
+  ],
+  "camera_count": 6,
+  "hoods": [
+   "adams-normandie",
+   "chesterfield-square",
+   "hollywood-hills",
+   "jefferson-park",
+   "los-feliz",
+   "vermont-square"
+  ],
+  "districts": [
+   4,
+   8,
+   10
+  ]
+ },
+ {
+  "slug": "white-oak-ave",
+  "name": "White Oak Ave",
+  "corridors": [
+   "white-oak-ave-ventura-blvd-to-margate-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "encino"
+  ],
+  "districts": [
+   4
+  ]
+ },
+ {
+  "slug": "wilmington-ave",
+  "name": "Wilmington Ave",
+  "corridors": [
+   "wilmington-ave-110th-st-to-113th-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "watts"
+  ],
+  "districts": [
+   15
+  ]
+ },
+ {
+  "slug": "wilshire-blvd",
+  "name": "Wilshire Blvd",
+  "corridors": [
+   "wilshire-blvd-rampart-blvd-to-park-view-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "westlake"
+  ],
+  "districts": [
+   1
+  ]
+ },
+ {
+  "slug": "winnetka-ave",
+  "name": "Winnetka Ave",
+  "corridors": [
+   "winnetka-ave-arminta-st-to-strathern-st"
+  ],
+  "camera_count": 2,
+  "hoods": [
+   "winnetka"
+  ],
+  "districts": [
+   3
+  ]
+ },
+ {
+  "slug": "woodman-ave",
+  "name": "Woodman Ave",
+  "corridors": [
+   "woodman-ave-roscoe-blvd-to-strathern",
+   "woodman-ave-terra-bella-st-to-nordhoff-st"
+  ],
+  "camera_count": 4,
+  "hoods": [
+   "arleta",
+   "panorama-city"
+  ],
+  "districts": [
+   6
+  ]
+ }
+]

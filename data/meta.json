@@ -1,0 +1,43 @@
+{
+ "data_updated": "2026-10-06",
+ "sources": {
+  "corridors": "https://services.arcgis.com/G3nmNsarwQblLhip/arcgis/rest/services/ApprovedLocations_04012026_view/FeatureServer/0",
+  "status": "https://services.arcgis.com/G3nmNsarwQblLhip/arcgis/rest/services/CameraSystemLabels_view/FeatureServer/0",
+  "cameras": "https://services.arcgis.com/G3nmNsarwQblLhip/arcgis/rest/services/CameraLocations_09302026/FeatureServer/0"
+ },
+ "source_edited": {
+  "corridors": "2026-04-01T21:43:19.164000+00:00",
+  "status": "2026-10-02T15:37:53.349000+00:00",
+  "cameras": "2026-09-30T20:28:21.264000+00:00"
+ },
+ "counts": {
+  "cameras": 246,
+  "corridors": 125,
+  "neighborhoods_with_cameras": 67,
+  "council_districts": 15,
+  "miles": 39.6
+ },
+ "status_counts": {
+  "construction": 246
+ },
+ "warnings": [
+  "camera figueroa-st-67th-st-to-68th-st-cam has no enforced direction",
+  "camera victory-blvd-la-river-to-canby-ave-cam has no enforced direction",
+  "camera victory-blvd-la-river-to-canby-ave-cam is 1104 ft from its corridor",
+  "camera victory-blvd-la-river-to-canby-ave-cam-2 has no enforced direction",
+  "camera victory-blvd-la-river-to-canby-ave-cam-2 is 1017 ft from its corridor",
+  "camera western-ave-franklin-ave-to-los-feliz-blvd-wb is 1271 ft from its corridor",
+  "camera barrington-ave-ohio-ave-to-santa-monica-blvd-cam has no enforced direction",
+  "camera 4th-st-mott-ave-to-evergreen-ave-cam has no enforced direction",
+  "camera sesnon-blvd-mason-ave-to-reseda-blvd-eb is 1992 ft from its corridor",
+  "corridor avalon-blvd-sandison-st-to-n-st has two cameras enforcing the same direction"
+ ],
+ "changelog": [
+  {
+   "date": "2026-10-06",
+   "changes": [
+    "Initial import: 246 cameras on 125 corridors"
+   ]
+  }
+ ]
+}

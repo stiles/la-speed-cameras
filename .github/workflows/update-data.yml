@@ -1,0 +1,71 @@
+name: Update camera data
+
+on:
+  schedule:
+    # 7:15 a.m. and 5:15 p.m. Pacific (UTC-7 during daylight time)
+    - cron: "15 14,0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: pipeline/uv.lock
+
+      - name: Run pipeline
+        id: run
+        working-directory: pipeline
+        run: uv run python run.py
+
+      - name: Commit status-only changes to main
+        if: steps.run.outputs.changed == 'true' && steps.run.outputs.status_only == 'true'
+        run: |
+          git config user.name "laspeedcameras-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data public/data
+          git commit -m "data: update camera status" -m "$(cat pipeline/summary.md)"
+          git push
+
+      - name: Open a PR for location changes
+        if: steps.run.outputs.changed == 'true' && steps.run.outputs.status_only != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          branch="data/update-$(date -u +%Y%m%d-%H%M)"
+          git config user.name "laspeedcameras-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add data public/data
+          git commit -m "data: update camera locations" -m "$(cat pipeline/summary.md)"
+          git push -u origin "$branch"
+          gh pr create --title "data: LADOT camera locations changed" --body-file pipeline/summary.md --label data || \
+            gh pr create --title "data: LADOT camera locations changed" --body-file pipeline/summary.md
+
+      - name: Open an issue on failure
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="Camera data pipeline failed"
+          existing=$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number')
+          body="Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+          if [ -f pipeline/summary.md ]; then body="$body"$'\n\n'"$(cat pipeline/summary.md)"; fi
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi

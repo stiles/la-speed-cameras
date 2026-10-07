@@ -1,0 +1,2462 @@
+{
+ "figueroa-st-avenue-45-to-avenue-51-nb": {
+  "coords": [
+   -118.203022,
+   34.101966
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-avenue-45-to-avenue-51-sb": {
+  "coords": [
+   -118.203289,
+   34.102036
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "woodman-ave-terra-bella-st-to-nordhoff-st-nb": {
+  "coords": [
+   -118.442366,
+   34.238387
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "woodman-ave-terra-bella-st-to-nordhoff-st-sb": {
+  "coords": [
+   -118.442603,
+   34.238198
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-67th-st-to-68th-st-sb": {
+  "coords": [
+   -118.282807,
+   33.978644
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-67th-st-to-68th-st-cam": {
+  "coords": [
+   -118.282807,
+   33.978205
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "normandie-ave-62nd-st-to-64th-st-nb": {
+  "coords": [
+   -118.30016,
+   33.98201
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "normandie-ave-62nd-st-to-64th-st-sb": {
+  "coords": [
+   -118.300365,
+   33.981823
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-sepulveda-blvd-to-columbus-ave-eb": {
+  "coords": [
+   -118.462946,
+   34.193843
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-sepulveda-blvd-to-columbus-ave-wb": {
+  "coords": [
+   -118.462585,
+   34.194009
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "white-oak-ave-ventura-blvd-to-margate-st-nb": {
+  "coords": [
+   -118.518447,
+   34.16548
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "white-oak-ave-ventura-blvd-to-margate-st-sb": {
+  "coords": [
+   -118.518697,
+   34.165249
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "fountain-ave-sunset-blvd-to-hyperion-ave-eb": {
+  "coords": [
+   -118.280435,
+   34.095719
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "fountain-ave-sunset-blvd-to-hyperion-ave-wb": {
+  "coords": [
+   -118.280819,
+   34.095878
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "van-nuys-blvd-herrick-ave-to-de-haven-ave-eb": {
+  "coords": [
+   -118.413348,
+   34.272333
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "van-nuys-blvd-herrick-ave-to-de-haven-ave-wb": {
+  "coords": [
+   -118.413677,
+   34.272404
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "woodman-ave-roscoe-blvd-to-strathern-nb": {
+  "coords": [
+   -118.430784,
+   34.216683
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "woodman-ave-roscoe-blvd-to-strathern-sb": {
+  "coords": [
+   -118.430783,
+   34.217081
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-vanalden-ave-to-calvin-ave-eb": {
+  "coords": [
+   -118.551849,
+   34.200948
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-vanalden-ave-to-calvin-ave-wb": {
+  "coords": [
+   -118.55182,
+   34.201254
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vernon-ave-wadsworth-ave-to-hooper-ave-eb": {
+  "coords": [
+   -118.25507,
+   34.003825
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vernon-ave-wadsworth-ave-to-hooper-ave-wb": {
+  "coords": [
+   -118.255424,
+   34.003989
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-greenfield-ave-to-purdue-ave-eb": {
+  "coords": [
+   -118.43828,
+   34.039836
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-greenfield-ave-to-purdue-ave-wb": {
+  "coords": [
+   -118.438419,
+   34.040031
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-53rd-st-to-55th-st-nb": {
+  "coords": [
+   -118.308847,
+   33.994748
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-53rd-st-to-55th-st-sb": {
+  "coords": [
+   -118.309032,
+   33.994519
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "burbank-blvd-sepulveda-blvd-to-kester-ave-eb": {
+  "coords": [
+   -118.460789,
+   34.172012
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "burbank-blvd-sepulveda-blvd-to-kester-ave-wb": {
+  "coords": [
+   -118.463339,
+   34.172218
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gage-ave-halldale-ave-to-raymond-ave-eb": {
+  "coords": [
+   -118.298567,
+   33.982273
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gage-ave-halldale-ave-to-raymond-ave-wb": {
+  "coords": [
+   -118.298938,
+   33.982426
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-eb": {
+  "coords": [
+   -118.311478,
+   34.010758
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-wb": {
+  "coords": [
+   -118.311757,
+   34.010952
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-hatillo-ave-to-corbin-ave-eb": {
+  "coords": [
+   -118.562738,
+   34.193733
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-hatillo-ave-to-corbin-ave-wb": {
+  "coords": [
+   -118.56288,
+   34.193906
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-erwin-st-to-victory-blvd-nb": {
+  "coords": [
+   -118.53591,
+   34.185432
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-erwin-st-to-victory-blvd-sb": {
+  "coords": [
+   -118.536158,
+   34.185244
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-orange-line-busway-to-archwood-st-nb": {
+  "coords": [
+   -118.50125,
+   34.191195
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-orange-line-busway-to-archwood-st-sb": {
+  "coords": [
+   -118.501252,
+   34.19081
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-new-hampshire-ave-to-vermont-ave-eb": {
+  "coords": [
+   -118.292184,
+   34.039901
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-new-hampshire-ave-to-vermont-ave-wb": {
+  "coords": [
+   -118.292996,
+   34.040104
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "7th-st-flower-st-to-grand-ave-eb": {
+  "coords": [
+   -118.258376,
+   34.048299
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "7th-st-flower-st-to-grand-ave-wb": {
+  "coords": [
+   -118.257226,
+   34.047794
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "central-ave-109th-st-to-114th-st-nb": {
+  "coords": [
+   -118.25412,
+   33.932347
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "central-ave-109th-st-to-114th-st-sb": {
+  "coords": [
+   -118.254395,
+   33.932277
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "8th-st-westmoreland-ave-to-hoover-st-eb": {
+  "coords": [
+   -118.286725,
+   34.057657
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "8th-st-westmoreland-ave-to-hoover-st-wb": {
+  "coords": [
+   -118.286776,
+   34.057811
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-la-river-to-canby-ave-cam": {
+  "coords": [
+   -118.53872,
+   34.186712
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-la-river-to-canby-ave-cam-2": {
+  "coords": [
+   -118.538431,
+   34.186482
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-la-river-to-newcastle-ave-eb": {
+  "coords": [
+   -118.525337,
+   34.186508
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-la-river-to-newcastle-ave-wb": {
+  "coords": [
+   -118.528197,
+   34.186702
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "polk-st-glenoaks-blvd-to-borden-ave-nb": {
+  "coords": [
+   -118.447845,
+   34.309112
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "polk-st-glenoaks-blvd-to-borden-ave-sb": {
+  "coords": [
+   -118.446889,
+   34.310423
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "magnolia-blvd-tujunga-ave-to-klump-ave-eb": {
+  "coords": [
+   -118.378035,
+   34.164822
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "magnolia-blvd-tujunga-ave-to-klump-ave-wb": {
+  "coords": [
+   -118.376768,
+   34.164985
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-24th-st-to-adams-blvd-nb": {
+  "coords": [
+   -118.308882,
+   34.033836
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-24th-st-to-adams-blvd-sb": {
+  "coords": [
+   -118.30908,
+   34.034148
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "wilshire-blvd-rampart-blvd-to-park-view-st-eb": {
+  "coords": [
+   -118.285859,
+   34.061724
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "wilshire-blvd-rampart-blvd-to-park-view-st-wb": {
+  "coords": [
+   -118.284363,
+   34.061944
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "6th-st-berendo-st-to-vermont-ave-eb": {
+  "coords": [
+   -118.29348,
+   34.063537
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "6th-st-berendo-st-to-vermont-ave-wb": {
+  "coords": [
+   -118.292797,
+   34.063671
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-marr-st-to-thatcher-ave-eb": {
+  "coords": [
+   -118.452809,
+   33.987683
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-marr-st-to-thatcher-ave-wb": {
+  "coords": [
+   -118.451603,
+   33.988656
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "florence-ave-van-ness-ave-to-3rd-ave-eb": {
+  "coords": [
+   -118.31903,
+   33.974481
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "florence-ave-van-ness-ave-to-3rd-ave-wb": {
+  "coords": [
+   -118.319259,
+   33.974688
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "fairfax-ave-clinton-st-to-waring-ave-nb": {
+  "coords": [
+   -118.36146,
+   34.083023
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "fairfax-ave-clinton-st-to-waring-ave-sb": {
+  "coords": [
+   -118.361473,
+   34.082695
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "oxnard-st-ethel-ave-to-coldwater-canyon-ave-eb": {
+  "coords": [
+   -118.416084,
+   34.179327
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "oxnard-st-ethel-ave-to-coldwater-canyon-ave-wb": {
+  "coords": [
+   -118.414584,
+   34.179491
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-lindley-ave-to-hesperia-ave-eb": {
+  "coords": [
+   -118.526738,
+   34.200979
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-lindley-ave-to-hesperia-ave-wb": {
+  "coords": [
+   -118.526772,
+   34.201284
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "foothill-blvd-newhome-ave-to-sherman-grove-ave-eb": {
+  "coords": [
+   -118.320462,
+   34.259628
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "foothill-blvd-newhome-ave-to-sherman-grove-ave-wb": {
+  "coords": [
+   -118.32107,
+   34.259853
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gage-ave-hoover-st-to-figueroa-st-eb": {
+  "coords": [
+   -118.284835,
+   33.982294
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gage-ave-hoover-st-to-figueroa-st-wb": {
+  "coords": [
+   -118.285117,
+   33.982448
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-pico-blvd-to-olympic-blvd-nb": {
+  "coords": [
+   -118.376062,
+   34.057787
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-pico-blvd-to-olympic-blvd-sb": {
+  "coords": [
+   -118.376288,
+   34.054673
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-mammoth-ave-to-ventura-canyon-ave-eb": {
+  "coords": [
+   -118.429229,
+   34.186568
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-mammoth-ave-to-ventura-canyon-ave-wb": {
+  "coords": [
+   -118.429216,
+   34.186775
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "avalon-blvd-sandison-st-to-n-st-nb": {
+  "coords": [
+   -118.263522,
+   33.792088
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "avalon-blvd-sandison-st-to-n-st-nb-2": {
+  "coords": [
+   -118.263284,
+   33.79236
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sepulveda-blvd-stagg-st-to-saticoy-st-nb": {
+  "coords": [
+   -118.466086,
+   34.209445
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sepulveda-blvd-stagg-st-to-saticoy-st-sb": {
+  "coords": [
+   -118.466338,
+   34.209665
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "wilmington-ave-110th-st-to-113th-st-nb": {
+  "coords": [
+   -118.239108,
+   33.932961
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "wilmington-ave-110th-st-to-113th-st-sb": {
+  "coords": [
+   -118.239103,
+   33.934722
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-franklin-ave-to-los-feliz-blvd-eb": {
+  "coords": [
+   -118.307433,
+   34.108113
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "western-ave-franklin-ave-to-los-feliz-blvd-wb": {
+  "coords": [
+   -118.304913,
+   34.108734
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-62nd-st-to-gage-ave-nb": {
+  "coords": [
+   -118.28255,
+   33.982956
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-62nd-st-to-gage-ave-sb": {
+  "coords": [
+   -118.282803,
+   33.982831
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "melrose-ave-hayworth-ave-to-orange-grove-ave-eb": {
+  "coords": [
+   -118.360117,
+   34.083711
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "melrose-ave-hayworth-ave-to-orange-grove-ave-wb": {
+  "coords": [
+   -118.360335,
+   34.083868
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-kinzie-st-to-superior-st-nb": {
+  "coords": [
+   -118.535982,
+   34.24807
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-kinzie-st-to-superior-st-sb": {
+  "coords": [
+   -118.53623,
+   34.247887
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-alvira-st-to-stearns-dr-eb": {
+  "coords": [
+   -118.370449,
+   34.058842
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-alvira-st-to-stearns-dr-wb": {
+  "coords": [
+   -118.368501,
+   34.058824
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-archwood-st-to-vanowen-st-nb": {
+  "coords": [
+   -118.396397,
+   34.193173
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-archwood-st-to-vanowen-st-sb": {
+  "coords": [
+   -118.39665,
+   34.19182
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-18th-st-to-horner-st-nb": {
+  "coords": [
+   -118.376009,
+   34.048002
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-18th-st-to-horner-st-sb": {
+  "coords": [
+   -118.376277,
+   34.048018
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-elden-ave-to-hoover-st-eb": {
+  "coords": [
+   -118.28926,
+   34.052303
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-elden-ave-to-hoover-st-wb": {
+  "coords": [
+   -118.288952,
+   34.052513
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-wyandotte-st-to-valerio-st-nb": {
+  "coords": [
+   -118.535937,
+   34.202482
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "reseda-blvd-wyandotte-st-to-valerio-st-sb": {
+  "coords": [
+   -118.536187,
+   34.203856
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-noble-ave-to-la-river-eb": {
+  "coords": [
+   -118.459696,
+   34.235377
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-noble-ave-to-la-river-wb": {
+  "coords": [
+   -118.460065,
+   34.235584
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-bronson-ave-to-101-fwy-eb": {
+  "coords": [
+   -118.316757,
+   34.097954
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-bronson-ave-to-101-fwy-wb": {
+  "coords": [
+   -118.316991,
+   34.098162
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-brentwood-st-to-inskeep-ave-eb": {
+  "coords": [
+   -118.274029,
+   33.989321
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-brentwood-st-to-inskeep-ave-wb": {
+  "coords": [
+   -118.274115,
+   33.989125
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "grandee-ave-century-blvd-to-108th-st-nb": {
+  "coords": [
+   -118.24344,
+   33.944191
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "grandee-ave-century-blvd-to-108th-st-sb": {
+  "coords": [
+   -118.243603,
+   33.942671
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "imperial-hwy-avalon-blvd-to-stanford-ave-eb": {
+  "coords": [
+   -118.263792,
+   33.930949
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "imperial-hwy-avalon-blvd-to-stanford-ave-wb": {
+  "coords": [
+   -118.266573,
+   33.931162
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-cedar-rd-to-costello-ave-eb": {
+  "coords": [
+   -118.437658,
+   34.2011
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-cedar-rd-to-costello-ave-wb": {
+  "coords": [
+   -118.439656,
+   34.201306
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "san-pedro-st-17th-st-to-15th-st-nb": {
+  "coords": [
+   -118.255318,
+   34.03064
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "soto-st-6th-st-to-4th-st-nb": {
+  "coords": [
+   -118.212673,
+   34.039014
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "soto-st-6th-st-to-4th-st-sb": {
+  "coords": [
+   -118.212229,
+   34.040061
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-sawyer-st-to-18th-st-nb": {
+  "coords": [
+   -118.376458,
+   34.043473
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-sawyer-st-to-18th-st-sb": {
+  "coords": [
+   -118.376929,
+   34.044114
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-geyser-ave-to-yolanda-ave-eb": {
+  "coords": [
+   -118.538309,
+   34.2356
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-geyser-ave-to-yolanda-ave-wb": {
+  "coords": [
+   -118.542645,
+   34.235595
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gaffey-st-1st-st-to-2nd-st-nb": {
+  "coords": [
+   -118.292194,
+   33.742533
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "gaffey-st-1st-st-to-2nd-st-sb": {
+  "coords": [
+   -118.292445,
+   33.741959
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-nb": {
+  "coords": [
+   -118.442439,
+   34.268623
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-sb": {
+  "coords": [
+   -118.442498,
+   34.268363
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "3rd-st-virgil-ave-to-commonwealth-ave-eb": {
+  "coords": [
+   -118.286255,
+   34.068912
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "3rd-st-virgil-ave-to-commonwealth-ave-wb": {
+  "coords": [
+   -118.286288,
+   34.069065
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-sycamore-ave-to-mccadden-pl-eb": {
+  "coords": [
+   -118.340629,
+   34.097873
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-sycamore-ave-to-mccadden-pl-wb": {
+  "coords": [
+   -118.340563,
+   34.098077
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-budlong-ave-to-menlo-ave-eb": {
+  "coords": [
+   -118.2917,
+   33.989005
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-budlong-ave-to-menlo-ave-wb": {
+  "coords": [
+   -118.29158,
+   33.989233
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-adams-blvd-to-23rd-st-nb": {
+  "coords": [
+   -118.27488,
+   34.029671
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-adams-blvd-to-23rd-st-sb": {
+  "coords": [
+   -118.275555,
+   34.029125
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-brea-ave-veronica-st-to-coliseum-st-nb": {
+  "coords": [
+   -118.355519,
+   34.015372
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-brea-ave-veronica-st-to-coliseum-st-sb": {
+  "coords": [
+   -118.355515,
+   34.014966
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-petit-ave-to-gothic-ave-eb": {
+  "coords": [
+   -118.495244,
+   34.235606
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-petit-ave-to-gothic-ave-wb": {
+  "coords": [
+   -118.495984,
+   34.235821
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-pacoima-wash-to-cedros-ave-eb": {
+  "coords": [
+   -118.455931,
+   34.235347
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "nordhoff-st-pacoima-wash-to-cedros-ave-wb": {
+  "coords": [
+   -118.455683,
+   34.235557
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "central-ave-89th-st-to-92nd-ave-nb": {
+  "coords": [
+   -118.256302,
+   33.954861
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "central-ave-89th-st-to-92nd-ave-sb": {
+  "coords": [
+   -118.256554,
+   33.954643
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-rosemont-ave-to-alvarado-st-eb": {
+  "coords": [
+   -118.267126,
+   34.078448
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sunset-blvd-rosemont-ave-to-alvarado-st-wb": {
+  "coords": [
+   -118.263946,
+   34.077644
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-118-fwy-to-tulsa-st-nb": {
+  "coords": [
+   -118.502048,
+   34.274061
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-118-fwy-to-tulsa-st-sb": {
+  "coords": [
+   -118.502332,
+   34.273826
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "winnetka-ave-arminta-st-to-strathern-st-nb": {
+  "coords": [
+   -118.570907,
+   34.213499
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "winnetka-ave-arminta-st-to-strathern-st-sb": {
+  "coords": [
+   -118.571161,
+   34.215048
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "barrington-ave-ohio-ave-to-santa-monica-blvd-sb": {
+  "coords": [
+   -118.458059,
+   34.046
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "barrington-ave-ohio-ave-to-santa-monica-blvd-cam": {
+  "coords": [
+   -118.457677,
+   34.045571
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-80th-st-to-manchester-ave-nb": {
+  "coords": [
+   -118.282586,
+   33.963875
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "figueroa-st-80th-st-to-manchester-ave-sb": {
+  "coords": [
+   -118.282839,
+   33.963308
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-coliseum-st-to-bowesfield-st-nb": {
+  "coords": [
+   -118.372243,
+   34.020667
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-cienega-blvd-coliseum-st-to-bowesfield-st-sb": {
+  "coords": [
+   -118.372606,
+   34.019844
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "103rd-st-fifth-blvd-to-grandee-ave-eb": {
+  "coords": [
+   -118.244483,
+   33.943117
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "103rd-st-fifth-blvd-to-grandee-ave-wb": {
+  "coords": [
+   -118.244758,
+   33.943301
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-253rd-st-to-255th-st-nb": {
+  "coords": [
+   -118.290751,
+   33.792887
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-253rd-st-to-255th-st-sb": {
+  "coords": [
+   -118.290935,
+   33.793116
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-irolo-st-to-fedora-st-eb": {
+  "coords": [
+   -118.297771,
+   34.052536
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-irolo-st-to-fedora-st-wb": {
+  "coords": [
+   -118.298834,
+   34.052739
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "san-pedro-st-6th-st-to-winston-st-nb": {
+  "coords": [
+   -118.243994,
+   34.043879
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "san-pedro-st-6th-st-to-winston-st-sb": {
+  "coords": [
+   -118.244349,
+   34.043748
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "beverly-blvd-belmont-ave-to-witmer-st-eb": {
+  "coords": [
+   -118.262028,
+   34.062842
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "beverly-blvd-belmont-ave-to-witmer-st-wb": {
+  "coords": [
+   -118.262223,
+   34.063123
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "arlington-ave-21st-st-to-18th-st-nb": {
+  "coords": [
+   -118.317646,
+   34.038629
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "arlington-ave-21st-st-to-18th-st-sb": {
+  "coords": [
+   -118.317808,
+   34.038892
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "tampa-ave-merridy-st-to-lassen-st-nb": {
+  "coords": [
+   -118.553463,
+   34.251512
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "tampa-ave-merridy-st-to-lassen-st-sb": {
+  "coords": [
+   -118.553463,
+   34.251191
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sepulveda-blvd-tupper-st-to-plummer-st-nb": {
+  "coords": [
+   -118.467327,
+   34.240942
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sepulveda-blvd-tupper-st-to-plummer-st-sb": {
+  "coords": [
+   -118.46777,
+   34.241296
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-eb": {
+  "coords": [
+   -118.505023,
+   34.186508
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-wb": {
+  "coords": [
+   -118.506779,
+   34.186747
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "venice-blvd-lincoln-blvd-to-pisani-pl-eb": {
+  "coords": [
+   -118.453848,
+   33.993318
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "venice-blvd-lincoln-blvd-to-pisani-pl-wb": {
+  "coords": [
+   -118.455488,
+   33.992835
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "highland-ave-sunset-blvd-to-hollywood-blvd-nb": {
+  "coords": [
+   -118.338553,
+   34.09898
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "highland-ave-sunset-blvd-to-hollywood-blvd-sb": {
+  "coords": [
+   -118.338828,
+   34.100787
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sherman-way-kester-ave-to-sherman-cir-wb": {
+  "coords": [
+   -118.454728,
+   34.201229
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-57th-st-to-58th-pl-nb": {
+  "coords": [
+   -118.291403,
+   33.990772
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-57th-st-to-58th-pl-sb": {
+  "coords": [
+   -118.291589,
+   33.990946
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "florence-ave-vermont-ave-to-hoover-st-eb": {
+  "coords": [
+   -118.289066,
+   33.974531
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "florence-ave-vermont-ave-to-hoover-st-wb": {
+  "coords": [
+   -118.289376,
+   33.974739
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "marengo-st-mission-rd-to-lord-st-eb": {
+  "coords": [
+   -118.213654,
+   34.059672
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "marengo-st-mission-rd-to-lord-st-wb": {
+  "coords": [
+   -118.213624,
+   34.059931
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-lassen-st-to-plummer-st-nb": {
+  "coords": [
+   -118.502307,
+   34.248326
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "balboa-blvd-lassen-st-to-plummer-st-sb": {
+  "coords": [
+   -118.502562,
+   34.248118
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "cypress-ave-cazador-st-to-macon-st-nb": {
+  "coords": [
+   -118.236902,
+   34.103583
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "cypress-ave-cazador-st-to-macon-st-sb": {
+  "coords": [
+   -118.238156,
+   34.1048
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-melrose-ave-to-marathon-st-nb": {
+  "coords": [
+   -118.2916,
+   34.084275
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-melrose-ave-to-marathon-st-sb": {
+  "coords": [
+   -118.291852,
+   34.084615
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "national-blvd-butler-ave-to-405-fwy-wb": {
+  "coords": [
+   -118.432188,
+   34.025995
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-morse-ave-to-goodland-ave-eb": {
+  "coords": [
+   -118.415389,
+   34.193871
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vanowen-st-morse-ave-to-goodland-ave-wb": {
+  "coords": [
+   -118.412739,
+   34.194035
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-3rd-ave-to-van-ness-ave-eb": {
+  "coords": [
+   -118.318577,
+   34.039808
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "washington-blvd-3rd-ave-to-van-ness-ave-wb": {
+  "coords": [
+   -118.318123,
+   34.040018
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "4th-st-mott-ave-to-evergreen-ave-wb": {
+  "coords": [
+   -118.206587,
+   34.038402
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "4th-st-mott-ave-to-evergreen-ave-cam": {
+  "coords": [
+   -118.206538,
+   34.038185
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-brea-ave-1st-st-to-beverly-blvd-nb": {
+  "coords": [
+   -118.343921,
+   34.075509
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-brea-ave-1st-st-to-beverly-blvd-sb": {
+  "coords": [
+   -118.344158,
+   34.074361
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "4th-st-pecan-st-to-boyle-ave-eb": {
+  "coords": [
+   -118.220646,
+   34.042936
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "4th-st-pecan-st-to-boyle-ave-wb": {
+  "coords": [
+   -118.22107,
+   34.043073
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "avalon-blvd-74th-st-to-77th-st-nb": {
+  "coords": [
+   -118.265061,
+   33.970352
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "avalon-blvd-74th-st-to-77th-st-sb": {
+  "coords": [
+   -118.265274,
+   33.970668
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-mercer-st-to-hoyt-st-nb": {
+  "coords": [
+   -118.432914,
+   34.259686
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "laurel-canyon-blvd-mercer-st-to-hoyt-st-sb": {
+  "coords": [
+   -118.433643,
+   34.26006
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "santa-monica-blvd-hobart-blvd-to-normandie-ave-eb": {
+  "coords": [
+   -118.30296,
+   34.090735
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "santa-monica-blvd-hobart-blvd-to-normandie-ave-wb": {
+  "coords": [
+   -118.30513,
+   34.090876
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-ethel-ave-to-coldwater-canyon-ave-eb": {
+  "coords": [
+   -118.416118,
+   34.186574
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-ethel-ave-to-coldwater-canyon-ave-wb": {
+  "coords": [
+   -118.41524,
+   34.186575
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "ventura-blvd-winnetka-ave-to-quakertown-ave-eb": {
+  "coords": [
+   -118.569937,
+   34.171204
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "ventura-blvd-winnetka-ave-to-quakertown-ave-wb": {
+  "coords": [
+   -118.570121,
+   34.171384
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-66st-st-to-florence-ave-nb": {
+  "coords": [
+   -118.291635,
+   33.978144
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vermont-ave-66st-st-to-florence-ave-sb": {
+  "coords": [
+   -118.291664,
+   33.977769
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "jefferson-blvd-crenshaw-blvd-to-bronson-ave-eb": {
+  "coords": [
+   -118.333922,
+   34.025515
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "jefferson-blvd-crenshaw-blvd-to-bronson-ave-wb": {
+  "coords": [
+   -118.334342,
+   34.025677
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "riverside-dr-riverside-ter-to-allesandro-st-sb": {
+  "coords": [
+   -118.250901,
+   34.101001
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-nb": {
+  "coords": [
+   -118.433254,
+   34.257827
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-sb": {
+  "coords": [
+   -118.433449,
+   34.257961
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-kester-ave-to-cedros-ave-eb": {
+  "coords": [
+   -118.458806,
+   34.186551
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-kester-ave-to-cedros-ave-wb": {
+  "coords": [
+   -118.45904,
+   34.186763
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "huntington-dr-topaz-st-to-monterey-rd-nb": {
+  "coords": [
+   -118.189019,
+   34.084723
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "huntington-dr-topaz-st-to-monterey-rd-sb": {
+  "coords": [
+   -118.189143,
+   34.084892
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "highland-ave-franklin-pl-to-camrose-dr-nb": {
+  "coords": [
+   -118.337359,
+   34.105878
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "highland-ave-franklin-pl-to-camrose-dr-sb": {
+  "coords": [
+   -118.33763,
+   34.106511
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "manchester-ave-wadsworth-ave-to-central-ave-eb": {
+  "coords": [
+   -118.257113,
+   33.960065
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "manchester-ave-wadsworth-ave-to-central-ave-wb": {
+  "coords": [
+   -118.257591,
+   33.960276
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "franklin-ave-cheremoya-ave-to-tamarind-ave-eb": {
+  "coords": [
+   -118.319253,
+   34.105183
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "franklin-ave-cheremoya-ave-to-tamarind-ave-wb": {
+  "coords": [
+   -118.320037,
+   34.105332
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-la-brea-ave-to-sycamore-ave-eb": {
+  "coords": [
+   -118.342819,
+   34.057055
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "olympic-blvd-la-brea-ave-to-sycamore-ave-wb": {
+  "coords": [
+   -118.344694,
+   34.057304
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "coldwater-canyon-ave-vanowen-st-to-bassett-st-nb": {
+  "coords": [
+   -118.413703,
+   34.19477
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "coldwater-canyon-ave-vanowen-st-to-bassett-st-sb": {
+  "coords": [
+   -118.413903,
+   34.194394
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "hollywood-blvd-vista-st-to-camino-palmero-st-eb": {
+  "coords": [
+   -118.35111,
+   34.101578
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "hollywood-blvd-vista-st-to-camino-palmero-st-wb": {
+  "coords": [
+   -118.350769,
+   34.101715
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vista-del-mar-city-limit-to-culver-blvd-nb": {
+  "coords": [
+   -118.444009,
+   33.947877
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "vista-del-mar-city-limit-to-culver-blvd-sb": {
+  "coords": [
+   -118.443916,
+   33.947666
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-braddock-to-culver-blvd-nb": {
+  "coords": [
+   -118.415283,
+   33.997806
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "slauson-ave-braddock-to-culver-blvd-sb": {
+  "coords": [
+   -118.414806,
+   33.998665
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-tijera-blvd-manchester-to-74th-st-nb": {
+  "coords": [
+   -118.386875,
+   33.963759
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "la-tijera-blvd-manchester-to-74th-st-sb": {
+  "coords": [
+   -118.383753,
+   33.966836
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "valley-circle-blvd-victory-blvd-to-lake-manor-dr-nb": {
+  "coords": [
+   -118.656918,
+   34.193307
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "valley-circle-blvd-victory-blvd-to-lake-manor-dr-sb": {
+  "coords": [
+   -118.655654,
+   34.187182
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sesnon-blvd-mason-ave-to-reseda-blvd-eb": {
+  "coords": [
+   -118.566612,
+   34.295202
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "sesnon-blvd-mason-ave-to-reseda-blvd-wb": {
+  "coords": [
+   -118.55601,
+   34.296251
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-belmar-ave-to-tampa-ave-eb": {
+  "coords": [
+   -118.55756,
+   34.186469
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "victory-blvd-belmar-ave-to-tampa-ave-wb": {
+  "coords": [
+   -118.554242,
+   34.186683
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "mulholland-dr-calneva-to-corda-eb": {
+  "coords": [
+   -118.488698,
+   34.130028
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ },
+ "mulholland-dr-calneva-to-corda-wb": {
+  "coords": [
+   -118.493004,
+   34.130776
+  ],
+  "status": "construction",
+  "status_label": "Under Construction",
+  "first_seen": "2026-10-06",
+  "status_changed_at": null
+ }
+}

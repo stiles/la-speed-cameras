@@ -1,0 +1,14 @@
+[project]
+name = "la-speed-cameras-pipeline"
+version = "0.1.0"
+description = "Fetch LADOT speed camera layers and build the site's data files"
+requires-python = ">=3.11"
+dependencies = [
+    "geopandas>=1.0",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "pyogrio>=0.9",
+    "requests>=2.32",
+    "scipy>=1.13",
+    "shapely>=2.0",
+]

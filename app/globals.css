@@ -1,0 +1,96 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #16161d;
+  --color-siren: #ff3b1f;
+  --color-siren-dark: #d92a10;
+  --color-paper: #f6f5f1;
+  --color-asphalt: #26262e;
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-display), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  color: var(--color-ink);
+  background: var(--color-paper);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+.prose-copy p,
+.prose-copy li {
+  line-height: 1.65;
+}
+.prose-copy p + p {
+  margin-top: 1rem;
+}
+.prose-copy a {
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--color-siren) 60%, transparent);
+}
+.prose-copy h2 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 2.5rem 0 0.75rem;
+}
+.prose-copy ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin: 0.75rem 0;
+}
+
+/* Map chrome */
+.mapboxgl-popup-content {
+  border-radius: 12px;
+  padding: 12px 14px;
+  font-family: var(--font-sans);
+  box-shadow: 0 8px 30px rgb(0 0 0 / 0.18);
+}
+.cam-popup {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.cam-popup strong {
+  font-size: 15px;
+}
+.cam-popup-status {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-siren-dark);
+  margin-bottom: 2px;
+}
+.cam-popup-meta {
+  color: #52525b;
+  margin: 4px 0 8px;
+}
+.cam-popup a {
+  font-weight: 600;
+  color: var(--color-ink);
+  text-decoration: underline;
+}
+.you-are-here {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #2563eb;
+  border: 3px solid white;
+  box-shadow: 0 0 0 6px rgb(37 99 235 / 0.25);
+}
+
+.stripes {
+  background-image: repeating-linear-gradient(
+    -45deg,
+    var(--color-ink) 0 14px,
+    #facc15 14px 28px
+  );
+}

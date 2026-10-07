@@ -1,0 +1,247 @@
+camera_id,corridor,street,from,to,direction_enforced,mount_side,speed_limit,council_district,neighborhood,status,school_nearby,longitude,latitude
+figueroa-st-avenue-45-to-avenue-51-nb,figueroa-st-avenue-45-to-avenue-51,N Figueroa St,Avenue 45,Avenue 51,Northbound,East,35,1,highland-park,Under Construction,True,-118.203022,34.101966
+figueroa-st-avenue-45-to-avenue-51-sb,figueroa-st-avenue-45-to-avenue-51,N Figueroa St,Avenue 45,Avenue 51,Southbound,West,35,1,highland-park,Under Construction,True,-118.203289,34.102036
+woodman-ave-terra-bella-st-to-nordhoff-st-nb,woodman-ave-terra-bella-st-to-nordhoff-st,Woodman Ave,Terra Bella St,Nordhoff St,Northbound,East,35,6,arleta,Under Construction,True,-118.442366,34.238387
+woodman-ave-terra-bella-st-to-nordhoff-st-sb,woodman-ave-terra-bella-st-to-nordhoff-st,Woodman Ave,Terra Bella St,Nordhoff St,Southbound,West,35,6,panorama-city,Under Construction,True,-118.442603,34.238198
+figueroa-st-67th-st-to-68th-st-sb,figueroa-st-67th-st-to-68th-st,S Figueroa St,W 67th St,W 68th St (east),Southbound,West,35,8,vermont-slauson,Under Construction,True,-118.282807,33.978644
+figueroa-st-67th-st-to-68th-st-cam,figueroa-st-67th-st-to-68th-st,S Figueroa St,W 67th St,W 68th St (east),,,35,8,vermont-slauson,Under Construction,True,-118.282807,33.978205
+normandie-ave-62nd-st-to-64th-st-nb,normandie-ave-62nd-st-to-64th-st,S Normandie Ave,W 62nd St,W 64th St,Northbound,East,35,8,vermont-slauson,Under Construction,True,-118.30016,33.98201
+normandie-ave-62nd-st-to-64th-st-sb,normandie-ave-62nd-st-to-64th-st,S Normandie Ave,W 62nd St,W 64th St,Southbound,West,35,8,harvard-park,Under Construction,True,-118.300365,33.981823
+vanowen-st-sepulveda-blvd-to-columbus-ave-eb,vanowen-st-sepulveda-blvd-to-columbus-ave,Vanowen St,Sepulveda Blvd,Columbus Ave,Eastbound,South,35,6,van-nuys,Under Construction,False,-118.462946,34.193843
+vanowen-st-sepulveda-blvd-to-columbus-ave-wb,vanowen-st-sepulveda-blvd-to-columbus-ave,Vanowen St,Sepulveda Blvd,Columbus Ave,Westbound,North,35,6,van-nuys,Under Construction,False,-118.462585,34.194009
+white-oak-ave-ventura-blvd-to-margate-st-nb,white-oak-ave-ventura-blvd-to-margate-st,White Oak Ave,Ventura Blvd,Margate St,Northbound,East,40,4,encino,Under Construction,True,-118.518447,34.16548
+white-oak-ave-ventura-blvd-to-margate-st-sb,white-oak-ave-ventura-blvd-to-margate-st,White Oak Ave,Ventura Blvd,Margate St,Southbound,West,40,4,encino,Under Construction,True,-118.518697,34.165249
+fountain-ave-sunset-blvd-to-hyperion-ave-eb,fountain-ave-sunset-blvd-to-hyperion-ave,Fountain Ave,Sunset Blvd,Hyperion Ave,Eastbound,South,35,4,silver-lake,Under Construction,True,-118.280435,34.095719
+fountain-ave-sunset-blvd-to-hyperion-ave-wb,fountain-ave-sunset-blvd-to-hyperion-ave,Fountain Ave,Sunset Blvd,Hyperion Ave,Westbound,North,35,4,los-feliz,Under Construction,True,-118.280819,34.095878
+van-nuys-blvd-herrick-ave-to-de-haven-ave-eb,van-nuys-blvd-herrick-ave-to-de-haven-ave,Van Nuys Blvd,Herrick Ave,De Haven Ave,Eastbound,South,35,7,pacoima,Under Construction,True,-118.413348,34.272333
+van-nuys-blvd-herrick-ave-to-de-haven-ave-wb,van-nuys-blvd-herrick-ave-to-de-haven-ave,Van Nuys Blvd,Herrick Ave,De Haven Ave,Westbound,North,35,7,pacoima,Under Construction,True,-118.413677,34.272404
+woodman-ave-roscoe-blvd-to-strathern-nb,woodman-ave-roscoe-blvd-to-strathern,Woodman Ave,Roscoe Blvd,Strathern,Northbound,East,35,6,panorama-city,Under Construction,False,-118.430784,34.216683
+woodman-ave-roscoe-blvd-to-strathern-sb,woodman-ave-roscoe-blvd-to-strathern,Woodman Ave,Roscoe Blvd,Strathern,Southbound,East,35,6,panorama-city,Under Construction,False,-118.430783,34.217081
+sherman-way-vanalden-ave-to-calvin-ave-eb,sherman-way-vanalden-ave-to-calvin-ave,Sherman Way,Vanalden Ave,Calvin Ave,Eastbound,South,35,3,reseda,Under Construction,False,-118.551849,34.200948
+sherman-way-vanalden-ave-to-calvin-ave-wb,sherman-way-vanalden-ave-to-calvin-ave,Sherman Way,Vanalden Ave,Calvin Ave,Westbound,North,35,3,reseda,Under Construction,False,-118.55182,34.201254
+vernon-ave-wadsworth-ave-to-hooper-ave-eb,vernon-ave-wadsworth-ave-to-hooper-ave,E Vernon Ave,Wadsworth Ave,Hooper Ave,Eastbound,South,30,9,central-alameda,Under Construction,True,-118.25507,34.003825
+vernon-ave-wadsworth-ave-to-hooper-ave-wb,vernon-ave-wadsworth-ave-to-hooper-ave,E Vernon Ave,Wadsworth Ave,Hooper Ave,Westbound,North,30,9,central-alameda,Under Construction,True,-118.255424,34.003989
+olympic-blvd-greenfield-ave-to-purdue-ave-eb,olympic-blvd-greenfield-ave-to-purdue-ave,W Olympic Blvd,Greenfield Ave,Purdue Ave,Eastbound,South,35,5,sawtelle,Under Construction,False,-118.43828,34.039836
+olympic-blvd-greenfield-ave-to-purdue-ave-wb,olympic-blvd-greenfield-ave-to-purdue-ave,W Olympic Blvd,Greenfield Ave,Purdue Ave,Westbound,North,35,5,sawtelle,Under Construction,False,-118.438419,34.040031
+western-ave-53rd-st-to-55th-st-nb,western-ave-53rd-st-to-55th-st,S Western Ave,W 53rd St,W 55th St,Northbound,East,35,8,vermont-square,Under Construction,True,-118.308847,33.994748
+western-ave-53rd-st-to-55th-st-sb,western-ave-53rd-st-to-55th-st,S Western Ave,W 53rd St,W 55th St,Southbound,West,35,8,vermont-square,Under Construction,True,-118.309032,33.994519
+burbank-blvd-sepulveda-blvd-to-kester-ave-eb,burbank-blvd-sepulveda-blvd-to-kester-ave,Burbank Blvd,Sepulveda Blvd,Kester Ave,Eastbound,South,35,4,sherman-oaks,Under Construction,True,-118.460789,34.172012
+burbank-blvd-sepulveda-blvd-to-kester-ave-wb,burbank-blvd-sepulveda-blvd-to-kester-ave,Burbank Blvd,Sepulveda Blvd,Kester Ave,Westbound,North,35,4,van-nuys,Under Construction,True,-118.463339,34.172218
+gage-ave-halldale-ave-to-raymond-ave-eb,gage-ave-halldale-ave-to-raymond-ave,W Gage Ave,S Halldale Ave,Raymond Ave,Eastbound,South,35,8,vermont-slauson,Under Construction,True,-118.298567,33.982273
+gage-ave-halldale-ave-to-raymond-ave-wb,gage-ave-halldale-ave-to-raymond-ave,W Gage Ave,S Halldale Ave,Raymond Ave,Westbound,North,35,8,vermont-slauson,Under Construction,True,-118.298938,33.982426
+martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-eb,martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd,W Martin Luther King Jr Blvd,S Saint Andrews Pl,S Hobart Blvd,Eastbound,South,35,8,vermont-square,Under Construction,True,-118.311478,34.010758
+martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd-wb,martin-luther-king-jr-blvd-saint-andrews-pl-to-hobart-blvd,W Martin Luther King Jr Blvd,S Saint Andrews Pl,S Hobart Blvd,Westbound,North,35,8,exposition-park,Under Construction,True,-118.311757,34.010952
+vanowen-st-hatillo-ave-to-corbin-ave-eb,vanowen-st-hatillo-ave-to-corbin-ave,Vanowen St,Hatillo Ave,Corbin Ave,Eastbound,South,35,3,winnetka,Under Construction,True,-118.562738,34.193733
+vanowen-st-hatillo-ave-to-corbin-ave-wb,vanowen-st-hatillo-ave-to-corbin-ave,Vanowen St,Hatillo Ave,Corbin Ave,Westbound,North,35,3,winnetka,Under Construction,True,-118.56288,34.193906
+reseda-blvd-erwin-st-to-victory-blvd-nb,reseda-blvd-erwin-st-to-victory-blvd,Reseda Blvd,Erwin St,Victory Blvd,Northbound,East,35,3,tarzana,Under Construction,True,-118.53591,34.185432
+reseda-blvd-erwin-st-to-victory-blvd-sb,reseda-blvd-erwin-st-to-victory-blvd,Reseda Blvd,Erwin St,Victory Blvd,Southbound,West,35,3,tarzana,Under Construction,True,-118.536158,34.185244
+balboa-blvd-orange-line-busway-to-archwood-st-nb,balboa-blvd-orange-line-busway-to-archwood-st,Balboa Blvd,Orange Line Busway,Archwood St,Northbound,West,35,6,lake-balboa,Under Construction,True,-118.50125,34.191195
+balboa-blvd-orange-line-busway-to-archwood-st-sb,balboa-blvd-orange-line-busway-to-archwood-st,Balboa Blvd,Orange Line Busway,Archwood St,Southbound,West,35,6,lake-balboa,Under Construction,True,-118.501252,34.19081
+washington-blvd-new-hampshire-ave-to-vermont-ave-eb,washington-blvd-new-hampshire-ave-to-vermont-ave,W Washington Blvd,S New Hampshire Ave,S Vermont Ave,Eastbound,South,35,1,pico-union,Under Construction,True,-118.292184,34.039901
+washington-blvd-new-hampshire-ave-to-vermont-ave-wb,washington-blvd-new-hampshire-ave-to-vermont-ave,W Washington Blvd,S New Hampshire Ave,S Vermont Ave,Westbound,North,35,1,pico-union,Under Construction,True,-118.292996,34.040104
+7th-st-flower-st-to-grand-ave-eb,7th-st-flower-st-to-grand-ave,W 7th St,S Flower St,S Grand Ave,Eastbound,South,25,14,downtown,Under Construction,True,-118.258376,34.048299
+7th-st-flower-st-to-grand-ave-wb,7th-st-flower-st-to-grand-ave,W 7th St,S Flower St,S Grand Ave,Westbound,North,25,14,downtown,Under Construction,True,-118.257226,34.047794
+central-ave-109th-st-to-114th-st-nb,central-ave-109th-st-to-114th-st,S Central Ave,E 109th St,E 114th St,Northbound,East,35,15,watts,Under Construction,True,-118.25412,33.932347
+central-ave-109th-st-to-114th-st-sb,central-ave-109th-st-to-114th-st,S Central Ave,E 109th St,E 114th St,Southbound,West,35,15,green-meadows,Under Construction,True,-118.254395,33.932277
+8th-st-westmoreland-ave-to-hoover-st-eb,8th-st-westmoreland-ave-to-hoover-st,W 8th St,S Westmoreland Ave,S Hoover St,Eastbound,South,35,1,westlake,Under Construction,True,-118.286725,34.057657
+8th-st-westmoreland-ave-to-hoover-st-wb,8th-st-westmoreland-ave-to-hoover-st,W 8th St,S Westmoreland Ave,S Hoover St,Westbound,North,35,1,westlake,Under Construction,True,-118.286776,34.057811
+victory-blvd-la-river-to-canby-ave-cam,victory-blvd-la-river-to-canby-ave,Victory Blvd,LA River,Canby Ave,,,45,3,reseda,Under Construction,True,-118.53872,34.186712
+victory-blvd-la-river-to-canby-ave-cam-2,victory-blvd-la-river-to-canby-ave,Victory Blvd,LA River,Canby Ave,,,45,3,tarzana,Under Construction,True,-118.538431,34.186482
+victory-blvd-la-river-to-newcastle-ave-eb,victory-blvd-la-river-to-newcastle-ave,Victory Blvd,LA River,Newcastle Ave,Eastbound,South,45,4,encino,Under Construction,True,-118.525337,34.186508
+victory-blvd-la-river-to-newcastle-ave-wb,victory-blvd-la-river-to-newcastle-ave,Victory Blvd,LA River,Newcastle Ave,Westbound,North,45,4,reseda,Under Construction,True,-118.528197,34.186702
+polk-st-glenoaks-blvd-to-borden-ave-nb,polk-st-glenoaks-blvd-to-borden-ave,Polk St,Glenoaks Blvd,Borden Ave,Northbound,East,35,7,sylmar,Under Construction,True,-118.447845,34.309112
+polk-st-glenoaks-blvd-to-borden-ave-sb,polk-st-glenoaks-blvd-to-borden-ave,Polk St,Glenoaks Blvd,Borden Ave,Southbound,West,35,7,sylmar,Under Construction,True,-118.446889,34.310423
+magnolia-blvd-tujunga-ave-to-klump-ave-eb,magnolia-blvd-tujunga-ave-to-klump-ave,Magnolia Blvd,Tujunga Ave,Klump Ave,Eastbound,South,35,2,north-hollywood,Under Construction,True,-118.378035,34.164822
+magnolia-blvd-tujunga-ave-to-klump-ave-wb,magnolia-blvd-tujunga-ave-to-klump-ave,Magnolia Blvd,Tujunga Ave,Klump Ave,Westbound,North,35,2,north-hollywood,Under Construction,True,-118.376768,34.164985
+western-ave-24th-st-to-adams-blvd-nb,western-ave-24th-st-to-adams-blvd,S Western Ave,W 24th St,W Adams Blvd,Northbound,East,35,10,adams-normandie,Under Construction,True,-118.308882,34.033836
+western-ave-24th-st-to-adams-blvd-sb,western-ave-24th-st-to-adams-blvd,S Western Ave,W 24th St,W Adams Blvd,Southbound,West,35,10,jefferson-park,Under Construction,True,-118.30908,34.034148
+wilshire-blvd-rampart-blvd-to-park-view-st-eb,wilshire-blvd-rampart-blvd-to-park-view-st,Wilshire Blvd,S Rampart Blvd,S Park View St,Eastbound,South,35,1,westlake,Under Construction,True,-118.285859,34.061724
+wilshire-blvd-rampart-blvd-to-park-view-st-wb,wilshire-blvd-rampart-blvd-to-park-view-st,Wilshire Blvd,S Rampart Blvd,S Park View St,Westbound,North,35,1,westlake,Under Construction,True,-118.284363,34.061944
+6th-st-berendo-st-to-vermont-ave-eb,6th-st-berendo-st-to-vermont-ave,W 6th St,S Berendo St,S Vermont Ave,Eastbound,South,35,10,koreatown,Under Construction,True,-118.29348,34.063537
+6th-st-berendo-st-to-vermont-ave-wb,6th-st-berendo-st-to-vermont-ave,W 6th St,S Berendo St,S Vermont Ave,Westbound,North,35,10,koreatown,Under Construction,True,-118.292797,34.063671
+washington-blvd-marr-st-to-thatcher-ave-eb,washington-blvd-marr-st-to-thatcher-ave,Washington Blvd,Marr St,Thatcher Ave,Eastbound,South,35,11,venice,Under Construction,True,-118.452809,33.987683
+washington-blvd-marr-st-to-thatcher-ave-wb,washington-blvd-marr-st-to-thatcher-ave,Washington Blvd,Marr St,Thatcher Ave,Westbound,North,35,11,venice,Under Construction,True,-118.451603,33.988656
+florence-ave-van-ness-ave-to-3rd-ave-eb,florence-ave-van-ness-ave-to-3rd-ave,W Florence Ave,S Van Ness Ave,3rd Ave,Eastbound,South,35,8,hyde-park,Under Construction,True,-118.31903,33.974481
+florence-ave-van-ness-ave-to-3rd-ave-wb,florence-ave-van-ness-ave-to-3rd-ave,W Florence Ave,S Van Ness Ave,3rd Ave,Westbound,North,35,8,hyde-park,Under Construction,True,-118.319259,33.974688
+fairfax-ave-clinton-st-to-waring-ave-nb,fairfax-ave-clinton-st-to-waring-ave,N Fairfax Ave,Clinton St,Waring Ave,Northbound,Median,35,5,fairfax,Under Construction,True,-118.36146,34.083023
+fairfax-ave-clinton-st-to-waring-ave-sb,fairfax-ave-clinton-st-to-waring-ave,N Fairfax Ave,Clinton St,Waring Ave,Southbound,Median,35,5,fairfax,Under Construction,True,-118.361473,34.082695
+oxnard-st-ethel-ave-to-coldwater-canyon-ave-eb,oxnard-st-ethel-ave-to-coldwater-canyon-ave,Oxnard St,Ethel Ave,Coldwater Canyon Ave,Eastbound,South,35,2,valley-glen,Under Construction,True,-118.416084,34.179327
+oxnard-st-ethel-ave-to-coldwater-canyon-ave-wb,oxnard-st-ethel-ave-to-coldwater-canyon-ave,Oxnard St,Ethel Ave,Coldwater Canyon Ave,Westbound,North,35,2,valley-glen,Under Construction,True,-118.414584,34.179491
+sherman-way-lindley-ave-to-hesperia-ave-eb,sherman-way-lindley-ave-to-hesperia-ave,Sherman Way,Lindley Ave,Hesperia Ave,Eastbound,South,35,4,reseda,Under Construction,True,-118.526738,34.200979
+sherman-way-lindley-ave-to-hesperia-ave-wb,sherman-way-lindley-ave-to-hesperia-ave,Sherman Way,Lindley Ave,Hesperia Ave,Westbound,North,35,4,reseda,Under Construction,True,-118.526772,34.201284
+foothill-blvd-newhome-ave-to-sherman-grove-ave-eb,foothill-blvd-newhome-ave-to-sherman-grove-ave,Foothill Blvd,Newhome Ave,Sherman Grove Ave,Eastbound,South,35,7,sunland,Under Construction,False,-118.320462,34.259628
+foothill-blvd-newhome-ave-to-sherman-grove-ave-wb,foothill-blvd-newhome-ave-to-sherman-grove-ave,Foothill Blvd,Newhome Ave,Sherman Grove Ave,Westbound,North,35,7,sunland,Under Construction,False,-118.32107,34.259853
+gage-ave-hoover-st-to-figueroa-st-eb,gage-ave-hoover-st-to-figueroa-st,W Gage Ave,S Hoover St,S Figueroa St,Eastbound,South,35,9,vermont-slauson,Under Construction,True,-118.284835,33.982294
+gage-ave-hoover-st-to-figueroa-st-wb,gage-ave-hoover-st-to-figueroa-st,W Gage Ave,S Hoover St,S Figueroa St,Westbound,North,35,9,vermont-slauson,Under Construction,True,-118.285117,33.982448
+la-cienega-blvd-pico-blvd-to-olympic-blvd-nb,la-cienega-blvd-pico-blvd-to-olympic-blvd,S La Cienega Blvd,W Pico Blvd,W Olympic Blvd,Northbound,East,35,5,carthay,Under Construction,True,-118.376062,34.057787
+la-cienega-blvd-pico-blvd-to-olympic-blvd-sb,la-cienega-blvd-pico-blvd-to-olympic-blvd,S La Cienega Blvd,W Pico Blvd,W Olympic Blvd,Southbound,West,35,5,pico-robertson,Under Construction,True,-118.376288,34.054673
+victory-blvd-mammoth-ave-to-ventura-canyon-ave-eb,victory-blvd-mammoth-ave-to-ventura-canyon-ave,Victory Blvd,Mammoth Ave,Ventura Canyon Ave,Eastbound,South,35,2,valley-glen,Under Construction,True,-118.429229,34.186568
+victory-blvd-mammoth-ave-to-ventura-canyon-ave-wb,victory-blvd-mammoth-ave-to-ventura-canyon-ave,Victory Blvd,Mammoth Ave,Ventura Canyon Ave,Westbound,North,35,2,valley-glen,Under Construction,True,-118.429216,34.186775
+avalon-blvd-sandison-st-to-n-st-nb,avalon-blvd-sandison-st-to-n-st,N Avalon Blvd,W Sandison St,E N St,Northbound,East,35,15,wilmington,Under Construction,True,-118.263522,33.792088
+avalon-blvd-sandison-st-to-n-st-nb-2,avalon-blvd-sandison-st-to-n-st,N Avalon Blvd,W Sandison St,E N St,Northbound,East,35,15,wilmington,Under Construction,True,-118.263284,33.79236
+sepulveda-blvd-stagg-st-to-saticoy-st-nb,sepulveda-blvd-stagg-st-to-saticoy-st,Sepulveda Blvd,Stagg St,Saticoy St,Northbound,East,35,6,van-nuys,Under Construction,True,-118.466086,34.209445
+sepulveda-blvd-stagg-st-to-saticoy-st-sb,sepulveda-blvd-stagg-st-to-saticoy-st,Sepulveda Blvd,Stagg St,Saticoy St,Southbound,West,35,6,van-nuys,Under Construction,True,-118.466338,34.209665
+wilmington-ave-110th-st-to-113th-st-nb,wilmington-ave-110th-st-to-113th-st,Wilmington Ave,E 110th St,E 113th St,Northbound,West,35,15,watts,Under Construction,True,-118.239108,33.932961
+wilmington-ave-110th-st-to-113th-st-sb,wilmington-ave-110th-st-to-113th-st,Wilmington Ave,E 110th St,E 113th St,Southbound,West,35,15,watts,Under Construction,True,-118.239103,33.934722
+western-ave-franklin-ave-to-los-feliz-blvd-eb,western-ave-franklin-ave-to-los-feliz-blvd,N Western Ave,Franklin Ave,Los Feliz Blvd,Eastbound,South,35,4,los-feliz,Under Construction,True,-118.307433,34.108113
+western-ave-franklin-ave-to-los-feliz-blvd-wb,western-ave-franklin-ave-to-los-feliz-blvd,N Western Ave,Franklin Ave,Los Feliz Blvd,Westbound,North,35,4,los-feliz,Under Construction,True,-118.304913,34.108734
+figueroa-st-62nd-st-to-gage-ave-nb,figueroa-st-62nd-st-to-gage-ave,S Figueroa St,W 62nd St,W Gage Ave,Northbound,East,35,9,vermont-slauson,Under Construction,True,-118.28255,33.982956
+figueroa-st-62nd-st-to-gage-ave-sb,figueroa-st-62nd-st-to-gage-ave,S Figueroa St,W 62nd St,W Gage Ave,Southbound,West,35,9,vermont-slauson,Under Construction,True,-118.282803,33.982831
+melrose-ave-hayworth-ave-to-orange-grove-ave-eb,melrose-ave-hayworth-ave-to-orange-grove-ave,Melrose Ave,N Hayworth Ave,N Orange Grove Ave,Eastbound,South,35,5,fairfax,Under Construction,True,-118.360117,34.083711
+melrose-ave-hayworth-ave-to-orange-grove-ave-wb,melrose-ave-hayworth-ave-to-orange-grove-ave,Melrose Ave,N Hayworth Ave,N Orange Grove Ave,Westbound,North,35,5,fairfax,Under Construction,True,-118.360335,34.083868
+reseda-blvd-kinzie-st-to-superior-st-nb,reseda-blvd-kinzie-st-to-superior-st,Reseda Blvd,Kinzie St,Superior St,Northbound,East,35,12,northridge,Under Construction,True,-118.535982,34.24807
+reseda-blvd-kinzie-st-to-superior-st-sb,reseda-blvd-kinzie-st-to-superior-st,Reseda Blvd,Kinzie St,Superior St,Southbound,West,35,12,northridge,Under Construction,True,-118.53623,34.247887
+olympic-blvd-alvira-st-to-stearns-dr-eb,olympic-blvd-alvira-st-to-stearns-dr,W Olympic Blvd,Alvira St,Stearns Dr,Eastbound,South,35,5,carthay,Under Construction,True,-118.370449,34.058842
+olympic-blvd-alvira-st-to-stearns-dr-wb,olympic-blvd-alvira-st-to-stearns-dr,W Olympic Blvd,Alvira St,Stearns Dr,Westbound,North,35,5,carthay,Under Construction,True,-118.368501,34.058824
+laurel-canyon-blvd-archwood-st-to-vanowen-st-nb,laurel-canyon-blvd-archwood-st-to-vanowen-st,Laurel Canyon Blvd,Archwood St,Vanowen St,Northbound,East,40,2,north-hollywood,Under Construction,True,-118.396397,34.193173
+laurel-canyon-blvd-archwood-st-to-vanowen-st-sb,laurel-canyon-blvd-archwood-st-to-vanowen-st,Laurel Canyon Blvd,Archwood St,Vanowen St,Southbound,West,40,2,north-hollywood,Under Construction,True,-118.39665,34.19182
+la-cienega-blvd-18th-st-to-horner-st-nb,la-cienega-blvd-18th-st-to-horner-st,S La Cienega Blvd,W 18th St,Horner St,Northbound,East,35,5,mid-city,Under Construction,True,-118.376009,34.048002
+la-cienega-blvd-18th-st-to-horner-st-sb,la-cienega-blvd-18th-st-to-horner-st,S La Cienega Blvd,W 18th St,Horner St,Southbound,West,35,5,pico-robertson,Under Construction,True,-118.376277,34.048018
+olympic-blvd-elden-ave-to-hoover-st-eb,olympic-blvd-elden-ave-to-hoover-st,W Olympic Blvd,Elden Ave,S Hoover St,Eastbound,South,35,1,pico-union,Under Construction,True,-118.28926,34.052303
+olympic-blvd-elden-ave-to-hoover-st-wb,olympic-blvd-elden-ave-to-hoover-st,W Olympic Blvd,Elden Ave,S Hoover St,Westbound,North,35,1,westlake,Under Construction,True,-118.288952,34.052513
+reseda-blvd-wyandotte-st-to-valerio-st-nb,reseda-blvd-wyandotte-st-to-valerio-st,Reseda Blvd,Wyandotte St,Valerio St,Northbound,East,35,3,reseda,Under Construction,True,-118.535937,34.202482
+reseda-blvd-wyandotte-st-to-valerio-st-sb,reseda-blvd-wyandotte-st-to-valerio-st,Reseda Blvd,Wyandotte St,Valerio St,Southbound,West,35,3,reseda,Under Construction,True,-118.536187,34.203856
+nordhoff-st-noble-ave-to-la-river-eb,nordhoff-st-noble-ave-to-la-river,Nordhoff St,Noble Ave,LA River,Eastbound,South,35,7,north-hills,Under Construction,True,-118.459696,34.235377
+nordhoff-st-noble-ave-to-la-river-wb,nordhoff-st-noble-ave-to-la-river,Nordhoff St,Noble Ave,LA River,Westbound,North,35,7,north-hills,Under Construction,True,-118.460065,34.235584
+sunset-blvd-bronson-ave-to-101-fwy-eb,sunset-blvd-bronson-ave-to-101-fwy,W Sunset Blvd,N Bronson Ave,101 Fwy,Eastbound,South,30,13,hollywood,Under Construction,True,-118.316757,34.097954
+sunset-blvd-bronson-ave-to-101-fwy-wb,sunset-blvd-bronson-ave-to-101-fwy,W Sunset Blvd,N Bronson Ave,101 Fwy,Westbound,North,30,13,hollywood,Under Construction,True,-118.316991,34.098162
+slauson-ave-brentwood-st-to-inskeep-ave-eb,slauson-ave-brentwood-st-to-inskeep-ave,W Slauson Ave,Brentwood St,Inskeep Ave (midblock),Eastbound,South,35,9,south-park,Under Construction,True,-118.274029,33.989321
+slauson-ave-brentwood-st-to-inskeep-ave-wb,slauson-ave-brentwood-st-to-inskeep-ave,W Slauson Ave,Brentwood St,Inskeep Ave (midblock),Westbound,South,35,9,florence,Under Construction,True,-118.274115,33.989125
+grandee-ave-century-blvd-to-108th-st-nb,grandee-ave-century-blvd-to-108th-st,Grandee Ave,E Century Blvd,E 108th St,Northbound,East,25,15,watts,Under Construction,True,-118.24344,33.944191
+grandee-ave-century-blvd-to-108th-st-sb,grandee-ave-century-blvd-to-108th-st,Grandee Ave,E Century Blvd,E 108th St,Southbound,West,25,15,watts,Under Construction,True,-118.243603,33.942671
+imperial-hwy-avalon-blvd-to-stanford-ave-eb,imperial-hwy-avalon-blvd-to-stanford-ave,E Imperial Hwy,Avalon Blvd,Stanford Ave,Eastbound,South,35,15,green-meadows,Under Construction,True,-118.263792,33.930949
+imperial-hwy-avalon-blvd-to-stanford-ave-wb,imperial-hwy-avalon-blvd-to-stanford-ave,E Imperial Hwy,Avalon Blvd,Stanford Ave,Westbound,North,35,15,green-meadows,Under Construction,True,-118.266573,33.931162
+sherman-way-cedar-rd-to-costello-ave-eb,sherman-way-cedar-rd-to-costello-ave,Sherman Way,N Cedar Rd,Costello Ave,Eastbound,South,35,2,van-nuys,Under Construction,True,-118.437658,34.2011
+sherman-way-cedar-rd-to-costello-ave-wb,sherman-way-cedar-rd-to-costello-ave,Sherman Way,N Cedar Rd,Costello Ave,Westbound,North,35,2,van-nuys,Under Construction,True,-118.439656,34.201306
+san-pedro-st-17th-st-to-15th-st-nb,san-pedro-st-17th-st-to-15th-st,S San Pedro St,E 17th St,E 15th St,Northbound,East,35,14,downtown,Under Construction,True,-118.255318,34.03064
+soto-st-6th-st-to-4th-st-nb,soto-st-6th-st-to-4th-st,S Soto St,E 6th St,E 4th St,Northbound,East,35,14,boyle-heights,Under Construction,True,-118.212673,34.039014
+soto-st-6th-st-to-4th-st-sb,soto-st-6th-st-to-4th-st,S Soto St,E 6th St,E 4th St,Southbound,West,35,14,boyle-heights,Under Construction,True,-118.212229,34.040061
+la-cienega-blvd-sawyer-st-to-18th-st-nb,la-cienega-blvd-sawyer-st-to-18th-st,S La Cienega Blvd,Sawyer St,18th St,Northbound,East,35,10,mid-city,Under Construction,False,-118.376458,34.043473
+la-cienega-blvd-sawyer-st-to-18th-st-sb,la-cienega-blvd-sawyer-st-to-18th-st,S La Cienega Blvd,Sawyer St,18th St,Southbound,West,35,10,mid-city,Under Construction,False,-118.376929,34.044114
+nordhoff-st-geyser-ave-to-yolanda-ave-eb,nordhoff-st-geyser-ave-to-yolanda-ave,Nordhoff St,Geyser Ave,Yolanda Ave,Eastbound,North,40,12,northridge,Under Construction,True,-118.538309,34.2356
+nordhoff-st-geyser-ave-to-yolanda-ave-wb,nordhoff-st-geyser-ave-to-yolanda-ave,Nordhoff St,Geyser Ave,Yolanda Ave,Westbound,North,40,12,northridge,Under Construction,True,-118.542645,34.235595
+gaffey-st-1st-st-to-2nd-st-nb,gaffey-st-1st-st-to-2nd-st,S Gaffey St,W 1st St,W 2nd St,Northbound,East,35,15,san-pedro,Under Construction,False,-118.292194,33.742533
+gaffey-st-1st-st-to-2nd-st-sb,gaffey-st-1st-st-to-2nd-st,S Gaffey St,W 1st St,W 2nd St,Southbound,West,35,15,san-pedro,Under Construction,False,-118.292445,33.741959
+laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-nb,laurel-canyon-blvd-wolfskill-st-to-pacoima-wash,Laurel Canyon Blvd,Wolfskill St,Pacoima Wash,Northbound,East,40,7,pacoima,Under Construction,True,-118.442439,34.268623
+laurel-canyon-blvd-wolfskill-st-to-pacoima-wash-sb,laurel-canyon-blvd-wolfskill-st-to-pacoima-wash,Laurel Canyon Blvd,Wolfskill St,Pacoima Wash,Southbound,West,40,7,pacoima,Under Construction,True,-118.442498,34.268363
+3rd-st-virgil-ave-to-commonwealth-ave-eb,3rd-st-virgil-ave-to-commonwealth-ave,W 3rd St,Virgil Ave,Commonwealth Ave,Eastbound,South,35,13,westlake,Under Construction,True,-118.286255,34.068912
+3rd-st-virgil-ave-to-commonwealth-ave-wb,3rd-st-virgil-ave-to-commonwealth-ave,W 3rd St,Virgil Ave,Commonwealth Ave,Westbound,North,35,13,westlake,Under Construction,True,-118.286288,34.069065
+sunset-blvd-sycamore-ave-to-mccadden-pl-eb,sunset-blvd-sycamore-ave-to-mccadden-pl,W Sunset Blvd,N Sycamore Ave,N McCadden Pl,Eastbound,South,30,13,hollywood,Under Construction,True,-118.340629,34.097873
+sunset-blvd-sycamore-ave-to-mccadden-pl-wb,sunset-blvd-sycamore-ave-to-mccadden-pl,W Sunset Blvd,N Sycamore Ave,N McCadden Pl,Westbound,North,30,13,hollywood,Under Construction,True,-118.340563,34.098077
+slauson-ave-budlong-ave-to-menlo-ave-eb,slauson-ave-budlong-ave-to-menlo-ave,W Slauson Ave,S Budlong Ave,Menlo Ave,Eastbound,South,35,9,vermont-slauson,Under Construction,True,-118.2917,33.989005
+slauson-ave-budlong-ave-to-menlo-ave-wb,slauson-ave-budlong-ave-to-menlo-ave,W Slauson Ave,S Budlong Ave,Menlo Ave,Westbound,North,35,9,vermont-slauson,Under Construction,True,-118.29158,33.989233
+figueroa-st-adams-blvd-to-23rd-st-nb,figueroa-st-adams-blvd-to-23rd-st,S Figueroa St,W Adams Blvd,W 23rd St,Northbound,East,30,1,university-park,Under Construction,True,-118.27488,34.029671
+figueroa-st-adams-blvd-to-23rd-st-sb,figueroa-st-adams-blvd-to-23rd-st,S Figueroa St,W Adams Blvd,W 23rd St,Southbound,West,30,1,university-park,Under Construction,True,-118.275555,34.029125
+la-brea-ave-veronica-st-to-coliseum-st-nb,la-brea-ave-veronica-st-to-coliseum-st,S La Brea Ave,Veronica St,Coliseum St,Northbound,Median,40,10,baldwin-hillscrenshaw,Under Construction,False,-118.355519,34.015372
+la-brea-ave-veronica-st-to-coliseum-st-sb,la-brea-ave-veronica-st-to-coliseum-st,S La Brea Ave,Veronica St,Coliseum St,Southbound,Median,40,10,baldwin-hillscrenshaw,Under Construction,False,-118.355515,34.014966
+nordhoff-st-petit-ave-to-gothic-ave-eb,nordhoff-st-petit-ave-to-gothic-ave,Nordhoff St,Petit Ave,Gothic Ave,Eastbound,South,40,12,north-hills,Under Construction,True,-118.495244,34.235606
+nordhoff-st-petit-ave-to-gothic-ave-wb,nordhoff-st-petit-ave-to-gothic-ave,Nordhoff St,Petit Ave,Gothic Ave,Westbound,North,40,12,north-hills,Under Construction,True,-118.495984,34.235821
+nordhoff-st-pacoima-wash-to-cedros-ave-eb,nordhoff-st-pacoima-wash-to-cedros-ave,Nordhoff St,Pacoima Wash,Cedros Ave,Eastbound,South,35,6,panorama-city,Under Construction,True,-118.455931,34.235347
+nordhoff-st-pacoima-wash-to-cedros-ave-wb,nordhoff-st-pacoima-wash-to-cedros-ave,Nordhoff St,Pacoima Wash,Cedros Ave,Westbound,North,35,6,panorama-city,Under Construction,True,-118.455683,34.235557
+central-ave-89th-st-to-92nd-ave-nb,central-ave-89th-st-to-92nd-ave,S Central Ave,89th St,E 92nd Ave,Northbound,East,35,9,green-meadows,Under Construction,False,-118.256302,33.954861
+central-ave-89th-st-to-92nd-ave-sb,central-ave-89th-st-to-92nd-ave,S Central Ave,89th St,E 92nd Ave,Southbound,West,35,9,green-meadows,Under Construction,False,-118.256554,33.954643
+sunset-blvd-rosemont-ave-to-alvarado-st-eb,sunset-blvd-rosemont-ave-to-alvarado-st,W Sunset Blvd,Rosemont Ave,N Alvarado St,Eastbound,South,35,13,echo-park,Under Construction,True,-118.267126,34.078448
+sunset-blvd-rosemont-ave-to-alvarado-st-wb,sunset-blvd-rosemont-ave-to-alvarado-st,W Sunset Blvd,Rosemont Ave,N Alvarado St,Westbound,North,35,13,echo-park,Under Construction,True,-118.263946,34.077644
+balboa-blvd-118-fwy-to-tulsa-st-nb,balboa-blvd-118-fwy-to-tulsa-st,Balboa Blvd,118 Fwy,Tulsa St,Northbound,East,35,12,granada-hills,Under Construction,True,-118.502048,34.274061
+balboa-blvd-118-fwy-to-tulsa-st-sb,balboa-blvd-118-fwy-to-tulsa-st,Balboa Blvd,118 Fwy,Tulsa St,Southbound,West,35,12,granada-hills,Under Construction,True,-118.502332,34.273826
+winnetka-ave-arminta-st-to-strathern-st-nb,winnetka-ave-arminta-st-to-strathern-st,Winnetka Ave,Arminta St,Strathern St,Northbound,East,35,3,winnetka,Under Construction,True,-118.570907,34.213499
+winnetka-ave-arminta-st-to-strathern-st-sb,winnetka-ave-arminta-st-to-strathern-st,Winnetka Ave,Arminta St,Strathern St,Southbound,East,35,3,winnetka,Under Construction,True,-118.571161,34.215048
+barrington-ave-ohio-ave-to-santa-monica-blvd-sb,barrington-ave-ohio-ave-to-santa-monica-blvd,S Barrington Ave,Ohio Ave,Santa Monica Blvd,Southbound,West,30,11,sawtelle,Under Construction,True,-118.458059,34.046
+barrington-ave-ohio-ave-to-santa-monica-blvd-cam,barrington-ave-ohio-ave-to-santa-monica-blvd,S Barrington Ave,Ohio Ave,Santa Monica Blvd,,,30,11,sawtelle,Under Construction,True,-118.457677,34.045571
+figueroa-st-80th-st-to-manchester-ave-nb,figueroa-st-80th-st-to-manchester-ave,S Figueroa St,W 80th St,W Manchester Ave,Northbound,East,35,8,vermont-knolls,Under Construction,True,-118.282586,33.963875
+figueroa-st-80th-st-to-manchester-ave-sb,figueroa-st-80th-st-to-manchester-ave,S Figueroa St,W 80th St,W Manchester Ave,Southbound,West,35,8,vermont-knolls,Under Construction,True,-118.282839,33.963308
+la-cienega-blvd-coliseum-st-to-bowesfield-st-nb,la-cienega-blvd-coliseum-st-to-bowesfield-st,S La Cienega Blvd,Coliseum St,Bowesfield St,Northbound,East,35,10,baldwin-hillscrenshaw,Under Construction,True,-118.372243,34.020667
+la-cienega-blvd-coliseum-st-to-bowesfield-st-sb,la-cienega-blvd-coliseum-st-to-bowesfield-st,S La Cienega Blvd,Coliseum St,Bowesfield St,Southbound,West,35,10,baldwin-hillscrenshaw,Under Construction,True,-118.372606,34.019844
+103rd-st-fifth-blvd-to-grandee-ave-eb,103rd-st-fifth-blvd-to-grandee-ave,E 103rd St,Fifth Blvd (midblock),Grandee Ave,Eastbound,South,30,15,watts,Under Construction,True,-118.244483,33.943117
+103rd-st-fifth-blvd-to-grandee-ave-wb,103rd-st-fifth-blvd-to-grandee-ave,E 103rd St,Fifth Blvd (midblock),Grandee Ave,Westbound,North,30,15,watts,Under Construction,True,-118.244758,33.943301
+vermont-ave-253rd-st-to-255th-st-nb,vermont-ave-253rd-st-to-255th-st,Vermont Ave,253rd St,255th St,Northbound,East,35,15,harbor-city,Under Construction,True,-118.290751,33.792887
+vermont-ave-253rd-st-to-255th-st-sb,vermont-ave-253rd-st-to-255th-st,Vermont Ave,253rd St,255th St,Southbound,West,35,15,harbor-city,Under Construction,True,-118.290935,33.793116
+olympic-blvd-irolo-st-to-fedora-st-eb,olympic-blvd-irolo-st-to-fedora-st,W Olympic Blvd,Irolo St,Fedora St,Eastbound,South,35,10,pico-union,Under Construction,True,-118.297771,34.052536
+olympic-blvd-irolo-st-to-fedora-st-wb,olympic-blvd-irolo-st-to-fedora-st,W Olympic Blvd,Irolo St,Fedora St,Westbound,North,35,10,koreatown,Under Construction,True,-118.298834,34.052739
+san-pedro-st-6th-st-to-winston-st-nb,san-pedro-st-6th-st-to-winston-st,S San Pedro St,E 6th St,Winston St,Northbound,East,40,14,downtown,Under Construction,False,-118.243994,34.043879
+san-pedro-st-6th-st-to-winston-st-sb,san-pedro-st-6th-st-to-winston-st,S San Pedro St,E 6th St,Winston St,Southbound,West,40,14,downtown,Under Construction,False,-118.244349,34.043748
+beverly-blvd-belmont-ave-to-witmer-st-eb,beverly-blvd-belmont-ave-to-witmer-st,Beverly Blvd,Belmont Ave,Witmer St,Eastbound,South,35,1,westlake,Under Construction,True,-118.262028,34.062842
+beverly-blvd-belmont-ave-to-witmer-st-wb,beverly-blvd-belmont-ave-to-witmer-st,Beverly Blvd,Belmont Ave,Witmer St,Westbound,North,35,1,westlake,Under Construction,True,-118.262223,34.063123
+arlington-ave-21st-st-to-18th-st-nb,arlington-ave-21st-st-to-18th-st,Arlington Ave,W 21st St,W 18th St,Northbound,East,35,10,arlington-heights,Under Construction,True,-118.317646,34.038629
+arlington-ave-21st-st-to-18th-st-sb,arlington-ave-21st-st-to-18th-st,Arlington Ave,W 21st St,W 18th St,Southbound,West,35,10,arlington-heights,Under Construction,True,-118.317808,34.038892
+tampa-ave-merridy-st-to-lassen-st-nb,tampa-ave-merridy-st-to-lassen-st,Tampa Ave,Merridy St,Lassen St,Northbound,East,40,12,northridge,Under Construction,True,-118.553463,34.251512
+tampa-ave-merridy-st-to-lassen-st-sb,tampa-ave-merridy-st-to-lassen-st,Tampa Ave,Merridy St,Lassen St,Southbound,East,40,12,northridge,Under Construction,True,-118.553463,34.251191
+sepulveda-blvd-tupper-st-to-plummer-st-nb,sepulveda-blvd-tupper-st-to-plummer-st,Sepulveda Blvd,Tupper St,Plummer St,Northbound,East,35,7,north-hills,Under Construction,True,-118.467327,34.240942
+sepulveda-blvd-tupper-st-to-plummer-st-sb,sepulveda-blvd-tupper-st-to-plummer-st,Sepulveda Blvd,Tupper St,Plummer St,Southbound,West,35,7,north-hills,Under Construction,True,-118.46777,34.241296
+victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-eb,victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway,Victory Blvd,Louise Ave,High Tech Los Angeles East Driveway,Eastbound,South,45,6,sepulveda-basin,Under Construction,True,-118.505023,34.186508
+victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-wb,victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway,Victory Blvd,Louise Ave,High Tech Los Angeles East Driveway,Westbound,North,45,6,lake-balboa,Under Construction,True,-118.506779,34.186747
+venice-blvd-lincoln-blvd-to-pisani-pl-eb,venice-blvd-lincoln-blvd-to-pisani-pl,Venice Blvd,Lincoln Blvd,Pisani Pl,Eastbound,South,35,11,venice,Under Construction,True,-118.453848,33.993318
+venice-blvd-lincoln-blvd-to-pisani-pl-wb,venice-blvd-lincoln-blvd-to-pisani-pl,Venice Blvd,Lincoln Blvd,Pisani Pl,Westbound,North,35,11,venice,Under Construction,True,-118.455488,33.992835
+highland-ave-sunset-blvd-to-hollywood-blvd-nb,highland-ave-sunset-blvd-to-hollywood-blvd,N Highland Ave,W Sunset Blvd,Hollywood Blvd,Northbound,East,35,13,hollywood,Under Construction,True,-118.338553,34.09898
+highland-ave-sunset-blvd-to-hollywood-blvd-sb,highland-ave-sunset-blvd-to-hollywood-blvd,N Highland Ave,W Sunset Blvd,Hollywood Blvd,Southbound,West,35,13,hollywood,Under Construction,True,-118.338828,34.100787
+sherman-way-kester-ave-to-sherman-cir-wb,sherman-way-kester-ave-to-sherman-cir,Sherman Way,Kester Ave,Sherman Cir (midblock),Westbound,Median,35,6,van-nuys,Under Construction,True,-118.454728,34.201229
+vermont-ave-57th-st-to-58th-pl-nb,vermont-ave-57th-st-to-58th-pl,S Vermont Ave,W 57th St,W 58th Pl,Northbound,East,35,9,vermont-slauson,Under Construction,True,-118.291403,33.990772
+vermont-ave-57th-st-to-58th-pl-sb,vermont-ave-57th-st-to-58th-pl,S Vermont Ave,W 57th St,W 58th Pl,Southbound,West,35,9,vermont-slauson,Under Construction,True,-118.291589,33.990946
+florence-ave-vermont-ave-to-hoover-st-eb,florence-ave-vermont-ave-to-hoover-st,W Florence Ave,S Vermont Ave,S Hoover St,Eastbound,South,35,8,vermont-knolls,Under Construction,True,-118.289066,33.974531
+florence-ave-vermont-ave-to-hoover-st-wb,florence-ave-vermont-ave-to-hoover-st,W Florence Ave,S Vermont Ave,S Hoover St,Westbound,North,35,8,vermont-slauson,Under Construction,True,-118.289376,33.974739
+marengo-st-mission-rd-to-lord-st-eb,marengo-st-mission-rd-to-lord-st,Marengo St,N Mission Rd,Lord St,Eastbound,South,35,14,boyle-heights,Under Construction,False,-118.213654,34.059672
+marengo-st-mission-rd-to-lord-st-wb,marengo-st-mission-rd-to-lord-st,Marengo St,N Mission Rd,Lord St,Westbound,North,35,14,boyle-heights,Under Construction,False,-118.213624,34.059931
+balboa-blvd-lassen-st-to-plummer-st-nb,balboa-blvd-lassen-st-to-plummer-st,Balboa Blvd,Lassen St,Plummer St,Northbound,East,35,12,northridge,Under Construction,True,-118.502307,34.248326
+balboa-blvd-lassen-st-to-plummer-st-sb,balboa-blvd-lassen-st-to-plummer-st,Balboa Blvd,Lassen St,Plummer St,Southbound,West,35,12,northridge,Under Construction,True,-118.502562,34.248118
+cypress-ave-cazador-st-to-macon-st-nb,cypress-ave-cazador-st-to-macon-st,Cypress Ave,Cazador St,Macon St (midblock),Northbound,East,30,1,glassell-park,Under Construction,True,-118.236902,34.103583
+cypress-ave-cazador-st-to-macon-st-sb,cypress-ave-cazador-st-to-macon-st,Cypress Ave,Cazador St,Macon St (midblock),Southbound,West,30,1,glassell-park,Under Construction,True,-118.238156,34.1048
+vermont-ave-melrose-ave-to-marathon-st-nb,vermont-ave-melrose-ave-to-marathon-st,N Vermont Ave,Melrose Ave,Marathon St,Northbound,East,30,13,east-hollywood,Under Construction,True,-118.2916,34.084275
+vermont-ave-melrose-ave-to-marathon-st-sb,vermont-ave-melrose-ave-to-marathon-st,N Vermont Ave,Melrose Ave,Marathon St,Southbound,West,30,13,east-hollywood,Under Construction,True,-118.291852,34.084615
+national-blvd-butler-ave-to-405-fwy-wb,national-blvd-butler-ave-to-405-fwy,National Blvd,Butler Ave,405 Fwy,Westbound,North,35,11,sawtelle,Under Construction,True,-118.432188,34.025995
+vanowen-st-morse-ave-to-goodland-ave-eb,vanowen-st-morse-ave-to-goodland-ave,Vanowen St,Morse Ave,Goodland Ave,Eastbound,South,35,2,valley-glen,Under Construction,True,-118.415389,34.193871
+vanowen-st-morse-ave-to-goodland-ave-wb,vanowen-st-morse-ave-to-goodland-ave,Vanowen St,Morse Ave,Goodland Ave,Westbound,North,35,2,valley-glen,Under Construction,True,-118.412739,34.194035
+washington-blvd-3rd-ave-to-van-ness-ave-eb,washington-blvd-3rd-ave-to-van-ness-ave,W Washington Blvd,3rd Ave,S Van Ness Ave,Eastbound,South,35,10,arlington-heights,Under Construction,True,-118.318577,34.039808
+washington-blvd-3rd-ave-to-van-ness-ave-wb,washington-blvd-3rd-ave-to-van-ness-ave,W Washington Blvd,3rd Ave,S Van Ness Ave,Westbound,North,35,10,arlington-heights,Under Construction,True,-118.318123,34.040018
+4th-st-mott-ave-to-evergreen-ave-wb,4th-st-mott-ave-to-evergreen-ave,E 4th St,S Mott Ave,S Evergreen Ave,Westbound,North,35,14,boyle-heights,Under Construction,True,-118.206587,34.038402
+4th-st-mott-ave-to-evergreen-ave-cam,4th-st-mott-ave-to-evergreen-ave,E 4th St,S Mott Ave,S Evergreen Ave,,,35,14,boyle-heights,Under Construction,True,-118.206538,34.038185
+la-brea-ave-1st-st-to-beverly-blvd-nb,la-brea-ave-1st-st-to-beverly-blvd,N La Brea Ave,W 1st St,Beverly Blvd,Northbound,East,30,5,hancock-park,Under Construction,True,-118.343921,34.075509
+la-brea-ave-1st-st-to-beverly-blvd-sb,la-brea-ave-1st-st-to-beverly-blvd,N La Brea Ave,W 1st St,Beverly Blvd,Southbound,West,30,5,fairfax,Under Construction,True,-118.344158,34.074361
+4th-st-pecan-st-to-boyle-ave-eb,4th-st-pecan-st-to-boyle-ave,E 4th St,S Pecan St,S Boyle Ave,Eastbound,South,35,14,boyle-heights,Under Construction,True,-118.220646,34.042936
+4th-st-pecan-st-to-boyle-ave-wb,4th-st-pecan-st-to-boyle-ave,E 4th St,S Pecan St,S Boyle Ave,Westbound,North,35,14,boyle-heights,Under Construction,True,-118.22107,34.043073
+avalon-blvd-74th-st-to-77th-st-nb,avalon-blvd-74th-st-to-77th-st,Avalon Blvd,E 74th St,E 77th St,Northbound,East,35,9,florence,Under Construction,True,-118.265061,33.970352
+avalon-blvd-74th-st-to-77th-st-sb,avalon-blvd-74th-st-to-77th-st,Avalon Blvd,E 74th St,E 77th St,Southbound,West,35,9,florence,Under Construction,True,-118.265274,33.970668
+laurel-canyon-blvd-mercer-st-to-hoyt-st-nb,laurel-canyon-blvd-mercer-st-to-hoyt-st,Laurel Canyon Blvd,Mercer St,Hoyt St,Northbound,East,40,7,pacoima,Under Construction,True,-118.432914,34.259686
+laurel-canyon-blvd-mercer-st-to-hoyt-st-sb,laurel-canyon-blvd-mercer-st-to-hoyt-st,Laurel Canyon Blvd,Mercer St,Hoyt St,Southbound,West,40,7,pacoima,Under Construction,True,-118.433643,34.26006
+santa-monica-blvd-hobart-blvd-to-normandie-ave-eb,santa-monica-blvd-hobart-blvd-to-normandie-ave,Santa Monica Blvd,N Hobart Blvd,N Normandie Ave,Eastbound,South,35,13,east-hollywood,Under Construction,True,-118.30296,34.090735
+santa-monica-blvd-hobart-blvd-to-normandie-ave-wb,santa-monica-blvd-hobart-blvd-to-normandie-ave,Santa Monica Blvd,N Hobart Blvd,N Normandie Ave,Westbound,North,35,13,east-hollywood,Under Construction,True,-118.30513,34.090876
+victory-blvd-ethel-ave-to-coldwater-canyon-ave-eb,victory-blvd-ethel-ave-to-coldwater-canyon-ave,Victory Blvd,Ethel Ave,Coldwater Canyon Ave,Eastbound,South,35,2,valley-glen,Under Construction,True,-118.416118,34.186574
+victory-blvd-ethel-ave-to-coldwater-canyon-ave-wb,victory-blvd-ethel-ave-to-coldwater-canyon-ave,Victory Blvd,Ethel Ave,Coldwater Canyon Ave,Westbound,South,35,2,valley-glen,Under Construction,True,-118.41524,34.186575
+ventura-blvd-winnetka-ave-to-quakertown-ave-eb,ventura-blvd-winnetka-ave-to-quakertown-ave,Ventura Blvd,Winnetka Ave,Quakertown Ave,Eastbound,South,40,3,woodland-hills,Under Construction,True,-118.569937,34.171204
+ventura-blvd-winnetka-ave-to-quakertown-ave-wb,ventura-blvd-winnetka-ave-to-quakertown-ave,Ventura Blvd,Winnetka Ave,Quakertown Ave,Westbound,North,40,3,woodland-hills,Under Construction,True,-118.570121,34.171384
+vermont-ave-66st-st-to-florence-ave-nb,vermont-ave-66st-st-to-florence-ave,S Vermont Ave,W 66st St,W Florence Ave,Northbound,Median,35,8,vermont-slauson,Under Construction,True,-118.291635,33.978144
+vermont-ave-66st-st-to-florence-ave-sb,vermont-ave-66st-st-to-florence-ave,S Vermont Ave,W 66st St,W Florence Ave,Southbound,Median,35,8,vermont-slauson,Under Construction,True,-118.291664,33.977769
+jefferson-blvd-crenshaw-blvd-to-bronson-ave-eb,jefferson-blvd-crenshaw-blvd-to-bronson-ave,W Jefferson Blvd,Crenshaw Blvd,S Bronson Ave,Eastbound,South,35,10,jefferson-park,Under Construction,True,-118.333922,34.025515
+jefferson-blvd-crenshaw-blvd-to-bronson-ave-wb,jefferson-blvd-crenshaw-blvd-to-bronson-ave,W Jefferson Blvd,Crenshaw Blvd,S Bronson Ave,Westbound,North,35,10,jefferson-park,Under Construction,True,-118.334342,34.025677
+riverside-dr-riverside-ter-to-allesandro-st-sb,riverside-dr-riverside-ter-to-allesandro-st,Riverside Dr,Riverside Ter,Allesandro St,Southbound,West,35,13,silver-lake,Under Construction,True,-118.250901,34.101001
+van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-nb,van-nuys-blvd-5-fwy-to-laurel-canyon-blvd,Van Nuys Blvd,5 Fwy,Laurel Canyon Blvd,Northbound,East,35,7,pacoima,Under Construction,True,-118.433254,34.257827
+van-nuys-blvd-5-fwy-to-laurel-canyon-blvd-sb,van-nuys-blvd-5-fwy-to-laurel-canyon-blvd,Van Nuys Blvd,5 Fwy,Laurel Canyon Blvd,Southbound,West,35,7,pacoima,Under Construction,True,-118.433449,34.257961
+victory-blvd-kester-ave-to-cedros-ave-eb,victory-blvd-kester-ave-to-cedros-ave,Victory Blvd,Kester Ave,Cedros Ave,Eastbound,South,35,6,van-nuys,Under Construction,True,-118.458806,34.186551
+victory-blvd-kester-ave-to-cedros-ave-wb,victory-blvd-kester-ave-to-cedros-ave,Victory Blvd,Kester Ave,Cedros Ave,Westbound,North,35,6,van-nuys,Under Construction,True,-118.45904,34.186763
+huntington-dr-topaz-st-to-monterey-rd-nb,huntington-dr-topaz-st-to-monterey-rd,Huntington Dr,Topaz St,Monterey Rd,Northbound,East,35,14,el-sereno,Under Construction,True,-118.189019,34.084723
+huntington-dr-topaz-st-to-monterey-rd-sb,huntington-dr-topaz-st-to-monterey-rd,Huntington Dr,Topaz St,Monterey Rd,Southbound,West,35,14,montecito-heights,Under Construction,True,-118.189143,34.084892
+highland-ave-franklin-pl-to-camrose-dr-nb,highland-ave-franklin-pl-to-camrose-dr,N Highland Ave,Franklin Pl,Camrose Dr,Northbound,East,35,4,hollywood-hills,Under Construction,True,-118.337359,34.105878
+highland-ave-franklin-pl-to-camrose-dr-sb,highland-ave-franklin-pl-to-camrose-dr,N Highland Ave,Franklin Pl,Camrose Dr,Southbound,West,35,4,hollywood-hills,Under Construction,True,-118.33763,34.106511
+manchester-ave-wadsworth-ave-to-central-ave-eb,manchester-ave-wadsworth-ave-to-central-ave,E Manchester Ave,Wadsworth Ave,S Central Ave,Eastbound,South,35,9,green-meadows,Under Construction,False,-118.257113,33.960065
+manchester-ave-wadsworth-ave-to-central-ave-wb,manchester-ave-wadsworth-ave-to-central-ave,E Manchester Ave,Wadsworth Ave,S Central Ave,Westbound,North,35,9,florence,Under Construction,False,-118.257591,33.960276
+franklin-ave-cheremoya-ave-to-tamarind-ave-eb,franklin-ave-cheremoya-ave-to-tamarind-ave,Franklin Ave,Cheremoya Ave,Tamarind Ave (north),Eastbound,South,35,4,hollywood,Under Construction,True,-118.319253,34.105183
+franklin-ave-cheremoya-ave-to-tamarind-ave-wb,franklin-ave-cheremoya-ave-to-tamarind-ave,Franklin Ave,Cheremoya Ave,Tamarind Ave (north),Westbound,North,35,4,hollywood-hills,Under Construction,True,-118.320037,34.105332
+olympic-blvd-la-brea-ave-to-sycamore-ave-eb,olympic-blvd-la-brea-ave-to-sycamore-ave,W Olympic Blvd,S La Brea Ave,S Sycamore Ave,Eastbound,South,35,5,mid-wilshire,Under Construction,True,-118.342819,34.057055
+olympic-blvd-la-brea-ave-to-sycamore-ave-wb,olympic-blvd-la-brea-ave-to-sycamore-ave,W Olympic Blvd,S La Brea Ave,S Sycamore Ave,Westbound,North,35,5,mid-wilshire,Under Construction,True,-118.344694,34.057304
+coldwater-canyon-ave-vanowen-st-to-bassett-st-nb,coldwater-canyon-ave-vanowen-st-to-bassett-st,Coldwater Canyon Ave,Vanowen St,Bassett St,Northbound,East,35,2,valley-glen,Under Construction,True,-118.413703,34.19477
+coldwater-canyon-ave-vanowen-st-to-bassett-st-sb,coldwater-canyon-ave-vanowen-st-to-bassett-st,Coldwater Canyon Ave,Vanowen St,Bassett St,Southbound,West,35,2,valley-glen,Under Construction,True,-118.413903,34.194394
+hollywood-blvd-vista-st-to-camino-palmero-st-eb,hollywood-blvd-vista-st-to-camino-palmero-st,Hollywood Blvd,N Vista St,Camino Palmero St,Eastbound,South,30,4,hollywood,Under Construction,True,-118.35111,34.101578
+hollywood-blvd-vista-st-to-camino-palmero-st-wb,hollywood-blvd-vista-st-to-camino-palmero-st,Hollywood Blvd,N Vista St,Camino Palmero St,Westbound,North,30,4,hollywood,Under Construction,True,-118.350769,34.101715
+vista-del-mar-city-limit-to-culver-blvd-nb,vista-del-mar-city-limit-to-culver-blvd,Vista Del Mar,City Limit,Culver Blvd,Northbound,East,40,11,playa-del-rey,Under Construction,False,-118.444009,33.947877
+vista-del-mar-city-limit-to-culver-blvd-sb,vista-del-mar-city-limit-to-culver-blvd,Vista Del Mar,City Limit,Culver Blvd,Southbound,East,40,11,playa-del-rey,Under Construction,False,-118.443916,33.947666
+slauson-ave-braddock-to-culver-blvd-nb,slauson-ave-braddock-to-culver-blvd,S Slauson Ave,Braddock,Culver Blvd,Northbound,East,25,11,del-rey,Under Construction,True,-118.415283,33.997806
+slauson-ave-braddock-to-culver-blvd-sb,slauson-ave-braddock-to-culver-blvd,S Slauson Ave,Braddock,Culver Blvd,Southbound,West,25,11,del-rey,Under Construction,True,-118.414806,33.998665
+la-tijera-blvd-manchester-to-74th-st-nb,la-tijera-blvd-manchester-to-74th-st,La Tijera Blvd,Manchester,74th St,Northbound,East,40,11,westchester,Under Construction,True,-118.386875,33.963759
+la-tijera-blvd-manchester-to-74th-st-sb,la-tijera-blvd-manchester-to-74th-st,La Tijera Blvd,Manchester,74th St,Southbound,West,40,11,westchester,Under Construction,True,-118.383753,33.966836
+valley-circle-blvd-victory-blvd-to-lake-manor-dr-nb,valley-circle-blvd-victory-blvd-to-lake-manor-dr,Valley Circle Blvd,Victory Blvd,Lake Manor Dr,Northbound,East,45,12,west-hills,Under Construction,True,-118.656918,34.193307
+valley-circle-blvd-victory-blvd-to-lake-manor-dr-sb,valley-circle-blvd-victory-blvd-to-lake-manor-dr,Valley Circle Blvd,Victory Blvd,Lake Manor Dr,Southbound,West,45,12,west-hills,Under Construction,True,-118.655654,34.187182
+sesnon-blvd-mason-ave-to-reseda-blvd-eb,sesnon-blvd-mason-ave-to-reseda-blvd,Sesnon Blvd,Mason Ave,Reseda Blvd,Eastbound,South,45,12,porter-ranch,Under Construction,True,-118.566612,34.295202
+sesnon-blvd-mason-ave-to-reseda-blvd-wb,sesnon-blvd-mason-ave-to-reseda-blvd,Sesnon Blvd,Mason Ave,Reseda Blvd,Westbound,South,45,12,porter-ranch,Under Construction,True,-118.55601,34.296251
+victory-blvd-belmar-ave-to-tampa-ave-eb,victory-blvd-belmar-ave-to-tampa-ave,Victory Blvd,Belmar Ave,Tampa Ave,Eastbound,South,45,3,tarzana,Under Construction,False,-118.55756,34.186469
+victory-blvd-belmar-ave-to-tampa-ave-wb,victory-blvd-belmar-ave-to-tampa-ave,Victory Blvd,Belmar Ave,Tampa Ave,Westbound,North,45,3,reseda,Under Construction,False,-118.554242,34.186683
+mulholland-dr-calneva-to-corda-eb,mulholland-dr-calneva-to-corda,Mulholland Dr,Calneva,Corda,Eastbound,South,35,11,brentwood,Under Construction,False,-118.488698,34.130028
+mulholland-dr-calneva-to-corda-wb,mulholland-dr-calneva-to-corda,Mulholland Dr,Calneva,Corda,Westbound,South,35,11,brentwood,Under Construction,False,-118.493004,34.130776
