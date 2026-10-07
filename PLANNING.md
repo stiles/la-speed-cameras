@@ -4,7 +4,9 @@ Roadmap for [laspeedcameras.com](https://laspeedcameras.com). The site answers t
 
 ## Key dates
 
-- **Oct. 26, 2026:** LADOT switches on the first cameras. The site should be live and indexed before this.
+- **Oct. 9, 2026:** MVP live at laspeedcameras.com and submitted to Google and Bing
+- **Oct. 19, 2026:** design and mobile polish done
+- **Oct. 26, 2026:** LADOT switches on the first cameras. The site should be indexed before this.
 - **End of 2026:** LADOT expects all 125 locations to be active.
 - **60 days after each activation:** warnings end and tickets start for that camera.
 - **Jan. 1, 2032:** the AB 645 pilot ends.
@@ -21,24 +23,67 @@ The MVP and the phase 2 route check are both done. The site builds 740 static pa
 - `/route`: Mapbox driving alternatives, matching that counts only cameras enforcing your direction, and "Find a route that dodges them" using Directions `exclude=point(...)`
 - Google Analytics 4 and Vercel Analytics, with custom events for `search`, `share`, `route_check` and `route_avoid`
 
-## Launch (by Oct. 19)
+## Publish schedule
 
-Hosting and accounts:
+Go live with the MVP this week instead of waiting for the Oct. 26 activation. People are already talking about the cameras, and a new domain needs time to get crawled, indexed and linked to before searches spike. The data and pages are ready. The rest of this week is accounts, a few fixes that would embarrass us on a phone, and getting Google to find the site.
+
+### Wednesday, Oct. 7: accounts and deploy
 
 - [ ] Push `main` to [stiles/la-speed-cameras](https://github.com/stiles/la-speed-cameras)
 - [ ] Import the repo in Vercel and set `NEXT_PUBLIC_MAPBOX_TOKEN` and `NEXT_PUBLIC_SITE_URL` for Production and Preview
 - [ ] Add `laspeedcameras.com` and `www.laspeedcameras.com` and redirect www to the apex
 - [ ] URL-restrict the Mapbox token to `laspeedcameras.com`, `*.vercel.app` and `localhost:3000`
-- [ ] Enable Vercel Web Analytics and confirm GA4 receives page views from production
+- [ ] Set up a site email address (for example, hello@laspeedcameras.com) and use it for the report mailto fallback, the about page and account signups
 - [ ] Allow Actions to create pull requests (Settings > Actions > General), then run "Update camera data" once by hand to confirm it's a no-op
-- [ ] Set `NEXT_PUBLIC_REPORT_URL` to a Tally or Google form for reports and photos (it falls back to a mailto)
+- [ ] Favicon: `/favicon.ico` returns 404. Add `app/icon.svg` and `app/apple-icon.png`.
+- [ ] Header: add a hamburger menu for Neighborhoods, My commute, Full list and About. Right now small screens hide most of the links.
+- [ ] "Near me" zooms in too far. It fits the user's location plus the three nearest corridors, so it can land at street level when a camera is close. Cap `maxZoom` around 13 or fit a fixed radius instead.
+- [ ] Rewrite lines that sound machine-written, starting with "The fine print, but readable" (the `/about` title). Also review "The fine print" in `Caveat` and the footer.
 
-QA before announcing:
+### Thursday, Oct. 8: mobile and QA
 
-- [ ] Click through on a phone: home map and bottom sheet, search, "Near me", a neighborhood page and `/route`
+- [ ] Do a mobile pass that covers the home bottom sheet, neighborhood and corridor pages, `/list` and `/route`. Fix anything broken and log the rest for next week.
+- [ ] Click through on a phone: home map, search, "Near me", a neighborhood page and `/route`
+- [ ] Enable Vercel Web Analytics and confirm GA4 receives page views from production
 - [ ] Check share previews with the [Facebook sharing debugger](https://developers.facebook.com/tools/debug/) and by pasting `laspeedcameras.com/del-rey` into iMessage and Slack
 - [ ] Confirm `/del-rey` redirects to `/neighborhoods/del-rey`
+- [ ] Set `NEXT_PUBLIC_REPORT_URL` to a Tally or Google form for reports and photos (it falls back to a mailto)
+
+### Friday, Oct. 9: live
+
 - [ ] Verify the domain in Google Search Console and Bing Webmaster Tools and submit `/sitemap.xml` to both
+- [ ] Use URL Inspection to request indexing for the home page, `/neighborhoods`, `/list` and the 10 neighborhoods with the most cameras
+- [ ] Soft launch: share a few neighborhood links where people are already talking about the cameras (r/LosAngeles, neighborhood Reddit and Nextdoor threads, neighborhood councils). The inbound links help Google find the site faster.
+
+### Week of Oct. 12: polish (done by Oct. 19)
+
+Mobile:
+
+- [ ] Map gestures: one-finger page scrolls get caught by the map. Detail pages use `cooperativeGestures`, which still feels clumsy. Consider a static preview with a "Tap to explore" button that opens the full map.
+- [ ] Fix whatever Thursday's mobile pass logged
+
+Map:
+
+- [ ] Decide whether the corridors stay. They show the enforcement zone that "between X and Y" refers to. If they stay, add them to the legend, which only covers status and direction now.
+
+Visual design:
+
+- [ ] Colors: use a more subtle red than `siren` (`#ff3b1f`) and a slightly lighter black than `ink` (`#16161d`) in `app/globals.css`
+- [ ] Fonts: replace Inter and Bricolage Grotesque, which show up constantly in AI-generated designs. Change both `app/layout.tsx` and `lib/og.tsx`.
+- [ ] Rounding: move buttons, badges and chips from `rounded-full` to a small radius. Keep full rounding for map dots only.
+- [ ] Drop the bars on the home page "Most watched" list. A ranked list with counts is enough.
+- [ ] Type-heavy pages (How it works and the FAQ on `/about`): add more hierarchy with heading weights, subheads and gray text for secondary copy
+- [ ] Reread the rest of the site for copy that sounds machine-written
+
+Geography and sharing:
+
+- [ ] Add council district boundaries from la-geography to the pipeline snapshot. District pages only use LADOT's district number now. Use the boundaries for outlines on district maps, shapes on share images and district search results.
+- [ ] Share images: neighborhoods already get their own card (name, count and shape). Still needed: cards for council districts and `/route`, a redesigned site default, and an update of every card to the new colors and fonts. Rerun the Facebook debugger afterward so platforms drop the cached cards.
+
+### Week of Oct. 19: before activation
+
+- [ ] Check Search Console coverage and request indexing for any important pages that are still missing
+- [ ] Wider announcement ahead of Oct. 26
 
 ## Activation weeks (Oct. 26 to end of year)
 
@@ -54,7 +99,6 @@ These were in the plan but didn't make the first build:
 
 - Tapping a camera on the home map highlights it but doesn't scroll to its row in the bottom sheet
 - Choosing a street in search opens the street page instead of flying the home map to it
-- `/route` has no Open Graph image, so shared commute links use the site default
 - Neighborhood pages have an in-page "Warn a neighbor" link rather than a sticky share prompt
 
 ## Next

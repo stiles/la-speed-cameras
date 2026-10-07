@@ -88,7 +88,7 @@ export default function CameraMap({
   routeHits,
   selected,
   cooperative = false,
-  className = "",
+  className = "relative h-full w-full",
   label = "Map of speed camera locations",
   onReady,
   onSelect,
@@ -301,8 +301,9 @@ export default function CameraMap({
   }, [loaded, routes]);
 
   return (
-    <div className={`relative ${className}`}>
-      <div ref={container} className="absolute inset-0" role="region" aria-label={label} />
+    <div className={className}>
+      {/* mapbox-gl.css forces position: relative on this node, so size it with h-full rather than inset-0 */}
+      <div ref={container} className="h-full w-full" role="region" aria-label={label} />
       {!MAPBOX_TOKEN && (
         <div className="absolute inset-0 grid place-items-center bg-zinc-100 p-6 text-center text-sm text-zinc-600">
           Map unavailable: set NEXT_PUBLIC_MAPBOX_TOKEN.
