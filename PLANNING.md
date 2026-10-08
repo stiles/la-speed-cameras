@@ -29,11 +29,11 @@ Go live with the MVP this week instead of waiting for the Oct. 26 activation. Pe
 
 ### Wednesday, Oct. 7: accounts and deploy
 
-- [ ] Push `main` to [stiles/la-speed-cameras](https://github.com/stiles/la-speed-cameras)
-- [ ] Import the repo in Vercel and set `NEXT_PUBLIC_MAPBOX_TOKEN` and `NEXT_PUBLIC_SITE_URL` for Production and Preview
-- [ ] Add `laspeedcameras.com` and `www.laspeedcameras.com` and redirect www to the apex
-- [ ] URL-restrict the Mapbox token to `laspeedcameras.com`, `*.vercel.app` and `localhost:3000`
-- [ ] Set up a site email address (for example, hello@laspeedcameras.com) and use it for the report mailto fallback, the about page and account signups
+- [x] Push `main` to [stiles/la-speed-cameras](https://github.com/stiles/la-speed-cameras)
+- [x] Import the repo in Vercel and set `NEXT_PUBLIC_MAPBOX_TOKEN` and `NEXT_PUBLIC_SITE_URL` for Production and Preview
+- [x] Add `laspeedcameras.com` and `www.laspeedcameras.com` and redirect www to the apex
+- [x] URL-restrict the Mapbox token to `laspeedcameras.com`, `*.vercel.app` and `localhost:3000`
+- [x] Set up a site email address (for example, hello@laspeedcameras.com) and use it for the report mailto fallback, the about page and account signups
 - [ ] Allow Actions to create pull requests (Settings > Actions > General), then run "Update camera data" once by hand to confirm it's a no-op
 - [ ] Favicon: `/favicon.ico` returns 404. Add `app/icon.svg` and `app/apple-icon.png`.
 - [ ] Header: add a hamburger menu for Neighborhoods, My commute, Full list and About. Right now small screens hide most of the links.
