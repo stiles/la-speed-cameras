@@ -24,6 +24,7 @@ type Props = {
   showLocate?: boolean;
   defaultValue?: string;
   ariaLabel?: string;
+  onQuery?: (q: string) => void;
 };
 
 let indexPromise: Promise<SearchItem[]> | null = null;
@@ -45,6 +46,7 @@ export default function SearchBox({
   showLocate = true,
   defaultValue = "",
   ariaLabel = "Search for speed cameras",
+  onQuery,
 }: Props) {
   const router = useRouter();
   const listId = useId();
@@ -156,6 +158,7 @@ export default function SearchBox({
           onBlur={() => setTimeout(() => setOpen(false), 150)}
           onChange={(e) => {
             setQ(e.target.value);
+            onQuery?.(e.target.value);
             setOpen(true);
             setActive(0);
             if (!tracked.current) {

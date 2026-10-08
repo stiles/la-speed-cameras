@@ -12,6 +12,7 @@ import { loadCameras } from "@/lib/mapdata";
 import { avoidRoute, planRoutes, type RouteOption } from "@/lib/route";
 import { directionLabel, plural } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
+import { geocode } from "@/lib/geocode";
 
 type End = { center: [number, number]; label: string };
 
@@ -28,14 +29,44 @@ export default function RoutePlanner() {
   const ctrl = useRef<MapController | null>(null);
   const [from, setFrom] = useState<End | null>(() => parseEnd(params.get("from"), params.get("fl")));
   const [to, setTo] = useState<End | null>(() => parseEnd(params.get("to"), params.get("tl")));
+  const [request, setRequest] = useState<{ from: End; to: End } | null>(() => (from && to ? { from, to } : null));
+  const [fromText, setFromText] = useState(from?.label ?? "");
+  const [toText, setToText] = useState(to?.label ?? "");
   const [options, setOptions] = useState<RouteOption[]>([]);
   const [active, setActive] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
+  const [resolving, setResolving] = useState(false);
   const [avoiding, setAvoiding] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  async function resolve(end: End | null, text: string, which: string): Promise<End | null> {
+    if (end) return end;
+    const [top] = text.trim().length >= 3 ? await geocode(text) : [];
+    if (!top) {
+      setError(`We couldn't find ${text.trim() ? `"${text.trim()}"` : `a ${which}`}. Try a street address or a place name.`);
+      return null;
+    }
+    return { center: top.center, label: top.label };
+  }
+
+  async function check() {
+    setError(null);
+    setResolving(true);
+    try {
+      const f = await resolve(from, fromText, "starting point");
+      const t = f && (await resolve(to, toText, "destination"));
+      if (!f || !t) return;
+      setFrom(f);
+      setTo(t);
+      setRequest({ from: f, to: t });
+    } finally {
+      setResolving(false);
+    }
+  }
+
   useEffect(() => {
-    if (!from || !to) return;
+    if (!request) return;
+    const { from, to } = request;
     const q = new URLSearchParams({
       from: from.center.map((v) => v.toFixed(5)).join(","),
       fl: from.label,
@@ -60,7 +91,7 @@ export default function RoutePlanner() {
     return () => {
       cancelled = true;
     };
-  }, [from, to, pathname, router]);
+  }, [request, pathname, router]);
 
   const current = options.find((o) => o.id === active) ?? null;
 
@@ -84,12 +115,12 @@ export default function RoutePlanner() {
   );
 
   async function dodge() {
-    if (!from || !to || !current) return;
+    if (!request || !current) return;
     setAvoiding(true);
     setError(null);
     try {
       const cams = await loadCameras();
-      const [opt] = await avoidRoute(from.center, to.center, current.facing, cams);
+      const [opt] = await avoidRoute(request.from.center, request.to.center, current.facing, cams);
       track("route_avoid", { before: current.facing.length, after: opt.facing.length });
       setOptions((prev) => [...prev.filter((o) => !o.id.startsWith("avoid")), opt]);
       setActive(opt.id);
@@ -101,11 +132,11 @@ export default function RoutePlanner() {
   }
 
   const fewest = options.length ? Math.min(...options.map((o) => o.facing.length)) : 0;
-  const shareUrl = typeof window !== "undefined" && from && to ? `${SITE_URL}/route?${new URLSearchParams({
-    from: from.center.map((v) => v.toFixed(4)).join(","),
-    fl: from.label,
-    to: to.center.map((v) => v.toFixed(4)).join(","),
-    tl: to.label,
+  const shareUrl = request ? `${SITE_URL}/route?${new URLSearchParams({
+    from: request.from.center.map((v) => v.toFixed(4)).join(","),
+    fl: request.from.label,
+    to: request.to.center.map((v) => v.toFixed(4)).join(","),
+    tl: request.to.label,
   })}` : `${SITE_URL}/route`;
 
   return (
@@ -118,7 +149,14 @@ export default function RoutePlanner() {
             placeholder="Home, an address or a place"
             ariaLabel="Starting point"
             defaultValue={from?.label ?? ""}
-            onLocation={(center, label) => setFrom({ center, label })}
+            onQuery={(v) => {
+              setFromText(v);
+              setFrom(null);
+            }}
+            onLocation={(center, label) => {
+              setFrom({ center, label });
+              setFromText(label);
+            }}
           />
           <label className="block pt-2 text-xs font-bold uppercase tracking-widest text-zinc-500">To</label>
           <SearchBox
@@ -127,14 +165,28 @@ export default function RoutePlanner() {
             placeholder="Work, school, the beach"
             ariaLabel="Destination"
             defaultValue={to?.label ?? ""}
-            onLocation={(center, label) => setTo({ center, label })}
+            onQuery={(v) => {
+              setToText(v);
+              setTo(null);
+            }}
+            onLocation={(center, label) => {
+              setTo({ center, label });
+              setToText(label);
+            }}
           />
+          <button
+            type="button"
+            onClick={check}
+            disabled={resolving || loading || !fromText.trim() || !toText.trim()}
+            className="mt-3 w-full rounded-full bg-ink px-5 py-3 font-bold text-white hover:bg-asphalt disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            {resolving || loading ? "Scouting the route..." : "Check my route"}
+          </button>
         </div>
 
-        {loading && <p className="text-sm text-zinc-600">Scouting the route...</p>}
         {error && <p className="rounded-xl bg-red-50 p-3 text-sm text-red-800">{error}</p>}
 
-        {!from || !to ? (
+        {!request ? (
           <div className="rounded-2xl bg-white p-4 text-sm text-zinc-700 ring-1 ring-zinc-200">
             Enter where you start and where you&rsquo;re headed. We&rsquo;ll check the fastest route and a couple of
             alternates for speed cameras, counting only the ones that enforce your direction of travel.
@@ -212,7 +264,7 @@ export default function RoutePlanner() {
           </p>
         )}
 
-        {current && from && to && (
+        {current && request && (
           <ShareBar
             url={shareUrl}
             text={

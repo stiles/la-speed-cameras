@@ -14,9 +14,10 @@ export async function geocode(query: string, signal?: AbortSignal): Promise<Plac
     country: "us",
     limit: "5",
     language: "en",
-    types: "address,street,poi,neighborhood,locality,place,postcode",
+    types: "address,poi,street,neighborhood,locality,place,postcode",
   });
-  const res = await fetch(`https://api.mapbox.com/search/geocode/v6/forward?${params}`, { signal });
+  // Geocoding v6 has no POIs, so use Search Box for "UCLA" or "Venice Beach"
+  const res = await fetch(`https://api.mapbox.com/search/searchbox/v1/forward?${params}`, { signal });
   if (!res.ok) return [];
   const data = (await res.json()) as {
     features: { geometry: { coordinates: [number, number] }; properties: { name: string; place_formatted?: string; full_address?: string } }[];
