@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Suspense fallback={<div className="h-[78vh] animate-pulse bg-zinc-200" />}>
+      <Suspense fallback={<div className="h-[64dvh] min-h-[440px] animate-pulse bg-zinc-200 lg:h-[78vh]" />}>
         <HomeExplorer />
       </Suspense>
 

@@ -23,8 +23,8 @@ type Found = {
 type Snap = "peek" | "half" | "full";
 const SNAP_CLASS: Record<Snap, string> = {
   peek: "max-lg:h-[150px]",
-  half: "max-lg:h-[46dvh]",
-  full: "max-lg:h-[82dvh]",
+  half: "max-lg:h-[60%]",
+  full: "max-lg:h-full",
 };
 
 export default function HomeExplorer() {
@@ -50,10 +50,16 @@ export default function HomeExplorer() {
       setFound({ label, center, hood, near });
       setSnap("half");
       ctrl.current?.setLocation(center);
-      const pts = [center, ...near.slice(0, 3).map((n) => n.c.center)];
+      const [lon, lat] = center;
+      const pts = [center, [lon - 0.018, lat - 0.014], [lon + 0.018, lat + 0.014], ...near.slice(0, 3).map((n) => n.c.center)];
       const lons = pts.map((p) => p[0]);
       const lats = pts.map((p) => p[1]);
-      ctrl.current?.fitBounds([Math.min(...lons), Math.min(...lats), Math.max(...lons), Math.max(...lats)], 15);
+      const sheet = window.matchMedia("(max-width: 1023px)").matches;
+      ctrl.current?.fitBounds(
+        [Math.min(...lons), Math.min(...lats), Math.max(...lons), Math.max(...lats)],
+        13,
+        sheet ? { top: 40, right: 30, left: 30, bottom: Math.max(440, window.innerHeight * 0.64) * 0.6 + 20 } : { top: 60, right: 60, bottom: 60, left: 460 },
+      );
     },
     [corridors],
   );
@@ -88,7 +94,7 @@ export default function HomeExplorer() {
   }
 
   return (
-    <div className="relative h-[calc(100dvh-3.5rem)] min-h-[520px] w-full overflow-hidden lg:h-[78vh]">
+    <div className="relative h-[64dvh] min-h-[440px] w-full overflow-hidden lg:h-[78vh]">
       <MapClient
         className="absolute inset-0"
         selected={selected}

@@ -1,10 +1,11 @@
 import Link from "next/link";
+import MobileMenu from "./MobileMenu";
 
 const NAV = [
-  { href: "/neighborhoods", label: "Neighborhoods", mobile: true },
-  { href: "/route", label: "My commute", mobile: true },
-  { href: "/list", label: "Full list", mobile: false },
-  { href: "/about", label: "About", mobile: false },
+  { href: "/neighborhoods", label: "Neighborhoods" },
+  { href: "/route", label: "My commute" },
+  { href: "/list", label: "Full list" },
+  { href: "/about", label: "About" },
 ];
 
 export function Logo({ className = "" }: { className?: string }) {
@@ -27,17 +28,18 @@ export default function Header() {
         <Link href="/" aria-label="LA Speed Cameras home">
           <Logo />
         </Link>
-        <nav aria-label="Main" className="flex items-center gap-1 overflow-x-auto text-sm">
+        <nav aria-label="Main" className="flex items-center gap-1 text-sm max-sm:hidden">
           {NAV.map((n) => (
             <Link
               key={n.href}
               href={n.href}
-              className={`whitespace-nowrap rounded-full px-3 py-1.5 text-white/80 hover:bg-white/10 hover:text-white ${n.mobile ? "" : "max-sm:hidden"}`}
+              className="whitespace-nowrap rounded-full px-3 py-1.5 text-white/80 hover:bg-white/10 hover:text-white"
             >
               {n.label}
             </Link>
           ))}
         </nav>
+        <MobileMenu items={NAV} />
       </div>
     </header>
   );

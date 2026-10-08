@@ -27,26 +27,23 @@ The MVP and the phase 2 route check are both done. The site builds 740 static pa
 
 Go live with the MVP this week instead of waiting for the Oct. 26 activation. People are already talking about the cameras, and a new domain needs time to get crawled, indexed and linked to before searches spike. The data and pages are ready. The rest of this week is accounts, a few fixes that would embarrass us on a phone, and getting Google to find the site.
 
-### Wednesday, Oct. 7: accounts and deploy
+### Thursday, Oct. 8: mobile and QA
 
 - [x] Push `main` to [stiles/la-speed-cameras](https://github.com/stiles/la-speed-cameras)
 - [x] Import the repo in Vercel and set `NEXT_PUBLIC_MAPBOX_TOKEN` and `NEXT_PUBLIC_SITE_URL` for Production and Preview
 - [x] Add `laspeedcameras.com` and `www.laspeedcameras.com` and redirect www to the apex
 - [x] URL-restrict the Mapbox token to `laspeedcameras.com`, `*.vercel.app` and `localhost:3000`
 - [x] Set up a site email address (for example, hello@laspeedcameras.com) and use it for the report mailto fallback, the about page and account signups
-- [ ] Allow Actions to create pull requests (Settings > Actions > General), then run "Update camera data" once by hand to confirm it's a no-op
-- [ ] Favicon: `/favicon.ico` returns 404. Add `app/icon.svg` and `app/apple-icon.png`.
-- [ ] Header: add a hamburger menu for Neighborhoods, My commute, Full list and About. Right now small screens hide most of the links.
-- [ ] "Near me" zooms in too far. It fits the user's location plus the three nearest corridors, so it can land at street level when a camera is close. Cap `maxZoom` around 13 or fit a fixed radius instead.
-- [ ] Rewrite lines that sound machine-written, starting with "The fine print, but readable" (the `/about` title). Also review "The fine print" in `Caveat` and the footer.
-
-### Thursday, Oct. 8: mobile and QA
-
-- [ ] Do a mobile pass that covers the home bottom sheet, neighborhood and corridor pages, `/list` and `/route`. Fix anything broken and log the rest for next week.
+- [x] Allow Actions to create pull requests (Settings > Actions > General), then run "Update camera data" once by hand to confirm it's a no-op
+- [x] Favicon: `/favicon.ico` returns 404. Add `app/icon.svg` and `app/apple-icon.png`.
+- [x] Header: add a hamburger menu for Neighborhoods, My commute, Full list and About. Right now small screens hide most of the links.
+- [x] "Near me" zooms in too far. It fits the user's location plus the three nearest corridors, so it can land at street level when a camera is close. Cap `maxZoom` around 13 or fit a fixed radius instead.
+- [x] Rewrite lines that sound machine-written, starting with "The fine print, but readable" (the `/about` title). Also review "The fine print" in `Caveat` and the footer.
+- [x] Do a mobile pass that covers the home bottom sheet, neighborhood and corridor pages, `/list` and `/route`. Fix anything broken and log the rest for next week.
 - [ ] Click through on a phone: home map, search, "Near me", a neighborhood page and `/route`
 - [ ] Enable Vercel Web Analytics and confirm GA4 receives page views from production
 - [ ] Check share previews with the [Facebook sharing debugger](https://developers.facebook.com/tools/debug/) and by pasting `laspeedcameras.com/del-rey` into iMessage and Slack
-- [ ] Confirm `/del-rey` redirects to `/neighborhoods/del-rey`
+- [x] Confirm `/del-rey` redirects to `/neighborhoods/del-rey`
 - [ ] Set `NEXT_PUBLIC_REPORT_URL` to a Tally or Google form for reports and photos (it falls back to a mailto)
 
 ### Friday, Oct. 9: live
@@ -60,7 +57,10 @@ Go live with the MVP this week instead of waiting for the Oct. 26 activation. Pe
 Mobile:
 
 - [ ] Map gestures: one-finger page scrolls get caught by the map. Detail pages use `cooperativeGestures`, which still feels clumsy. Consider a static preview with a "Tap to explore" button that opens the full map.
-- [ ] Fix whatever Thursday's mobile pass logged
+- [ ] From Thursday's mobile pass:
+  - The home hero takes about a third of a small phone (375 by 667), so only the search row of the bottom sheet shows. Consider a shorter mobile hero.
+  - Neighborhood maps fit the next-door cameras too, so on a phone the neighborhood itself sits small near the top. Consider fitting to the neighborhood and letting nearby cameras run off the edge.
+  - After "Near me" or a search, the half-height sheet leaves about 40% of the map visible
 
 Map:
 

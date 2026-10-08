@@ -10,7 +10,11 @@ import type { StatusKey } from "@/lib/types";
 
 export type MapController = {
   map: mapboxgl.Map;
-  fitBounds: (bbox: [number, number, number, number], maxZoom?: number) => void;
+  fitBounds: (
+    bbox: [number, number, number, number],
+    maxZoom?: number,
+    padding?: number | { top: number; bottom: number; left: number; right: number },
+  ) => void;
   flyTo: (center: [number, number], zoom?: number) => void;
   setLocation: (center: [number, number] | null) => void;
 };
@@ -245,7 +249,7 @@ export default function CameraMap({
       setLoaded(true);
       callbacks.current.onReady?.({
         map,
-        fitBounds: (bbox, maxZoom = 15) => map.fitBounds(bbox, { padding: 60, maxZoom, duration: 900 }),
+        fitBounds: (bbox, maxZoom = 15, padding = 60) => map.fitBounds(bbox, { padding, maxZoom, duration: 900 }),
         flyTo: (center, zoom = 14) => map.flyTo({ center, zoom, duration: 900 }),
         setLocation: (center) => {
           markerRef.current?.remove();

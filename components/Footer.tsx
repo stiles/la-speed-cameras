@@ -32,7 +32,7 @@ export default function Footer() {
           </ul>
         </div>
         <div>
-          <h2 className="mb-2 font-semibold text-white">The fine print</h2>
+          <h2 className="mb-2 font-semibold text-white">About this site</h2>
           <ul className="space-y-1.5">
             <li><Link href="/about">About the program</Link></li>
             <li><Link href="/about#data">How the data works</Link></li>

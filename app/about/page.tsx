@@ -40,7 +40,7 @@ export default function About() {
   return (
     <>
       <JsonLd data={faq(FAQS)} />
-      <PageHeader kicker="About" title="The fine print, but readable" lede="What the program is, how tickets work and how we built this map." />
+      <PageHeader kicker="About" title="How LA's speed cameras work" lede="Tickets, fines, the warning period and where this map's data comes from." />
       <article className="prose-copy mx-auto max-w-3xl px-4 py-10">
         <p>
           The City of Los Angeles is installing speed cameras at 125 locations, two cameras per location in most

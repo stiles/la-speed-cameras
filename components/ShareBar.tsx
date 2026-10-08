@@ -40,6 +40,7 @@ export default function ShareBar({
 }: Props) {
   const [copied, setCopied] = useState(false);
   const [canShare, setCanShare] = useState(false);
+  const [more, setMore] = useState(false);
   useEffect(() => setCanShare(typeof navigator !== "undefined" && "share" in navigator), []);
 
   async function nativeShare() {
@@ -77,7 +78,9 @@ export default function ShareBar({
       >
         {copied ? "Copied!" : "Copy link"}
       </button>
-      {channels(url, text).map((c) => (
+      {channels(url, text)
+        .filter((c) => !canShare || more || c.id === "sms" || c.id === "whatsapp")
+        .map((c) => (
         <a
           key={c.id}
           href={c.href}
@@ -89,6 +92,16 @@ export default function ShareBar({
           {c.label}
         </a>
       ))}
+      {canShare && !more && (
+        <button
+          type="button"
+          onClick={() => setMore(true)}
+          data-more
+          className="rounded-full border border-zinc-300 bg-white px-3 py-2 text-sm font-medium hover:border-ink"
+        >
+          More
+        </button>
+      )}
     </div>
   );
 
@@ -102,7 +115,7 @@ export default function ShareBar({
       <p className="mb-4 rounded-lg bg-white/10 p-3 text-sm text-white/90">
         &ldquo;{text}&rdquo; <span className="text-white/60">{url.replace(/^https?:\/\//, "")}</span>
       </p>
-      <div className="[&_a]:border-white/25 [&_a]:bg-transparent [&_a]:text-white [&_a:hover]:border-white [&_[data-copy]]:bg-white [&_[data-copy]]:text-ink">
+      <div className="[&_a]:border-white/25 [&_a]:bg-transparent [&_a]:text-white [&_a:hover]:border-white [&_[data-more]]:border-white/25 [&_[data-more]]:bg-transparent [&_[data-more]]:text-white [&_[data-copy]]:bg-white [&_[data-copy]]:text-ink">
         {buttons}
       </div>
     </section>
