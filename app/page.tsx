@@ -115,7 +115,7 @@ export default function Home() {
             },
             {
               h: "How to avoid them",
-              p: "Easy: stay under 11 over. Or check your commute and pick a route that skips them. We won't judge. Much.",
+              p: "Easy: stay under 11 over. Or check your commute and pick a route that bypasses them.",
             },
           ].map((x) => (
             <div key={x.h}>
