@@ -61,7 +61,7 @@ export default function ListTable({ rows }: { rows: Row[] }) {
       <p className="mb-2 text-sm text-zinc-500" aria-live="polite">
         Showing {shown.length} of {rows.length} locations
       </p>
-      <div className="overflow-x-auto rounded-2xl bg-white ring-1 ring-zinc-200">
+      <div className="overflow-x-auto rounded-lg bg-white ring-1 ring-zinc-200">
         <table className="w-full text-left text-sm">
           <thead className="border-b border-zinc-200 bg-zinc-50 text-xs uppercase tracking-wide text-zinc-500">
             <tr>

@@ -59,7 +59,7 @@ function HoodGrid({ items }: { items: typeof neighborhoods }) {
           >
             <span className="truncate font-medium">{h.name}</span>
             <span
-              className={`shrink-0 rounded-full px-2 py-0.5 text-xs font-bold ${h.camera_count ? "bg-siren text-white" : "bg-zinc-100 text-zinc-500"}`}
+              className={`shrink-0 rounded-md px-2 py-0.5 text-xs font-bold ${h.camera_count ? "bg-siren text-white" : "bg-zinc-100 text-zinc-500"}`}
             >
               {h.camera_count}
             </span>

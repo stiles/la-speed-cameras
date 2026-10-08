@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Inter, Bricolage_Grotesque } from "next/font/google";
+import { Overpass, Public_Sans } from "next/font/google";
 import Script from "next/script";
 import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 import { ANALYTICS_ENABLED, DESCRIPTION, GA_ID, SITE_NAME, SITE_URL, TAGLINE } from "@/lib/site";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
-const display = Bricolage_Grotesque({ subsets: ["latin"], variable: "--font-display", weight: ["600", "700", "800"] });
+const body = Public_Sans({ subsets: ["latin"], variable: "--font-public-sans" });
+const display = Overpass({ subsets: ["latin"], variable: "--font-overpass", weight: ["600", "700", "800", "900"] });
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -32,14 +32,14 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#16161d",
+  themeColor: "#23232a",
   width: "device-width",
   initialScale: 1,
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${inter.variable} ${display.variable}`}>
+    <html lang="en" className={`${body.variable} ${display.variable}`}>
       <body className="flex min-h-dvh flex-col antialiased">
         <Header />
         <main className="flex-1">{children}</main>

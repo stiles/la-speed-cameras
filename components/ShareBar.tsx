@@ -65,7 +65,7 @@ export default function ShareBar({
         <button
           type="button"
           onClick={nativeShare}
-          className="rounded-full bg-siren px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-siren-dark"
+          className="rounded-md bg-siren px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-siren-dark"
         >
           Share
         </button>
@@ -74,7 +74,7 @@ export default function ShareBar({
         type="button"
         onClick={copy}
         data-copy
-        className="rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-asphalt"
+        className="rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-asphalt"
       >
         {copied ? "Copied!" : "Copy link"}
       </button>
@@ -87,7 +87,7 @@ export default function ShareBar({
           target={c.href.startsWith("http") ? "_blank" : undefined}
           rel="noopener noreferrer"
           onClick={() => track("share", { channel: c.id, page })}
-          className="rounded-full border border-zinc-300 bg-white px-3 py-2 text-sm font-medium hover:border-ink"
+          className="rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm font-medium hover:border-ink"
         >
           {c.label}
         </a>
@@ -97,7 +97,7 @@ export default function ShareBar({
           type="button"
           onClick={() => setMore(true)}
           data-more
-          className="rounded-full border border-zinc-300 bg-white px-3 py-2 text-sm font-medium hover:border-ink"
+          className="rounded-md border border-zinc-300 bg-white px-3 py-2 text-sm font-medium hover:border-ink"
         >
           More
         </button>
@@ -108,12 +108,12 @@ export default function ShareBar({
   if (variant === "inline") return buttons;
 
   return (
-    <section className="relative overflow-hidden rounded-2xl bg-ink p-6 text-white" aria-label="Share">
+    <section className="relative overflow-hidden rounded-lg bg-ink p-6 text-white" aria-label="Share">
       <div className="stripes absolute inset-x-0 top-0 h-1.5" aria-hidden />
       <h2 className="font-display text-2xl font-extrabold">{heading}</h2>
       <p className="mb-4 mt-1 text-white/75">{sub}</p>
       <p className="mb-4 rounded-lg bg-white/10 p-3 text-sm text-white/90">
-        &ldquo;{text}&rdquo; <span className="text-white/60">{url.replace(/^https?:\/\//, "")}</span>
+        &ldquo;{text}&rdquo; <span className="break-all text-white/60">{url.replace(/^https?:\/\//, "").replace(/\?.*/, "")}</span>
       </p>
       <div className="[&_a]:border-white/25 [&_a]:bg-transparent [&_a]:text-white [&_a:hover]:border-white [&_[data-more]]:border-white/25 [&_[data-more]]:bg-transparent [&_[data-more]]:text-white [&_[data-copy]]:bg-white [&_[data-copy]]:text-ink">
         {buttons}

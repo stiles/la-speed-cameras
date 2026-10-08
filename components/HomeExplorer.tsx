@@ -23,7 +23,7 @@ type Found = {
 type Snap = "peek" | "half" | "full";
 const SNAP_CLASS: Record<Snap, string> = {
   peek: "max-lg:h-[150px]",
-  half: "max-lg:h-[60%]",
+  half: "max-lg:h-[50%]",
   full: "max-lg:h-full",
 };
 
@@ -58,7 +58,7 @@ export default function HomeExplorer() {
       ctrl.current?.fitBounds(
         [Math.min(...lons), Math.min(...lats), Math.max(...lons), Math.max(...lats)],
         13,
-        sheet ? { top: 40, right: 30, left: 30, bottom: Math.max(440, window.innerHeight * 0.64) * 0.6 + 20 } : { top: 60, right: 60, bottom: 60, left: 460 },
+        sheet ? { top: 40, right: 30, left: 30, bottom: Math.max(440, window.innerHeight * 0.64) * 0.5 + 20 } : { top: 60, right: 60, bottom: 60, left: 460 },
       );
     },
     [corridors],
@@ -110,7 +110,7 @@ export default function HomeExplorer() {
       />
 
       <div
-        className={`absolute z-20 flex flex-col bg-white shadow-2xl transition-[height] duration-300 max-lg:inset-x-0 max-lg:bottom-0 max-lg:rounded-t-3xl lg:bottom-4 lg:left-4 lg:top-4 lg:w-[400px] lg:rounded-3xl ${SNAP_CLASS[snap]}`}
+        className={`absolute z-20 flex flex-col bg-white shadow-2xl transition-[height] duration-300 max-lg:inset-x-0 max-lg:bottom-0 max-lg:rounded-t-xl lg:bottom-4 lg:left-4 lg:top-4 lg:w-[400px] lg:rounded-xl ${SNAP_CLASS[snap]}`}
       >
         <button
           type="button"
@@ -139,7 +139,7 @@ export default function HomeExplorer() {
         <div className="min-h-0 flex-1 overflow-y-auto overscroll-contain px-4 pb-6">
           {found ? (
             <div className="space-y-4">
-              <div className="rounded-2xl bg-ink p-4 text-white">
+              <div className="rounded-lg bg-ink p-4 text-white">
                 <p className="text-xs font-bold uppercase tracking-widest text-siren">Near {found.label}</p>
                 {found.hood ? (
                   <p className="mt-1 text-lg">

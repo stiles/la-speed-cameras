@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink: #16161d;
-  --color-siren: #ff3b1f;
-  --color-siren-dark: #d92a10;
+  --color-ink: #23232a;
+  --color-siren: #d63c2c;
+  --color-siren-dark: #b53022;
   --color-paper: #f6f5f1;
-  --color-asphalt: #26262e;
-  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-  --font-display: var(--font-display), var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --color-asphalt: #31313a;
+  --font-sans: var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-overpass), var(--font-public-sans), ui-sans-serif, system-ui, sans-serif;
 }
 
 html {
@@ -24,6 +24,9 @@ a {
   text-underline-offset: 3px;
 }
 
+.prose-copy {
+  color: #3f3f46;
+}
 .prose-copy p,
 .prose-copy li {
   line-height: 1.65;
@@ -31,20 +34,49 @@ a {
 .prose-copy p + p {
   margin-top: 1rem;
 }
+.prose-copy .lede {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
 .prose-copy a {
+  color: var(--color-ink);
   text-decoration: underline;
   text-decoration-color: color-mix(in srgb, var(--color-siren) 60%, transparent);
 }
+.prose-copy strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
 .prose-copy h2 {
   font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--color-ink);
+  margin: 3rem 0 1rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #d4d4d8;
+}
+.prose-copy h3 {
+  font-size: 0.8rem;
   font-weight: 700;
-  font-size: 1.5rem;
-  margin: 2.5rem 0 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #71717a;
+  margin: 1.75rem 0 0.5rem;
 }
 .prose-copy ul {
   list-style: disc;
   padding-left: 1.25rem;
   margin: 0.75rem 0;
+}
+.prose-copy li + li {
+  margin-top: 0.5rem;
+}
+.prose-copy li::marker {
+  color: #a1a1aa;
 }
 
 /* Map chrome */

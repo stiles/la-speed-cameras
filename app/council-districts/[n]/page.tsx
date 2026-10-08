@@ -7,7 +7,7 @@ import CameraList from "@/components/CameraList";
 import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
 import Legend from "@/components/Legend";
-import { boundsOf, corridorsInDistrict, districts, hoodsFor } from "@/lib/data";
+import { corridorsInDistrict, districtGeometry, districts, getDistrict, hoodsFor } from "@/lib/data";
 import { plural } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
 
@@ -22,9 +22,10 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { n } = await params;
   const list = corridorsInDistrict(Number(n));
   const count = list.reduce((s, c) => s + c.cameras.length, 0);
+  const member = getDistrict(Number(n))?.member;
   return {
-    title: `Speed cameras in LA Council District ${n}`,
-    description: `All ${count} speed cameras in Los Angeles City Council District ${n}, by street and neighborhood.`,
+    title: `Speed cameras in LA Council District ${n}${member ? ` (${member})` : ""}`,
+    description: `All ${count} speed cameras in Los Angeles City Council District ${n}${member ? `, represented by ${member}` : ""}, by street and neighborhood.`,
     alternates: { canonical: `/council-districts/${n}` },
   };
 }
@@ -33,7 +34,8 @@ export default async function DistrictPage({ params }: Params) {
   const { n } = await params;
   const d = Number(n);
   const list = corridorsInDistrict(d);
-  if (!list.length) notFound();
+  const district = getDistrict(d);
+  if (!list.length || !district) notFound();
   const count = list.reduce((s, c) => s + c.cameras.length, 0);
   const hoods = hoodsFor(Array.from(new Set(list.flatMap((c) => c.hoods)))).sort((a, b) => a.name.localeCompare(b.name));
 
@@ -43,10 +45,10 @@ export default async function DistrictPage({ params }: Params) {
         crumbs={[{ href: "/council-districts", label: "Council districts" }]}
         kicker="Council district"
         title={`District ${d}`}
-        lede={`${plural(count, "camera")} at ${list.length} locations.`}
+        lede={`${plural(count, "camera")} at ${list.length} locations${district.member ? ` in the district represented by ${district.member}` : ""}.`}
       />
       <div className="relative h-[50vh] min-h-[320px] border-b border-zinc-200">
-        <MapClient className="absolute inset-0" bounds={boundsOf(list)!} highlight={list.map((c) => c.slug)} cooperative label={`Map of speed cameras in Council District ${d}`} />
+        <MapClient className="absolute inset-0" bounds={district.bbox} outline={districtGeometry(d)} highlight={list.map((c) => c.slug)} cooperative label={`Map of speed cameras in Council District ${d}`} />
       </div>
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-8">
         <Legend />
@@ -56,7 +58,7 @@ export default async function DistrictPage({ params }: Params) {
           <ul className="flex flex-wrap gap-2">
             {hoods.map((h) => (
               <li key={h.slug}>
-                <Link href={`/neighborhoods/${h.slug}`} className="rounded-full border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink">
+                <Link href={`/neighborhoods/${h.slug}`} className="rounded-md border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink">
                   {h.name}
                 </Link>
               </li>

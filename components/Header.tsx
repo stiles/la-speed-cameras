@@ -33,7 +33,7 @@ export default function Header() {
             <Link
               key={n.href}
               href={n.href}
-              className="whitespace-nowrap rounded-full px-3 py-1.5 text-white/80 hover:bg-white/10 hover:text-white"
+              className="whitespace-nowrap rounded-md px-3 py-1.5 text-white/80 hover:bg-white/10 hover:text-white"
             >
               {n.label}
             </Link>

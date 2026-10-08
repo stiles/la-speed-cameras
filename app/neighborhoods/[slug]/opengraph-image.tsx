@@ -1,5 +1,6 @@
 import { ogCard, OG_SIZE } from "@/lib/og";
 import { getNeighborhood, neighborhoods } from "@/lib/data";
+import { distancePhrase } from "@/lib/copy";
 
 export const size = OG_SIZE;
 export const contentType = "image/png";
@@ -17,7 +18,7 @@ export default async function Image({ params }: { params: Promise<{ slug: string
     return ogCard({
       kicker: "Next door to LA",
       title: h.name,
-      note: near ? `Not in LA's program. The closest LA speed camera is ${near.miles} miles away.` : "Not in LA's speed camera program.",
+      note: near ? `Not in LA's program. The closest LA speed camera is ${distancePhrase(near.miles)}.` : "Not in LA's speed camera program.",
       shape: h.shape,
     });
   }

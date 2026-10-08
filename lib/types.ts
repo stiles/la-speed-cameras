@@ -38,7 +38,19 @@ export type Neighborhood = {
   bbox: [number, number, number, number];
   center: [number, number];
   area_sqmi: number;
-  shape: { w: number; h: number; path: string; dots: [number, number][] };
+  shape: Shape;
+};
+
+export type Shape = { w: number; h: number; path: string; dots: [number, number][] };
+
+export type District = {
+  n: number;
+  member: string | null;
+  camera_count: number;
+  hoods: string[];
+  bbox: [number, number, number, number];
+  area_sqmi: number;
+  shape: Shape;
 };
 
 export type Street = {
@@ -94,7 +106,7 @@ export type HistoryEntry = {
 };
 
 export type SearchItem = {
-  kind: "neighborhood" | "street" | "corridor";
+  kind: "neighborhood" | "street" | "corridor" | "district";
   label: string;
   sub: string;
   href: string;

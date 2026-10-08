@@ -312,6 +312,69 @@ def build(corridors, centerlines, cameras, status, previous_history=None):
         })
     hood_records.sort(key=lambda r: r["name"])
 
+    # --- Council districts ---
+    districts = gpd.read_file(GEO / "council_districts.geojson").to_crs(PROJ_CRS)
+    cam_pts = gpd.GeoDataFrame(
+        [f["properties"] for f in camera_features],
+        geometry=gpd.points_from_xy(
+            [f["geometry"]["coordinates"][0] for f in camera_features],
+            [f["geometry"]["coordinates"][1] for f in camera_features],
+        ),
+        crs=4326,
+    ).to_crs(PROJ_CRS)
+    district_records, district_features, district_mismatches = [], [], []
+    for d in districts.sort_values("district").itertuples():
+        n = int(d.district)
+        geom = d.geometry.buffer(0)
+        inside = cam_pts[cam_pts.within(geom.buffer(-200))]
+        district_mismatches += [
+            f"{r.id} sits inside District {n} but LADOT lists District {r.district}"
+            for r in inside.itertuples()
+            if r.district != n
+        ]
+        minx, miny, maxx, maxy = geom.bounds
+        w, h = maxx - minx, maxy - miny
+        scale = 1000 / max(w, h)
+        mine = cam_pts[cam_pts["district"] == n]
+        wgs = gpd.GeoSeries([geom], crs=PROJ_CRS).to_crs(4326)
+        b = wgs.total_bounds
+        district_features.append({
+            "type": "Feature",
+            "geometry": _round_coords(wgs.simplify(0.0001).iloc[0], 5),
+            "properties": {"district": n},
+        })
+        district_records.append({
+            "n": n,
+            "member": _s(d.member) or None,
+            "camera_count": len(mine),
+            "hoods": sorted(hoods[hoods.intersects(geom.buffer(-500))]["slug"]),
+            "bbox": [round(v, 5) for v in b],
+            "area_sqmi": round(geom.area / FEET_PER_MILE**2, 1),
+            "shape": {
+                "w": round(w * scale, 1),
+                "h": round(h * scale, 1),
+                "path": _svg_path(geom.simplify(max(w, h) / 400), minx, miny, scale, h * scale),
+                "dots": [
+                    [round((p.x - minx) * scale, 1), round(h * scale - (p.y - miny) * scale, 1)]
+                    for p in mine.geometry
+                ],
+            },
+        })
+
+    # --- City outline with every camera, for the site-wide share image ---
+    minx, miny, maxx, maxy = city_geom.bounds
+    w, h = maxx - minx, maxy - miny
+    scale = 1000 / max(w, h)
+    city_shape = {
+        "w": round(w * scale, 1),
+        "h": round(h * scale, 1),
+        "path": _svg_path(city_geom.simplify(max(w, h) / 500), minx, miny, scale, h * scale),
+        "dots": [
+            [round((g.x - minx) * scale, 1), round(h * scale - (g.y - miny) * scale, 1)]
+            for g in cams.geometry
+        ],
+    }
+
     # --- Streets ---
     streets = defaultdict(list)
     for rec in corridor_records:
@@ -373,6 +436,10 @@ def build(corridors, centerlines, cameras, status, previous_history=None):
         "camera_features": camera_features,
         "corridor_features": corridor_features,
         "hood_features": hood_features,
+        "districts": district_records,
+        "city_shape": city_shape,
+        "district_features": district_features,
+        "district_mismatches": district_mismatches,
         "history": history,
         "csv": pd.DataFrame(csv_rows),
         "cam_by_id": cam_by_id,
@@ -385,6 +452,8 @@ def write_outputs(out, meta):
     _write_json(data / "corridors.json", out["corridors"])
     _write_json(data / "neighborhoods.json", out["neighborhoods"])
     _write_json(data / "streets.json", out["streets"])
+    _write_json(data / "districts.json", out["districts"])
+    _write_json(data / "city-shape.json", out["city_shape"], compact=True)
     _write_json(data / "meta.json", meta)
     history = {
         k: {kk: vv for kk, vv in v.items() if not kk.startswith("_")}
@@ -395,4 +464,5 @@ def write_outputs(out, meta):
     _write_json(public / "cameras.geojson", _feature_collection(out["camera_features"]), compact=True)
     _write_json(public / "corridors.geojson", _feature_collection(out["corridor_features"]), compact=True)
     _write_json(public / "neighborhoods.geojson", _feature_collection(out["hood_features"]), compact=True)
+    _write_json(public / "council-districts.geojson", _feature_collection(out["district_features"]), compact=True)
     out["csv"].to_csv(public / "la-speed-cameras.csv", index=False)

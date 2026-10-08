@@ -73,7 +73,7 @@ export default async function NeighborhoodPage({ params }: Params) {
   const nearbyOnly = nearest.filter((c) => !shown.has(c.slug));
 
   const mapCorridors: Corridor[] = [...own, ...nextDoor.flatMap((x) => x.corridors), ...(own.length ? [] : nearbyOnly)];
-  const bounds = boundsOf([{ bbox: h.bbox }, ...mapCorridors]) ?? h.bbox;
+  const bounds = boundsOf([{ bbox: h.bbox }, ...(own.length ? own : nearest.slice(0, 1))]) ?? h.bbox;
   const answer = hoodAnswer(h, inside, nearest);
   const shareUrl = `${SITE_URL}/${h.slug}`;
   const nextDoorCount = nextDoor.reduce((n, x) => n + x.corridors.reduce((m, c) => m + c.cameras.length, 0), 0);
@@ -124,15 +124,15 @@ export default async function NeighborhoodPage({ params }: Params) {
           <h1 className="font-display text-4xl font-extrabold tracking-tight sm:text-6xl">Speed cameras in {h.name}</h1>
           <p className="mt-4 max-w-3xl text-lg text-white/85 sm:text-xl">{answer}</p>
           <div className="mt-6 flex flex-wrap items-center gap-3 text-sm">
-            <span className="rounded-full bg-white/10 px-3 py-1">
+            <span className="rounded-md bg-white/10 px-3 py-1">
               <strong className="text-white">{h.camera_count}</strong> inside
             </span>
             {nextDoorCount > 0 && (
-              <span className="rounded-full bg-white/10 px-3 py-1">
+              <span className="rounded-md bg-white/10 px-3 py-1">
                 <strong className="text-white">{nextDoorCount}</strong> next door
               </span>
             )}
-            <a href="#share" className="rounded-full bg-siren px-3 py-1 font-semibold text-white hover:bg-siren-dark">
+            <a href="#share" className="rounded-md bg-siren px-3 py-1 font-semibold text-white hover:bg-siren-dark">
               Warn a neighbor
             </a>
           </div>
@@ -234,7 +234,7 @@ export default async function NeighborhoodPage({ params }: Params) {
                   <li key={a.slug}>
                     <Link
                       href={`/neighborhoods/${a.slug}`}
-                      className="inline-flex items-center gap-1.5 rounded-full border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink"
+                      className="inline-flex items-center gap-1.5 rounded-md border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink"
                     >
                       {a.name}
                       <span className="text-xs text-zinc-500">{a.camera_count}</span>

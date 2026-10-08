@@ -56,29 +56,29 @@ Go live with the MVP this week instead of waiting for the Oct. 26 activation. Pe
 
 Mobile:
 
-- [ ] Map gestures: one-finger page scrolls get caught by the map. Detail pages use `cooperativeGestures`, which still feels clumsy. Consider a static preview with a "Tap to explore" button that opens the full map.
-- [ ] From Thursday's mobile pass:
+- [x] Map gestures: one-finger page scrolls get caught by the map. Detail pages use `cooperativeGestures`, which still feels clumsy. Consider a static preview with a "Tap to explore" button that opens the full map.
+- [x] From Thursday's mobile pass:
   - The home hero takes about a third of a small phone (375 by 667), so only the search row of the bottom sheet shows. Consider a shorter mobile hero.
   - Neighborhood maps fit the next-door cameras too, so on a phone the neighborhood itself sits small near the top. Consider fitting to the neighborhood and letting nearby cameras run off the edge.
   - After "Near me" or a search, the half-height sheet leaves about 40% of the map visible
 
 Map:
 
-- [ ] Decide whether the corridors stay. They show the enforcement zone that "between X and Y" refers to. If they stay, add them to the legend, which only covers status and direction now.
+- [x] Corridors stay, labeled "Enforcement zone" in the legend
 
 Visual design:
 
-- [ ] Colors: use a more subtle red than `siren` (`#ff3b1f`) and a slightly lighter black than `ink` (`#16161d`) in `app/globals.css`
-- [ ] Fonts: replace Inter and Bricolage Grotesque, which show up constantly in AI-generated designs. Change both `app/layout.tsx` and `lib/og.tsx`.
-- [ ] Rounding: move buttons, badges and chips from `rounded-full` to a small radius. Keep full rounding for map dots only.
-- [ ] Drop the bars on the home page "Most watched" list. A ranked list with counts is enough.
-- [ ] Type-heavy pages (How it works and the FAQ on `/about`): add more hierarchy with heading weights, subheads and gray text for secondary copy
+- [x] Colors: `siren` is now `#d63c2c` and `ink` is `#23232a`
+- [x] Fonts: Overpass (derived from Highway Gothic) for headlines and Public Sans for body, on the site and in share images. Share-image fonts live in `assets/fonts/`; the `@fontsource` packages are no longer used and can be uninstalled.
+- [x] Rounding: move buttons, badges and chips from `rounded-full` to a small radius. Keep full rounding for map dots only.
+- [x] Drop the bars on the home page "Most watched" list. A ranked list with counts is enough.
+- [x] Type-heavy pages (How it works and the FAQ on `/about`): add more hierarchy with heading weights, subheads and gray text for secondary copy
 - [ ] Reread the rest of the site for copy that sounds machine-written
 
 Geography and sharing:
 
-- [ ] Add council district boundaries from la-geography to the pipeline snapshot. District pages only use LADOT's district number now. Use the boundaries for outlines on district maps, shapes on share images and district search results.
-- [ ] Share images: neighborhoods already get their own card (name, count and shape). Still needed: cards for council districts and `/route`, a redesigned site default, and an update of every card to the new colors and fonts. Rerun the Facebook debugger afterward so platforms drop the cached cards.
+- [x] Add council district boundaries from la-geography to the pipeline snapshot, with outlines on district maps, council member names, share images and district search results. The pipeline warns when a camera sits inside a different district than LADOT lists (today, only the Wilshire Blvd cameras near MacArthur Park).
+- [x] Share images: new light card design for every page type, with cards for council districts and `/route` and a site default that shows every camera in the city outline. Rerun the Facebook debugger after deploying so platforms drop the cached cards.
 
 ### Week of Oct. 19: before activation
 

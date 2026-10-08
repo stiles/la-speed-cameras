@@ -141,7 +141,7 @@ export default function RoutePlanner() {
 
   return (
     <div className="grid lg:grid-cols-[420px_1fr]">
-      <div className="space-y-5 border-zinc-200 bg-paper p-4 lg:max-h-[calc(100dvh-3.5rem)] lg:overflow-y-auto lg:border-r">
+      <div className="min-w-0 space-y-5 border-zinc-200 bg-paper p-4 lg:max-h-[calc(100dvh-3.5rem)] lg:overflow-y-auto lg:border-r">
         <div className="space-y-2">
           <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500">From</label>
           <SearchBox
@@ -178,7 +178,7 @@ export default function RoutePlanner() {
             type="button"
             onClick={check}
             disabled={resolving || loading || !fromText.trim() || !toText.trim()}
-            className="mt-3 w-full rounded-full bg-ink px-5 py-3 font-bold text-white hover:bg-asphalt disabled:cursor-not-allowed disabled:opacity-40"
+            className="mt-3 w-full rounded-md bg-ink px-5 py-3 font-bold text-white hover:bg-asphalt disabled:cursor-not-allowed disabled:opacity-40"
           >
             {resolving || loading ? "Scouting the route..." : "Check my route"}
           </button>
@@ -187,7 +187,7 @@ export default function RoutePlanner() {
         {error && <p className="rounded-xl bg-red-50 p-3 text-sm text-red-800">{error}</p>}
 
         {!request ? (
-          <div className="rounded-2xl bg-white p-4 text-sm text-zinc-700 ring-1 ring-zinc-200">
+          <div className="rounded-lg bg-white p-4 text-sm text-zinc-700 ring-1 ring-zinc-200">
             Enter where you start and where you&rsquo;re headed. We&rsquo;ll check the fastest route and a couple of
             alternates for speed cameras, counting only the ones that enforce your direction of travel.
           </div>
@@ -200,7 +200,7 @@ export default function RoutePlanner() {
                 key={o.id}
                 type="button"
                 onClick={() => setActive(o.id)}
-                className={`w-full rounded-2xl bg-white p-4 text-left ring-1 transition ${o.id === active ? "ring-2 ring-blue-600" : "ring-zinc-200 hover:ring-ink"}`}
+                className={`w-full rounded-lg bg-white p-4 text-left ring-1 transition ${o.id === active ? "ring-2 ring-blue-600" : "ring-zinc-200 hover:ring-ink"}`}
               >
                 <div className="flex items-center justify-between">
                   <span className="font-semibold">{o.label}</span>
@@ -232,7 +232,7 @@ export default function RoutePlanner() {
             type="button"
             onClick={dodge}
             disabled={avoiding}
-            className="w-full rounded-full bg-siren px-5 py-3 font-bold text-white hover:bg-siren-dark disabled:opacity-60"
+            className="w-full rounded-md bg-siren px-5 py-3 font-bold text-white hover:bg-siren-dark disabled:opacity-60"
           >
             {avoiding ? "Plotting an escape..." : "Find a route that dodges them"}
           </button>
@@ -241,7 +241,7 @@ export default function RoutePlanner() {
         {current && current.facing.length > 0 && (
           <section>
             <h2 className="mb-2 font-display text-lg font-bold">On this route</h2>
-            <ul className="divide-y divide-zinc-200 rounded-2xl bg-white ring-1 ring-zinc-200">
+            <ul className="divide-y divide-zinc-200 rounded-lg bg-white ring-1 ring-zinc-200">
               {current.facing.map((c) => (
                 <li key={c.id} className="p-3 text-sm">
                   <Link href={`/cameras/${c.corridor}`} className="font-semibold hover:underline">
@@ -259,7 +259,7 @@ export default function RoutePlanner() {
         )}
 
         {current && current.facing.length === 0 && (
-          <p className="rounded-2xl bg-emerald-50 p-4 text-sm text-emerald-900">
+          <p className="rounded-lg bg-emerald-50 p-4 text-sm text-emerald-900">
             Clean run. No cameras facing your direction on this route. Still, the speed limit is the speed limit.
           </p>
         )}

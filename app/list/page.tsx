@@ -52,10 +52,10 @@ export default function ListPage() {
         lede={`${meta.counts.cameras} cameras at ${meta.counts.corridors} locations, as of ${apDate(meta.data_updated)}. Sort it, filter it, take it with you.`}
       >
         <div className="mt-5 flex flex-wrap gap-2 text-sm">
-          <a href="/data/la-speed-cameras.csv" download className="rounded-full bg-white px-4 py-2 font-semibold text-ink hover:bg-zinc-200">
+          <a href="/data/la-speed-cameras.csv" download className="rounded-md bg-white px-4 py-2 font-semibold text-ink hover:bg-zinc-200">
             Download CSV
           </a>
-          <a href="/data/cameras.geojson" download className="rounded-full border border-white/30 px-4 py-2 font-semibold hover:border-white">
+          <a href="/data/cameras.geojson" download className="rounded-md border border-white/30 px-4 py-2 font-semibold hover:border-white">
             Download GeoJSON
           </a>
         </div>

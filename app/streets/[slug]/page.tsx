@@ -75,7 +75,7 @@ export default async function StreetPage({ params }: Params) {
             <ul className="flex flex-wrap gap-2">
               {hoods.map((h) => (
                 <li key={h.slug}>
-                  <Link href={`/neighborhoods/${h.slug}`} className="rounded-full border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink">
+                  <Link href={`/neighborhoods/${h.slug}`} className="rounded-md border border-zinc-300 bg-white px-3 py-1 text-sm hover:border-ink">
                     {h.name}
                   </Link>
                 </li>

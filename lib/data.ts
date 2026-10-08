@@ -6,7 +6,9 @@ import neighborhoodsJson from "@/data/neighborhoods.json";
 import streetsJson from "@/data/streets.json";
 import metaJson from "@/data/meta.json";
 import historyJson from "@/data/history.json";
-import type { Camera, Corridor, HistoryEntry, Meta, Neighborhood, SearchItem, Street } from "./types";
+import districtsJson from "@/data/districts.json";
+import cityShapeJson from "@/data/city-shape.json";
+import type { Camera, Corridor, District, HistoryEntry, Meta, Neighborhood, SearchItem, Shape, Street } from "./types";
 import { plural } from "./format";
 
 export const corridors = corridorsJson as unknown as Corridor[];
@@ -14,6 +16,7 @@ export const neighborhoods = neighborhoodsJson as unknown as Neighborhood[];
 export const streets = streetsJson as unknown as Street[];
 export const meta = metaJson as unknown as Meta;
 export const history = historyJson as unknown as Record<string, HistoryEntry>;
+export const cityShape = cityShapeJson as unknown as Shape;
 
 const camerasGeo = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "public/data/cameras.geojson"), "utf8"),
@@ -25,6 +28,15 @@ const hoodsGeo = JSON.parse(
 const hoodGeoMap = new Map(hoodsGeo.features.map((f) => [f.properties.slug, f]));
 
 export const hoodGeometry = (slug: string) => hoodGeoMap.get(slug) ?? null;
+
+const districtsGeo = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), "public/data/council-districts.geojson"), "utf8"),
+) as GeoJSON.FeatureCollection<GeoJSON.Polygon | GeoJSON.MultiPolygon, { district: number }>;
+const districtGeoMap = new Map(districtsGeo.features.map((f) => [f.properties.district, f]));
+
+export const districtGeometry = (n: number) => districtGeoMap.get(n) ?? null;
+export const districtRecords = districtsJson as unknown as District[];
+export const getDistrict = (n: number) => districtRecords.find((d) => d.n === n);
 
 export const cameras: Camera[] = camerasGeo.features.map((f) => ({
   ...f.properties,
@@ -89,6 +101,12 @@ export function searchIndex(): SearchItem[] {
       label: h.name,
       sub: h.camera_count ? plural(h.camera_count, "camera") : h.in_la_city ? "No cameras" : "Outside LA city",
       href: `/neighborhoods/${h.slug}`,
+    })),
+    ...districtRecords.map((d) => ({
+      kind: "district" as const,
+      label: `Council District ${d.n}`,
+      sub: [d.member, plural(d.camera_count, "camera")].filter(Boolean).join(" · "),
+      href: `/council-districts/${d.n}`,
     })),
     ...streets.map((s) => ({
       kind: "street" as const,

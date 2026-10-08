@@ -81,6 +81,7 @@ def main():
         SUMMARY.write_text(f"## Speed camera data validation failed\n\n```\n{exc}\n```\n")
         _gh_output(changed="false", status_only="false", failed="true")
         sys.exit(1)
+    warnings += out["district_mismatches"]
     for w in warnings:
         print(f"  warning: {w}")
 

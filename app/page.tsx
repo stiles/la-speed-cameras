@@ -27,13 +27,14 @@ export default function Home() {
         }}
       />
       <section className="bg-ink text-white">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-6 sm:flex-row sm:items-end sm:justify-between sm:py-8">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-4 sm:flex-row sm:items-end sm:justify-between sm:py-8">
           <div>
-            <h1 className="font-display text-3xl font-extrabold leading-tight tracking-tight sm:text-5xl">
+            <h1 className="font-display text-[1.7rem] font-extrabold leading-tight tracking-tight sm:text-5xl">
               Where are LA&rsquo;s speed cameras?
             </h1>
-            <p className="mt-2 max-w-2xl text-white/80 sm:text-lg">
-              All {meta.counts.cameras} of them, mapped. Search your neighborhood, your street or your commute.{" "}
+            <p className="mt-2 max-w-2xl text-white/80 max-sm:text-[15px] sm:text-lg">
+              All {meta.counts.cameras} of them, mapped.{" "}
+              <span className="max-sm:hidden">Search your neighborhood, your street or your commute. </span>
               <span className="font-semibold text-siren">Watch your rear end out there.</span>
             </p>
           </div>
@@ -57,7 +58,7 @@ export default function Home() {
             { n: meta.counts.neighborhoods_with_cameras, label: "neighborhoods" },
             { n: "11+", label: "mph over the limit to get flagged" },
           ].map((s) => (
-            <div key={s.label} className="rounded-2xl bg-white p-5 ring-1 ring-zinc-200">
+            <div key={s.label} className="rounded-lg bg-white p-5 ring-1 ring-zinc-200">
               <div className="font-display text-4xl font-extrabold text-siren">{s.n}</div>
               <div className="text-sm text-zinc-600">{s.label}</div>
             </div>
@@ -77,7 +78,7 @@ export default function Home() {
                   className="flex items-center justify-between rounded-xl bg-white px-4 py-3 ring-1 ring-zinc-200 hover:ring-ink"
                 >
                   <span className="font-semibold">{h.name}</span>
-                  <span className={`rounded-full px-2 py-0.5 text-xs font-bold ${h.camera_count ? "bg-siren text-white" : "bg-zinc-100 text-zinc-500"}`}>
+                  <span className={`rounded-md px-2 py-0.5 text-xs font-bold ${h.camera_count ? "bg-siren text-white" : "bg-zinc-100 text-zinc-500"}`}>
                     {h.camera_count}
                   </span>
                 </Link>
@@ -89,14 +90,13 @@ export default function Home() {
         <section className="py-10">
           <h2 className="mb-1 font-display text-3xl font-extrabold">Most watched</h2>
           <p className="mb-4 text-zinc-600">The neighborhoods with the most cameras. Tread lightly.</p>
-          <ol className="grid gap-2 sm:grid-cols-2">
+          <ol className="sm:columns-2 sm:gap-x-10">
             {top.map((h, i) => (
-              <li key={h.slug}>
-                <Link href={`/neighborhoods/${h.slug}`} className="flex items-center gap-4 rounded-xl bg-white px-4 py-3 ring-1 ring-zinc-200 hover:ring-ink">
-                  <span className="w-6 font-display text-xl font-extrabold text-zinc-300">{i + 1}</span>
-                  <span className="flex-1 font-semibold">{h.name}</span>
-                  <span className="h-2 rounded-full bg-siren" style={{ width: `${(h.camera_count / top[0].camera_count) * 120}px` }} aria-hidden />
-                  <span className="w-6 text-right text-sm font-bold">{h.camera_count}</span>
+              <li key={h.slug} className={`break-inside-avoid border-b border-zinc-200 ${i === 0 || i === top.length / 2 ? "sm:border-t sm:border-t-zinc-300" : ""} ${i === 0 ? "border-t border-t-zinc-300" : ""}`}>
+                <Link href={`/neighborhoods/${h.slug}`} className="group flex items-baseline gap-4 py-3">
+                  <span className="w-5 text-sm tabular-nums text-zinc-400">{i + 1}</span>
+                  <span className="flex-1 font-semibold group-hover:underline">{h.name}</span>
+                  <span className="text-sm tabular-nums text-zinc-600">{h.camera_count} cameras</span>
                 </Link>
               </li>
             ))}
@@ -126,10 +126,10 @@ export default function Home() {
         </section>
 
         <div className="mb-10 flex flex-wrap gap-3">
-          <Link href="/route" className="rounded-full bg-siren px-5 py-3 font-bold text-white hover:bg-siren-dark">
+          <Link href="/route" className="rounded-md bg-siren px-5 py-3 font-bold text-white hover:bg-siren-dark">
             Check my commute
           </Link>
-          <Link href="/about" className="rounded-full bg-white px-5 py-3 font-semibold ring-1 ring-zinc-300 hover:ring-ink">
+          <Link href="/about" className="rounded-md bg-white px-5 py-3 font-semibold ring-1 ring-zinc-300 hover:ring-ink">
             About the program
           </Link>
         </div>

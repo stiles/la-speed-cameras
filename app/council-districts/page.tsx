@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
-import { corridorsInDistrict, districts } from "@/lib/data";
+import { corridorsInDistrict, districts, getDistrict } from "@/lib/data";
 
 export const metadata: Metadata = {
   title: "Speed cameras by council district",
@@ -23,8 +23,9 @@ export default function DistrictsIndex() {
             const list = corridorsInDistrict(d);
             return (
               <li key={d}>
-                <Link href={`/council-districts/${d}`} className="block rounded-2xl bg-white p-4 ring-1 ring-zinc-200 hover:ring-ink">
+                <Link href={`/council-districts/${d}`} className="block rounded-lg bg-white p-4 ring-1 ring-zinc-200 hover:ring-ink">
                   <span className="block font-display text-3xl font-extrabold">{d}</span>
+                  {getDistrict(d)?.member && <span className="block text-sm font-semibold">{getDistrict(d)?.member}</span>}
                   <span className="text-sm text-zinc-600">
                     {list.reduce((n, c) => n + c.cameras.length, 0)} cameras, {list.length} locations
                   </span>

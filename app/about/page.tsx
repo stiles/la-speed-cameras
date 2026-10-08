@@ -42,24 +42,38 @@ export default function About() {
       <JsonLd data={faq(FAQS)} />
       <PageHeader kicker="About" title="How LA's speed cameras work" lede="Tickets, fines, the warning period and where this map's data comes from." />
       <article className="prose-copy mx-auto max-w-3xl px-4 py-10">
-        <p>
+        <p className="lede">
           The City of Los Angeles is installing speed cameras at 125 locations, two cameras per location in most
           cases, one for each direction of travel. It&rsquo;s a five-year pilot allowed under California&rsquo;s{" "}
-          <a href={AB645_URL}>AB 645</a>, and it runs through Jan. 1, 2032. LADOT says the first cameras switch on{" "}
-          {apDate(FIRST_ACTIVATION)}, and the rest follow by the end of 2026.
+          <a href={AB645_URL}>AB 645</a>, and it runs through Jan. 1, 2032.
         </p>
-        <p>
+        <p className="mt-4">
           This site exists so nobody has to find out where they are from a letter in the mail. It&rsquo;s independent
           and not affiliated with the city or LADOT.
         </p>
 
+        <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-lg bg-zinc-300 ring-1 ring-zinc-300 sm:grid-cols-5">
+          {[
+            ["Starts", apDate(FIRST_ACTIVATION, false)],
+            ["Flagged at", "11+ mph over"],
+            ["Warning period", "60 days"],
+            ["Fines start at", "$50"],
+            ["License points", "None"],
+          ].map(([k, v]) => (
+            <div key={k} className="bg-white p-4">
+              <dt className="text-xs font-semibold uppercase tracking-wide text-zinc-500">{k}</dt>
+              <dd className="mt-1 font-display text-xl font-extrabold text-ink">{v}</dd>
+            </div>
+          ))}
+        </dl>
+
         <h2>How the cameras work</h2>
         <ul>
-          <li>Cameras are mounted on streetlight poles and read the rear license plate of vehicles going 11 mph or more over the limit.</li>
-          <li>Tickets go to the registered owner by mail. They&rsquo;re civil penalties, like parking tickets, with no points on your license.</li>
-          <li>Every new camera starts with a 60-day warning period. After that, fines start at $50 and go up with speed.</li>
-          <li>Income-based fine reductions and a community service option are available. Details are on <a href={LADOT_URL}>LADOT&rsquo;s site</a>.</li>
-          <li>LADOT picked locations using speed-related crash data, speeding counts and proximity to schools and senior centers, then finalized them with council offices. Each of the 15 council districts got eight or nine.</li>
+          <li><strong>What they catch.</strong> Cameras on streetlight poles read the rear license plate of vehicles going 11 mph or more over the limit.</li>
+          <li><strong>Who gets the ticket.</strong> The registered owner, by mail. Tickets are civil penalties, like parking tickets, with no points on your license.</li>
+          <li><strong>Warnings first.</strong> Every new camera starts with a 60-day warning period. After that, fines start at $50 and go up with speed.</li>
+          <li><strong>Help paying.</strong> Income-based fine reductions and a community service option are available. Details are on <a href={LADOT_URL}>LADOT&rsquo;s site</a>.</li>
+          <li><strong>Why these streets.</strong> LADOT picked locations using speed-related crash data, speeding counts and proximity to schools and senior centers, then finalized them with council offices. Each of the 15 council districts got eight or nine.</li>
         </ul>
 
         <h2>How to avoid a ticket</h2>
@@ -70,6 +84,7 @@ export default function About() {
         </p>
 
         <h2 id="data">How the data works</h2>
+        <h3>Where it comes from</h3>
         <p>
           Camera locations come from LADOT&rsquo;s public ArcGIS layers, the same ones behind the map on{" "}
           <a href={LADOT_URL}>LADOT&rsquo;s program page</a>. We combine three of them: the 125 approved corridors,
@@ -77,21 +92,23 @@ export default function About() {
           LADOT uses on its map. Neighborhood boundaries come from the LA Times Mapping LA project, maintained in{" "}
           <a href={LA_GEOGRAPHY_URL}>la-geography</a>.
         </p>
+        <h3>How often it updates</h3>
         <p>
           A script checks LADOT&rsquo;s data twice a day. When a status changes, the site updates automatically.
           When locations move or cameras are added or removed, a person reviews the change before it goes live.
           The data was last updated {apDate(meta.data_updated)}, and LADOT last edited its camera layer{" "}
           {apDate(meta.source_edited.cameras)}.
         </p>
-        <p>Things to keep in mind:</p>
+        <h3>Things to keep in mind</h3>
         <ul>
-          <li>Cameras are still being installed. Locations, timing and status can change, and LADOT&rsquo;s data can lag what&rsquo;s on the street.</li>
-          <li>Positions are approximate. They come from LADOT&rsquo;s planned mounting points, not a survey of installed poles.</li>
-          <li>Some cameras sit a few hundred feet past the end of the stretch LADOT mapped as their corridor. We show cameras where LADOT&rsquo;s camera data puts them.</li>
-          <li>A handful of cameras don&rsquo;t list the direction they enforce, and one location lists two cameras for the same direction. We show what LADOT published.</li>
-          <li>Neighborhood assignments use the LA Times boundaries, which are unofficial. Your mental map of Silver Lake may differ.</li>
-          <li>This site covers the City of LA program only. Some neighboring cities, including Glendale and Long Beach, are authorized to run their own.</li>
+          <li><strong>It can change.</strong> Cameras are still being installed. Locations, timing and status can change, and LADOT&rsquo;s data can lag what&rsquo;s on the street.</li>
+          <li><strong>Positions are approximate.</strong> They come from LADOT&rsquo;s planned mounting points, not a survey of installed poles.</li>
+          <li><strong>Some cameras sit past their corridor.</strong> A few are a few hundred feet beyond the stretch LADOT mapped. We show cameras where LADOT&rsquo;s camera data puts them.</li>
+          <li><strong>A few gaps in LADOT&rsquo;s data.</strong> A handful of cameras don&rsquo;t list the direction they enforce, and one location lists two cameras for the same direction. We show what LADOT published.</li>
+          <li><strong>Neighborhoods are unofficial.</strong> Assignments use the LA Times boundaries. Your mental map of Silver Lake may differ.</li>
+          <li><strong>City of LA only.</strong> Some neighboring cities, including Glendale and Long Beach, are authorized to run their own programs.</li>
         </ul>
+        <h3>Get the data or report a problem</h3>
         <p>
           Want the raw data? <Link href="/list">Download it</Link>. Spot something wrong?{" "}
           <a href={REPORT_URL}>Tell us</a>. For official answers, email LADOT through its{" "}
@@ -99,20 +116,21 @@ export default function About() {
         </p>
 
         <h2 id="changes">What changed</h2>
-        <ul>
+        <dl className="divide-y divide-zinc-200">
           {meta.changelog.slice(0, 15).map((entry) => (
-            <li key={entry.date + entry.changes[0]}>
-              <strong>{apDate(entry.date)}:</strong> {entry.changes.map((c) => c.replace(/: .*$/, "")).join("; ")}
-            </li>
+            <div key={entry.date + entry.changes[0]} className="grid gap-1 py-3 sm:grid-cols-[9rem_1fr] sm:gap-4">
+              <dt className="text-sm font-semibold text-zinc-500">{apDate(entry.date)}</dt>
+              <dd>{entry.changes.map((c) => c.replace(/: .*$/, "")).join("; ")}</dd>
+            </div>
           ))}
-        </ul>
+        </dl>
 
         <h2>Questions</h2>
-        <dl className="space-y-4">
+        <dl className="divide-y divide-zinc-200">
           {FAQS.map((f) => (
-            <div key={f.q}>
-              <dt className="font-semibold">{f.q}</dt>
-              <dd className="mt-1 text-zinc-700">{f.a}</dd>
+            <div key={f.q} className="py-4">
+              <dt className="text-lg font-semibold text-ink">{f.q}</dt>
+              <dd className="mt-1 text-zinc-600">{f.a}</dd>
             </div>
           ))}
         </dl>

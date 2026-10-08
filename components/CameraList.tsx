@@ -14,7 +14,7 @@ type Props = {
 export default function CameraList({ corridors, showHood = true, distances, headingLevel = "h3" }: Props) {
   const H = headingLevel;
   return (
-    <ul className="divide-y divide-zinc-200 overflow-hidden rounded-2xl border border-zinc-200 bg-white">
+    <ul className="divide-y divide-zinc-200 overflow-hidden rounded-lg border border-zinc-200 bg-white">
       {corridors.map((c) => {
         const cams = c.cameras.map(getCamera).filter(Boolean);
         return (

@@ -34,6 +34,7 @@ const KIND_LABEL: Record<SearchItem["kind"], string> = {
   neighborhood: "Neighborhood",
   street: "Street",
   corridor: "Camera",
+  district: "District",
 };
 
 export default function SearchBox({
@@ -135,7 +136,7 @@ export default function SearchBox({
   return (
     <div className="relative">
       <div
-        className={`flex items-center gap-2 rounded-2xl bg-white shadow-lg ring-1 ring-black/10 focus-within:ring-2 focus-within:ring-siren ${big ? "p-2" : "p-1.5"}`}
+        className={`flex items-center gap-2 rounded-lg bg-white shadow-lg ring-1 ring-black/10 focus-within:ring-2 focus-within:ring-siren ${big ? "p-2" : "p-1.5"}`}
       >
         <svg viewBox="0 0 24 24" className={`ml-2 shrink-0 text-zinc-400 ${big ? "size-6" : "size-5"}`} fill="none" stroke="currentColor" strokeWidth="2" aria-hidden>
           <circle cx="11" cy="11" r="7" />
@@ -186,7 +187,7 @@ export default function SearchBox({
           <button
             type="button"
             onClick={locate}
-            className="shrink-0 rounded-xl bg-ink px-3 py-2 text-sm font-semibold text-white hover:bg-asphalt"
+            className="shrink-0 rounded-md bg-ink px-3 py-2 text-sm font-semibold text-white hover:bg-asphalt"
             aria-label="Use my location"
           >
             {locating ? "Finding you..." : "Near me"}
@@ -197,7 +198,7 @@ export default function SearchBox({
         <ul
           id={listId}
           role="listbox"
-          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[60vh] overflow-auto rounded-2xl bg-white py-2 text-ink shadow-2xl ring-1 ring-black/10"
+          className="absolute inset-x-0 top-full z-40 mt-2 max-h-[60vh] overflow-auto rounded-lg bg-white py-2 text-ink shadow-2xl ring-1 ring-black/10"
         >
           {results.map((r, i) => {
             const label = r.type === "item" ? r.item.label : r.place.label;

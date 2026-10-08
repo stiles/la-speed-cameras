@@ -30,7 +30,9 @@
   "camera barrington-ave-ohio-ave-to-santa-monica-blvd-cam has no enforced direction",
   "camera 4th-st-mott-ave-to-evergreen-ave-cam has no enforced direction",
   "camera sesnon-blvd-mason-ave-to-reseda-blvd-eb is 1992 ft from its corridor",
-  "corridor avalon-blvd-sandison-st-to-n-st has two cameras enforcing the same direction"
+  "corridor avalon-blvd-sandison-st-to-n-st has two cameras enforcing the same direction",
+  "wilshire-blvd-rampart-blvd-to-park-view-st-eb sits inside District 10 but LADOT lists District 1",
+  "wilshire-blvd-rampart-blvd-to-park-view-st-wb sits inside District 10 but LADOT lists District 1"
  ],
  "changelog": [
   {

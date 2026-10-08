@@ -1,9 +1,9 @@
 import type { StatusKey } from "@/lib/types";
 
 const ITEMS: { status: StatusKey; label: string; fill: string; arrow: string }[] = [
-  { status: "construction", label: "Coming soon", fill: "#ffffff", arrow: "#ff3b1f" },
+  { status: "construction", label: "Coming soon", fill: "#ffffff", arrow: "#d63c2c" },
   { status: "warning", label: "Warnings only", fill: "#fcd34d", arrow: "#ffffff" },
-  { status: "ticketing", label: "Issuing tickets", fill: "#ff3b1f", arrow: "#ffffff" },
+  { status: "ticketing", label: "Issuing tickets", fill: "#d63c2c", arrow: "#ffffff" },
 ];
 
 export default function Legend({ counts, className = "" }: { counts?: Partial<Record<StatusKey, number>>; className?: string }) {
@@ -25,6 +25,10 @@ export default function Legend({ counts, className = "" }: { counts?: Partial<Re
           <path d="M6 1 10 8 6 6.5 2 8Z" fill="currentColor" />
         </svg>
         Direction enforced
+      </span>
+      <span className="inline-flex items-center gap-1.5">
+        <span className="inline-block h-1.5 w-5 rounded-sm bg-siren/35" aria-hidden />
+        Enforcement zone
       </span>
     </div>
   );

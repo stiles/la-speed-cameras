@@ -69,9 +69,9 @@ export default async function CorridorPage({ params }: Params) {
       >
         <div className="mt-4 flex flex-wrap items-center gap-2">
           <StatusBadge status={c.status} />
-          {c.speed_limit && <span className="rounded-full bg-white/10 px-3 py-0.5 text-sm">{c.speed_limit} mph limit</span>}
-          {c.school_nearby && <span className="rounded-full bg-white/10 px-3 py-0.5 text-sm">Near a school</span>}
-          <span className="rounded-full bg-white/10 px-3 py-0.5 text-sm">Council District {c.district}</span>
+          {c.speed_limit && <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">{c.speed_limit} mph limit</span>}
+          {c.school_nearby && <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">Near a school</span>}
+          <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">Council District {c.district}</span>
         </div>
       </PageHeader>
 
@@ -80,7 +80,7 @@ export default async function CorridorPage({ params }: Params) {
       </div>
 
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-8">
-        <section className="rounded-2xl bg-white p-5 ring-1 ring-zinc-200">
+        <section className="rounded-lg bg-white p-5 ring-1 ring-zinc-200">
           <h2 className="font-display text-xl font-bold">Status: {STATUS[c.status].label}</h2>
           <p className="mt-1 text-zinc-700">{STATUS[c.status].blurb}</p>
           {warningEnds && (
@@ -100,7 +100,7 @@ export default async function CorridorPage({ params }: Params) {
           <h2 className="mb-3 font-display text-xl font-bold">The cameras</h2>
           <ul className="grid gap-3 sm:grid-cols-2">
             {cams.map((cam) => (
-              <li key={cam.id} className="rounded-2xl bg-white p-4 ring-1 ring-zinc-200">
+              <li key={cam.id} className="rounded-lg bg-white p-4 ring-1 ring-zinc-200">
                 <p className="font-semibold capitalize">{directionLabel(cam.direction)}</p>
                 <p className="text-sm text-zinc-600">
                   {cam.side && cam.side !== "Median" ? `Mounted on the ${cam.side.toLowerCase()} side of the street` : cam.side === "Median" ? "Mounted in the median" : "Mounting side not listed"}
@@ -127,12 +127,12 @@ export default async function CorridorPage({ params }: Params) {
           )}
         </section>
 
-        <section className="rounded-2xl border-2 border-dashed border-zinc-300 p-5">
+        <section className="rounded-lg border-2 border-dashed border-zinc-300 p-5">
           <h2 className="font-display text-xl font-bold">Spotted this camera?</h2>
           <p className="mt-1 text-zinc-700">
             If it&rsquo;s up, missing or somewhere else, tell us. Photos welcome; we&rsquo;re working on a way to post them here.
           </p>
-          <a href={REPORT_URL} className="mt-3 inline-block rounded-full bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-asphalt">
+          <a href={REPORT_URL} className="mt-3 inline-block rounded-md bg-ink px-4 py-2 text-sm font-semibold text-white hover:bg-asphalt">
             Report a problem or send a photo
           </a>
         </section>
