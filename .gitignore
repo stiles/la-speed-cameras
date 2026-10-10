@@ -13,3 +13,5 @@ pipeline/raw/
 pipeline/summary.md
 
 AGENTS.md
+test-results/
+playwright-report/

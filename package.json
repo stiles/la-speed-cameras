@@ -8,11 +8,10 @@
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc --noEmit",
-    "data": "cd pipeline && uv run python run.py"
+    "data": "cd pipeline && uv run python run.py",
+    "test:e2e": "playwright test"
   },
   "dependencies": {
-    "@fontsource/bricolage-grotesque": "^5.3.0",
-    "@fontsource/inter": "^5.3.0",
     "@turf/bbox": "^7.4.0",
     "@turf/bearing": "^7.4.0",
     "@turf/boolean-point-in-polygon": "^7.4.0",
@@ -29,6 +28,7 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.64.0",
     "@tailwindcss/postcss": "^4.3.3",
     "@types/geojson": "^7946.0.16",
     "@types/node": "^26.6.4",
