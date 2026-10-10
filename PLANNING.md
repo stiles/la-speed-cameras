@@ -22,6 +22,7 @@ The MVP and the phase 2 route check are both done. The site builds 740 static pa
 - Short share links (`/del-rey`), a share bar on every page, Open Graph images for neighborhoods, streets and corridors, FAQ and breadcrumb JSON-LD, a sitemap and robots.txt
 - `/route`: Mapbox driving alternatives, matching that counts only cameras enforcing your direction, and "Find a route that dodges them" using Directions `exclude=point(...)`
 - Google Analytics 4 and Vercel Analytics, with custom events for `search`, `share`, `route_check` and `route_avoid`
+- Playwright smoke tests (`npm run test:e2e`) for the home map, search, a neighborhood page, `/route` and the 404 page on phone and desktop
 
 ## Publish schedule
 
@@ -117,7 +118,6 @@ These were in the plan but didn't make the first build:
 ## Next
 
 - Pipeline tests for slug stability, status matching and the diff, using a saved fixture of LADOT's layers
-- A Playwright smoke test that loads a neighborhood page and `/route` on a mobile viewport
 - An RSS feed and an "activated this week" section built from `history.json`, which also gives people a reason to come back
 - A Spanish version of the neighborhood and about pages
 
