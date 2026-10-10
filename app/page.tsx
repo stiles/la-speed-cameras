@@ -46,10 +46,7 @@ export default function Home() {
 
       <div className="mx-auto max-w-6xl px-4">
         <section className="py-10">
-          <div className="mb-1 flex items-end justify-between">
-            <h2 className="font-display text-3xl font-extrabold">Most watched</h2>
-            <Link href="/neighborhoods" className="text-sm font-semibold underline">All {neighborhoods.length} neighborhoods</Link>
-          </div>
+          <h2 className="mb-1 font-display text-3xl font-extrabold">Most watched</h2>
           <p className="mb-4 text-zinc-600">The neighborhoods with the most cameras. Tread lightly.</p>
           <ol className="sm:columns-2 sm:gap-x-10">
             {top.map((h, i) => (
@@ -62,6 +59,9 @@ export default function Home() {
               </li>
             ))}
           </ol>
+          <Link href="/neighborhoods" className="mt-4 inline-block text-sm font-semibold underline">
+            See all {neighborhoods.length} neighborhoods &rarr;
+          </Link>
         </section>
 
         <section className="grid gap-6 py-10 md:grid-cols-3">
