@@ -48,9 +48,10 @@ Go live with the MVP this week instead of waiting for the Oct. 26 activation. Pe
 
 ### Friday, Oct. 9: live
 
-- [ ] Verify the domain in Google Search Console and Bing Webmaster Tools and submit `/sitemap.xml` to both
-- [ ] Use URL Inspection to request indexing for the home page, `/neighborhoods`, `/list` and the 10 neighborhoods with the most cameras
-- [ ] Soft launch: share a few neighborhood links where people are already talking about the cameras (r/LosAngeles, neighborhood Reddit and Nextdoor threads, neighborhood councils). The inbound links help Google find the site faster.
+- [x] Verify the domain in Google Search Console and Bing Webmaster Tools and submit `/sitemap.xml` to both
+- [x] Use URL Inspection to request indexing for the home page, `/neighborhoods`, `/list` and the 10 neighborhoods with the most cameras
+- [ ] Soft launch: share a few neighborhood links where people are already talking about the cameras (r/LosAngeles, neighborhood Reddit and Nextdoor threads, neighborhood councils). The inbound links help Google find the site faster.\
+- [ ] Some other — but more janky — sites are out there doing this same thing, including speedcamla.com, which has an OSM map with API KEY REQUIRED tiles. Not too worried about it. But we do need some marketing reinforcement on home page explaining about why ours is better: It's the most comprehsive, or most detailed, has the commute checker, has council districts and neighborhoods, has a data pipeline to keep you up to date, etc., etc. 
 
 ### Week of Oct. 12: polish (done by Oct. 19)
 
@@ -74,6 +75,18 @@ Visual design:
 - [x] Drop the bars on the home page "Most watched" list. A ranked list with counts is enough.
 - [x] Type-heavy pages (How it works and the FAQ on `/about`): add more hierarchy with heading weights, subheads and gray text for secondary copy
 - [ ] Reread the rest of the site for copy that sounds machine-written
+
+Home page:
+
+- [ ] Rethink the explorer rail. On desktop it's a 400px panel floating over the left of the map. On mobile it's a bottom sheet that peeks at 150px and reads as sitting below the map. Keep search, but consider a compact search box over the top of the map at every width and move the location list out of the map.
+- [ ] Move the legend onto the map as a compact overlay. Below the map it gets lost.
+- [ ] Drop the "11+ mph" stat box. It isn't a count like the other three, and "How it works" already covers it. Consider dropping the whole stat row, or folding the counts into one line of the hero.
+- [ ] "Pick your neighborhood" is a hand-picked list of 12 well-known names in `app/page.tsx`. Mar Vista and Westwood have no cameras, and the list overlaps "Most watched." Cut it, or replace it with something with a clear rule, such as the user's nearest neighborhoods.
+- [ ] Scroll zoom: the home map grabs the mouse wheel, so the page is hard to scroll past it. Use `cooperativeGestures` (Cmd/Ctrl + scroll to zoom) or turn on `scrollZoom` only after a click. On mobile, keep a strip of page above or beside the map that a thumb can scroll.
+
+Copy style:
+
+- [ ] Spell out one through nine in prose ("Del Rey has two speed cameras," "15 cameras at eight locations"), following AP style. Add a `spell()` helper in `lib/format.ts` and an option on `plural()`, and use them in ledes, descriptions and OG notes. Keep numerals in tables, badges, counts in lists, speeds ("11 mph"), dollar amounts and district numbers ("District 4"). Right now `plural()` and about a dozen inline template strings always print numerals.
 
 Geography and sharing:
 

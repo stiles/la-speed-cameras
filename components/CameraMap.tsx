@@ -26,7 +26,9 @@ type Props = {
   routes?: GeoJSON.FeatureCollection<GeoJSON.LineString, { index: number; active: boolean }>;
   routeHits?: string[];
   selected?: string | null;
-  cooperative?: boolean;
+  /** true: Cmd/Ctrl + scroll on desktop and a tap-to-explore lock on touch. "desktop": the scroll guard only. */
+  cooperative?: boolean | "desktop";
+  controls?: "top-right" | "bottom-right";
   className?: string;
   label?: string;
   onReady?: (ctrl: MapController) => void;
@@ -92,6 +94,7 @@ export default function CameraMap({
   routeHits,
   selected,
   cooperative = false,
+  controls = "top-right",
   className = "relative h-full w-full",
   label = "Map of speed camera locations",
   onReady,
@@ -114,17 +117,17 @@ export default function CameraMap({
     }
     mapboxgl.accessToken = MAPBOX_TOKEN;
     const touch = window.matchMedia("(pointer: coarse)").matches;
-    if (cooperative && touch) setTouchLock("locked");
+    if (cooperative === true && touch) setTouchLock("locked");
     const map = new mapboxgl.Map({
       container: container.current,
       style: MAPBOX_STYLE,
       bounds: bounds ?? CITY_BBOX,
       fitBoundsOptions: { padding: 40, maxZoom: 15 },
-      cooperativeGestures: cooperative && !touch,
+      cooperativeGestures: Boolean(cooperative) && !touch,
       attributionControl: false,
     });
     mapRef.current = map;
-    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "top-right");
+    map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), controls);
     map.addControl(new mapboxgl.AttributionControl({ compact: true }), "bottom-right");
 
     map.on("style.load", async () => {

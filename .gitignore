@@ -11,3 +11,5 @@ pipeline/.venv/
 pipeline/__pycache__/
 pipeline/raw/
 pipeline/summary.md
+
+AGENTS.md

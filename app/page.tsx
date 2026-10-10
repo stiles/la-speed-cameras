@@ -3,7 +3,6 @@ import Link from "next/link";
 import HomeExplorer from "@/components/HomeExplorer";
 import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
-import Legend from "@/components/Legend";
 import JsonLd from "@/components/JsonLd";
 import { meta, neighborhoods } from "@/lib/data";
 import { apDate } from "@/lib/format";
@@ -11,9 +10,6 @@ import { DESCRIPTION, FIRST_ACTIVATION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export default function Home() {
   const top = [...neighborhoods].filter((h) => h.camera_count).sort((a, b) => b.camera_count - a.camera_count).slice(0, 12);
-  const popular = ["hollywood", "mar-vista", "venice", "del-rey", "silver-lake", "koreatown", "downtown", "north-hollywood", "boyle-heights", "westwood", "echo-park", "highland-park"]
-    .map((s) => neighborhoods.find((h) => h.slug === s))
-    .filter((h) => h !== undefined);
 
   return (
     <>
@@ -44,51 +40,16 @@ export default function Home() {
         </div>
       </section>
 
-      <Suspense fallback={<div className="h-[64dvh] min-h-[440px] animate-pulse bg-zinc-200 lg:h-[78vh]" />}>
-        <HomeExplorer />
+      <Suspense fallback={<div className="h-[60dvh] min-h-[420px] animate-pulse bg-zinc-200 lg:h-[74vh]" />}>
+        <HomeExplorer counts={meta.status_counts} />
       </Suspense>
 
       <div className="mx-auto max-w-6xl px-4">
-        <Legend counts={meta.status_counts} className="py-3" />
-
-        <section className="grid gap-4 py-10 sm:grid-cols-4">
-          {[
-            { n: meta.counts.cameras, label: "cameras" },
-            { n: meta.counts.corridors, label: "street segments" },
-            { n: meta.counts.neighborhoods_with_cameras, label: "neighborhoods" },
-            { n: "11+", label: "mph over the limit to get flagged" },
-          ].map((s) => (
-            <div key={s.label} className="rounded-lg bg-white p-5 ring-1 ring-zinc-200">
-              <div className="font-display text-4xl font-extrabold text-siren">{s.n}</div>
-              <div className="text-sm text-zinc-600">{s.label}</div>
-            </div>
-          ))}
-        </section>
-
-        <section className="py-6">
-          <div className="mb-4 flex items-end justify-between">
-            <h2 className="font-display text-3xl font-extrabold">Pick your neighborhood</h2>
-            <Link href="/neighborhoods" className="text-sm font-semibold underline">All {neighborhoods.length}</Link>
-          </div>
-          <ul className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
-            {popular.map((h) => (
-              <li key={h.slug}>
-                <Link
-                  href={`/neighborhoods/${h.slug}`}
-                  className="flex items-center justify-between rounded-xl bg-white px-4 py-3 ring-1 ring-zinc-200 hover:ring-ink"
-                >
-                  <span className="font-semibold">{h.name}</span>
-                  <span className={`rounded-md px-2 py-0.5 text-xs font-bold ${h.camera_count ? "bg-siren text-white" : "bg-zinc-100 text-zinc-500"}`}>
-                    {h.camera_count}
-                  </span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
-
         <section className="py-10">
-          <h2 className="mb-1 font-display text-3xl font-extrabold">Most watched</h2>
+          <div className="mb-1 flex items-end justify-between">
+            <h2 className="font-display text-3xl font-extrabold">Most watched</h2>
+            <Link href="/neighborhoods" className="text-sm font-semibold underline">All {neighborhoods.length} neighborhoods</Link>
+          </div>
           <p className="mb-4 text-zinc-600">The neighborhoods with the most cameras. Tread lightly.</p>
           <ol className="sm:columns-2 sm:gap-x-10">
             {top.map((h, i) => (
