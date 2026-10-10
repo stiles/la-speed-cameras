@@ -26,8 +26,8 @@ type Props = {
   routes?: GeoJSON.FeatureCollection<GeoJSON.LineString, { index: number; active: boolean }>;
   routeHits?: string[];
   selected?: string | null;
-  /** true: Cmd/Ctrl + scroll on desktop and a tap-to-explore lock on touch. "desktop": the scroll guard only. */
-  cooperative?: boolean | "desktop";
+  /** true: Cmd/Ctrl + scroll on desktop and a tap-to-explore lock on touch. "gestures": Cmd/Ctrl + scroll and two-finger pan everywhere. */
+  cooperative?: boolean | "gestures";
   controls?: "top-right" | "bottom-right";
   className?: string;
   label?: string;
@@ -123,7 +123,7 @@ export default function CameraMap({
       style: MAPBOX_STYLE,
       bounds: bounds ?? CITY_BBOX,
       fitBoundsOptions: { padding: 40, maxZoom: 15 },
-      cooperativeGestures: Boolean(cooperative) && !touch,
+      cooperativeGestures: cooperative === "gestures" || (cooperative && !touch),
       attributionControl: false,
     });
     mapRef.current = map;
