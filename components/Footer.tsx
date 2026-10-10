@@ -7,7 +7,7 @@ import { Logo } from "./Header";
 export default function Footer() {
   return (
     <footer className="mt-16 bg-ink text-white/70">
-      <div className="stripes h-2" aria-hidden />
+      <div className="h-1 bg-siren" aria-hidden />
       <div className="mx-auto grid max-w-6xl gap-8 px-4 py-10 text-sm sm:grid-cols-[1.4fr_1fr_1fr]">
         <div className="space-y-3">
           <Logo className="text-white" />

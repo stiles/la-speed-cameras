@@ -108,8 +108,7 @@ export default function ShareBar({
   if (variant === "inline") return buttons;
 
   return (
-    <section className="relative overflow-hidden rounded-lg bg-ink p-6 text-white" aria-label="Share">
-      <div className="stripes absolute inset-x-0 top-0 h-1.5" aria-hidden />
+    <section className="rounded-lg bg-ink p-6 text-white" aria-label="Share">
       <h2 className="font-display text-2xl font-extrabold">{heading}</h2>
       <p className="mb-4 mt-1 text-white/75">{sub}</p>
       <p className="mb-4 rounded-lg bg-white/10 p-3 text-sm text-white/90">
