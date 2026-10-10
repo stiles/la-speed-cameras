@@ -43,6 +43,16 @@ export default function Home() {
       </Suspense>
 
       <div className="mx-auto max-w-6xl px-4">
+        <p className="max-w-3xl pt-8 text-lg text-zinc-700">
+          Every camera LADOT has approved is on this map, along with the direction most of them are facing. We check LADOT&rsquo;s
+          data twice a day, so when its map changes, ours does too. Look up any neighborhood, street or council
+          district, or{" "}
+          <Link href="/route" className="font-semibold text-ink underline decoration-siren/50 hover:decoration-siren">
+            check your commute
+          </Link>{" "}
+          and find a way around them.
+        </p>
+
         <section className="py-10">
           <h2 className="mb-1 font-display text-3xl font-extrabold">Most watched</h2>
           <p className="mb-4 text-zinc-600">The neighborhoods with the most cameras. Tread lightly.</p>
