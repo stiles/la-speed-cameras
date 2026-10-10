@@ -82,9 +82,23 @@ a {
 /* Map chrome */
 .mapboxgl-popup-content {
   border-radius: 12px;
-  padding: 12px 14px;
+  padding: 12px 36px 12px 14px;
   font-family: var(--font-sans);
   box-shadow: 0 8px 30px rgb(0 0 0 / 0.18);
+}
+.mapboxgl-popup-close-button {
+  top: 4px;
+  right: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  font-size: 22px;
+  line-height: 1;
+  color: #52525b;
+}
+.mapboxgl-popup-close-button:hover {
+  background: #f4f4f5;
+  color: #23232a;
 }
 .cam-popup {
   font-size: 13px;
