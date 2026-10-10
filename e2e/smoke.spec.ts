@@ -20,6 +20,17 @@ test("home: search finds a neighborhood", async ({ page }) => {
   await expect(page).toHaveURL(/\/neighborhoods\/del-rey$/);
 });
 
+test("home: choosing a street keeps you on the map", async ({ page }) => {
+  await page.goto("/");
+  await mapLoaded(page);
+  const search = page.getByRole("combobox", { name: "Search for speed cameras" });
+  await search.fill("Victory Blvd");
+  await page.getByRole("option", { name: /Street\s*Victory Blvd/ }).first().click();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.getByText(/Victory Blvd has 14 cameras at seven locations/)).toBeVisible();
+  await expect(page.getByRole("link", { name: /All cameras on Victory Blvd/ })).toHaveAttribute("href", "/streets/victory-blvd");
+});
+
 test("home: a shared location shows the result card", async ({ page }) => {
   await page.goto("/?at=-118.4127,33.9903&label=Del%20Rey");
   await mapLoaded(page);

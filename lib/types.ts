@@ -111,4 +111,6 @@ export type SearchItem = {
   sub: string;
   href: string;
   bbox?: [number, number, number, number];
+  /** Street results only: the corridors to highlight when the home map flies to the street. */
+  corridors?: string[];
 };

@@ -113,6 +113,8 @@ export function searchIndex(): SearchItem[] {
       label: s.name,
       sub: plural(s.camera_count, "camera"),
       href: `/streets/${s.slug}`,
+      bbox: boundsOf(corridorsFor(s.corridors)) ?? undefined,
+      corridors: s.corridors,
     })),
     ...corridors.map((c) => ({
       kind: "corridor" as const,
