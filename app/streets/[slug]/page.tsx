@@ -65,9 +65,9 @@ export default async function StreetPage({ params }: Params) {
       />
       <div className="relative h-[50vh] min-h-[320px] border-b border-zinc-200">
         <MapClient className="absolute inset-0" bounds={bounds} highlight={s.corridors} cooperative label={`Map of speed cameras on ${s.name}`} />
+        <Legend overlay />
       </div>
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-8">
-        <Legend />
         <CameraList corridors={list} />
         {hoods.length > 0 && (
           <section>

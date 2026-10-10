@@ -17,7 +17,7 @@ export default function Legend({ counts, overlay = false, className = "" }: Prop
   const extra = overlay ? "max-sm:hidden" : "";
   return (
     <div
-      className={`flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-zinc-700 ${overlay ? "rounded-md bg-white/95 px-3 py-2 shadow-md ring-1 ring-black/10 sm:flex-col sm:items-start" : ""} ${className}`}
+      className={`flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-zinc-700 ${overlay ? "absolute bottom-9 left-3 z-10 rounded-md bg-white/95 px-3 py-2 shadow-md ring-1 ring-black/10 max-sm:right-14 sm:max-w-max sm:flex-col sm:items-start" : ""} ${className}`}
     >
       {ITEMS.map((i) => (
         <span key={i.status} className="inline-flex items-center gap-1.5">

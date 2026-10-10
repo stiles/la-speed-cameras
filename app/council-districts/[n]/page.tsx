@@ -50,9 +50,9 @@ export default async function DistrictPage({ params }: Params) {
       />
       <div className="relative h-[50vh] min-h-[320px] border-b border-zinc-200">
         <MapClient className="absolute inset-0" bounds={district.bbox} outline={districtGeometry(d)} highlight={list.map((c) => c.slug)} cooperative label={`Map of speed cameras in Council District ${d}`} />
+        <Legend overlay />
       </div>
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-8">
-        <Legend />
         <CameraList corridors={list} />
         <section>
           <h2 className="mb-2 font-display text-xl font-bold">Neighborhoods with cameras in District {d}</h2>

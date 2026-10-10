@@ -4,6 +4,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
 import MapClient from "@/components/MapClient";
+import Legend from "@/components/Legend";
 import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
 import StatusBadge from "@/components/StatusBadge";
@@ -77,6 +78,7 @@ export default async function CorridorPage({ params }: Params) {
 
       <div className="relative h-[46vh] min-h-[300px] border-b border-zinc-200">
         <MapClient className="absolute inset-0" bounds={bounds} highlight={[c.slug]} cooperative label={`Map of the speed cameras on ${corridorLabel(c)}`} />
+        <Legend overlay />
       </div>
 
       <div className="mx-auto max-w-4xl space-y-10 px-4 py-8">

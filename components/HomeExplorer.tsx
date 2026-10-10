@@ -149,7 +149,7 @@ export default function HomeExplorer({ counts }: { counts: Partial<Record<Status
         </div>
       ) : null}
 
-      <Legend counts={counts} overlay className={`absolute bottom-9 left-3 z-10 max-sm:right-14 sm:max-w-max ${found ? "max-lg:hidden" : ""}`} />
+      <Legend counts={counts} overlay className={found ? "max-lg:hidden" : ""} />
     </div>
   );
 }

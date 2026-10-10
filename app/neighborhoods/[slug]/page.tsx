@@ -148,11 +148,11 @@ export default async function NeighborhoodPage({ params }: Params) {
           cooperative
           label={`Map of speed cameras in and around ${h.name}`}
         />
+        <Legend overlay />
       </div>
 
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-8 lg:grid-cols-[1fr_320px]">
         <div className="space-y-10">
-          <Legend />
 
           {inside.length > 0 && (
             <section>
