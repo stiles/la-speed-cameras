@@ -23,19 +23,17 @@ export default function Home() {
         }}
       />
       <section className="bg-ink text-white">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-4 py-4 sm:flex-row sm:items-end sm:justify-between sm:py-8">
-          <div>
-            <h1 className="font-display text-[1.7rem] font-extrabold leading-tight tracking-tight sm:text-5xl">
-              Where are LA&rsquo;s speed cameras?
-            </h1>
-            <p className="mt-2 max-w-2xl text-white/80 max-sm:text-[15px] sm:text-lg">
-              All {spell(meta.counts.cameras)} of them, mapped.{" "}
-              <span className="max-sm:hidden">Search your neighborhood, your street or your commute. </span>
-              <span className="font-semibold text-siren">Watch your rear end out there.</span>
-            </p>
-          </div>
-          <p className="shrink-0 text-sm text-white/60">
-            First cameras switch on <strong className="text-white">{apDate(FIRST_ACTIVATION, false)}</strong>
+        <div className="mx-auto max-w-6xl px-4 py-5 sm:py-8">
+          <p className="text-xs font-bold uppercase tracking-widest text-siren sm:text-sm">
+            First cameras switch on {apDate(FIRST_ACTIVATION, false)}
+          </p>
+          <h1 className="mt-1.5 font-display text-[1.9rem] font-extrabold leading-tight tracking-tight sm:text-5xl">
+            Where are LA&rsquo;s speed cameras?
+          </h1>
+          <p className="mt-2 max-w-2xl text-base text-white/80 sm:text-lg">
+            All {spell(meta.counts.cameras)} of them, mapped.{" "}
+            <span className="max-sm:hidden">Search your neighborhood, your street or your commute. </span>
+            <span className="font-semibold text-siren">Watch your rear end out there.</span>
           </p>
         </div>
       </section>
