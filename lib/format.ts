@@ -4,6 +4,19 @@ export function plural(n: number, one: string, many = `${one}s`) {
   return `${n.toLocaleString("en-US")} ${n === 1 ? one : many}`;
 }
 
+const WORDS = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+
+/** AP style for prose: spell out zero through nine, numerals from 10 up. Tables, badges and big display numbers keep numerals. */
+export function spell(n: number) {
+  return Number.isInteger(n) && n >= 0 && n < 10 ? WORDS[n] : n.toLocaleString("en-US");
+}
+
+export function spellPlural(n: number, one: string, many = `${one}s`) {
+  return `${spell(n)} ${n === 1 ? one : many}`;
+}
+
+export const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+
 export function listJoin(items: string[]) {
   if (items.length <= 2) return items.join(" and ");
   return `${items.slice(0, -1).join(", ")} and ${items[items.length - 1]}`;

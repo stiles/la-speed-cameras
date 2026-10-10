@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getCamera, hoodName } from "@/lib/data";
-import { directionLabel } from "@/lib/format";
+import { directionLabel, capitalize, spellPlural } from "@/lib/format";
 import type { Corridor } from "@/lib/types";
 import StatusBadge from "./StatusBadge";
 
@@ -39,7 +39,7 @@ export default function CameraList({ corridors, showHood = true, distances, head
                 Between {c.from} and {c.to}
               </p>
               <p className="mt-1 text-xs text-zinc-500">
-                {cams.length === 1 ? "1 camera" : `${cams.length} cameras`}, enforcing{" "}
+                {capitalize(spellPlural(cams.length, "camera"))}, enforcing{" "}
                 {cams.map((cam) => directionLabel(cam!.direction)).join(" and ")}
                 {c.speed_limit ? ` · ${c.speed_limit} mph limit` : ""}
                 {c.school_nearby ? " · near a school" : ""}

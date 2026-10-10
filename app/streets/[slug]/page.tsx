@@ -10,7 +10,7 @@ import Caveat from "@/components/Caveat";
 import Legend from "@/components/Legend";
 import JsonLd, { breadcrumbs } from "@/components/JsonLd";
 import { boundsOf, corridorsFor, getStreet, hoodsFor, streets } from "@/lib/data";
-import { listJoin, plural } from "@/lib/format";
+import { listJoin, plural, spell, spellPlural } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -42,8 +42,8 @@ export default async function StreetPage({ params }: Params) {
   const bounds = boundsOf(list)!;
   const lede =
     list.length === 1
-      ? `${s.name} has ${plural(s.camera_count, "camera")}, between ${list[0].from} and ${list[0].to}.`
-      : `${s.name} has ${plural(s.camera_count, "camera")} on ${list.length} different stretches${hoods.length ? `, running through ${listJoin(hoods.slice(0, 5).map((h) => h.name))}` : ""}.`;
+      ? `${s.name} has ${spellPlural(s.camera_count, "camera")}, between ${list[0].from} and ${list[0].to}.`
+      : `${s.name} has ${spellPlural(s.camera_count, "camera")} on ${spell(list.length)} different stretches${hoods.length ? `, running through ${listJoin(hoods.slice(0, 5).map((h) => h.name))}` : ""}.`;
 
   return (
     <>
@@ -85,7 +85,7 @@ export default async function StreetPage({ params }: Params) {
         )}
         <ShareBar
           url={`${SITE_URL}/streets/${s.slug}`}
-          text={`Heads up: ${s.name} has ${plural(s.camera_count, "speed camera")}. Here's exactly where.`}
+          text={`Heads up: ${s.name} has ${spellPlural(s.camera_count, "speed camera")}. Here's exactly where.`}
           page={`street:${s.slug}`}
           heading={`Who do you know that flies down ${s.name}?`}
         />

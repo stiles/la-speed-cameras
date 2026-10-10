@@ -5,7 +5,7 @@ import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
 import JsonLd from "@/components/JsonLd";
 import { meta, neighborhoods } from "@/lib/data";
-import { apDate } from "@/lib/format";
+import { apDate, spell } from "@/lib/format";
 import { DESCRIPTION, FIRST_ACTIVATION, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export default function Home() {
@@ -29,7 +29,7 @@ export default function Home() {
               Where are LA&rsquo;s speed cameras?
             </h1>
             <p className="mt-2 max-w-2xl text-white/80 max-sm:text-[15px] sm:text-lg">
-              All {meta.counts.cameras} of them, mapped.{" "}
+              All {spell(meta.counts.cameras)} of them, mapped.{" "}
               <span className="max-sm:hidden">Search your neighborhood, your street or your commute. </span>
               <span className="font-semibold text-siren">Watch your rear end out there.</span>
             </p>
@@ -60,7 +60,7 @@ export default function Home() {
             ))}
           </ol>
           <Link href="/neighborhoods" className="mt-4 inline-block text-sm font-semibold underline">
-            See all {neighborhoods.length} neighborhoods &rarr;
+            See all {spell(neighborhoods.length)} neighborhoods &rarr;
           </Link>
         </section>
 

@@ -86,7 +86,7 @@ Home page:
 
 Copy style:
 
-- [ ] Spell out one through nine in prose ("Del Rey has two speed cameras," "15 cameras at eight locations"), following AP style. Add a `spell()` helper in `lib/format.ts` and an option on `plural()`, and use them in ledes, descriptions and OG notes. Keep numerals in tables, badges, counts in lists, speeds ("11 mph"), dollar amounts and district numbers ("District 4"). Right now `plural()` and about a dozen inline template strings always print numerals.
+- [x] Spell out one through nine in prose ("Del Rey has two speed cameras," "15 cameras at eight locations"), following AP style. Add a `spell()` helper in `lib/format.ts` and an option on `plural()`, and use them in ledes, descriptions and OG notes. Keep numerals in tables, badges, counts in lists, speeds ("11 mph"), dollar amounts and district numbers ("District 4"). Right now `plural()` and about a dozen inline template strings always print numerals.
 
 Geography and sharing:
 

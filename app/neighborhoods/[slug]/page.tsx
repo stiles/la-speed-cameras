@@ -20,7 +20,7 @@ import {
   getStreet,
 } from "@/lib/data";
 import { distancePhrase, hoodAnswer, hoodKicker, hoodShareText } from "@/lib/copy";
-import { apDate, listJoin, plural } from "@/lib/format";
+import { apDate, listJoin, spellPlural } from "@/lib/format";
 import { FIRST_ACTIVATION, SITE_URL } from "@/lib/site";
 import type { Corridor, Neighborhood } from "@/lib/types";
 
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const title = !h.in_la_city
     ? `Speed cameras near ${h.name}: the closest LA cameras`
     : h.camera_count
-      ? `Speed cameras in ${h.name}: ${plural(h.camera_count, "camera")} on ${streets.join(", ")}`
+      ? `Speed cameras in ${h.name}: ${spellPlural(h.camera_count, "camera")} on ${streets.join(", ")}`
       : `Speed cameras in ${h.name}, Los Angeles`;
   return pageMeta({
     title,
@@ -83,7 +83,7 @@ export default async function NeighborhoodPage({ params }: Params) {
     {
       q: `Are there speed cameras near ${h.name}?`,
       a: nextDoor.length
-        ? `Yes. Neighboring ${listJoin(nextDoor.map((x) => x.hood.name))} ${nextDoor.length === 1 ? "has" : "have"} ${plural(nextDoorCount, "camera")}.`
+        ? `Yes. Neighboring ${listJoin(nextDoor.map((x) => x.hood.name))} ${nextDoor.length === 1 ? "has" : "have"} ${spellPlural(nextDoorCount, "camera")}.`
         : nearest[0]
           ? `The closest camera is on ${nearest[0].street} at ${nearest[0].from}, ${distancePhrase(h.nearest[0].miles)}.`
           : "None of the neighboring areas have cameras.",

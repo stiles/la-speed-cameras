@@ -3,6 +3,7 @@ import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import { streets } from "@/lib/data";
+import { spell } from "@/lib/format";
 
 export const metadata: Metadata = pageMeta({
   title: "Speed cameras by street",
@@ -17,7 +18,7 @@ export default function StreetsIndex() {
       <PageHeader
         kicker="Streets"
         title="Speed cameras by street"
-        lede={`${streets.length} streets get at least one camera. Some get a lot more than one.`}
+        lede={`In all, ${spell(streets.length)} streets get at least one camera. Some get a lot more than one.`}
       />
       <div className="mx-auto max-w-6xl px-4 py-10">
         <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">

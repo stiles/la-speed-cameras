@@ -1,5 +1,5 @@
 import type { Corridor, Neighborhood } from "./types";
-import { listJoin, plural } from "./format";
+import { listJoin, spellPlural } from "./format";
 
 /** Programs in neighboring cities that this site doesn't map. */
 export const OTHER_PROGRAMS: Record<string, string> = {
@@ -36,7 +36,7 @@ export function hoodAnswer(h: Neighborhood, own: Corridor[], nearest: Corridor[]
     return `${h.name} isn't part of the City of Los Angeles, so LA's speed camera program doesn't cover it.${extra}${edge}`;
   }
   if (n === 0 && own.length) {
-    return `No cameras sit inside ${h.name}, but ${plural(own.length, "camera corridor")} runs along its edge on ${streetsSentence(own)}.`;
+    return `No cameras sit inside ${h.name}, but ${spellPlural(own.length, "camera corridor")} runs along its edge on ${streetsSentence(own)}.`;
   }
   if (n === 0) {
     const near = nearest[0];
@@ -47,14 +47,14 @@ export function hoodAnswer(h: Neighborhood, own: Corridor[], nearest: Corridor[]
   const where = own.length === 1
     ? `on ${own[0].street} between ${own[0].from} and ${own[0].to}`
     : `on ${streetsSentence(own)}`;
-  return `Yes. ${h.name} has ${plural(n, "speed camera")} ${where}.`;
+  return `Yes. ${h.name} has ${spellPlural(n, "speed camera")} ${where}.`;
 }
 
 export function hoodShareText(h: Neighborhood, own: Corridor[]) {
   if (!h.in_la_city) return `Are there speed cameras near ${h.name}? Here's every one in LA, mapped.`;
   if (h.camera_count === 0) return `${h.name} has no speed cameras (yet). Here's where the closest ones are.`;
   const streets = Array.from(new Set(own.map((c) => c.street))).slice(0, 2);
-  return `${h.name} has ${plural(h.camera_count, "speed camera")} on ${listJoin(streets)}. Don't say nobody warned you.`;
+  return `${h.name} has ${spellPlural(h.camera_count, "speed camera")} on ${listJoin(streets)}. Don't say nobody warned you.`;
 }
 
 export const QUIPS = [

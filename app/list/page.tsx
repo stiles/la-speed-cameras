@@ -5,12 +5,12 @@ import ListTable, { type Row } from "@/components/ListTable";
 import Caveat from "@/components/Caveat";
 import JsonLd from "@/components/JsonLd";
 import { corridors, getCamera, hoodName, meta } from "@/lib/data";
-import { apDate, directionLabel } from "@/lib/format";
+import { apDate, directionLabel, spell, spellPlural } from "@/lib/format";
 import { LADOT_URL, SITE_NAME, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = pageMeta({
   title: "Full list of Los Angeles speed camera locations",
-  description: `All ${meta.counts.cameras} City of LA speed cameras at ${meta.counts.corridors} locations, sortable by street, neighborhood, district and speed limit. Download as CSV or GeoJSON.`,
+  description: `All ${spell(meta.counts.cameras)} City of LA speed cameras at ${spell(meta.counts.corridors)} locations, sortable by street, neighborhood, district and speed limit. Download as CSV or GeoJSON.`,
   path: "/list",
 });
 
@@ -50,7 +50,7 @@ export default function ListPage() {
       <PageHeader
         kicker="Every camera"
         title="The full list"
-        lede={`${meta.counts.cameras} cameras at ${meta.counts.corridors} locations, as of ${apDate(meta.data_updated)}. Sort it, filter it, take it with you.`}
+        lede={`All ${spellPlural(meta.counts.cameras, "camera")} at ${spellPlural(meta.counts.corridors, "location")}, as of ${apDate(meta.data_updated)}. Sort it, filter it, take it with you.`}
       >
         <div className="mt-5 flex flex-wrap gap-2 text-sm">
           <a href="/data/la-speed-cameras.csv" download className="rounded-md bg-white px-4 py-2 font-semibold text-ink hover:bg-zinc-200">

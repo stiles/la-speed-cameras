@@ -4,6 +4,7 @@ import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import SearchBox from "@/components/SearchBox";
 import { neighborhoods } from "@/lib/data";
+import { spell } from "@/lib/format";
 
 export const metadata: Metadata = pageMeta({
   title: "Speed cameras by neighborhood",
@@ -21,7 +22,7 @@ export default function NeighborhoodsIndex() {
       <PageHeader
         kicker="Neighborhoods"
         title="Find the cameras near you"
-        lede={`All ${la.length} City of LA neighborhoods, plus the ${outside.length} cities and unincorporated areas next door. The number is how many cameras sit inside each one.`}
+        lede={`All ${spell(la.length)} City of LA neighborhoods, plus the ${spell(outside.length)} cities and unincorporated areas next door. The number is how many cameras sit inside each one.`}
       >
         <div className="mt-6 max-w-xl text-ink">
           <SearchBox placeholder="Type your neighborhood or address" />

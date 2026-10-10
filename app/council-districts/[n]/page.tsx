@@ -9,7 +9,7 @@ import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
 import Legend from "@/components/Legend";
 import { corridorsInDistrict, districtGeometry, districts, getDistrict, hoodsFor } from "@/lib/data";
-import { plural } from "@/lib/format";
+import { spell, spellPlural } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -26,7 +26,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const member = getDistrict(Number(n))?.member;
   return pageMeta({
     title: `Speed cameras in LA Council District ${n}${member ? ` (${member})` : ""}`,
-    description: `All ${count} speed cameras in Los Angeles City Council District ${n}${member ? `, represented by ${member}` : ""}, by street and neighborhood.`,
+    description: `All ${spell(count)} speed cameras in Los Angeles City Council District ${n}${member ? `, represented by ${member}` : ""}, by street and neighborhood.`,
     path: `/council-districts/${n}`,
   });
 }
@@ -46,7 +46,7 @@ export default async function DistrictPage({ params }: Params) {
         crumbs={[{ href: "/council-districts", label: "Council districts" }]}
         kicker="Council district"
         title={`District ${d}`}
-        lede={`${plural(count, "camera")} at ${list.length} locations${district.member ? ` in the district represented by ${district.member}` : ""}.`}
+        lede={`${district.member ? `The district represented by ${district.member}` : `District ${d}`} has ${spellPlural(count, "camera")} at ${spellPlural(list.length, "location")}.`}
       />
       <div className="relative h-[50vh] min-h-[320px] border-b border-zinc-200">
         <MapClient className="absolute inset-0" bounds={district.bbox} outline={districtGeometry(d)} highlight={list.map((c) => c.slug)} cooperative label={`Map of speed cameras in Council District ${d}`} />
@@ -66,7 +66,7 @@ export default async function DistrictPage({ params }: Params) {
             ))}
           </ul>
         </section>
-        <ShareBar url={`${SITE_URL}/council-districts/${d}`} text={`Council District ${d} has ${plural(count, "speed camera")}. Here's where.`} page={`district:${d}`} />
+        <ShareBar url={`${SITE_URL}/council-districts/${d}`} text={`Council District ${d} has ${spellPlural(count, "speed camera")}. Here's where.`} page={`district:${d}`} />
         <Caveat />
       </div>
     </>

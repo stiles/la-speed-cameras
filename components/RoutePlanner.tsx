@@ -10,7 +10,7 @@ import ShareBar from "./ShareBar";
 import type { MapController } from "./CameraMap";
 import { loadCameras } from "@/lib/mapdata";
 import { avoidRoute, planRoutes, type RouteOption } from "@/lib/route";
-import { directionLabel, plural } from "@/lib/format";
+import { directionLabel, spellPlural } from "@/lib/format";
 import { SITE_URL } from "@/lib/site";
 import { geocode } from "@/lib/geocode";
 
@@ -219,7 +219,7 @@ export default function RoutePlanner() {
                 </div>
                 {o.opposite.length > 0 && (
                   <p className="text-xs text-zinc-500">
-                    Plus {plural(o.opposite.length, "camera")} for oncoming traffic. Those are your drive home.
+                    Plus {spellPlural(o.opposite.length, "camera")} for oncoming traffic. Those are your drive home.
                   </p>
                 )}
               </button>
@@ -269,7 +269,7 @@ export default function RoutePlanner() {
             url={shareUrl}
             text={
               current.facing.length
-                ? `My commute passes ${plural(current.facing.length, "speed camera")}. Check yours:`
+                ? `My commute passes ${spellPlural(current.facing.length, "speed camera")}. Check yours:`
                 : "My commute is speed-camera-free. Check yours:"
             }
             heading="Carpool buddies deserve to know"

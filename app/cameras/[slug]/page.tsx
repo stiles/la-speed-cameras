@@ -11,7 +11,7 @@ import StatusBadge from "@/components/StatusBadge";
 import CameraList from "@/components/CameraList";
 import JsonLd, { breadcrumbs } from "@/components/JsonLd";
 import { corridorLabel, corridors, getCamera, getCorridor, getStreet, history, hoodsFor } from "@/lib/data";
-import { STATUS, addDays, apDate, directionLabel, listJoin, streetViewUrl } from "@/lib/format";
+import { STATUS, addDays, apDate, directionLabel, listJoin, streetViewUrl, capitalize, spellPlural } from "@/lib/format";
 import { REPORT_URL, SITE_URL } from "@/lib/site";
 
 export const dynamicParams = false;
@@ -66,7 +66,7 @@ export default async function CorridorPage({ params }: Params) {
         ]}
         kicker={hoods.map((h) => h.name).join(" / ") || "Los Angeles"}
         title={c.street}
-        lede={`Between ${c.from} and ${c.to}. ${cams.length === 1 ? "One camera" : `${cams.length} cameras`}, enforcing ${listJoin(cams.map((x) => directionLabel(x.direction)))} traffic.`}
+        lede={`Between ${c.from} and ${c.to}. ${capitalize(spellPlural(cams.length, "camera"))}, enforcing ${listJoin(cams.map((x) => directionLabel(x.direction)))} traffic.`}
       >
         <div className="mt-4 flex flex-wrap items-center gap-2">
           <StatusBadge status={c.status} />
