@@ -74,7 +74,7 @@ Visual design:
 - [x] Rounding: move buttons, badges and chips from `rounded-full` to a small radius. Keep full rounding for map dots only.
 - [x] Drop the bars on the home page "Most watched" list. A ranked list with counts is enough.
 - [x] Type-heavy pages (How it works and the FAQ on `/about`): add more hierarchy with heading weights, subheads and gray text for secondary copy
-- [ ] Reread the rest of the site for copy that sounds machine-written
+- [x] Reread the rest of the site for copy that sounds machine-written
 
 Home page:
 

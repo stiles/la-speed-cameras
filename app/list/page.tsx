@@ -50,7 +50,7 @@ export default function ListPage() {
       <PageHeader
         kicker="Every camera"
         title="The full list"
-        lede={`All ${spellPlural(meta.counts.cameras, "camera")} at ${spellPlural(meta.counts.corridors, "location")}, as of ${apDate(meta.data_updated)}. Sort it, filter it, take it with you.`}
+        lede={`All ${spellPlural(meta.counts.cameras, "camera")} at ${spellPlural(meta.counts.corridors, "location")}, as of ${apDate(meta.data_updated)}. Sort and filter it here, or download it as a CSV or GeoJSON.`}
       >
         <div className="mt-5 flex flex-wrap gap-2 text-sm">
           <a href="/data/la-speed-cameras.csv" download className="rounded-md bg-white px-4 py-2 font-semibold text-ink hover:bg-zinc-200">

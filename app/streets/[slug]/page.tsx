@@ -43,7 +43,7 @@ export default async function StreetPage({ params }: Params) {
   const lede =
     list.length === 1
       ? `${s.name} has ${spellPlural(s.camera_count, "camera")}, between ${list[0].from} and ${list[0].to}.`
-      : `${s.name} has ${spellPlural(s.camera_count, "camera")} on ${spell(list.length)} different stretches${hoods.length ? `, running through ${listJoin(hoods.slice(0, 5).map((h) => h.name))}` : ""}.`;
+      : `${s.name} has ${spellPlural(s.camera_count, "camera")} on ${spell(list.length)} stretches${hoods.length ? `, running through ${listJoin(hoods.slice(0, 5).map((h) => h.name))}` : ""}.`;
 
   return (
     <>

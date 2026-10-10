@@ -56,10 +56,3 @@ export function hoodShareText(h: Neighborhood, own: Corridor[]) {
   const streets = Array.from(new Set(own.map((c) => c.street))).slice(0, 2);
   return `${h.name} has ${spellPlural(h.camera_count, "speed camera")} on ${listJoin(streets)}. Don't say nobody warned you.`;
 }
-
-export const QUIPS = [
-  "Watch your rear end out there.",
-  "The easiest way to dodge a ticket: stay under 11 over.",
-  "They read rear plates. Smile anyway.",
-  "Not a speed trap. A speed heads-up.",
-];

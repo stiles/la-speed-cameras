@@ -13,12 +13,13 @@ export const metadata: Metadata = pageMeta({
 
 export default function StreetsIndex() {
   const sorted = [...streets].sort((a, b) => b.camera_count - a.camera_count || a.name.localeCompare(b.name));
+  const top = sorted[0];
   return (
     <>
       <PageHeader
         kicker="Streets"
         title="Speed cameras by street"
-        lede={`In all, ${spell(streets.length)} streets get at least one camera. Some get a lot more than one.`}
+        lede={`Cameras are going up on ${spell(streets.length)} streets. ${top.name} has the most, with ${spell(top.camera_count)}.`}
       />
       <div className="mx-auto max-w-6xl px-4 py-10">
         <ul className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">

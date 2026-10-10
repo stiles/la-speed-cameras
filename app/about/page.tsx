@@ -16,11 +16,11 @@ export const metadata: Metadata = pageMeta({
 const FAQS = [
   {
     q: "When do LA's speed cameras turn on?",
-    a: `LADOT says the first cameras activate ${apDate(FIRST_ACTIVATION)} and expects all of them to be on by the end of 2026.`,
+    a: `LADOT says the first cameras activate ${apDate(FIRST_ACTIVATION)}, and it expects all of them to be on by the end of 2026.`,
   },
   {
     q: "How fast do you have to go to get a ticket?",
-    a: "11 mph or more over the posted speed limit. Below that, the cameras don't flag you.",
+    a: "Going 11 mph or more over the posted speed limit. Below that, the cameras don't flag you.",
   },
   {
     q: "Is there a warning period?",
@@ -78,9 +78,8 @@ export default function About() {
 
         <h2>How to avoid a ticket</h2>
         <p>
-          The honest answer: drive less than 11 mph over the limit, which is a pretty generous cushion. The other
-          answer: <Link href="/route">check your commute</Link> and pick a route that skips them. Your call. Either
-          way, watch your rear end.
+          Stay less than 11 mph over the limit. That&rsquo;s a generous cushion. Or{" "}
+          <Link href="/route">check your commute</Link> and pick a route that skips the cameras.
         </p>
 
         <h2 id="data">How the data works</h2>
@@ -88,7 +87,7 @@ export default function About() {
         <p>
           Camera locations come from LADOT&rsquo;s public ArcGIS layers, the same ones behind the map on{" "}
           <a href={LADOT_URL}>LADOT&rsquo;s program page</a>. We combine three of them: the 125 approved corridors,
-          the individual camera mounting points with the direction each one enforces, and the per-location status
+          the individual camera mounting points with the direction each one enforces and the per-location status
           LADOT uses on its map. Neighborhood boundaries come from the LA Times Mapping LA project, maintained in{" "}
           <a href={LA_GEOGRAPHY_URL}>la-geography</a>.
         </p>
@@ -101,9 +100,9 @@ export default function About() {
         </p>
         <h3>Things to keep in mind</h3>
         <ul>
-          <li><strong>It can change.</strong> Cameras are still being installed. Locations, timing and status can change, and LADOT&rsquo;s data can lag what&rsquo;s on the street.</li>
+          <li><strong>Still going in.</strong> Cameras are still being installed. Locations, timing and status can change, and LADOT&rsquo;s data can lag what&rsquo;s on the street.</li>
           <li><strong>Positions are approximate.</strong> They come from LADOT&rsquo;s planned mounting points, not a survey of installed poles.</li>
-          <li><strong>Some cameras sit past their corridor.</strong> A few are a few hundred feet beyond the stretch LADOT mapped. We show cameras where LADOT&rsquo;s camera data puts them.</li>
+          <li><strong>Some cameras sit past their corridor.</strong> A few are hundreds of feet beyond the stretch LADOT mapped. We show cameras where LADOT&rsquo;s camera data puts them.</li>
           <li><strong>A few gaps in LADOT&rsquo;s data.</strong> A handful of cameras don&rsquo;t list the direction they enforce, and one location lists two cameras for the same direction. We show what LADOT published.</li>
           <li><strong>Neighborhoods are unofficial.</strong> Assignments use the LA Times boundaries. Your mental map of Silver Lake may differ.</li>
           <li><strong>City of LA only.</strong> Some neighboring cities, including Glendale and Long Beach, are authorized to run their own programs.</li>
