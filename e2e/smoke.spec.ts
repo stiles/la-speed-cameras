@@ -46,6 +46,17 @@ test("neighborhood page", async ({ page }) => {
   await mapLoaded(page);
 });
 
+test("neighborhood page: sticky share bar shows between the map and the share card", async ({ page }) => {
+  // A long page, so there's room between the map and the share card. On short pages the bar never shows.
+  await page.goto("/neighborhoods/vermont-slauson");
+  const bar = page.getByRole("button", { name: "Warn them" });
+  await expect(bar).not.toBeInViewport();
+  await page.locator("#map").evaluate((el) => window.scrollTo(0, el.getBoundingClientRect().bottom + window.scrollY + 10));
+  await expect(bar).toBeInViewport();
+  await page.locator("#share").scrollIntoViewIfNeeded();
+  await expect(bar).not.toBeInViewport();
+});
+
 test("route page", async ({ page }) => {
   await page.goto("/route");
   await expect(page.getByRole("heading", { level: 1 })).toHaveText("Check your commute");

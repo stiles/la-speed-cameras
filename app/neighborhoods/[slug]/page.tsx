@@ -5,6 +5,7 @@ import { notFound } from "next/navigation";
 import MapClient from "@/components/MapClient";
 import CameraList from "@/components/CameraList";
 import ShareBar from "@/components/ShareBar";
+import StickyShare from "@/components/StickyShare";
 import Caveat from "@/components/Caveat";
 import Legend from "@/components/Legend";
 import SearchBox from "@/components/SearchBox";
@@ -139,7 +140,7 @@ export default async function NeighborhoodPage({ params }: Params) {
         </div>
       </section>
 
-      <div className="relative h-[58vh] min-h-[360px] w-full border-b border-zinc-200">
+      <div id="map" className="relative h-[58vh] min-h-[360px] w-full border-b border-zinc-200">
         <MapClient
           className="absolute inset-0"
           bounds={bounds}
@@ -274,6 +275,15 @@ export default async function NeighborhoodPage({ params }: Params) {
           )}
         </aside>
       </div>
+
+      <StickyShare
+        url={shareUrl}
+        text={hoodShareText(h, inside)}
+        page={`neighborhood:${h.slug}`}
+        prompt={`Know someone who drives through ${h.name}?`}
+        afterId="map"
+        untilId="share"
+      />
     </>
   );
 }

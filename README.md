@@ -39,7 +39,7 @@ Google Analytics 4 and Vercel Analytics load in production builds only, not in l
 |---|---|
 | `search_start` | Someone first types in a search box |
 | `search` | A result is chosen (`kind`: neighborhood, street, corridor, address or locate) |
-| `share` | A share button is used (`channel`, `page`) |
+| `share` | A share button is used (`channel`, `page`; `placement: sticky` from the neighborhood share bar) |
 | `route_check` | A commute is checked (`routes`, `cameras`) |
 | `route_avoid` | "Find a route that dodges them" runs (`before`, `after`) |
 
