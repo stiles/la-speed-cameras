@@ -1,13 +1,13 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import { Suspense } from "react";
 import RoutePlanner from "@/components/RoutePlanner";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Check your commute for speed cameras",
-  description:
-    "Enter where you start and where you're going to see which Los Angeles speed cameras are on your route, and find one that skips them.",
-  alternates: { canonical: "/route" },
-};
+  description: "Enter where you start and where you're going to see which Los Angeles speed cameras are on your route, and find one that skips them.",
+  path: "/route",
+});
 
 export default function RoutePage() {
   return (

@@ -5,6 +5,7 @@ import { Analytics } from "@vercel/analytics/next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ANALYTICS_ENABLED, DESCRIPTION, GA_ID, SITE_NAME, SITE_URL, TAGLINE } from "@/lib/site";
+import { pageMeta } from "@/lib/meta";
 import "./globals.css";
 
 const body = Public_Sans({ subsets: ["latin"], variable: "--font-public-sans" });
@@ -12,22 +13,12 @@ const display = Overpass({ subsets: ["latin"], variable: "--font-overpass", weig
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
+  ...pageMeta({ title: `${SITE_NAME}: ${TAGLINE}`, description: DESCRIPTION, path: "/" }),
   title: {
     default: `${SITE_NAME}: Map of every Los Angeles speed camera`,
     template: `%s | ${SITE_NAME}`,
   },
-  description: DESCRIPTION,
   applicationName: SITE_NAME,
-  alternates: { canonical: "/" },
-  openGraph: {
-    type: "website",
-    siteName: SITE_NAME,
-    title: `${SITE_NAME}: ${TAGLINE}`,
-    description: DESCRIPTION,
-    url: "/",
-    locale: "en_US",
-  },
-  twitter: { card: "summary_large_image" },
   robots: { index: true, follow: true },
 };
 

@@ -10,7 +10,7 @@ export default function Image() {
     kicker: "City of Los Angeles",
     title: "Where are LA's speed cameras?",
     count: meta.counts.cameras,
-    countLabel: "cameras, mapped",
+    countLabel: "cameras",
     shape: cityShape,
     dotScale: 1 / 110,
   });

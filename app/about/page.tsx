@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import JsonLd, { faq } from "@/components/JsonLd";
@@ -6,12 +7,11 @@ import { meta } from "@/lib/data";
 import { apDate } from "@/lib/format";
 import { AB645_URL, COUNCIL_FILE_URL, FIRST_ACTIVATION, LADOT_URL, LA_GEOGRAPHY_URL, REPORT_URL } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "About LA's speed cameras: tickets, fines and how this map works",
-  description:
-    "How the Los Angeles speed camera pilot works: the 11 mph threshold, the 60-day warning period, fines, where the data comes from and how often this map updates.",
-  alternates: { canonical: "/about" },
-};
+  description: "How the Los Angeles speed camera pilot works: the 11 mph threshold, the 60-day warning period, fines, where the data comes from and how often this map updates.",
+  path: "/about",
+});
 
 const FAQS = [
   {

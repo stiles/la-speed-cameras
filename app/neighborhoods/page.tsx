@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import SearchBox from "@/components/SearchBox";
 import { neighborhoods } from "@/lib/data";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Speed cameras by neighborhood",
-  description:
-    "Find Los Angeles speed cameras in your neighborhood, from Hollywood and Mar Vista to Boyle Heights and the Valley, plus the cities that border LA.",
-  alternates: { canonical: "/neighborhoods" },
-};
+  description: "Find Los Angeles speed cameras in your neighborhood, from Hollywood and Mar Vista to Boyle Heights and the Valley, plus the cities that border LA.",
+  path: "/neighborhoods",
+});
 
 export default function NeighborhoodsIndex() {
   const la = neighborhoods.filter((h) => h.in_la_city);

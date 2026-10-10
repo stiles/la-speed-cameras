@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import PageHeader from "@/components/PageHeader";
 import ListTable, { type Row } from "@/components/ListTable";
 import Caveat from "@/components/Caveat";
@@ -7,11 +8,11 @@ import { corridors, getCamera, hoodName, meta } from "@/lib/data";
 import { apDate, directionLabel } from "@/lib/format";
 import { LADOT_URL, SITE_NAME, SITE_URL } from "@/lib/site";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Full list of Los Angeles speed camera locations",
   description: `All ${meta.counts.cameras} City of LA speed cameras at ${meta.counts.corridors} locations, sortable by street, neighborhood, district and speed limit. Download as CSV or GeoJSON.`,
-  alternates: { canonical: "/list" },
-};
+  path: "/list",
+});
 
 export default function ListPage() {
   const rows: Row[] = corridors.map((c) => ({

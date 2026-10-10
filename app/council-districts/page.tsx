@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import { corridorsInDistrict, districts, getDistrict } from "@/lib/data";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Speed cameras by council district",
   description: "Los Angeles speed camera locations in each of the 15 City Council districts.",
-  alternates: { canonical: "/council-districts" },
-};
+  path: "/council-districts",
+});
 
 export default function DistrictsIndex() {
   return (

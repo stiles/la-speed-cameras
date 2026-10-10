@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
@@ -23,11 +24,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const list = corridorsInDistrict(Number(n));
   const count = list.reduce((s, c) => s + c.cameras.length, 0);
   const member = getDistrict(Number(n))?.member;
-  return {
+  return pageMeta({
     title: `Speed cameras in LA Council District ${n}${member ? ` (${member})` : ""}`,
     description: `All ${count} speed cameras in Los Angeles City Council District ${n}${member ? `, represented by ${member}` : ""}, by street and neighborhood.`,
-    alternates: { canonical: `/council-districts/${n}` },
-  };
+    path: `/council-districts/${n}`,
+  });
 }
 
 export default async function DistrictPage({ params }: Params) {

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
@@ -25,12 +26,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!s) return {};
   const hoods = hoodsFor(s.hoods).map((h) => h.name);
   const title = `${s.name} speed cameras: ${plural(s.camera_count, "camera")} in Los Angeles`;
-  return {
+  return pageMeta({
     title,
     description: `Where the speed cameras are on ${s.name}${hoods.length ? ` in ${listJoin(hoods.slice(0, 4))}` : ""}: exact blocks, directions enforced and status.`,
-    alternates: { canonical: `/streets/${s.slug}` },
-    openGraph: { title, url: `/streets/${s.slug}` },
-  };
+    path: `/streets/${s.slug}`,
+  });
 }
 
 export default async function StreetPage({ params }: Params) {

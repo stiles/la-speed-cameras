@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageHeader from "@/components/PageHeader";
@@ -25,12 +26,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!c) return {};
   const hoods = hoodsFor(c.hoods).map((h) => h.name);
   const title = `Speed camera on ${corridorLabel(c)}`;
-  return {
+  return pageMeta({
     title,
     description: `${c.street} speed camera${c.cameras.length > 1 ? "s" : ""} between ${c.from} and ${c.to}${hoods.length ? ` in ${listJoin(hoods)}` : ""}, Los Angeles. ${STATUS[c.status].label}. ${c.speed_limit ? `${c.speed_limit} mph limit.` : ""}`,
-    alternates: { canonical: `/cameras/${c.slug}` },
-    openGraph: { title, url: `/cameras/${c.slug}` },
-  };
+    path: `/cameras/${c.slug}`,
+  });
 }
 
 export default async function CorridorPage({ params }: Params) {

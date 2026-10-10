@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import { streets } from "@/lib/data";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = pageMeta({
   title: "Speed cameras by street",
   description: "Every Los Angeles street with a speed camera, from Venice Blvd to Victory Blvd, with exact blocks and directions.",
-  alternates: { canonical: "/streets" },
-};
+  path: "/streets",
+});
 
 export default function StreetsIndex() {
   const sorted = [...streets].sort((a, b) => b.camera_count - a.camera_count || a.name.localeCompare(b.name));

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import MapClient from "@/components/MapClient";
@@ -50,12 +51,11 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     : h.camera_count
       ? `Speed cameras in ${h.name}: ${plural(h.camera_count, "camera")} on ${streets.join(", ")}`
       : `Speed cameras in ${h.name}, Los Angeles`;
-  return {
+  return pageMeta({
     title,
     description: hoodAnswer(h, inside, nearest) + " Map, list and status of every LA speed camera nearby.",
-    alternates: { canonical: `/neighborhoods/${h.slug}` },
-    openGraph: { title, url: `/neighborhoods/${h.slug}` },
-  };
+    path: `/neighborhoods/${h.slug}`,
+  });
 }
 
 export default async function NeighborhoodPage({ params }: Params) {
