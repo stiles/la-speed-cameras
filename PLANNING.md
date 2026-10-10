@@ -132,3 +132,14 @@ These were in the plan but didn't make the first build:
 - **LADOT changes its schema or layer names.** Discovery handles new date suffixes. Renamed fields fail validation and open an issue instead of publishing bad data.
 - **Camera positions are planned, not surveyed.** Some cameras sit hundreds of feet from their corridor polygon. The caveat on every page says positions are approximate.
 - **Mapbox costs.** Geocoding and Directions run in the browser on the public token. The free tiers should cover launch traffic, but set a billing alert.
+
+## Other LA-area cities
+
+- [Glendale](https://www.glendaleca.gov/government/departments/public-works/projects/current/glendale-speed-safety-program-ab-645)
+- [Malibu](https://www.malibucity.org/PCHsafetycameras)
+- [Long Beach](https://longbeach.gov/pw/projects/automated-speed-enforcement-system/)
+
+## News
+
+[LA Times: Speed demons, beware: Speed cameras are coming to Los Angeles by Halloween](https://www.latimes.com/california/story/2026-10-01/speed-demons-beware-125-speed-cameras-are-coming-to-los-angeles-by-halloween)
+[LA Times: Speed camera shocker: 100,000 violators seen in nine days on Pacific Coast Highway in Malibu](https://www.latimes.com/california/story/2026-10-09/speed-cameras-caught-100-000-violations-on-malibus-pch-in-just-nine-days)
