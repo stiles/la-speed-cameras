@@ -85,7 +85,7 @@ export default function HomeExplorer({ counts }: { counts: Partial<Record<Status
         className="absolute inset-0"
         selected={selected}
         onSelect={setSelected}
-        cooperative="gestures"
+        cooperative
         controls="bottom-right"
         onReady={(c) => {
           ctrl.current = c;

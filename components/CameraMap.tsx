@@ -26,8 +26,8 @@ type Props = {
   routes?: GeoJSON.FeatureCollection<GeoJSON.LineString, { index: number; active: boolean }>;
   routeHits?: string[];
   selected?: string | null;
-  /** true: Cmd/Ctrl + scroll on desktop and a tap-to-explore lock on touch. "gestures": Cmd/Ctrl + scroll and two-finger pan everywhere. */
-  cooperative?: boolean | "gestures";
+  /** Cmd/Ctrl + scroll to zoom and two-finger pan on touch, so the page scrolls past the map. */
+  cooperative?: boolean;
   controls?: "top-right" | "bottom-right";
   className?: string;
   label?: string;
@@ -105,7 +105,6 @@ export default function CameraMap({
   const mapRef = useRef<mapboxgl.Map | null>(null);
   const markerRef = useRef<mapboxgl.Marker | null>(null);
   const [loaded, setLoaded] = useState(false);
-  const [touchLock, setTouchLock] = useState<"off" | "locked" | "open">("off");
   const callbacks = useRef({ onSelect, onMoveEnd, onReady });
   callbacks.current = { onSelect, onMoveEnd, onReady };
 
@@ -116,14 +115,12 @@ export default function CameraMap({
       return;
     }
     mapboxgl.accessToken = MAPBOX_TOKEN;
-    const touch = window.matchMedia("(pointer: coarse)").matches;
-    if (cooperative === true && touch) setTouchLock("locked");
     const map = new mapboxgl.Map({
       container: container.current,
       style: MAPBOX_STYLE,
       bounds: bounds ?? CITY_BBOX,
       fitBoundsOptions: { padding: 40, maxZoom: 15 },
-      cooperativeGestures: cooperative === "gestures" || (cooperative && !touch),
+      cooperativeGestures: cooperative,
       attributionControl: false,
     });
     mapRef.current = map;
@@ -314,24 +311,6 @@ export default function CameraMap({
     <div className={className}>
       {/* mapbox-gl.css forces position: relative on this node, so size it with h-full rather than inset-0 */}
       <div ref={container} className="h-full w-full" role="region" aria-label={label} />
-      {touchLock === "locked" && (
-        <button
-          type="button"
-          onClick={() => setTouchLock("open")}
-          className="absolute inset-0 z-10 flex touch-pan-y items-center justify-center bg-transparent"
-        >
-          <span className="rounded-md bg-ink/90 px-4 py-2 text-sm font-semibold text-white shadow-lg">Tap to explore the map</span>
-        </button>
-      )}
-      {touchLock === "open" && (
-        <button
-          type="button"
-          onClick={() => setTouchLock("locked")}
-          className="absolute left-3 top-3 z-10 rounded-md bg-ink/90 px-3 py-1.5 text-sm font-semibold text-white shadow-lg"
-        >
-          Done
-        </button>
-      )}
       {!MAPBOX_TOKEN && (
         <div className="absolute inset-0 grid place-items-center bg-zinc-100 p-6 text-center text-sm text-zinc-600">
           Map unavailable: set NEXT_PUBLIC_MAPBOX_TOKEN.
