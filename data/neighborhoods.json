@@ -141,11 +141,11 @@
     "miles": 0.0
    },
    {
-    "corridor": "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash",
+    "corridor": "woodman-ave-roscoe-blvd-to-strathern",
     "miles": 0.2
    },
    {
-    "corridor": "laurel-canyon-blvd-mercer-st-to-hoyt-st",
+    "corridor": "laurel-canyon-blvd-wolfskill-st-to-pacoima-wash",
     "miles": 0.2
    }
   ],
@@ -1294,7 +1294,7 @@
     "miles": 1.5
    },
    {
-    "corridor": "la-cienega-blvd-pico-blvd-to-olympic-blvd",
+    "corridor": "la-cienega-blvd-18th-st-to-horner-st",
     "miles": 1.7
    }
   ],
@@ -2031,7 +2031,7 @@
    },
    {
     "corridor": "western-ave-franklin-ave-to-los-feliz-blvd",
-    "miles": 0.2
+    "miles": 0.3
    },
    {
     "corridor": "sunset-blvd-bronson-ave-to-101-fwy",
@@ -2677,11 +2677,11 @@
     "miles": 0.1
    },
    {
-    "corridor": "figueroa-st-67th-st-to-68th-st",
+    "corridor": "figueroa-st-62nd-st-to-gage-ave",
     "miles": 0.1
    },
    {
-    "corridor": "figueroa-st-62nd-st-to-gage-ave",
+    "corridor": "figueroa-st-67th-st-to-68th-st",
     "miles": 0.1
    }
   ],
@@ -2810,7 +2810,7 @@
    },
    {
     "corridor": "figueroa-st-80th-st-to-manchester-ave",
-    "miles": 3.1
+    "miles": 3.0
    }
   ],
   "bbox": [
@@ -3807,14 +3807,16 @@
    "highland-ave-sunset-blvd-to-hollywood-blvd",
    "hollywood-blvd-vista-st-to-camino-palmero-st",
    "sunset-blvd-bronson-ave-to-101-fwy",
-   "sunset-blvd-sycamore-ave-to-mccadden-pl"
+   "sunset-blvd-sycamore-ave-to-mccadden-pl",
+   "western-ave-franklin-ave-to-los-feliz-blvd"
   ],
   "camera_count": 9,
   "streets": [
    "franklin-ave",
    "highland-ave",
    "hollywood-blvd",
-   "sunset-blvd"
+   "sunset-blvd",
+   "western-ave"
   ],
   "districts": [
    4,
@@ -3832,16 +3834,16 @@
   ],
   "nearest": [
    {
-    "corridor": "western-ave-franklin-ave-to-los-feliz-blvd",
-    "miles": 0.0
-   },
-   {
     "corridor": "santa-monica-blvd-hobart-blvd-to-normandie-ave",
     "miles": 0.2
    },
    {
     "corridor": "la-brea-ave-1st-st-to-beverly-blvd",
     "miles": 0.5
+   },
+   {
+    "corridor": "fairfax-ave-clinton-st-to-waring-ave",
+    "miles": 0.6
    }
   ],
   "bbox": [
@@ -4514,7 +4516,7 @@
     "miles": 0.9
    },
    {
-    "corridor": "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd",
+    "corridor": "laurel-canyon-blvd-mercer-st-to-hoyt-st",
     "miles": 2.3
    }
   ],
@@ -5187,6 +5189,7 @@
   "in_la_city": true,
   "corridors": [
    "la-cienega-blvd-18th-st-to-horner-st",
+   "la-cienega-blvd-pico-blvd-to-olympic-blvd",
    "la-cienega-blvd-sawyer-st-to-18th-st"
   ],
   "camera_count": 3,
@@ -5210,15 +5213,15 @@
   ],
   "nearest": [
    {
-    "corridor": "la-cienega-blvd-pico-blvd-to-olympic-blvd",
-    "miles": 0.0
-   },
-   {
     "corridor": "olympic-blvd-alvira-st-to-stearns-dr",
     "miles": 0.4
    },
    {
     "corridor": "washington-blvd-3rd-ave-to-van-ness-ave",
+    "miles": 0.6
+   },
+   {
+    "corridor": "olympic-blvd-la-brea-ave-to-sycamore-ave",
     "miles": 0.6
    }
   ],
@@ -5291,8 +5294,8 @@
     "miles": 0.3
    },
    {
-    "corridor": "la-cienega-blvd-18th-st-to-horner-st",
-    "miles": 0.6
+    "corridor": "la-cienega-blvd-pico-blvd-to-olympic-blvd",
+    "miles": 0.5
    }
   ],
   "bbox": [
@@ -5353,7 +5356,7 @@
     "miles": 0.5
    },
    {
-    "corridor": "laurel-canyon-blvd-mercer-st-to-hoyt-st",
+    "corridor": "van-nuys-blvd-5-fwy-to-laurel-canyon-blvd",
     "miles": 0.6
    }
   ],
@@ -5545,7 +5548,6 @@
   "city": "los-angeles",
   "in_la_city": true,
   "corridors": [
-   "balboa-blvd-lassen-st-to-plummer-st",
    "nordhoff-st-noble-ave-to-la-river",
    "nordhoff-st-pacoima-wash-to-cedros-ave",
    "nordhoff-st-petit-ave-to-gothic-ave",
@@ -5553,7 +5555,6 @@
   ],
   "camera_count": 6,
   "streets": [
-   "balboa-blvd",
    "nordhoff-st",
    "sepulveda-blvd"
   ],
@@ -5572,15 +5573,15 @@
   ],
   "nearest": [
    {
+    "corridor": "balboa-blvd-lassen-st-to-plummer-st",
+    "miles": 0.0
+   },
+   {
     "corridor": "sepulveda-blvd-stagg-st-to-saticoy-st",
     "miles": 0.6
    },
    {
     "corridor": "woodman-ave-terra-bella-st-to-nordhoff-st",
-    "miles": 0.7
-   },
-   {
-    "corridor": "balboa-blvd-118-fwy-to-tulsa-st",
     "miles": 0.7
    }
   ],
@@ -7964,7 +7965,7 @@
    },
    {
     "corridor": "balboa-blvd-118-fwy-to-tulsa-st",
-    "miles": 2.7
+    "miles": 2.6
    },
    {
     "corridor": "tampa-ave-merridy-st-to-lassen-st",

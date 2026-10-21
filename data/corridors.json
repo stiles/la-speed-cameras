@@ -57,11 +57,11 @@
   ],
   "center": [
    -118.265193,
-   33.971178
+   33.971173
   ],
   "bbox": [
    -118.265449,
-   33.96931,
+   33.9693,
    -118.265061,
    33.973052
   ]
@@ -89,14 +89,14 @@
    "balboa-blvd-118-fwy-to-tulsa-st-sb"
   ],
   "center": [
-   -118.502216,
+   -118.502223,
    34.273022
   ],
   "bbox": [
    -118.50252,
    34.268362,
-   -118.501913,
-   34.277683
+   -118.502048,
+   34.27767
   ]
  },
  {
@@ -111,11 +111,10 @@
   "speed_collisions": 11,
   "percent_speeding": 30.1,
   "length_miles": 0.53,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "12-1",
   "hoods": [
-   "north-hills",
    "northridge"
   ],
   "cameras": [
@@ -123,14 +122,14 @@
    "balboa-blvd-lassen-st-to-plummer-st-sb"
   ],
   "center": [
-   -118.502461,
+   -118.502468,
    34.246643
   ],
   "bbox": [
    -118.502755,
    34.242951,
-   -118.502166,
-   34.250335
+   -118.502307,
+   34.250329
   ]
  },
  {
@@ -158,11 +157,11 @@
   ],
   "center": [
    -118.501149,
-   34.189531
+   34.18953
   ],
   "bbox": [
-   -118.501468,
-   34.186018,
+   -118.501461,
+   34.185992,
    -118.501134,
    34.193071
   ]
@@ -179,8 +178,8 @@
   "speed_collisions": 4,
   "percent_speeding": 11.5,
   "length_miles": 0.19,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "1-1",
   "hoods": [
    "westlake"
@@ -191,11 +190,11 @@
   ],
   "center": [
    -118.261877,
-   34.062879
+   34.062878
   ],
   "bbox": [
    -118.263361,
-   34.062326,
+   34.062318,
    -118.260393,
    34.063425
   ]
@@ -225,7 +224,7 @@
   ],
   "center": [
    -118.461826,
-   34.172121
+   34.172117
   ],
   "bbox": [
    -118.466465,
@@ -246,8 +245,8 @@
   "speed_collisions": 5,
   "percent_speeding": 5.1,
   "length_miles": 0.16,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "2-1",
   "hoods": [
    "valley-glen"
@@ -325,12 +324,12 @@
   ],
   "center": [
    -118.245838,
-   33.943245
+   33.943247
   ],
   "bbox": [
    -118.248439,
    33.943117,
-   -118.243238,
+   -118.243237,
    33.943301
   ]
  },
@@ -362,7 +361,7 @@
   ],
   "bbox": [
    -118.208267,
-   34.037326,
+   34.037334,
    -118.204159,
    34.038924
   ]
@@ -391,7 +390,7 @@
   ],
   "center": [
    -118.220703,
-   34.043016
+   34.043017
   ],
   "bbox": [
    -118.222029,
@@ -424,7 +423,7 @@
   ],
   "center": [
    -118.263671,
-   33.931057
+   33.931053
   ],
   "bbox": [
    -118.266573,
@@ -459,12 +458,12 @@
   ],
   "center": [
    -118.257515,
-   33.960169
+   33.960165
   ],
   "bbox": [
    -118.258868,
    33.960065,
-   -118.256143,
+   -118.256144,
    33.960276
   ]
  },
@@ -494,10 +493,10 @@
   ],
   "center": [
    -118.257724,
-   34.003927
+   34.003924
   ],
   "bbox": [
-   -118.261154,
+   -118.261153,
    34.003825,
    -118.254295,
    34.003989
@@ -515,8 +514,8 @@
   "speed_collisions": 10,
   "percent_speeding": 5.2,
   "length_miles": 0.16,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "7-3",
   "hoods": [
    "sunland"
@@ -527,7 +526,7 @@
   ],
   "center": [
    -118.321237,
-   34.259739
+   34.259738
   ],
   "bbox": [
    -118.32261,
@@ -582,8 +581,8 @@
   "speed_collisions": 3,
   "percent_speeding": 1.0,
   "length_miles": 0.1,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "4-7",
   "hoods": [
    "hollywood",
@@ -595,7 +594,7 @@
   ],
   "center": [
    -118.31982,
-   34.105246
+   34.105242
   ],
   "bbox": [
    -118.32048,
@@ -631,8 +630,8 @@
    33.941954
   ],
   "bbox": [
-   -118.24418,
-   33.938259,
+   -118.244176,
+   33.938241,
    -118.24344,
    33.945678
   ]
@@ -660,8 +659,8 @@
    "hollywood-blvd-vista-st-to-camino-palmero-st-wb"
   ],
   "center": [
-   -118.350954,
-   34.101657
+   -118.350953,
+   34.101655
   ],
   "bbox": [
    -118.35217,
@@ -793,8 +792,8 @@
    "laurel-canyon-blvd-mercer-st-to-hoyt-st-sb"
   ],
   "center": [
-   -118.43212,
-   34.25877
+   -118.432097,
+   34.258777
   ],
   "bbox": [
    -118.433643,
@@ -831,9 +830,9 @@
   ],
   "bbox": [
    -118.447422,
-   34.266711,
+   34.266714,
    -118.440256,
-   34.272911
+   34.272913
   ]
  },
  {
@@ -860,7 +859,7 @@
   ],
   "center": [
    -118.377389,
-   34.164918
+   34.164919
   ],
   "bbox": [
    -118.379275,
@@ -894,11 +893,11 @@
   ],
   "center": [
    -118.213561,
-   34.059744
+   34.059743
   ],
   "bbox": [
    -118.214614,
-   34.058918,
+   34.058916,
    -118.212385,
    34.060626
   ]
@@ -915,8 +914,8 @@
   "speed_collisions": 3,
   "percent_speeding": 0.4,
   "length_miles": 0.16,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-7",
   "hoods": [
    "beverly-grove",
@@ -999,9 +998,9 @@
   ],
   "bbox": [
    -118.263771,
-   33.789975,
-   -118.262975,
-   33.793345
+   33.789968,
+   -118.262977,
+   33.793346
   ]
  },
  {
@@ -1016,8 +1015,8 @@
   "speed_collisions": 4,
   "percent_speeding": 1.2,
   "length_miles": 0.3,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-5",
   "hoods": [
    "beverly-grove",
@@ -1029,11 +1028,11 @@
   ],
   "center": [
    -118.361466,
-   34.083602
+   34.083603
   ],
   "bbox": [
-   -118.361751,
-   34.081591,
+   -118.361754,
+   34.081603,
    -118.361317,
    34.085658
   ]
@@ -1083,8 +1082,8 @@
   "speed_collisions": 17,
   "percent_speeding": 3.7,
   "length_miles": 0.36,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "4-1",
   "hoods": [
    "hollywood",
@@ -1100,7 +1099,7 @@
   ],
   "bbox": [
    -118.338673,
-   34.104141,
+   34.104136,
    -118.336689,
    34.108445
   ]
@@ -1150,8 +1149,8 @@
   "speed_collisions": 12,
   "percent_speeding": 2.9,
   "length_miles": 0.21,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-3",
   "hoods": [
    "fairfax",
@@ -1195,13 +1194,13 @@
    "vermont-ave-melrose-ave-to-marathon-st-sb"
   ],
   "center": [
-   -118.291696,
+   -118.291736,
    34.084122
   ],
   "bbox": [
-   -118.291852,
-   34.08354,
-   -118.29147,
+   -118.292001,
+   34.083546,
+   -118.291474,
    34.084705
   ]
  },
@@ -1217,10 +1216,11 @@
   "speed_collisions": 10,
   "percent_speeding": 0.8,
   "length_miles": 0.19,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "4-3",
   "hoods": [
+   "hollywood",
    "hollywood-hills",
    "los-feliz"
   ],
@@ -1229,12 +1229,12 @@
    "western-ave-franklin-ave-to-los-feliz-blvd-wb"
   ],
   "center": [
-   -118.309285,
-   34.106563
+   -118.309306,
+   34.106564
   ],
   "bbox": [
-   -118.30932,
-   34.105333,
+   -118.309576,
+   34.105353,
    -118.304913,
    34.108734
   ]
@@ -1251,8 +1251,8 @@
   "speed_collisions": 3,
   "percent_speeding": 5.5,
   "length_miles": 0.17,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "11-2",
   "hoods": [
    "palms",
@@ -1268,7 +1268,7 @@
   ],
   "bbox": [
    -118.43242,
-   34.025926,
+   34.025929,
    -118.429669,
    34.026871
   ]
@@ -1297,11 +1297,11 @@
   ],
   "center": [
    -118.541492,
-   34.235496
+   34.235501
   ],
   "bbox": [
    -118.542776,
-   34.235495,
+   34.235498,
    -118.538309,
    34.2356
   ]
@@ -1386,8 +1386,8 @@
   "speed_collisions": 12,
   "percent_speeding": 9.0,
   "length_miles": 0.53,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "12-3",
   "hoods": [
    "north-hills",
@@ -1399,7 +1399,7 @@
   ],
   "center": [
    -118.493855,
-   34.23571
+   34.235706
   ],
   "bbox": [
    -118.498463,
@@ -1420,8 +1420,8 @@
   "speed_collisions": 3,
   "percent_speeding": 6.9,
   "length_miles": 0.28,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "2-4",
   "hoods": [
    "valley-glen"
@@ -1435,7 +1435,7 @@
    34.179415
   ],
   "bbox": [
-   -118.418418,
+   -118.418419,
    34.179327,
    -118.413535,
    34.179491
@@ -1465,7 +1465,7 @@
   ],
   "center": [
    -118.448617,
-   34.308596
+   34.308595
   ],
   "bbox": [
    -118.450011,
@@ -1531,14 +1531,14 @@
    "reseda-blvd-kinzie-st-to-superior-st-sb"
   ],
   "center": [
-   -118.536115,
+   -118.536088,
    34.247298
   ],
   "bbox": [
-   -118.536386,
+   -118.53623,
    34.246353,
    -118.535845,
-   34.24824
+   34.248242
   ]
  },
  {
@@ -1599,13 +1599,13 @@
   ],
   "center": [
    -118.250455,
-   34.100366
+   34.100365
   ],
   "bbox": [
-   -118.251119,
+   -118.25112,
    34.099593,
    -118.249766,
-   34.10116
+   34.101152
   ]
  },
  {
@@ -1698,14 +1698,14 @@
    "central-ave-109th-st-to-114th-st-sb"
   ],
   "center": [
-   -118.254242,
+   -118.254252,
    33.933891
   ],
   "bbox": [
    -118.254538,
    33.93091,
-   -118.253947,
-   33.936872
+   -118.25412,
+   33.936856
   ]
  },
  {
@@ -1731,14 +1731,14 @@
    "figueroa-st-62nd-st-to-gage-ave-sb"
   ],
   "center": [
-   -118.282688,
-   33.982828
+   -118.282733,
+   33.982827
   ],
   "bbox": [
-   -118.282951,
+   -118.282955,
    33.982313,
-   -118.282424,
-   33.983338
+   -118.28255,
+   33.98333
   ]
  },
  {
@@ -1764,13 +1764,13 @@
    "figueroa-st-67th-st-to-68th-st-cam"
   ],
   "center": [
-   -118.282688,
+   -118.282702,
    33.980345
   ],
   "bbox": [
-   -118.282807,
+   -118.282963,
    33.978205,
-   -118.282423,
+   -118.282692,
    33.982599
   ]
  },
@@ -1797,13 +1797,13 @@
    "figueroa-st-80th-st-to-manchester-ave-sb"
   ],
   "center": [
-   -118.282738,
+   -118.282751,
    33.962099
   ],
   "bbox": [
-   -118.282963,
-   33.960038,
-   -118.282459,
+   -118.28299,
+   33.960031,
+   -118.282586,
    33.964189
   ]
  },
@@ -1837,7 +1837,7 @@
   "bbox": [
    -118.2763,
    34.028165,
-   -118.274295,
+   -118.274296,
    34.03045
   ]
  },
@@ -1853,8 +1853,8 @@
   "speed_collisions": 12,
   "percent_speeding": 3.1,
   "length_miles": 0.09,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "15-6",
   "hoods": [
    "san-pedro"
@@ -1919,8 +1919,8 @@
   "speed_collisions": 9,
   "percent_speeding": 20.0,
   "length_miles": 0.3,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "10-1",
   "hoods": [
    "baldwin-hillscrenshaw"
@@ -1936,8 +1936,8 @@
   "bbox": [
    -118.372606,
    34.019195,
-   -118.37201,
-   34.023416
+   -118.372008,
+   34.023408
   ]
  },
  {
@@ -2005,7 +2005,7 @@
    -118.377108,
    34.044483,
    -118.376009,
-   34.049934
+   34.049964
   ]
  },
  {
@@ -2020,12 +2020,13 @@
   "speed_collisions": 26,
   "percent_speeding": 2.3,
   "length_miles": 0.45,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-2",
   "hoods": [
    "beverly-hills",
    "carthay",
+   "mid-city",
    "pico-robertson"
   ],
   "cameras": [
@@ -2033,13 +2034,13 @@
    "la-cienega-blvd-pico-blvd-to-olympic-blvd-sb"
   ],
   "center": [
-   -118.3762,
+   -118.376191,
    34.056401
   ],
   "bbox": [
    -118.376465,
-   34.053278,
-   -118.376062,
+   34.053265,
+   -118.375893,
    34.059523
   ]
  },
@@ -2103,7 +2104,7 @@
    34.029846
   ],
   "bbox": [
-   -118.256777,
+   -118.256776,
    34.029098,
    -118.255241,
    34.03064
@@ -2231,11 +2232,11 @@
    "vermont-ave-57th-st-to-58th-pl-sb"
   ],
   "center": [
-   -118.291504,
-   33.989426
+   -118.291481,
+   33.989425
   ],
   "bbox": [
-   -118.291771,
+   -118.291589,
    33.988294,
    -118.291237,
    33.990946
@@ -2253,8 +2254,8 @@
   "speed_collisions": 20,
   "percent_speeding": 1.1,
   "length_miles": 0.28,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "8-2",
   "hoods": [
    "vermont-knolls",
@@ -2355,8 +2356,8 @@
   "speed_collisions": 1,
   "percent_speeding": 2.1,
   "length_miles": 0.27,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "13-5",
   "hoods": [
    "east-hollywood"
@@ -2367,7 +2368,7 @@
   ],
   "center": [
    -118.302568,
-   34.090818
+   34.090822
   ],
   "bbox": [
    -118.30513,
@@ -2421,8 +2422,8 @@
   "speed_collisions": 6,
   "percent_speeding": 7.7,
   "length_miles": 0.29,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "7-1",
   "hoods": [
    "north-hills"
@@ -2498,12 +2499,12 @@
   ],
   "center": [
    -118.454527,
-   34.201196
+   34.201194
   ],
   "bbox": [
    -118.457723,
    34.201079,
-   -118.451256,
+   -118.451255,
    34.201229
   ]
  },
@@ -2564,7 +2565,7 @@
   ],
   "center": [
    -118.439231,
-   34.201201
+   34.201204
   ],
   "bbox": [
    -118.440902,
@@ -2597,7 +2598,7 @@
   ],
   "center": [
    -118.552466,
-   34.201105
+   34.201115
   ],
   "bbox": [
    -118.555945,
@@ -2629,14 +2630,14 @@
    "tampa-ave-merridy-st-to-lassen-st-sb"
   ],
   "center": [
-   -118.5536,
-   34.251076
+   -118.553601,
+   34.251075
   ],
   "bbox": [
-   -118.553863,
+   -118.55387,
    34.249959,
    -118.553333,
-   34.252206
+   34.252184
   ]
  },
  {
@@ -2795,8 +2796,8 @@
    "vanowen-st-morse-ave-to-goodland-ave-wb"
   ],
   "center": [
-   -118.414649,
-   34.193949
+   -118.41465,
+   34.193947
   ],
   "bbox": [
    -118.417625,
@@ -2829,10 +2830,10 @@
   ],
   "center": [
    -118.468485,
-   34.193917
+   34.193918
   ],
   "bbox": [
-   -118.473195,
+   -118.473196,
    34.193696,
    -118.462585,
    34.194009
@@ -2850,8 +2851,8 @@
   "speed_collisions": 11,
   "percent_speeding": 4.5,
   "length_miles": 0.4,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "11-1",
   "hoods": [
    "venice"
@@ -2983,8 +2984,8 @@
   "speed_collisions": 12,
   "percent_speeding": 5.1,
   "length_miles": 0.28,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "2-7",
   "hoods": [
    "valley-glen"
@@ -3016,8 +3017,8 @@
   "speed_collisions": 4,
   "percent_speeding": 3.9,
   "length_miles": 0.42,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "6-4",
   "hoods": [
    "van-nuys"
@@ -3061,14 +3062,14 @@
    "victory-blvd-la-river-to-canby-ave-cam-2"
   ],
   "center": [
-   -118.531943,
-   34.186615
+   -118.531954,
+   34.18662
   ],
   "bbox": [
    -118.53872,
    34.186482,
-   -118.528832,
-   34.186835
+   -118.529099,
+   34.186839
   ]
  },
  {
@@ -3096,10 +3097,10 @@
   ],
   "center": [
    -118.527301,
-   34.18661
+   34.186613
   ],
   "bbox": [
-   -118.529379,
+   -118.52938,
    34.186508,
    -118.525223,
    34.186702
@@ -3129,8 +3130,8 @@
    "victory-blvd-louise-ave-to-high-tech-los-angeles-east-driveway-wb"
   ],
   "center": [
-   -118.506948,
-   34.186635
+   -118.506947,
+   34.186631
   ],
   "bbox": [
    -118.510136,
@@ -3163,7 +3164,7 @@
   ],
   "center": [
    -118.430837,
-   34.186674
+   34.186673
   ],
   "bbox": [
    -118.432856,
@@ -3230,7 +3231,7 @@
   ],
   "center": [
    -118.286276,
-   34.06899
+   34.068987
   ],
   "bbox": [
    -118.287097,
@@ -3263,13 +3264,13 @@
   ],
   "center": [
    -118.292912,
-   34.063627
+   34.063629
   ],
   "bbox": [
    -118.294433,
    34.063537,
    -118.291394,
-   34.063688
+   34.063693
   ]
  },
  {
@@ -3300,7 +3301,7 @@
   ],
   "bbox": [
    -118.259063,
-   34.047297,
+   34.047301,
    -118.256344,
    34.048699
   ]
@@ -3317,8 +3318,8 @@
   "speed_collisions": 11,
   "percent_speeding": 4.1,
   "length_miles": 0.31,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "1-5",
   "hoods": [
    "koreatown",
@@ -3330,7 +3331,7 @@
   ],
   "center": [
    -118.28667,
-   34.057738
+   34.057736
   ],
   "bbox": [
    -118.289378,
@@ -3364,7 +3365,7 @@
   ],
   "center": [
    -118.318288,
-   33.974593
+   33.974591
   ],
   "bbox": [
    -118.319988,
@@ -3385,8 +3386,8 @@
   "speed_collisions": 23,
   "percent_speeding": 2.9,
   "length_miles": 0.28,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "8-1",
   "hoods": [
    "vermont-knolls",
@@ -3398,7 +3399,7 @@
   ],
   "center": [
    -118.289301,
-   33.974638
+   33.974639
   ],
   "bbox": [
    -118.291775,
@@ -3431,14 +3432,14 @@
    "gage-ave-halldale-ave-to-raymond-ave-wb"
   ],
   "center": [
-   -118.300239,
-   33.982365
+   -118.300246,
+   33.982355
   ],
   "bbox": [
-   -118.302427,
+   -118.302698,
    33.982273,
-   -118.297796,
-   33.982587
+   -118.297795,
+   33.982426
   ]
  },
  {
@@ -3465,7 +3466,7 @@
   ],
   "center": [
    -118.28489,
-   33.982351
+   33.982352
   ],
   "bbox": [
    -118.287342,
@@ -3499,7 +3500,7 @@
   ],
   "center": [
    -118.334472,
-   34.025595
+   34.025593
   ],
   "bbox": [
    -118.335397,
@@ -3533,7 +3534,7 @@
   ],
   "center": [
    -118.309459,
-   34.010863
+   34.010864
   ],
   "bbox": [
    -118.311757,
@@ -3554,8 +3555,8 @@
   "speed_collisions": 3,
   "percent_speeding": 3.1,
   "length_miles": 0.18,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-6",
   "hoods": [
    "carthay"
@@ -3572,7 +3573,7 @@
    -118.370908,
    34.058683,
    -118.367869,
-   34.058971
+   34.058967
   ]
  },
  {
@@ -3668,7 +3669,7 @@
   ],
   "center": [
    -118.299481,
-   34.052635
+   34.052638
   ],
   "bbox": [
    -118.301324,
@@ -3689,8 +3690,8 @@
   "speed_collisions": 4,
   "percent_speeding": 2.4,
   "length_miles": 0.1,
-  "status": "construction",
-  "status_label": "Under Construction",
+  "status": "warning",
+  "status_label": "Warning Live",
   "system_id": "5-4",
   "hoods": [
    "mid-wilshire"
@@ -3734,14 +3735,14 @@
    "slauson-ave-brentwood-st-to-inskeep-ave-wb"
   ],
   "center": [
-   -118.276388,
-   33.989201
+   -118.27637,
+   33.989187
   ],
   "bbox": [
    -118.277471,
    33.989125,
    -118.274029,
-   33.989419
+   33.989321
   ]
  },
  {
@@ -3768,7 +3769,7 @@
   ],
   "center": [
    -118.292568,
-   33.989115
+   33.989117
   ],
   "bbox": [
    -118.296134,
@@ -3800,13 +3801,13 @@
    "sunset-blvd-bronson-ave-to-101-fwy-wb"
   ],
   "center": [
-   -118.316249,
-   34.098069
+   -118.316248,
+   34.098061
   ],
   "bbox": [
-   -118.318256,
+   -118.318255,
    34.097954,
-   -118.314241,
+   -118.314242,
    34.098162
   ]
  },
@@ -3833,14 +3834,14 @@
    "sunset-blvd-sycamore-ave-to-mccadden-pl-wb"
   ],
   "center": [
-   -118.340061,
-   34.097985
+   -118.340054,
+   34.097977
   ],
   "bbox": [
    -118.3428,
    34.097873,
-   -118.337579,
-   34.098212
+   -118.337308,
+   34.098077
   ]
  },
  {
@@ -3900,7 +3901,7 @@
   ],
   "center": [
    -118.318246,
-   34.039924
+   34.039925
   ],
   "bbox": [
    -118.320372,
@@ -3933,7 +3934,7 @@
   ],
   "center": [
    -118.291996,
-   34.040009
+   34.040012
   ],
   "bbox": [
    -118.292996,
@@ -3972,7 +3973,7 @@
    -118.453062,
    33.987683,
    -118.450345,
-   33.989066
+   33.989064
   ]
  },
  {
@@ -4069,7 +4070,7 @@
   ],
   "bbox": [
    -118.285859,
-   34.059655,
+   34.059662,
    -118.279275,
    34.061944
   ]
@@ -4130,14 +4131,14 @@
    "woodman-ave-roscoe-blvd-to-strathern-sb"
   ],
   "center": [
-   -118.431631,
+   -118.431621,
    34.218543
   ],
   "bbox": [
-   -118.433023,
-   34.215273,
-   -118.430728,
-   34.221724
+   -118.432757,
+   34.21526,
+   -118.430732,
+   34.221738
   ]
  },
  {
@@ -4165,12 +4166,12 @@
   ],
   "center": [
    -118.44197,
-   34.237642
+   34.237643
   ],
   "bbox": [
    -118.443683,
-   34.235351,
-   -118.440171,
+   34.235354,
+   -118.440173,
    34.240091
   ]
  }

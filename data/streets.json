@@ -130,7 +130,6 @@
   "hoods": [
    "granada-hills",
    "lake-balboa",
-   "north-hills",
    "northridge",
    "sepulveda-basin"
   ],
@@ -1090,6 +1089,7 @@
   "hoods": [
    "adams-normandie",
    "chesterfield-square",
+   "hollywood",
    "hollywood-hills",
    "jefferson-park",
    "los-feliz",
