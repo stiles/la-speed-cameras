@@ -1,5 +1,5 @@
 {
- "data_updated": "2026-10-06",
+ "data_updated": "2026-10-20",
  "sources": {
   "corridors": "https://services.arcgis.com/G3nmNsarwQblLhip/arcgis/rest/services/ApprovedLocations_04012026_view/FeatureServer/0",
   "status": "https://services.arcgis.com/G3nmNsarwQblLhip/arcgis/rest/services/CameraSystemLabels_view/FeatureServer/0",
@@ -7,7 +7,7 @@
  },
  "source_edited": {
   "corridors": "2026-04-01T21:43:19.164000+00:00",
-  "status": "2026-10-02T15:37:53.349000+00:00",
+  "status": "2026-10-20T22:30:00.366000+00:00",
   "cameras": "2026-09-30T20:28:21.264000+00:00"
  },
  "counts": {
@@ -18,7 +18,8 @@
   "miles": 39.6
  },
  "status_counts": {
-  "construction": 246
+  "construction": 195,
+  "warning": 51
  },
  "warnings": [
   "camera figueroa-st-67th-st-to-68th-st-cam has no enforced direction",
@@ -35,6 +36,12 @@
   "wilshire-blvd-rampart-blvd-to-park-view-st-wb sits inside District 10 but LADOT lists District 1"
  ],
  "changelog": [
+  {
+   "date": "2026-10-20",
+   "changes": [
+    "Status changed on 51 cameras: 8th-st-westmoreland-ave-to-hoover-st-eb (Under Construction -> Warning Live), 8th-st-westmoreland-ave-to-hoover-st-wb (Under Construction -> Warning Live), balboa-blvd-lassen-st-to-plummer-st-nb (Under Construction -> Warning Live), balboa-blvd-lassen-st-to-plummer-st-sb (Under Construction -> Warning Live), beverly-blvd-belmont-ave-to-witmer-st-eb (Under Construction -> Warning Live), beverly-blvd-belmont-ave-to-witmer-st-wb (Under Construction -> Warning Live), coldwater-canyon-ave-vanowen-st-to-bassett-st-nb (Under Construction -> Warning Live), coldwater-canyon-ave-vanowen-st-to-bassett-st-sb (Under Construction -> Warning Live), fairfax-ave-clinton-st-to-waring-ave-nb (Under Construction -> Warning Live), fairfax-ave-clinton-st-to-waring-ave-sb (Under Construction -> Warning Live), florence-ave-vermont-ave-to-hoover-st-eb (Under Construction -> Warning Live), florence-ave-vermont-ave-to-hoover-st-wb (Under Construction -> Warning Live), foothill-blvd-newhome-ave-to-sherman-grove-ave-eb (Under Construction -> Warning Live), foothill-blvd-newhome-ave-to-sherman-grove-ave-wb (Under Construction -> Warning Live), franklin-ave-cheremoya-ave-to-tamarind-ave-eb (Under Construction -> Warning Live), franklin-ave-cheremoya-ave-to-tamarind-ave-wb (Under Construction -> Warning Live), gaffey-st-1st-st-to-2nd-st-nb (Under Construction -> Warning Live), gaffey-st-1st-st-to-2nd-st-sb (Under Construction -> Warning Live), highland-ave-franklin-pl-to-camrose-dr-nb (Under Construction -> Warning Live), highland-ave-franklin-pl-to-camrose-dr-sb (Under Construction -> Warning Live)"
+   ]
+  },
   {
    "date": "2026-10-06",
    "changes": [
