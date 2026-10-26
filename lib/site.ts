@@ -18,6 +18,8 @@ export const LADOT_URL = "https://ladot.lacity.gov/speed-safety-system";
 export const COUNCIL_FILE_URL = "https://cityclerk.lacity.org/lacityclerkconnect/index.cfm?fa=ccfi.viewrecord&cfnumber=23-1168";
 export const AB645_URL = "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB645";
 export const LA_GEOGRAPHY_URL = "https://github.com/stiles/la-geography";
+export const AUTHOR_NAME = "Matt Stiles";
+export const AUTHOR_URL = "https://mattstiles.me";
 
 export const FIRST_ACTIVATION = "2026-10-26";
 

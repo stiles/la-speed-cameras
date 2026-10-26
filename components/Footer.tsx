@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { meta } from "@/lib/data";
 import { apDate } from "@/lib/format";
-import { LADOT_URL, LA_GEOGRAPHY_URL } from "@/lib/site";
+import { AUTHOR_NAME, AUTHOR_URL, LADOT_URL, LA_GEOGRAPHY_URL } from "@/lib/site";
 import { Logo } from "./Header";
 
 export default function Footer() {
@@ -20,6 +20,13 @@ export default function Footer() {
             data and can change while cameras are installed.
           </p>
           <p>Data updated {apDate(meta.data_updated)}.</p>
+          <p>
+            Made by{" "}
+            <a className="underline" href={AUTHOR_URL}>
+              {AUTHOR_NAME}
+            </a>
+            .
+          </p>
         </div>
         <div>
           <h2 className="mb-2 font-semibold text-white">Find cameras</h2>

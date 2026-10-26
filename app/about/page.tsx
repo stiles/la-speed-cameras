@@ -5,7 +5,7 @@ import PageHeader from "@/components/PageHeader";
 import JsonLd, { faq } from "@/components/JsonLd";
 import { liveCount, meta } from "@/lib/data";
 import { apDate, spell } from "@/lib/format";
-import { AB645_URL, COUNCIL_FILE_URL, FIRST_ACTIVATION, LADOT_URL, LA_GEOGRAPHY_URL, REPORT_URL } from "@/lib/site";
+import { AB645_URL, AUTHOR_NAME, AUTHOR_URL, COUNCIL_FILE_URL, FIRST_ACTIVATION, LADOT_URL, LA_GEOGRAPHY_URL, REPORT_URL } from "@/lib/site";
 
 export const metadata: Metadata = pageMeta({
   title: "About LA's speed cameras: tickets, fines and how this map works",
@@ -125,6 +125,12 @@ export default function About() {
             </div>
           ))}
         </dl>
+
+        <h2 id="who">Who made this</h2>
+        <p>
+          <a href={AUTHOR_URL}>{AUTHOR_NAME}</a>, a data journalist who lives in Del Rey, built this site on his own
+          time. It isn&rsquo;t connected to his employer, the city or LADOT.
+        </p>
 
         <h2>Questions</h2>
         <dl className="divide-y divide-zinc-200">
