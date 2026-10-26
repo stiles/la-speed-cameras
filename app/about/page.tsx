@@ -3,8 +3,8 @@ import { pageMeta } from "@/lib/meta";
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
 import JsonLd, { faq } from "@/components/JsonLd";
-import { meta } from "@/lib/data";
-import { apDate } from "@/lib/format";
+import { liveCount, meta } from "@/lib/data";
+import { apDate, spell } from "@/lib/format";
 import { AB645_URL, COUNCIL_FILE_URL, FIRST_ACTIVATION, LADOT_URL, LA_GEOGRAPHY_URL, REPORT_URL } from "@/lib/site";
 
 export const metadata: Metadata = pageMeta({
@@ -16,7 +16,9 @@ export const metadata: Metadata = pageMeta({
 const FAQS = [
   {
     q: "When do LA's speed cameras turn on?",
-    a: `LADOT says the first cameras activate ${apDate(FIRST_ACTIVATION)}, and it expects all of them to be on by the end of 2026.`,
+    a: liveCount
+      ? `LADOT started switching cameras on in October 2026. As of ${apDate(meta.data_updated)}, ${spell(liveCount)} of ${spell(meta.counts.cameras)} are on, and LADOT expects all of them to be on by the end of 2026.`
+      : `LADOT says the first cameras activate ${apDate(FIRST_ACTIVATION)}, and it expects all of them to be on by the end of 2026.`,
   },
   {
     q: "How fast do you have to go to get a ticket?",
@@ -54,7 +56,7 @@ export default function About() {
 
         <dl className="mt-8 grid grid-cols-2 gap-px overflow-hidden rounded-lg bg-zinc-300 ring-1 ring-zinc-300 sm:grid-cols-5">
           {[
-            ["Starts", apDate(FIRST_ACTIVATION, false)],
+            liveCount ? ["Switched on", `${liveCount} of ${meta.counts.cameras}`] : ["Starts", apDate(FIRST_ACTIVATION, false)],
             ["Flagged at", "11+ mph over"],
             ["Warning period", "60 days"],
             ["Fines start at", "$50"],

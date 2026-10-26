@@ -17,6 +17,7 @@ import {
   getNeighborhood,
   hoodGeometry,
   hoodsFor,
+  liveCount,
   neighborhoods,
   getStreet,
 } from "@/lib/data";
@@ -91,7 +92,9 @@ export default async function NeighborhoodPage({ params }: Params) {
     },
     {
       q: "When do LA's speed cameras start issuing tickets?",
-      a: `LADOT says the first cameras switch on ${apDate(FIRST_ACTIVATION)}, with all of them active by the end of 2026. Each camera starts with a 60-day warning period before tickets go out.`,
+      a: liveCount
+        ? `LADOT started switching cameras on in October 2026 and expects all of them to be active by the end of the year. Each camera mails only warnings for its first 60 days, then starts issuing tickets.`
+        : `LADOT says the first cameras switch on ${apDate(FIRST_ACTIVATION)}, with all of them active by the end of 2026. Each camera starts with a 60-day warning period before tickets go out.`,
     },
     {
       q: "How fast do you have to go to get a speed camera ticket in LA?",

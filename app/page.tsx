@@ -4,7 +4,7 @@ import HomeExplorer from "@/components/HomeExplorer";
 import ShareBar from "@/components/ShareBar";
 import Caveat from "@/components/Caveat";
 import JsonLd from "@/components/JsonLd";
-import { meta, neighborhoods } from "@/lib/data";
+import { liveCount, meta, neighborhoods } from "@/lib/data";
 import { apDate, spell } from "@/lib/format";
 import { DESCRIPTION, FIRST_ACTIVATION, SITE_NAME, SITE_URL } from "@/lib/site";
 
@@ -25,7 +25,9 @@ export default function Home() {
       <section className="bg-ink text-white">
         <div className="mx-auto max-w-6xl px-4 py-5 sm:py-8">
           <p className="text-xs font-bold uppercase tracking-widest text-siren sm:text-sm">
-            First cameras switch on {apDate(FIRST_ACTIVATION, false)}
+            {liveCount
+              ? `${spell(liveCount)} of ${spell(meta.counts.cameras)} cameras switched on`
+              : `First cameras switch on ${apDate(FIRST_ACTIVATION, false)}`}
           </p>
           <h1 className="mt-1.5 font-display text-[1.9rem] font-extrabold leading-tight tracking-tight sm:text-5xl">
             Where are LA&rsquo;s speed cameras?

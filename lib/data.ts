@@ -18,6 +18,9 @@ export const meta = metaJson as unknown as Meta;
 export const history = historyJson as unknown as Record<string, HistoryEntry>;
 export const cityShape = cityShapeJson as unknown as Shape;
 
+const { warning = 0, ticketing = 0, active = 0 } = meta.status_counts;
+export const liveCount = warning + ticketing + active;
+
 const camerasGeo = JSON.parse(
   fs.readFileSync(path.join(process.cwd(), "public/data/cameras.geojson"), "utf8"),
 ) as GeoJSON.FeatureCollection<GeoJSON.Point, Omit<Camera, "coordinates">>;
