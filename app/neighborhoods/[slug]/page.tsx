@@ -228,7 +228,7 @@ export default async function NeighborhoodPage({ params }: Params) {
         <aside className="space-y-8 lg:sticky lg:top-20 lg:self-start">
           <div>
             <h2 className="mb-2 text-sm font-bold uppercase tracking-widest text-zinc-500">Look up another spot</h2>
-            <SearchBox placeholder="Neighborhood, street or address" />
+            <SearchBox placeholder="Street or address" />
           </div>
           {adjacent.length > 0 && (
             <div>
