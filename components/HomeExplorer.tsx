@@ -101,7 +101,7 @@ export default function HomeExplorer({ counts }: { counts: Partial<Record<Status
   const streetCorridors = street ? corridors.filter((c) => street.corridors?.includes(c.slug)) : [];
   const streetCameras = streetCorridors.reduce((n, c) => n + c.cameras.length, 0);
   const card =
-    "absolute inset-x-3 bottom-9 z-20 max-h-[50%] overflow-y-auto overscroll-contain rounded-lg bg-white p-3 lg:p-4 shadow-2xl ring-1 ring-black/10 lg:bottom-auto lg:left-4 lg:right-auto lg:top-[84px] lg:max-h-[calc(100%-240px)] lg:w-[440px]";
+    "absolute inset-x-3 bottom-9 z-20 max-h-[50%] overflow-y-auto overscroll-contain rounded-lg bg-white p-3 lg:p-4 shadow-2xl ring-1 ring-black/10 lg:bottom-auto lg:left-4 lg:right-auto lg:top-[84px] lg:max-h-[calc(100%-240px)] lg:w-[400px]";
 
   return (
     <div className="relative h-[60dvh] min-h-[420px] w-full lg:h-[74vh]">
@@ -121,9 +121,9 @@ export default function HomeExplorer({ counts }: { counts: Partial<Record<Status
         }}
       />
 
-      <div className="absolute inset-x-3 top-3 z-30 lg:left-4 lg:right-auto lg:top-4 lg:w-[440px]">
+      <div className="absolute inset-x-3 top-3 z-30 lg:left-4 lg:right-auto lg:top-4 lg:w-[400px]">
         <SearchBox
-          placeholder="Neighborhood, street or address"
+          placeholder="Neighborhood or address"
           onLocation={(center, label) => goTo(center, label)}
           onItem={chooseItem}
         />
