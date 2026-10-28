@@ -72,7 +72,12 @@ export default async function CorridorPage({ params }: Params) {
           <StatusBadge status={c.status} />
           {c.speed_limit && <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">{c.speed_limit} mph limit</span>}
           {c.school_nearby && <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">Near a school</span>}
-          <span className="rounded-md bg-white/10 px-3 py-0.5 text-sm">Council District {c.district}</span>
+          <Link
+            href={`/council-districts/${c.district}`}
+            className="rounded-md bg-white/10 px-3 py-0.5 text-sm underline decoration-white/30 underline-offset-2 hover:bg-white/20 hover:decoration-white"
+          >
+            Council District {c.district}
+          </Link>
         </div>
       </PageHeader>
 
