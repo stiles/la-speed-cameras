@@ -64,7 +64,21 @@ export default async function CorridorPage({ params }: Params) {
           { href: "/streets", label: "Streets" },
           ...(street ? [{ href: `/streets/${street.slug}`, label: street.name }] : []),
         ]}
-        kicker={hoods.map((h) => h.name).join(" / ") || "Los Angeles"}
+        kicker={
+          hoods.length
+            ? hoods.map((h, i) => (
+                <span key={h.slug}>
+                  {i > 0 && " / "}
+                  <Link
+                    href={`/neighborhoods/${h.slug}`}
+                    className="underline decoration-siren/40 underline-offset-4 hover:decoration-siren"
+                  >
+                    {h.name}
+                  </Link>
+                </span>
+              ))
+            : "Los Angeles"
+        }
         title={c.street}
         lede={`Between ${c.from} and ${c.to}. ${capitalize(spellPlural(cams.length, "camera"))}, enforcing ${listJoin(cams.map((x) => directionLabel(x.direction)))} traffic.`}
       >

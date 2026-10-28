@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 type Props = {
-  kicker?: string;
+  kicker?: React.ReactNode;
   title: string;
   lede?: React.ReactNode;
   crumbs?: { href: string; label: string }[];
