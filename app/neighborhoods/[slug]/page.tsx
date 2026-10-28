@@ -155,7 +155,7 @@ export default async function NeighborhoodPage({ params }: Params) {
         <Legend overlay />
       </div>
 
-      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-8 lg:grid-cols-[1fr_320px]">
+      <div className="mx-auto grid max-w-6xl gap-10 px-4 py-8 lg:grid-cols-[1fr_22rem]">
         <div className="space-y-10">
 
           {inside.length > 0 && (

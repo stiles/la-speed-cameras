@@ -140,7 +140,7 @@ export default function RoutePlanner() {
   })}` : `${SITE_URL}/route`;
 
   return (
-    <div className="grid lg:grid-cols-[420px_1fr]">
+    <div className="grid lg:grid-cols-[26.25rem_1fr]">
       <div className="min-w-0 space-y-5 border-zinc-200 bg-paper p-4 lg:max-h-[calc(100dvh-3.5rem)] lg:overflow-y-auto lg:border-r">
         <div className="space-y-2">
           <label className="block text-xs font-bold uppercase tracking-widest text-zinc-500">From</label>
