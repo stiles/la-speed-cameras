@@ -6,7 +6,9 @@ Roadmap for [laspeedcameras.com](https://laspeedcameras.com). The site answers t
 
 - **Oct. 9, 2026:** MVP live at laspeedcameras.com and submitted to Google and Bing
 - **Oct. 19, 2026:** design and mobile polish done
-- **Oct. 26, 2026:** LADOT switches on the first cameras. The site should be indexed before this.
+- **Oct. 20, 2026:** LADOT's data moves the first 51 cameras into their warning period
+- **Oct. 26, 2026:** LADOT's announced start date for the first cameras
+- **Oct. 29, 2026:** Hacks/Hackers vibe coding demo (outline in `.cursor/docs/`, not committed)
 - **End of 2026:** LADOT expects all 125 locations to be active.
 - **60 days after each activation:** warnings end and tickets start for that camera.
 - **Jan. 1, 2032:** the AB 645 pilot ends.
@@ -24,6 +26,11 @@ Data:
 Pages:
 
 - Home page map with search (neighborhoods, streets, corridors, districts, addresses) over the map, "Near me," a result card and an overlaid legend
+- The home kicker, about page and neighborhood FAQs count switched-on cameras from `meta.status_counts` (`liveCount` in `lib/data.ts`) instead of naming a start date
+- Choosing a street in home search flies the map to it, highlights its corridors and shows a street card. Other result types open their pages.
+- A paragraph under the home map says why to use this site over others: enforced directions, the twice-daily LADOT check and the commute check
+- Neighborhood pages have a sticky "Warn them" share bar that skips short pages and stays dismissed for the session
+- Author credit in the footer and a "Who made this" section on `/about`
 - Pages for 159 neighborhoods (114 in LA city plus 45 bordering areas), 72 streets, 125 corridors and 15 council districts, plus `/list` with CSV and GeoJSON downloads and `/about`
 - `/route`: Mapbox driving alternatives, matching that counts only cameras enforcing your direction, and "Find a route that dodges them" using Directions `exclude=point(...)`
 - Every map uses two-finger panning on phones and Cmd/Ctrl + scroll to zoom on desktop
@@ -38,42 +45,32 @@ Design and copy:
 
 - `siren` `#d63c2c` and `ink` `#23232a`; Overpass for headlines and Public Sans for body, on the site and in share images
 - Small corner radius on buttons, badges and chips; full rounding only on map dots
+- No hazard stripes, which read as road construction; the footer has a 4px siren rule instead
 - AP numbers (`spell()` in `lib/format.ts`) and a copy pass for lines that read as machine-written
 
 Testing:
 
 - Playwright smoke tests (`npm run test:e2e`) for the home map, search, a neighborhood page, `/route` and the 404 page on phone and desktop
 
-## Now: polish (through Oct. 19)
+## Now: activation weeks (Oct. 26 to end of year)
 
-Launch follow-ups:
+- [ ] LADOT's data hasn't changed since Oct. 20 (51 in warnings, 195 under construction), even though Oct. 26 was the announced start. Check LADOT's map and news coverage, and ask LADOT if the layers are lagging.
+- [ ] Watch the workflow runs and the `warnings` in `data/meta.json`. LADOT hasn't published its wording for active cameras, and any label we don't recognize shows as "Status unclear."
+- [ ] Add new labels to `status_key()` in `pipeline/build_site_data.py` and rerun with `--force`
+- [ ] Confirm status changes reach corridor pages, map colors and legend counts, and that the warning-period estimate shows up
+- [ ] Review location-change PRs against LADOT's map before merging. None have opened yet.
+- [ ] Ask LADOT (ladot.speedsafety@lacity.org) about the five cameras with no enforced direction and the Avalon Blvd location with two northbound cameras
+- [ ] The update cron assumes daylight time. After Nov. 1 it runs at 6:15 a.m. and 4:15 p.m. Pacific; adjust if that matters.
+
+## Still open from launch
 
 - [ ] Click through on a phone: home map, search, "Near me," a neighborhood page and `/route`
 - [ ] Enable Vercel Web Analytics and confirm GA4 receives page views from production
 - [ ] Check share previews with the [Facebook sharing debugger](https://developers.facebook.com/tools/debug/) and by pasting `laspeedcameras.com/del-rey` into iMessage and Slack. Rerun the debugger after any share-card change so platforms drop cached cards.
 - [ ] Set `NEXT_PUBLIC_REPORT_URL` to a Tally or Google form for reports and photos (it falls back to a mailto to hello@laspeedcameras.com)
 - [ ] Soft launch: share a few neighborhood links where people are already talking about the cameras (r/LosAngeles, neighborhood Reddit and Nextdoor threads, neighborhood councils). Inbound links help Google find the site faster.
-
-Home page and sharing:
-
-- [x] Say why this site is worth using over the others, such as speedcamla.com. A short paragraph under the home map covers enforced directions, the twice-daily LADOT check and the commute check.
-- [x] Choosing a street in home search flies the map to it, highlights its corridors and shows a street card. Other result types still open their pages.
-- [x] Neighborhood pages get a sticky "Warn them" bar between the map and the share card. It never shows on pages short enough that the share card is already on screen, and dismissing it hides it for the session.
-- [x] Drop the yellow-and-black hazard stripes. They read as road construction and echoed the yellow warning-period dots. The share card has no accent now, and the footer has a 4px siren rule.
-
-## Before activation (Oct. 19 to 26)
-
 - [ ] Check Search Console coverage and request indexing for any important pages that are still missing
-- [ ] Wider announcement ahead of Oct. 26
-
-## Activation weeks (Oct. 26 to end of year)
-
-- [ ] Watch the workflow runs and the `warnings` in `data/meta.json`. LADOT hasn't published its wording for active cameras, and any label we don't recognize shows as "Status unclear."
-- [ ] Add new labels to `status_key()` in `pipeline/build_site_data.py` and rerun with `--force`
-- [ ] Confirm status changes reach corridor pages, map colors and legend counts, and that the warning-period estimate shows up
-- [ ] Review location-change PRs against LADOT's map before merging
-- [ ] Ask LADOT (ladot.speedsafety@lacity.org) about the five cameras with no enforced direction and the Avalon Blvd location with two northbound cameras
-- [ ] The update cron assumes daylight time. After Nov. 1 it runs at 6:15 a.m. and 4:15 p.m. Pacific; adjust if that matters.
+- [ ] Wider announcement now that cameras are switching on
 
 ## Next
 
