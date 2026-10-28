@@ -13,5 +13,6 @@ pipeline/raw/
 pipeline/summary.md
 
 AGENTS.md
+.cursor/docs/
 test-results/
 playwright-report/
