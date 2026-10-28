@@ -100,3 +100,13 @@ Home page and sharing:
 
 - [LA Times, Oct. 1: Speed demons, beware: Speed cameras are coming to Los Angeles by Halloween](https://www.latimes.com/california/story/2026-10-01/speed-demons-beware-125-speed-cameras-are-coming-to-los-angeles-by-halloween)
 - [LA Times, Oct. 9: Speed camera shocker: 100,000 violators seen in nine days on Pacific Coast Highway in Malibu](https://www.latimes.com/california/story/2026-10-09/speed-cameras-caught-100-000-violations-on-malibus-pch-in-just-nine-days)
+
+## Original prompt
+
+I want to make a simple static website whose mission is to help residents of Los Angeles and its neighboring residents learn the locations of speed cameras in the city. The site should have a modern design with a large, searchable map and also take advantage of the la-geography repo to allow users to find the cameras in their specific neighborhoods. "I live in Del Rey. Are there any cameras in my neighborhood or adjacent neighborhoods? I drive from X to Y each day for work. Are there any along the route?" Ideally, the site would also have text listings and also POTENTIALLY SOMEDAY allow users to submit pictures of camera locations. The main point, though: Where they are, how can I avoid them. The site should have excellent SEO and perhaps URLs with neighborhood names. Like for users who google “speed cameras hollywood” or “LA cameras Mar Vista”. Needs a robust social sharing call to action, too. I want people to share this with their friends. Fun copy, too. “Watch your rear end out there.” Can you help me come up with a plan? I’ve had good luck with Next JS and Vercel and I own laspeedcameras.com. I like mapbox but not sure whether a streets map or a monotone map is best for this. 
+
+See /Users/mstiles/github/scripts/la-speeding-cameras for data https://ladot.lacity.gov/speed-safety-system  for background on the city's program. It's important that the site is fun but also accurate, with proper caveats for construction plans and locations subject to change. The site also needs a workflow to regularly check the camera locations and update the dataset. 
+
+I have mapbox keys in my environment and can add them to the repo when we get to that, if needed. 
+
+Let's plan.  Keep working until you have a solid plan and a roadmap to implement it. This is a personal project so careful not to include any CNN references. 
